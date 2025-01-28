@@ -1,66 +1,10 @@
-<document docType="pdml" description="series">
-	<series team1="Plantation" team2="Big Sippers" round=1 index=1>
-		<match map="Jawa Refuge" timeLeft="00:57" gameMode="Drop Zone" server="US East">
-			<teamScore faction="Imperial" score=5/>
-				<playerScore name="Spree" score=8275 kills=31 deaths=25/>
-			</teamScore>
-
-			<teamScore faction="Rebel" score=3/>
-				<playerScore name="Swaggy" score=7080 kills=17 deaths=23/>
-			</teamScore>
-		</match>
-	</series>
-</document>
-
-<document docType="pdml" description="series">
-	<series round=1 index=1>
-		<match map="Jawa Refuge" timeLeft="00:57" gameMode="Drop Zone" server="US East">
-			<teamScore name ="Plantation" faction="Imperial" score=5/>
-				<playerScore name="Spree" score=8275 kills=31 deaths=25/>
-			</teamScore>
-
-			<teamScore name="Big Sippers" faction="Rebel" score=3/>
-				<playerScore name="Swaggy" score=7080 kills=17 deaths=23/>
-			</teamScore>
-		</match>
-	</series>
-</document>
-
-!Jawa Refuge/00:57/Drop Zone/
-#Plantation FC/I/5
-Spree/8275/31/25/00:57
-Blue/7100/15/24/00:57
-Bazo/6100/27/23/00:57
-Slayz/5710/24/23/00:57
-
-#Big Sippers/R/3
-Swaggy/7080/17/23/00:57
-Baseball/6375/18/23/00:57
-Padis/6200/31/27/00:57
-Cassady/5500/26/24/00:57
-
-!Dune Sea/01:11/Drop Zone/US East
-#Plantation FC/I/5
-Blue/10975/31/41/01:11
-Spree/9575/41/38/01:11
-Slayz/7555/27/27/01:11
-Bazo/6150/26/28/01:11
-
-#Big Sippers/R/1
-Padis/11300/46/32/01:11
-Cassady/7075/28/28/01:11
-Baseball/6450/33/33/01:11
-Swaggy/6350/26/33/01:11
-
-!Goazon Badlands/04:51/Drop Zone
-#Plantation FC/I/5
-Blue/5100/18/17/04:51
-Spree/5025/21/25/04:51
-Slayz/4900/14/9/04:51
-Bazo/4350/19/13/04:51
-
-#Big Sippers/R/1
-Padis/3850/15/17/04:51
-Swaggy/3780/10/16/04:51
-Cassady/3500/17/24/04:51
-Baseball/3100/10/17/04:51
+<series team1="Plantation" team2="Big Sippers" round=1 index=1>
+	<match map="Jawa Refuge" timeLeft="00:57" gameMode="Drop Zone" server="US East">
+		<teamScore faction="Imperial" score=5/>
+			<playerScore name="Spree" score=8275 kills=31 deaths=25/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3/>
+			<playerScore name="Swaggy" score=7080 kills=17 deaths=23/>
+		</teamScore>
+	</match>
+</series>

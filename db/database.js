@@ -1,59 +1,51 @@
-const sqlite3 = require('sqlite3').verbose();
+class CustomDatabase {
+    constructor() {
+        this.tables = {}; // Stores tables and their schemas
+    }
 
-function initializeDatabase() {
-    const db = new sqlite3.Database(':memory:');
+    // Create a new table with predefined fields
+    createTable(tableName, schema) {
+        if (this.tables[tableName]) {
+            throw new Error(`Table ${tableName} already exists.`);
+        }
+        this.tables[tableName] = {
+            schema, // Predefined fields for validation
+            records: [], // Store records
+        };
+    }
 
-    // Create tables
-    db.serialize(() => {
-        db.run(`
-            CREATE TABLE Tags (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT NOT NULL,
-                parent_id INTEGER,
-                FOREIGN KEY(parent_id) REFERENCES Tags(id)
-            )
-        `);
+    // Insert a record into a table
+    insert(tableName, record) {
+        if (!this.tables[tableName]) {
+            throw new Error(`Table ${tableName} does not exist.`);
+        }
 
-        db.run(`
-            CREATE TABLE Attributes (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                tag_id INTEGER NOT NULL,
-                key TEXT NOT NULL,
-                value TEXT NOT NULL,
-                FOREIGN KEY(tag_id) REFERENCES Tags(id)
-            )
-        `);
-    });
+        const { schema, records } = this.tables[tableName];
 
-    return db;
-}
-
-function insertTag(db, tag, parentId = null) {
-    db.run(
-        `INSERT INTO Tags (name, parent_id) VALUES (?, ?)`,
-        [tag.name, parentId],
-        function (err) {
-            if (err) throw err;
-
-            const tagId = this.lastID;
-
-            // Insert attributes
-            for (const [key, value] of Object.entries(tag.attributes)) {
-                db.run(
-                    `INSERT INTO Attributes (tag_id, key, value) VALUES (?, ?, ?)`,
-                    [tagId, key, value]
-                );
-            }
-
-            // Insert children
-            for (const child of tag.children) {
-                insertTag(db, child, tagId);
+        // Validate the record against the schema
+        for (const field of schema) {
+            if (!(field in record)) {
+                throw new Error(`Missing field "${field}" in record for table ${tableName}.`);
             }
         }
-    );
-}
 
-module.exports = {
-    initializeDatabase,
-    insertTag,
-};
+        // Ensure no extra fields are present
+        for (const key in record) {
+            if (!schema.includes(key)) {
+                throw new Error(`Unexpected field "${key}" in record for table ${tableName}.`);
+            }
+        }
+
+        // Add record to the table
+        records.push(record);
+    }
+
+    // Select records from a table with an optional filter
+    select(tableName, filterFn = () => true) {
+        if (!this.tables[tableName]) {
+            throw new Error(`Table ${tableName} does not exist.`);
+        }
+
+        return this.tables[tableName].records.filter(filterFn);
+    }
+}

@@ -3,10 +3,84 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="0; url=home.html">
-        <title>Redirecting...</title>
+        <title>Loading...</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f9f9f9;
+                text-align: center;
+            }
+
+            #loading-message {
+                font-size: 1.5em;
+                color: #333;
+            }
+
+            #redirect-message {
+                margin-top: 20px;
+                font-size: 1em;
+                display: none; /* Hidden until data is loaded */
+            }
+
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
     </head>
     <body>
-        <p>If you are not redirected, <a href="public/HTML/home.html">click here</a>.</p>
+        <div>
+            <p id="loading-message">Loading data, please wait...</p>
+            <p id="redirect-message">
+                If you are not redirected, <a href="public/HTML/home.html">click here</a>.
+            </p>
+        </div>
+
+        <script>
+            async function loadData() {
+                // Simulate loading data
+                return new Promise((resolve) => {
+                    // Replace this with your actual data loading logic
+                    console.log("Loading data...");
+                    setTimeout(() => {
+                        console.log("Data loaded successfully.");
+                        resolve();
+                    }, 3000); // Simulating a 3-second load time
+                });
+            }
+
+            async function main() {
+                try {
+                    // Load the data
+                    await loadData();
+
+                    // Show redirect message and redirect after a short delay
+                    document.getElementById("loading-message").textContent = "Data loaded successfully!";
+                    const redirectMessage = document.getElementById("redirect-message");
+                    redirectMessage.style.display = "block";
+
+                    // Redirect to the home page
+                    setTimeout(() => {
+                        window.location.href = "public/HTML/home.html";
+                    }, 2000); // Redirect after 2 seconds
+                } catch (error) {
+                    console.error("Error loading data:", error);
+                    document.getElementById("loading-message").textContent =
+                        "An error occurred while loading data. Please try again.";
+                }
+            }
+
+            // Run the main function
+            main();
+        </script>
     </body>
 </html>
