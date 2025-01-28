@@ -36,32 +36,12 @@
                 text-decoration: underline;
             }
         </style>
-    </head>
-    <body>
-        <div>
-            <p id="loading-message">Loading data, please wait...</p>
-            <p id="redirect-message">
-                If you are not redirected, <a href="public/HTML/home.html">click here</a>.
-            </p>
-        </div>
-
-        <script>
-            async function loadData() {
-                // Simulate loading data
-                return new Promise((resolve) => {
-                    // Replace this with your actual data loading logic
-                    console.log("Loading data...");
-                    setTimeout(() => {
-                        console.log("Data loaded successfully.");
-                        resolve();
-                    }, 3000); // Simulating a 3-second load time
-                });
-            }
-
+        <script type="module">
+            import { parseData } from 'D:/F Drive Backup/VisualStudioCode/BattlefrontArchivePS/db/process-data.js';
             async function main() {
                 try {
-                    // Load the data
-                    await loadData();
+                    // Call the parseData method
+                    await parseData();
 
                     // Show redirect message and redirect after a short delay
                     document.getElementById("loading-message").textContent = "Data loaded successfully!";
@@ -71,7 +51,7 @@
                     // Redirect to the home page
                     setTimeout(() => {
                         window.location.href = "public/HTML/home.html";
-                    }, 2000); // Redirect after 2 seconds
+                    }, 100); // Redirect after 2 seconds
                 } catch (error) {
                     console.error("Error loading data:", error);
                     document.getElementById("loading-message").textContent =
@@ -82,5 +62,13 @@
             // Run the main function
             main();
         </script>
+    </head>
+    <body>
+        <div>
+            <p id="loading-message">Loading data, please wait...</p>
+            <p id="redirect-message">
+                If you are not redirected, <a href="public/HTML/home.html">click here</a>.
+            </p>
+        </div>
     </body>
-</html>
+</html

@@ -85,6 +85,8 @@ function processSeriesFile(filePath, db) {
             });
         });
     });
+
+    print(parsedData);
 }
 
 module.exports = { processSeriesFile };
