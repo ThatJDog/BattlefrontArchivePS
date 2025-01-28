@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include the imageNameParser.js file -->
+    <script src="imageNameParser.js" defer></script> <!-- Defer ensures the script runs after the page loads -->
+    <style>
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="galleryHeader"></h1>
+    </header>
+
+    <!-- Top Navigation Bar -->
+    <nav>
+        <div>
+            <label for="seasonSelect">BS S1</label> <!-- Label above the select -->
+            <select id="seasonSelect">
+                <option value="BS S1">BS S1</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="cardTypeSelect">Faction</label> <!-- Label above the select -->
+            <select id="cardTypeSelect">
+                <option value="Base">Base</option>
+                <option value="ManOfTheMatch">Man Of The Match</option>
+                <option value="OnesToWatch">Ones To Watch</option>
+                <option value="TeamOfTheSeason">Team Of The Season</option>
+                <option value="MVP">MVP</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="factionSelect">Faction</label> <!-- Label above the select -->
+            <select id="factionSelect">
+                <option value="Both">Both</option>
+                <option value="Rebel">Rebel</option>
+                <option value="Imperial">Imperial</option>
+            </select>
+        </div>
+    </nav>
+
+    <section>
+        <div id="cardGrid" class="grid-container"></div>
+    </section>
+
+    <!-- Modal (Popup Overlay) -->
+    <div id="overlay">
+        <span id="closeBtn">&times;</span> <!-- Close button -->
+        <span id="leftArrow" class="arrow">&#10094;</span> <!-- Left Arrow -->
+        <img id="popupImage" src="">
+        <span id="rightArrow" class="arrow">&#10095;</span> <!-- Right Arrow -->
+    </div>
+    
+
+    <!-- Spinner Element -->
+    <div id="loadingSpinner" class="spinner" style="display: none;"></div>
+
+    <!-- Selectors -->
+    <script>
+        // Get the faction select element and filter button
+        const seasonSelect = document.getElementById('seasonSelect');
+        const cardTypeSelect = document.getElementById('cardTypeSelect');
+        const factionSelect = document.getElementById('factionSelect');
+        var selectedSeason = seasonSelect.value;
+        var selectedCardType = cardTypeSelect.value;
+        var selectedFaction = factionSelect.value;
+
+        // Listen for change events on the seasonSelect select element
+        seasonSelect.addEventListener('change', () => {
+            selectedSeason = seasonSelect.value;
+            reloadGallery()
+        });
+
+        // Listen for change events on the cardTypeSelect select element
+        cardTypeSelect.addEventListener('change', () => {
+            selectedCardType = cardTypeSelect.value;
+            reloadGallery()
+        });
+
+        // Listen for change events on the faction select element
+        factionSelect.addEventListener('change', () => {
+            selectedFaction = factionSelect.value;
+            reloadGallery()
+        });
+    </script>
+
+    <script>
+        // Function to get URL parameters
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            const season = params.get('season');
+            const cardType = params.get('cardType');
+            
+            if (season && cardType) {
+                localStorage.setItem('selectedSeason', season);
+                localStorage.setItem('selectedCardType', cardType);
+            }
+        }
+
+        // Run this when the page loads
+        getQueryParams();
+
+        // Load images and display them in the gallery
+        function loadImagesForGallery(jsonData, season, cardType, faction) {
+            const key = `${season}/${cardType}`; // Create key from selected season and card type
+            let imagePaths = jsonData[key]; // Get image paths from JSON based on the key
+
+            // Set-up grid that will hold the cards
+            const cardGrid = document.getElementById('cardGrid');
+            cardGrid.innerHTML = ''; // Clear any existing content
+
+            if (imagePaths && imagePaths.length > 0) {
+
+                // Sort the card by rating
+                imagePaths = sortImagesByKey(imagePaths, 'rating', 'descending');
+                
+                // Iterate all of the images in the file path and add them to the gallery if they match 
+                // the specified conditions.
+                var spawnIndex = 0;
+                imagePaths.forEach((imagePath, fileIndex) => {
+                    if (faction == 'Both' || getValueFromImageName(imagePath, "faction") == faction.toLowerCase()) {
+
+                        // Create a container div for each image and spinner
+                        const container = document.createElement('div');
+                        container.classList.add('image-container');
+
+                        // Add the spinner element
+                        const spinner = document.createElement('div');
+                        spinner.classList.add('small-spinner');
+
+                        // Create the image element for this card in the grid layout
+                        const img = document.createElement('img');
+                        // Hide the image initially (it will show when loaded)
+                        //img.style.display = 'none';
+                        
+                        // Use a closure to capture the value of spawnIndex correctly
+                        img.onclick = ((index) => () => openPopup(index))(spawnIndex);
+                        
+                        // When the image loads, hide the spinner
+                        /*img.onload = () => {
+                            spinner.style.display = 'none'; // Hide spinner once the image is loaded
+                            img.style.display = 'block'; // Show the image
+                        };
+                        
+                        // Handle image load failure
+                        img.onerror = () => {
+                            spinner.style.display = 'none'; // Hide spinner if the image fails to load
+                            container.innerHTML = '<p>Image failed to load</p>'; // Optional: Show error message
+                        };*/
+
+                        img.src = `Files/CardArchive/${key}/${imagePath}`; // Use relative path to load images
+                        // img.setAttribute('loading', 'lazy'); // Use lazy loading for performance
+                        img.classList.add('card-image'); // Apply styling
+
+                        // TMP FOR LOADING ISSUES
+                        spinner.style.display = 'none'; // Hide spinner once the image is loaded
+                        img.style.display = 'block'; // Show the image
+
+                        // Append the spinner and image to the container
+                        container.appendChild(spinner);
+                        container.appendChild(img);
+
+                        cardGrid.appendChild(container); // Add the container to the grid
+                        spawnIndex++;
+                    }
+                });
+
+            } else {
+                console.error(`No images found for ${key} using JSON file lookup:\n`, jsonData);
+            }
+        }
+
+        function reloadGallery(){
+            loadGallery(selectedSeason, selectedCardType, selectedFaction);
+        }
+
+        // Main function to load the gallery
+        async function loadGallery(season, cardType, faction) {
+            // Fetch the selected season and card type from local storage
+            //const season = localStorage.getItem('selectedSeason').replace("_", " ");
+            //const cardType = localStorage.getItem('selectedCardType').replace("_", " ");
+
+            // Set gallery header based on season and card type
+            document.getElementById('galleryHeader').textContent = `${season} - ${nicifyString(cardType)} Cards`;
+
+            // Show the spinner
+            //document.getElementById('loadingSpinner').style.display = 'block';
+
+            // Load the JSON file containing image paths
+            loadJsonFile('Files/imageList.json')
+                .then(jsonData => {
+                    return loadImagesForGallery(jsonData, season, cardType, faction);
+                })
+                .then(() => {
+                    // Hide the spinner after loading images
+                    document.getElementById('loadingSpinner').style.display = 'none';
+                    // Show the card grid
+                    document.getElementById('cardGrid').style.display = 'grid'; // or 'flex', depending on your layout
+                })
+                .catch(error => {
+                    console.error('Error loading JSON:', error);
+                    // Hide the spinner in case of error
+                    document.getElementById('loadingSpinner').style.display = 'none';
+                });
+        }
+
+        // Main function to load the gallery
+        /*async function loadGallery() {
+            // Fetch the selected season and card type from local storage
+            const season = localStorage.getItem('selectedSeason').replace("_", " ");
+            const cardType = localStorage.getItem('selectedCardType').replace("_", " ");
+
+            // Set gallery header based on season and card type
+            document.getElementById('galleryHeader').textContent = `${season} - ${cardType} Cards`;
+
+            try {
+                // Await the result from getImages (since it returns a promise)
+                const imagePaths = await getImages(season, cardType);
+
+                console.log(imagePaths); // Log the image paths to verify
+
+                if (imagePaths && imagePaths.length > 0) {
+                    const cardGrid = document.getElementById('cardGrid');
+                    cardGrid.innerHTML = ''; // Clear any existing content
+
+                    imagePaths.forEach((imagePath, index) => {
+                        const img = document.createElement('img');
+                        img.src = imagePath;
+                        img.classList.add('card-image'); // Apply styling
+                        img.onclick = () => openPopup(index); // Attach onclick handler
+                        cardGrid.appendChild(img);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading images:', error);
+            }
+        }*/
+
+        // Call the loadGallery function on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ensure the external JS file is fully loaded
+            reloadGallery();
+        });
+    </script>
+
+    <!-- Script for popup image -->
+    <script>
+        // Function to open the popup with the clicked image
+        let currentIndex = 0; // Track which card is currently shown in the popup
+        const overlay = document.getElementById('overlay');
+        const popupImage = document.getElementById('popupImage');
+        const closeBtn = document.getElementById('closeBtn');
+        const leftArrow = document.getElementById('leftArrow');
+        const rightArrow = document.getElementById('rightArrow');
+
+        // Function to open the popup with the clicked image
+        function openPopup(index) {
+            currentIndex = index;
+            const imageElements = document.querySelectorAll('.card-image');
+            if (imageElements.length > 0) {
+                popupImage.src = imageElements[currentIndex].src; // Set popup image to the clicked image
+                overlay.style.display = 'block'; // Show overlay
+            }
+        }
+
+        // Function to animate image swipe
+        function animateImageSwipe(direction) {
+            const imageElements = document.querySelectorAll('.card-image');
+
+            // Set the previous image
+            previousImage.src = popupImage.src; // Copy the current image source
+            previousImage.style.display = 'block'; // Make the previous image visible
+
+            // Calculate new index based on the direction
+            if (direction === 'left') {
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : imageElements.length - 1; // Previous image
+                popupImage.src = imageElements[currentIndex].src; // Update the popup image source
+
+                // Animate the previous image to the left
+                previousImage.style.transform = 'translate(-150%, -50%)'; // Move it out of view
+                popupImage.style.transform = 'translate(0%, -50%)'; // Bring the new image to the center
+            } else {
+                currentIndex = (currentIndex < imageElements.length - 1) ? currentIndex + 1 : 0; // Next image
+                popupImage.src = imageElements[currentIndex].src; // Update the popup image source
+
+                // Animate the previous image to the right
+                previousImage.style.transform = 'translate(150%, -50%)'; // Move it out of view
+                popupImage.style.transform = 'translate(0%, -50%)'; // Bring the new image to the center
+            }
+
+            // Reset position after animation ends
+            setTimeout(() => {
+                previousImage.style.display = 'none'; // Hide the previous image
+                previousImage.style.transform = 'translate(0%, -50%)'; // Reset position for the next use
+            }, 500); // Wait for the transition to complete before removing
+        }
+
+        // Cycle to the previous image
+        /*leftArrow.onclick = () => {
+            animateImageSwipe('left'); // Animate swipe left
+        };
+
+        // Cycle to the next image
+        rightArrow.onclick = () => {
+            animateImageSwipe('right'); // Animate swipe right
+        };*/
+
+         // Cycle to the previous image
+         leftArrow.onclick = () => {
+            const imageElements = document.querySelectorAll('.card-image');
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : imageElements.length - 1;
+            popupImage.src = imageElements[currentIndex].src; // Update image source
+        };
+
+        // Cycle to the next image
+        rightArrow.onclick = () => {
+            const imageElements = document.querySelectorAll('.card-image');
+            currentIndex = (currentIndex < imageElements.length - 1) ? currentIndex + 1 : 0;
+            popupImage.src = imageElements[currentIndex].src; // Update image source
+        };
+
+        // Function to close the popup
+        closeBtn.onclick = () => {
+            overlay.style.display = 'none';
+        };
+
+        // Click outside the image to close the overlay
+        window.onclick = (event) => {
+            if (event.target === overlay) {
+                overlay.style.display = 'none';
+            }
+        };
+
+        // Handle key press for left and right arrows
+        function handleKeyPress(event) {
+            if (event.key === 'ArrowLeft') {
+                leftArrow.click(); // Trigger left arrow click
+            } else if (event.key === 'ArrowRight') {
+                rightArrow.click(); // Trigger right arrow click
+            }
+        }
+
+        // Add event listener for keydown events when the overlay is displayed
+        document.addEventListener('keydown', (event) => {
+            if (overlay.style.display === 'block') {
+                handleKeyPress(event);
+            }
+        });
+    </script>
+</body>
+</html>

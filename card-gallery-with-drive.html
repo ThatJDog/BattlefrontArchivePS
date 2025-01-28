@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Gallery</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        /* Styling for the card grid and images */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the size as needed */
+            gap: 10px; /* Adjust x and y spacing between images */
+        }
+        .card-image {
+            width: 100%; /* Set the image to take full width of the grid item */
+            height: auto; /* Maintain aspect ratio */
+            cursor: pointer; /* Indicate that it's clickable */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="galleryHeader"></h1>
+    </header>
+    <section>
+        <div id="cardGrid" class="grid-container"></div>
+    </section>
+
+    <script>
+        // Get the selected season and card type from local storage
+        const season = localStorage.getItem('selectedSeason');
+        const cardType = localStorage.getItem('selectedCardType');
+
+        // Set the gallery header text
+        document.getElementById('galleryHeader').textContent = `${season} - ${cardType} Cards`;
+
+        // Lookup for images based on season and card type
+        const imageLookup = {
+            "BS S1": {
+                "Base": [
+                    "1DBfjkhJff-hrztcYFBpfua9GMjV8PeDk", // Actual image ID
+                    "1IiECDbATpjCe_DuILFuCrO8qynqzZlCZ",
+                    "1XDPXXTdcdrXw9qcd1I0kWf5R9uhNoPib"
+                ],
+                // Add more card types and corresponding image IDs as needed
+            },
+            // Add more seasons and their corresponding card types here as needed
+        };
+
+        // Construct the key for lookup
+        const imageIds = imageLookup[season] ? imageLookup[season][cardType] : []; // Safely lookup images
+
+        // Variable to store your Google Drive folder URL
+        const driveFolderUrl = "https://drive.google.com/uc?export=view&id=";
+        const driveFolderUrl1 = "https://drive.usercontent.google.com/download?id="; 
+        const driveFolderUrl2 = "&export=view&authuser=0"; 
+        // Get the card grid element
+        const cardGrid = document.getElementById('cardGrid');
+
+        // Check if we have any image IDs to load
+        if (imageIds.length === 0) {
+            console.error("No image IDs found for the specified season and card type.");
+        }
+
+        imageIds.forEach((imageId, index) => {
+            const imgUrl = `${driveFolderUrl1}${imageId}${driveFolderUrl2}`; // Construct the image URL
+            console.log(`Loading image URL: ${imgUrl}`); // Log the URL for debugging
+
+            const card = document.createElement('img');
+            card.src = imgUrl; // Set the image source
+            card.classList.add('card-image');
+            card.onerror = (e) => console.error(`Failed to load image with ID: ${imageId}\n`+ e); // Log if image fails to load
+            card.onclick = () => openPopup(index); // Link to card popup
+            cardGrid.appendChild(card);
+        });
+
+        // Function to open card popup
+        function openPopup(index) {
+            localStorage.setItem('selectedCardIndex', index); // Save selected image index
+            window.location.href = 'card-popup.html'; // Redirect to card popup
+        }
+    </script>
+</body>
+</html>

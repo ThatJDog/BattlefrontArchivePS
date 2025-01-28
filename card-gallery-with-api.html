@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Gallery</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="galleryHeader"></h1>
+    </header>
+    <section>
+        <div id="cardGrid" class="grid-container"></div>
+    </section>
+
+    <!-- Include Google API client library -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script>
+        // ===============================
+        // Variables for keys and IDs
+        // ===============================
+        const API_KEY = 'AIzaSyB1nUk56i3cBQcqLLPWvI-NNDJ9XYNOFIc'; // Your Google API Key
+        const CLIENT_ID = '269872159644-4n1papoer6q75b8shjubhi560mm35nge.apps.googleusercontent.com'; // Your Google OAuth Client ID
+        const SCOPES = "https://www.googleapis.com/auth/drive.readonly"; // Drive API read-only scope
+
+        // Set the season based on local storage
+        const season = localStorage.getItem('selectedSeason'); // Retrieve selected season from local storage
+        console.log("Selected season from localStorage:", season); // Log selected season
+        const driveFolderPath = season.replace(" ", "_"); // Format folder path by replacing spaces with underscores
+        document.getElementById('galleryHeader').textContent = `${season} - Cards`; // Update gallery header
+        console.log("Drive folder path set to:", driveFolderPath); // Log the folder path
+
+        // Load the Google API client when the page loads
+        window.onload = loadGAPI; // This function will be executed when the window loads
+
+        // Load Google API client and authenticate
+        function loadGAPI() {
+            console.log("Loading Google API client..."); // Log loading
+            gapi.load("client:auth2", function() { // Load the Google API client
+                console.log("Google API client loaded."); // Log client loaded
+                gapi.auth2.init({client_id: CLIENT_ID}) // Initialize the Google Auth API
+                    .then(authenticate); // Call authenticate after the client is loaded
+            });
+        }
+
+        // ===============================
+        // Step 1: Authenticate
+        // ===============================
+        function authenticate() {
+            console.log("Attempting to authenticate user..."); // Log authentication attempt
+            return gapi.auth2.getAuthInstance() // Get the Auth instance
+                .signIn({
+                    scope: SCOPES, // Attempt to sign in with specified scopes
+                    cookiePolicy: 'single_host_origin' // Add this line to set the cookie policy
+                })
+                .then(() => {
+                    console.log("User authenticated successfully.");  // Log successful authentication
+                    loadImages(driveFolderPath);  // Load images from Google Drive folder if authentication is successful
+                }, (err) => {
+                    console.error("Error signing in", err); // Log error if authentication fails
+                });
+        }
+
+
+        // Load images from the Google Drive folder
+        function loadImages(folderPath) {
+            console.log("Loading images from folder:", folderPath); // Log loading images
+            getFolderIdByPath(folderPath) // Call function to get folder ID
+                .then(folderId => {
+                    console.log("Folder ID obtained:", folderId); // Log obtained folder ID
+                    return getImagesInFolder(folderId); // Call function to load images using the folder ID
+                })
+                .catch(err => {
+                    console.error("Error loading images", err); // Log error loading images
+                });
+        }
+
+        // Function to get folder ID based on the path
+        function getFolderIdByPath(path, parentId = 'root') {
+            console.log("Getting folder ID for path:", path); // Log folder path
+            const folders = path.split('/'); // Split the folder path into individual folder names
+            
+            return folders.reduce((promise, folderName) => {
+                return promise.then(parentId => {
+                    console.log(`Searching for folder: "${folderName}" under parent ID: ${parentId}`); // Log search details
+                    return gapi.client.drive.files.list({ // Query Google Drive for folder
+                        'q': `'${parentId}' in parents and mimeType = 'application/vnd.google-apps.folder' and name = '${folderName}'`,
+                        'fields': 'files(id, name)'
+                    }).then(response => {
+                        const folder = response.result.files[0]; // Get the first folder from the response
+                        if (!folder) {
+                            throw new Error(`Folder "${folderName}" not found.`); // Throw error if folder not found
+                        }
+                        console.log(`Found folder: "${folder.name}" with ID: ${folder.id}`); // Log found folder
+                        return folder.id; // Return the folder ID
+                    });
+                });
+            }, Promise.resolve(parentId)); // Start with the root as the parent ID
+        }
+
+        // Function to get images in a folder by ID
+        function getImagesInFolder(folderId) {
+            console.log("Fetching images in folder ID:", folderId); // Log folder ID
+            return gapi.client.drive.files.list({ // Query Google Drive for images
+                'q': `'${folderId}' in parents and mimeType contains 'image/'`,
+                'fields': 'files(id, name)',
+                'pageSize': 100 // Adjust based on how many images you expect
+            }).then(response => {
+                const files = response.result.files; // Get files from response
+                console.log("Images fetched from folder:", files); // Log fetched images
+                displayImages(files); // Call function to display the images
+            }).catch(err => {
+                console.error("Error fetching images", err); // Log error fetching images
+            });
+        }
+
+        // Function to display images in the gallery
+        function displayImages(files) {
+            const cardGrid = document.getElementById('cardGrid'); // Get the card grid element
+            cardGrid.innerHTML = ''; // Clear existing images
+            console.log("Displaying images in the gallery..."); // Log displaying images
+
+            if (files.length === 0) {
+                console.warn("No images found in this folder."); // Log if no images are found
+            }
+
+            files.forEach(file => {
+                console.log(`Creating image element for file: ${file.name}, ID: ${file.id}`); // Log image creation
+                const img = document.createElement('img'); // Create image element
+                img.src = `https://drive.google.com/uc?export=view&id=${file.id}`; // Set image source
+                img.classList.add('card-image'); // Add class for styling
+                img.onclick = () => openPopup(file.id); // Link to card popup
+                cardGrid.appendChild(img); // Append image to card grid
+            });
+        }
+
+        // Function to open card popup
+        function openPopup(imageId) {
+            console.log("Opening popup for image ID:", imageId); // Log popup opening
+            localStorage.setItem('selectedImageId', imageId); // Save selected image ID
+            window.location.href = 'card-popup.html'; // Redirect to card popup
+        }
+    </script>
+</body>
+</html>

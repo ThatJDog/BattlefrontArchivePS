@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Card Type</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="seasonHeader"></h1>
+        <h2>Select Card Type</h2>
+    </header>
+    <section>
+        <div id="cardTypeContainer">
+            <button class="card-type-btn" onclick="loadCardType('Base')">Base</button>
+            <button class="card-type-btn" onclick="loadCardType('ManOfTheMatch')">MOTM</button>
+            <button class="card-type-btn" onclick="loadCardType('OnesToWatch')">OTW</button>
+            <button class="card-type-btn" onclick="loadCardType('TeamOfTheSeason')">TOTS</button>
+            <button class="card-type-btn" onclick="loadCardType('MVP')">MVP</button>
+        </div>
+    </section>
+
+    <script>
+
+        // Function to get URL parameters
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            const season = params.get('season');
+            
+            if (season) {
+                localStorage.setItem('selectedSeason', season);
+            }
+        }
+
+        // Run this when the page loads
+        getQueryParams();
+
+        // Now retrieve season and cardType from localStorage
+        const selectedSeason = localStorage.getItem('selectedSeason').replace("_", " ");
+        document.getElementById('seasonHeader').textContent = `Season: ${selectedSeason}`;
+
+        function loadCardType(cardType) {
+            const url = `card-gallery.html?season=${encodeURIComponent(selectedSeason)}&cardType=${encodeURIComponent(cardType)}`;
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>

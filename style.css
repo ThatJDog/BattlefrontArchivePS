@@ -1,0 +1,239 @@
+/* Style for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+}
+
+header h1 {
+    /*background-color: #333;*/
+    color: #FF155D;
+    padding: 1px;
+}
+
+header h2 {
+    color: #ffffff;
+    padding: 1px;
+}
+
+header h3 {
+    /*background-color: #333;*/
+    color: #ffd000;
+    padding: 1px;
+}
+
+header {
+    /*background-color: #333;*/
+    color: #ffd000;
+    padding: 0px;
+}
+
+/* START OF NAV BAR */
+nav {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav label {
+    color: #ffffff;
+    display: block; /* Make label block to occupy full width */
+    margin-bottom: 5px; /* Space between label and select */
+    font-weight: bold; /* Optional: make label text bold */
+    margin-right: 10px;
+}
+
+nav select {
+    margin-right: 10px;
+}
+/* END OF NAV BAR */
+
+section {
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Popup styling */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container {
+    position: relative;
+}
+
+.full-card-image {
+    width: 80%;
+    max-width: 600px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Spinner styles */
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px; /* Size of the spinner */
+    height: 60px; /* Size of the spinner */
+    animation: spin 1s linear infinite; /* Spin animation */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center it */
+    z-index: 9999; /* Make sure it's on top */
+}
+
+/* Spinner styling */
+.small-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3498db; /* Blue spinner */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Make sure it's on top */
+}
+
+/* Keyframes for spinner animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* START OF CARD GALLERY */
+.grid-container {
+    display: none; /* Hide the grid initially, will change to grid when loaded */
+    gap: 10px; /* Adjusts the space between images */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Default for landscape or larger screens */
+}
+
+@media screen and (orientation: portrait) {
+    .grid-container {
+        display: none; /* Hide the grid initially, will change to grid when loaded */
+        gap: 8px; /* Adjusts the space between images */
+        /*grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));*/ /* Thinner columns for portrait mode */
+    }
+}
+
+/* Styling for the image container */
+.image-container {
+    position: relative;
+    width: 150px; /* Adjust to match card dimensions */
+    height: 200px; /* Adjust to match card dimensions */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hide the image initially and show it only after it has loaded */
+.card-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+}
+
+
+.card-image {
+    width: 100%; /* Makes the images responsive */
+    height: auto;
+}
+/* END OF CARD GALLERY */
+
+/* Modal (Popup) styles */
+#overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    z-index: 1000;
+}
+#popupImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease; /* Smooth transition */
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/* Navigation arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+#leftArrow {
+    left: 10px;
+}
+#rightArrow {
+    right: 10px;
+}
+
+/* Close button (optional) */
+#closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#imageContainer {
+    position: relative;
+    width: 80%; /* Or your desired width */
+    height: 80%; /* Or your desired height */
+    overflow: hidden; /* Hide overflow to prevent showing the images outside */
+    pointer-events: none; /* Disable pointer events for this container */
+}
+
+#popupImage, #previousImage {
+    position: absolute; /* Allow for stacking */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+#previousImage {
+    display: none; /* Initially hidden */
+}
