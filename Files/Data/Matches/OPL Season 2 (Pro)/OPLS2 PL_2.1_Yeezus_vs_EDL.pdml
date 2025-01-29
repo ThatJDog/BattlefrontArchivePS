@@ -1,0 +1,72 @@
+<series team1="Yeezus" team2="EDL.sri" round=2 index=1>
+	<match map="Jawa Refuge" timeLeft="03:06" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="TheSup" score=6150 kills=26 deaths=19/>
+			<playerScore name="Figuxe" score=5755 kills=18 deaths=20/>
+			<playerScore name="SymmPhonic" score=4825 kills=15 deaths=31/>
+			<playerScore name="Nihiles" score=4000 kills=19 deaths=19/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Isolani" score=7050 kills=22 deaths=18/>
+			<playerScore name="Slayz" score=6500 kills=26 deaths=24/>
+			<playerScore name="Prometheus" score=6175 kills=23 deaths=21/>
+			<playerScore name="Kurko" score=5760 kills=15 deaths=17/>
+	</match>
+	<match map="Raider Camp" timeLeft="06:51" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Klumszy" score=3175 kills=14 deaths=18/>
+			<playerScore name="SymmPhonic" score=2600 kills=10 deaths=17/>
+			<playerScore name="Figuxe" score=2125 kills=9 deaths=17/>
+			<playerScore name="TheSup" score=1925 kills=9 deaths=17/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Kurko" score=6300 kills=17 deaths=16/>
+			<playerScore name="Prometheus" score=4925 kills=25 deaths=8/>
+			<playerScore name="Foggle" score=4590 kills=14 deaths=8/>
+			<playerScore name="Slayz" score=4000 kills=13 deaths=11/>
+	</match>
+	<match map="Swamp Crash Site" timeLeft="07:06" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="SymmPhonic" score=5550 kills=12 deaths=8/>
+			<playerScore name="Klumszy" score=3950 kills=14 deaths=8/>
+			<playerScore name="TheSup" score=2700 kills=10 deaths=13/>
+			<playerScore name="Figuxe" score=2495 kills=10 deaths=11/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Kurko" score=2625 kills=7 deaths=17/>
+			<playerScore name="Foggle" score=2275 kills=12 deaths=11/>
+			<playerScore name="Slayz" score=2275 kills=10 deaths=8/>
+			<playerScore name="Isolani" score=1895 kills=10 deaths=10/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="01:56" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="TheSup" score=6750 kills=25 deaths=25/>
+			<playerScore name="Figuxe" score=6365 kills=20 deaths=22/>
+			<playerScore name="Klumszy" score=5775 kills=24 deaths=19/>
+			<playerScore name="SymmPhonic" score=3650 kills=10 deaths=24/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Foggle" score=7510 kills=24 deaths=21/>
+			<playerScore name="Kurko" score=7300 kills=19 deaths=22/>
+			<playerScore name="Prometheus" score=5825 kills=26 deaths=14/>
+			<playerScore name="Slayz" score=4350 kills=17 deaths=22/>
+	</match>
+	<match map="Twilight On Hoth" timeLeft="06:27" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Figuxe" score=5625 kills=15 deaths=15/>
+			<playerScore name="TheSup" score=5325 kills=19 deaths=12/>
+			<playerScore name="SymmPhonic" score=5050 kills=15 deaths=17/>
+			<playerScore name="Klumszy" score=4225 kills=18 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Foggle" score=4090 kills=13 deaths=22/>
+			<playerScore name="Prometheus" score=3725 kills=21 deaths=14/>
+			<playerScore name="Kurko" score=3400 kills=16 deaths=17/>
+			<playerScore name="Isolani" score=2925 kills=9 deaths=14/>
+		</teamScore>
+	</match>
+</series>

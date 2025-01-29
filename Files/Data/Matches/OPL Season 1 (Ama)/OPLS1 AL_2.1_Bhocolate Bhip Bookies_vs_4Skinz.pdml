@@ -1,0 +1,86 @@
+<series team1="Bhocolate Bhip Bookies" team2="4Skinz.sri" round=2 index=1>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
+		<teamScore faction="Imperial" score=6>
+			<playerScore name="Falco" score=6075 kills=35 deaths=13/>
+			<playerScore name="Amjedjohn" score=4700 kills=20 deaths=7/>
+			<playerScore name="SymmPhonic" score=4475 kills=23 deaths=23/>
+			<playerScore name="Uliday" score=3325 kills=15 deaths=23/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Coloses" score=3475 kills=15 deaths=29/>
+			<playerScore name="Figuxe" score=3465 kills=17 deaths=9/>
+			<playerScore name="Bdozen" score=3225 kills=19 deaths=38/>
+			<playerScore name="Sween" score=2725 kills=14 deaths=18/>
+	</match>
+	<match map="Dune Sea" timeLeft="01:33" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="SymmPhonic" score=8600 kills=27 deaths=33/>
+			<playerScore name="Falco" score=7100 kills=35 deaths=29/>
+			<playerScore name="Amjedjohn" score=6005 kills=24 deaths=31/>
+			<playerScore name="Uliday" score=4650 kills=16 deaths=34/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Figuxe" score=8805 kills=27 deaths=26/>
+			<playerScore name="Coloses" score=8525 kills=19 deaths=31/>
+			<playerScore name="Bdozen" score=8475 kills=43 deaths=29/>
+			<playerScore name="Sween" score=8050 kills=36 deaths=18/>
+	</match>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Falco" score=5125 kills=27 deaths=25/>
+			<playerScore name="SymmPhonic" score=4800 kills=29 deaths=26/>
+			<playerScore name="Uliday" score=4575 kills=19 deaths=23/>
+			<playerScore name="Amjedjohn" score=3320 kills=17 deaths=11/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Bdozen" score=7225 kills=33 deaths=25/>
+			<playerScore name="Sween" score=4400 kills=19 deaths=29/>
+			<playerScore name="Figuxe" score=3325 kills=16 deaths=19/>
+			<playerScore name="Coloses" score=3205 kills=16 deaths=19/>
+	</match>
+	<match map="Rebel Base" timeLeft="09:28" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Falco" score=1675 kills=11 deaths=8/>
+			<playerScore name="Uliday" score=675 kills=3 deaths=9/>
+			<playerScore name="SymmPhonic" score=575 kills=3 deaths=5/>
+			<playerScore name="Amjedjohn" score=425 kills=1 deaths=6/>
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Bdozen" score=2450 kills=12 deaths=9/>
+			<playerScore name="Sween" score=1550 kills=6 deaths=8/>
+			<playerScore name="Figuxe" score=1000 kills=7 deaths=1/>
+			<playerScore name="Coloses" score=200 kills=2 deaths=0/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="00:-06" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Amjedjohn" score=9455 kills=29 deaths=24/>
+			<playerScore name="SymmPhonic" score=7450 kills=23 deaths=27/>
+			<playerScore name="Falco" score=7175 kills=32 deaths=25/>
+			<playerScore name="Uliday" score=6175 kills=11 deaths=26/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Figuxe" score=8855 kills=33 deaths=22/>
+			<playerScore name="Coloses" score=7575 kills=19 deaths=26/>
+			<playerScore name="Bdozen" score=7350 kills=24 deaths=27/>
+			<playerScore name="Sween" score=5325 kills=22 deaths=20/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="03:14" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Falco" score=6800 kills=28 deaths=21/>
+			<playerScore name="SymmPhonic" score=6000 kills=19 deaths=12/>
+			<playerScore name="Amjedjohn" score=5695 kills=15 deaths=16/>
+			<playerScore name="Uliday" score=3550 kills=11 deaths=24/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Coloses" score=5675 kills=12 deaths=23/>
+			<playerScore name="Sween" score=4725 kills=29 deaths=16/>
+			<playerScore name="Figuxe" score=4180 kills=12 deaths=13/>
+			<playerScore name="Bdozen" score=4150 kills=19 deaths=23/>
+		</teamScore>
+	</match>
+</series>

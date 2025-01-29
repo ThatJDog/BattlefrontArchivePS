@@ -1,0 +1,44 @@
+<series team1="Y-Wing" team2="Atlanta Falcons.sri" round=2 index=2>
+	<match map="Jawa Refuge" timeLeft="03:06" gameMode="Drop Zone" server="US East">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="KingCaldera" score=9105 kills=28 deaths=22/>
+			<playerScore name="Sween" score=8475 kills=41 deaths=16/>
+			<playerScore name="MysticSwaggy" score=5550 kills=13 deaths=18/>
+			<playerScore name="Sarrows" score=5025 kills=13 deaths=16/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Hobo" score=5570 kills=21 deaths=23/>
+			<playerScore name="Isolani" score=5150 kills=15 deaths=22/>
+			<playerScore name="Mavry" score=4550 kills=25 deaths=26/>
+			<playerScore name="Szeth" score=3100 kills=8 deaths=26/>
+	</match>
+	<match map="Dune Sea" timeLeft="04:49" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="KingCaldera" score=7640 kills=26 deaths=19/>
+			<playerScore name="Sween" score=6350 kills=27 deaths=18/>
+			<playerScore name="MysticSwaggy" score=6000 kills=20 deaths=20/>
+			<playerScore name="Sarrows" score=5875 kills=19 deaths=16/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Isolani" score=5650 kills=20 deaths=24/>
+			<playerScore name="Hobo" score=4170 kills=23 deaths=23/>
+			<playerScore name="Mavry" score=3900 kills=15 deaths=24/>
+			<playerScore name="Szeth" score=3425 kills=13 deaths=21/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="01:30" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Sween" score=8950 kills=50 deaths=21/>
+			<playerScore name="KingCaldera" score=6530 kills=16 deaths=21/>
+			<playerScore name="MysticSwaggy" score=5475 kills=18 deaths=19/>
+			<playerScore name="Sarrows" score=4325 kills=11 deaths=20/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Mavry" score=6250 kills=20 deaths=25/>
+			<playerScore name="Hobo" score=6000 kills=20 deaths=30/>
+			<playerScore name="Isolani" score=5575 kills=20 deaths=21/>
+			<playerScore name="Szeth" score=4350 kills=19 deaths=19/>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,56 @@
+<series team1="BFL" team2="Suuslax.sri" round=2 index=4>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
+		<teamScore faction="Imperial" score=6>
+			<playerScore name="Cheers" score=6175 kills=33 deaths=18/>
+			<playerScore name="Papl" score=5650 kills=34 deaths=21/>
+			<playerScore name="Lego Matt" score=3975 kills=19 deaths=24/>
+			<playerScore name="Nevrixia" score=3925 kills=17 deaths=24/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Wolf" score=5850 kills=28 deaths=28/>
+			<playerScore name="Austrian Eagle" score=4375 kills=21 deaths=32/>
+			<playerScore name="Deutscher" score=3575 kills=18 deaths=24/>
+			<playerScore name="Joro" score=3410 kills=17 deaths=20/>
+	</match>
+	<match map="Dune Sea" timeLeft="-01:-47" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cheers" score=11350 kills=46 deaths=28/>
+			<playerScore name="Papl" score=10475 kills=44 deaths=25/>
+			<playerScore name="Nevrixia" score=9665 kills=35 deaths=28/>
+			<playerScore name="Lego Matt" score=9000 kills=27 deaths=35/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Joro" score=11450 kills=36 deaths=32/>
+			<playerScore name="Wolf" score=9175 kills=37 deaths=40/>
+			<playerScore name="Austrian Eagle" score=6995 kills=18 deaths=42/>
+			<playerScore name="Deutscher" score=4975 kills=22 deaths=39/>
+	</match>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Papl" score=5675 kills=33 deaths=17/>
+			<playerScore name="Cheers" score=5425 kills=33 deaths=11/>
+			<playerScore name="Nevrixia" score=3775 kills=17 deaths=19/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Deutscher" score=3000 kills=11 deaths=22/>
+			<playerScore name="Joro" score=2960 kills=11 deaths=12/>
+			<playerScore name="Austrian Eagle" score=2650 kills=11 deaths=25/>
+			<playerScore name="Wolf" score=2575 kills=13 deaths=25/>
+	</match>
+	<match map="Rebel Depot" timeLeft="13:19" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Cheers" score=1075 kills=5 deaths=1/>
+			<playerScore name="Nevrixia" score=800 kills=4 deaths=1/>
+			<playerScore name="Papl" score=675 kills=3 deaths=3/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Joro" score=350 kills=2 deaths=3/>
+			<playerScore name="Austrian Eagle" score=250 kills=1 deaths=4/>
+			<playerScore name="Deutscher" score=225 kills=1 deaths=2/>
+			<playerScore name="Wolf" score=200 kills=1 deaths=3/>
+		</teamScore>
+	</match>
+</series>

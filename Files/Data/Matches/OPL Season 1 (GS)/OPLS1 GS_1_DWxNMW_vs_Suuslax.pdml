@@ -1,0 +1,30 @@
+<series team1="DWxNMW" team2="Suuslax.sri" round=0 index=1>
+	<match map="Rebel Depot" timeLeft="10:17" gameMode="Cargo" server="">
+		<teamScore faction="Rebel" score=10>
+			<playerScore name="Karnage" score=2250 kills=11 deaths=2/>
+			<playerScore name="Foggle" score=2075 kills=5 deaths=3/>
+			<playerScore name="Bazo" score=2025 kills=12 deaths=5/>
+			<playerScore name="Diego" score=900 kills=6 deaths=1/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Joro" score=800 kills=3 deaths=7/>
+			<playerScore name="Deutscher" score=700 kills=4 deaths=10/>
+			<playerScore name="Wolf" score=525 kills=2 deaths=7/>
+			<playerScore name="Austrian Eagle" score=425 kills=2 deaths=11/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="08:50" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Foggle" score=5990 kills=17 deaths=2/>
+			<playerScore name="Diego" score=5675 kills=22 deaths=4/>
+			<playerScore name="Bazo" score=5525 kills=21 deaths=0/>
+			<playerScore name="Karnage" score=4450 kills=15 deaths=4/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Austrian Eagle" score=1150 kills=0 deaths=20/>
+			<playerScore name="Joro" score=1095 kills=3 deaths=19/>
+			<playerScore name="Deutscher" score=900 kills=5 deaths=20/>
+			<playerScore name="Wolf" score=700 kills=2 deaths=17/>
+		</teamScore>
+	</match>
+</series>

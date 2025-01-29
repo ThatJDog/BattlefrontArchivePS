@@ -1,0 +1,72 @@
+<series team1="British Empire" team2="Midlothian Marauders.sri" round=0 index=9>
+	<match map="Jawa Refuge" timeLeft="04:50" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Foggle" score=8735 kills=21 deaths=12/>
+			<playerScore name="Prometheus" score=5725 kills=22 deaths=16/>
+			<playerScore name="Slayz" score=5300 kills=23 deaths=18/>
+			<playerScore name="Diego" score=4200 kills=15 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="TheSup" score=4850 kills=13 deaths=27/>
+			<playerScore name="Rage" score=4500 kills=19 deaths=19/>
+			<playerScore name="Bdozen" score=3550 kills=15 deaths=22/>
+			<playerScore name="Quipsy" score=3465 kills=14 deaths=14/>
+	</match>
+	<match map="Dune Sea" timeLeft="07:59" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Diego" score=5125 kills=18 deaths=18/>
+			<playerScore name="Foggle" score=3490 kills=13 deaths=22/>
+			<playerScore name="Prometheus" score=3000 kills=16 deaths=18/>
+			<playerScore name="Slayz" score=2025 kills=9 deaths=18/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="TheSup" score=5875 kills=27 deaths=15/>
+			<playerScore name="Rage" score=5825 kills=16 deaths=16/>
+			<playerScore name="Quipsy" score=5765 kills=16 deaths=13/>
+			<playerScore name="Bdozen" score=5625 kills=17 deaths=13/>
+	</match>
+	<match map="Raider Camp" timeLeft="07:58" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Diego" score=5900 kills=14 deaths=9/>
+			<playerScore name="Prometheus" score=4225 kills=13 deaths=11/>
+			<playerScore name="Foggle" score=3720 kills=16 deaths=11/>
+			<playerScore name="Slayz" score=3275 kills=10 deaths=10/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Quipsy" score=2915 kills=8 deaths=17/>
+			<playerScore name="Rage" score=2850 kills=15 deaths=11/>
+			<playerScore name="Bdozen" score=1800 kills=6 deaths=15/>
+			<playerScore name="TheSup" score=1650 kills=11 deaths=11/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="03:35" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Prometheus" score=6025 kills=26 deaths=21/>
+			<playerScore name="Foggle" score=5520 kills=18 deaths=20/>
+			<playerScore name="Slayz" score=4325 kills=15 deaths=24/>
+			<playerScore name="Diego" score=4075 kills=16 deaths=21/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Rage" score=7150 kills=34 deaths=17/>
+			<playerScore name="Bdozen" score=6925 kills=17 deaths=18/>
+			<playerScore name="TheSup" score=5025 kills=22 deaths=23/>
+			<playerScore name="Quipsy" score=6355 kills=13 deaths=18/>
+	</match>
+	<match map="Swamp Crash Site" timeLeft="05:53" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Foggle" score=6835 kills=21 deaths=12/>
+			<playerScore name="Prometheus" score=4600 kills=21 deaths=13/>
+			<playerScore name="Diego" score=4575 kills=17 deaths=7/>
+			<playerScore name="Slayz" score=3875 kills=15 deaths=12/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Quipsy" score=4135 kills=12 deaths=18/>
+			<playerScore name="Bdozen" score=3150 kills=9 deaths=23/>
+			<playerScore name="TheSup" score=2600 kills=11 deaths=19/>
+			<playerScore name="Rage" score=2075 kills=12 deaths=14/>
+		</teamScore>
+	</match>
+</series>

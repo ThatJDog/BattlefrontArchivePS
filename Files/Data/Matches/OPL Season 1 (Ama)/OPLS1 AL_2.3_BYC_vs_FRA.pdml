@@ -1,0 +1,39 @@
+<series team1="BYC" team2="FRA.sri" round=2 index=3>
+	<match map="Dune Sea" timeLeft="08:23" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="XLand" score=5300 kills=19 deaths=3/>
+			<playerScore name="M4TT3 BL4CK" score=4650 kills=12 deaths=3/>
+			<playerScore name="KingCaldera" score=4275 kills=18 deaths=5/>
+			<playerScore name="RiP SpR" score=3250 kills=6 deaths=6/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Ange Des Neiiges" score=2775 kills=10 deaths=15/>
+			<playerScore name="Golden Panda" score=1275 kills=5 deaths=20/>
+			<playerScore name="Redloz" score=1100 kills=2 deaths=23/>
+	</match>
+	<match map="Imperial Hangar" timeLeft="00:18" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=9>
+			<playerScore name="M4TT3 BL4CK" score=8500 kills=39 deaths=13/>
+			<playerScore name="RiP SpR" score=6475 kills=26 deaths=14/>
+			<playerScore name="XLand" score=6350 kills=36 deaths=17/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Ange Des Neiiges" score=3930 kills=19 deaths=33/>
+			<playerScore name="Golden Panda" score=3225 kills=16 deaths=34/>
+			<playerScore name="Redloz" score=3100 kills=8 deaths=36/>
+	</match>
+	<match map="Rebel Depot" timeLeft="03:13" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="M4TT3 BL4CK" score=6525 kills=17 deaths=17/>
+			<playerScore name="RiP SpR" score=5300 kills=18 deaths=13/>
+			<playerScore name="XLand" score=3375 kills=15 deaths=16/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Redloz" score=5850 kills=10 deaths=15/>
+			<playerScore name="Ange Des Neiiges" score=4620 kills=21 deaths=15/>
+			<playerScore name="Golden Panda" score=2625 kills=12 deaths=22/>
+		</teamScore>
+	</match>
+</series>

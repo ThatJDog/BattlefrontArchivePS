@@ -1,0 +1,72 @@
+<series team1="Tell That To Kanjiklub" team2="LFG.sri" round=2 index=2>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Alimpan" score=4650 kills=29 deaths=26/>
+			<playerScore name="Vic" score=4625 kills=22 deaths=20/>
+			<playerScore name="DarkObitoS" score=3700 kills=20 deaths=18/>
+			<playerScore name="Tryhard" score=2155 kills=9 deaths=9/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="ZeroRedical" score=4155 kills=23 deaths=22/>
+			<playerScore name="QuiteGoneG" score=3950 kills=18 deaths=26/>
+			<playerScore name="ThraxOD" score=3925 kills=20 deaths=19/>
+			<playerScore name="Cricken" score=2400 kills=11 deaths=13/>
+	</match>
+	<match map="Rebel Depot" timeLeft="12:33" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Vic" score=1050 kills=4 deaths=5/>
+			<playerScore name="Alimpan" score=650 kills=3 deaths=2/>
+			<playerScore name="DarkObitoS" score=650 kills=5 deaths=2/>
+			<playerScore name="Tryhard" score=200 kills=0 deaths=2/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="ZeroRedical" score=595 kills=4 deaths=2/>
+			<playerScore name="Cricken" score=425 kills=1 deaths=4/>
+			<playerScore name="QuiteGoneG" score=350 kills=3 deaths=1/>
+			<playerScore name="ThraxOD" score=300 kills=1 deaths=5/>
+	</match>
+	<match map="Dune Sea" timeLeft="00:24" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Alimpan" score=9150 kills=44 deaths=26/>
+			<playerScore name="DarkObitoS" score=8425 kills=28 deaths=29/>
+			<playerScore name="Vic" score=7775 kills=24 deaths=33/>
+			<playerScore name="Tryhard" score=7190 kills=24 deaths=32/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Cricken" score=12000 kills=35 deaths=34/>
+			<playerScore name="ZeroRedical" score=7705 kills=23 deaths=33/>
+			<playerScore name="QuiteGoneG" score=7400 kills=27 deaths=28/>
+			<playerScore name="ThraxOD" score=7300 kills=34 deaths=28/>
+	</match>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=7>
+			<playerScore name="DarkObitoS" score=5425 kills=20 deaths=21/>
+			<playerScore name="Vic" score=4850 kills=22 deaths=26/>
+			<playerScore name="Alimpan" score=4375 kills=25 deaths=13/>
+			<playerScore name="Tryhard" score=3490 kills=19 deaths=12/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="ThraxOD" score=4575 kills=25 deaths=20/>
+			<playerScore name="QuiteGoneG" score=4475 kills=24 deaths=30/>
+			<playerScore name="ZeroRedical" score=3335 kills=17 deaths=21/>
+			<playerScore name="Cricken" score=2500 kills=11 deaths=16/>
+	</match>
+	<match map="Raider Camp" timeLeft="07:05" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="DarkObitoS" score=5650 kills=16 deaths=14/>
+			<playerScore name="Vic" score=5200 kills=12 deaths=12/>
+			<playerScore name="Alimpan" score=4400 kills=19 deaths=10/>
+			<playerScore name="Tryhard" score=2810 kills=11 deaths=10/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Cricken" score=3800 kills=15 deaths=12/>
+			<playerScore name="ZeroRedical" score=2730 kills=16 deaths=15/>
+			<playerScore name="ThraxOD" score=2450 kills=6 deaths=12/>
+			<playerScore name="QuiteGoneG" score=1675 kills=7 deaths=16/>
+		</teamScore>
+	</match>
+</series>

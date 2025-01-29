@@ -1,0 +1,58 @@
+<series team1="Mild Salsa" team2="IRA.sri" round=0 index=8>
+	<match map="Jawa Refuge" timeLeft="07:35" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Fitality" score=6050 kills=20 deaths=9/>
+			<playerScore name="Hobo" score=5180 kills=18 deaths=9/>
+			<playerScore name="Cassady" score=4700 kills=22 deaths=6/>
+			<playerScore name="Cricken" score=4645 kills=10 deaths=11/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Vanarin" score=2720 kills=8 deaths=15/>
+			<playerScore name="Cappa" score=2525 kills=11 deaths=19/>
+			<playerScore name="Hildingsson" score=2150 kills=6 deaths=19/>
+			<playerScore name="Skumszy" score=1800 kills=10 deaths=17/>
+	</match>
+	<match map="Dune Sea" timeLeft="00:50" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Fitality" score=10375 kills=45 deaths=28/>
+			<playerScore name="Cassady" score=8625 kills=35 deaths=22/>
+			<playerScore name="Cricken" score=6040 kills=26 deaths=31/>
+			<playerScore name="Hobo" score=5645 kills=22 deaths=27/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Cappa" score=8245 kills=31 deaths=32/>
+			<playerScore name="Skumszy" score=7825 kills=29 deaths=37/>
+			<playerScore name="Vanarin" score=6925 kills=29 deaths=29/>
+			<playerScore name="Hildingsson" score=6200 kills=17 deaths=32/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="06:19" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Cassady" score=5600 kills=27 deaths=12/>
+			<playerScore name="Cricken" score=4580 kills=11 deaths=13/>
+			<playerScore name="Fitality" score=4300 kills=16 deaths=12/>
+			<playerScore name="Hobo" score=3925 kills=13 deaths=10/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Skumszy" score=3550 kills=18 deaths=16/>
+			<playerScore name="Cappa" score=3545 kills=7 deaths=15/>
+			<playerScore name="Vanarin" score=2275 kills=10 deaths=17/>
+			<playerScore name="Hildingsson" score=2125 kills=11 deaths=19/>
+	</match>
+	<match map="Twilight On Hoth" timeLeft="07:10" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Fitality" score=5075 kills=17 deaths=15/>
+			<playerScore name="Cricken" score=4270 kills=10 deaths=7/>
+			<playerScore name="Cassady" score=3825 kills=19 deaths=5/>
+			<playerScore name="Hobo" score=3700 kills=10 deaths=9/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Cappa" score=2210 kills=9 deaths=14/>
+			<playerScore name="Skumszy" score=2150 kills=9 deaths=16/>
+			<playerScore name="Vanarin" score=2125 kills=11 deaths=14/>
+			<playerScore name="Hildingsson" score=2075 kills=7 deaths=12/>
+		</teamScore>
+	</match>
+</series>

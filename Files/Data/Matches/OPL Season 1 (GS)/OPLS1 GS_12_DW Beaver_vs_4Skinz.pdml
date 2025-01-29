@@ -1,0 +1,30 @@
+<series team1="DW Beaver" team2="4Skinz.sri" round=0 index=12>
+	<match map="Jawa Refuge" timeLeft="03:59" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vex" score=7875 kills=26 deaths=19/>
+			<playerScore name="Swaggy" score=6635 kills=24 deaths=17/>
+			<playerScore name="Goudapest" score=5975 kills=17 deaths=19/>
+			<playerScore name="Poochamos" score=4925 kills=18 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Bdozen" score=5775 kills=23 deaths=21/>
+			<playerScore name="Coloses" score=5300 kills=10 deaths=27/>
+			<playerScore name="Sween" score=4625 kills=19 deaths=20/>
+			<playerScore name="Healthy" score=3230 kills=16 deaths=18/>
+	</match>
+	<match map="Dune Sea" timeLeft="-01:-04" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vex" score=14450 kills=55 deaths=18/>
+			<playerScore name="Goudapest" score=12350 kills=39 deaths=30/>
+			<playerScore name="Swaggy" score=9085 kills=32 deaths=27/>
+			<playerScore name="Poochamos" score=8225 kills=32 deaths=20/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Coloses" score=8925 kills=7 deaths=46/>
+			<playerScore name="Bdozen" score=6725 kills=34 deaths=45/>
+			<playerScore name="Healthy" score=5855 kills=25 deaths=32/>
+			<playerScore name="Sween" score=5650 kills=29 deaths=35/>
+		</teamScore>
+	</match>
+</series>

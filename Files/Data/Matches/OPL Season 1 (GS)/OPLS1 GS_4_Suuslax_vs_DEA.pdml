@@ -1,0 +1,28 @@
+<series team1="Suuslax" team2="DEA.sri" round=0 index=4>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo" server="">
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Joro" score=4040 kills=21 deaths=13/>
+			<playerScore name="Deutscher" score=3375 kills=12 deaths=20/>
+			<playerScore name="Wolf" score=3325 kills=18 deaths=25/>
+			<playerScore name="Austrian Eagle" score=2425 kills=10 deaths=25/>
+		</teamScore>
+		<teamScore faction="Imperial" score=8>
+			<playerScore name="Nevrixia" score=6075 kills=24 deaths=22/>
+			<playerScore name="Kurko" score=5350 kills=33 deaths=24/>
+			<playerScore name="Papl" score=4730 kills=25 deaths=15/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="-01:-00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Joro" score=6345 kills=19 deaths=22/>
+			<playerScore name="Deutscher" score=8775 kills=29 deaths=36/>
+			<playerScore name="Wolf" score=7150 kills=26 deaths=23/>
+			<playerScore name="Austrian Eagle" score=6250 kills=8 deaths=43/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Nevrixia" score=10360 kills=32 deaths=26/>
+			<playerScore name="Kurko" score=11000 kills=51 deaths=27/>
+			<playerScore name="Papl" score=15350 kills=32 deaths=26/>
+		</teamScore>
+	</match>
+</series>

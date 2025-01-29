@@ -1,0 +1,44 @@
+<series team1="Oakland Vaders" team2="Darth Steelers.sri" round=5 index=1>
+	<match map="Jawa Refuge" timeLeft="04:22" gameMode="Drop Zone" server="US East">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="FireBringer" score=7350 kills=29 deaths=24/>
+			<playerScore name="Eky" score=6675 kills=20 deaths=17/>
+			<playerScore name="BFL-Ice" score=4090 kills=15 deaths=13/>
+			<playerScore name="CaZuaL" score=3975 kills=13 deaths=7/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Mortal" score=6200 kills=22 deaths=19/>
+			<playerScore name="Uliday" score=4610 kills=15 deaths=18/>
+			<playerScore name="K3sharr" score=3325 kills=9 deaths=23/>
+			<playerScore name="Amjedjohn" score=3225 kills=14 deaths=18/>
+	</match>
+	<match map="Dune Sea" timeLeft="00:13" gameMode="US West" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Eky" score=9250 kills=28 deaths=36/>
+			<playerScore name="FireBringer" score=8750 kills=37 deaths=33/>
+			<playerScore name="BFL-Ice" score=6320 kills=22 deaths=28/>
+			<playerScore name="CaZuaL" score=4850 kills=22 deaths=18/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Uliday" score=8235 kills=36 deaths=26/>
+			<playerScore name="Mortal" score=6775 kills=23 deaths=24/>
+			<playerScore name="K3sharr" score=6325 kills=24 deaths=31/>
+			<playerScore name="Amjedjohn" score=5425 kills=31 deaths=28/>
+	</match>
+	<match map="Ice Caves" timeLeft="01:48" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="FireBringer" score=6750 kills=32 deaths=28/>
+			<playerScore name="BFL-Ice" score=5145 kills=13 deaths=15/>
+			<playerScore name="CaZuaL" score=4775 kills=16 deaths=9/>
+			<playerScore name="Eky" score=4575 kills=19 deaths=24/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Amjedjohn" score=5975 kills=20 deaths=18/>
+			<playerScore name="Mortal" score=5475 kills=26 deaths=18/>
+			<playerScore name="Uliday" score=5005 kills=14 deaths=22/>
+			<playerScore name="K3sharr" score=3775 kills=14 deaths=23/>
+		</teamScore>
+	</match>
+</series>

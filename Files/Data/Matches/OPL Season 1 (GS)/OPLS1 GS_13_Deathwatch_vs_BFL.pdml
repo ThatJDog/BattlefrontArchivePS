@@ -1,0 +1,30 @@
+<series team1="Deathwatch" team2="BFL.sri" round=0 index=13>
+	<match map="Jawa Refuge" timeLeft="06:14" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Hashemy" score=7125 kills=20 deaths=2/>
+			<playerScore name="Spree" score=6925 kills=31 deaths=10/>
+			<playerScore name="Vanarin" score=5000 kills=20 deaths=9/>
+			<playerScore name="SlewedPanic" score=4000 kills=16 deaths=8/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Magooboo" score=3250 kills=5 deaths=20/>
+			<playerScore name="Lego Matt" score=2175 kills=6 deaths=24/>
+			<playerScore name="Yolo" score=2125 kills=11 deaths=21/>
+			<playerScore name="Bobstaj" score=1485 kills=3 deaths=22/>
+	</match>
+	<match map="Rebel Base" timeLeft="02:16" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=10>
+			<playerScore name="Hashemy" score=4525 kills=29 deaths=15/>
+			<playerScore name="Spree" score=4400 kills=14 deaths=15/>
+			<playerScore name="Vanarin" score=4375 kills=22 deaths=19/>
+			<playerScore name="SlewedPanic" score=4285 kills=20 deaths=14/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Lego Matt" score=3075 kills=19 deaths=26/>
+			<playerScore name="Magooboo" score=2900 kills=16 deaths=19/>
+			<playerScore name="Yolo" score=2525 kills=15 deaths=23/>
+			<playerScore name="Bobstaj" score=2350 kills=12 deaths=19/>
+		</teamScore>
+	</match>
+</series>

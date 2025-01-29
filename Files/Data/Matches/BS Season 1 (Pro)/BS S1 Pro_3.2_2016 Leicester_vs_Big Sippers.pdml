@@ -1,0 +1,20 @@
+<series team1="2016 Leicester" team2="Big Sippers.sri" round=3 index=2>
+	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+	</match>
+	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+	</match>
+	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+</series>

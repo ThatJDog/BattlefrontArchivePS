@@ -1,0 +1,44 @@
+<series team1="Bacta+" team2="Oakland Vaders.sri" round=2 index=3>
+	<match map="Goazon Badlands" timeLeft="05:56" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="DarkSmile" score=3375 kills=15 deaths=17/>
+			<playerScore name="Ugarte" score=3200 kills=16 deaths=9/>
+			<playerScore name="Redloz" score=2975 kills=8 deaths=19/>
+			<playerScore name="Betfroont" score=2600 kills=9 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="FireBringer" score=5200 kills=21 deaths=14/>
+			<playerScore name="BFL-Ice" score=4400 kills=16 deaths=10/>
+			<playerScore name="Eky" score=3500 kills=9 deaths=15/>
+			<playerScore name="Kygin" score=2900 kills=10 deaths=11/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="04:22" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Redloz" score=4995 kills=9 deaths=30/>
+			<playerScore name="DarkSmile" score=4650 kills=16 deaths=20/>
+			<playerScore name="Ugarte" score=3450 kills=13 deaths=23/>
+			<playerScore name="Betfroont" score=3150 kills=10 deaths=26/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="FireBringer" score=8175 kills=41 deaths=12/>
+			<playerScore name="Eky" score=7625 kills=20 deaths=12/>
+			<playerScore name="BFL-Ice" score=6600 kills=23 deaths=14/>
+			<playerScore name="Kygin" score=5330 kills=12 deaths=14/>
+	</match>
+	<match map="Raider Camp" timeLeft="07:04" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Redloz" score=2525 kills=7 deaths=20/>
+			<playerScore name="Ugarte" score=2500 kills=9 deaths=17/>
+			<playerScore name="DarkSmile" score=2325 kills=11 deaths=11/>
+			<playerScore name="Betfroont" score=2175 kills=10 deaths=18/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="FireBringer" score=7475 kills=24 deaths=10/>
+			<playerScore name="Eky" score=5075 kills=21 deaths=9/>
+			<playerScore name="BFL-Ice" score=3275 kills=14 deaths=6/>
+			<playerScore name="Kygin" score=3220 kills=6 deaths=12/>
+		</teamScore>
+	</match>
+</series>

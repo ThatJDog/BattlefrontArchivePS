@@ -1,0 +1,44 @@
+<series team1="Atlanta Falcons" team2="E11.sri" round=1 index=3>
+	<match map="Jawa Refuge" timeLeft="00:13" gameMode="Drop Zone" server="US East">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Lobstah" score=7000 kills=23 deaths=26/>
+			<playerScore name="Hobo" score=6690 kills=19 deaths=29/>
+			<playerScore name="Isolani" score=5875 kills=25 deaths=23/>
+			<playerScore name="Szeth" score=4375 kills=16 deaths=28/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="XLand" score=8925 kills=36 deaths=25/>
+			<playerScore name="Kronix" score=7000 kills=21 deaths=20/>
+			<playerScore name="QuiteGoneG" score=6965 kills=22 deaths=19/>
+			<playerScore name="Cian" score=5775 kills=27 deaths=23/>
+	</match>
+	<match map="Dune Sea" timeLeft="02:42" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Hobo" score=8855 kills=41 deaths=25/>
+			<playerScore name="Isolani" score=8250 kills=24 deaths=19/>
+			<playerScore name="Lobstah" score=6000 kills=17 deaths=20/>
+			<playerScore name="Szeth" score=5975 kills=21 deaths=22/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Kronix" score=6300 kills=20 deaths=29/>
+			<playerScore name="QuiteGoneG" score=6140 kills=16 deaths=25/>
+			<playerScore name="XLand" score=5950 kills=35 deaths=27/>
+			<playerScore name="Cian" score=4275 kills=15 deaths=24/>
+	</match>
+	<match map="Rebel Depot" timeLeft="04:25" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Hobo" score=4910 kills=20 deaths=21/>
+			<playerScore name="Isolani" score=4750 kills=19 deaths=20/>
+			<playerScore name="Lobstah" score=4500 kills=10 deaths=20/>
+			<playerScore name="Szeth" score=3650 kills=12 deaths=18/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="XLand" score=7800 kills=29 deaths=14/>
+			<playerScore name="Kronix" score=6250 kills=14 deaths=16/>
+			<playerScore name="QuiteGoneG" score=4955 kills=11 deaths=11/>
+			<playerScore name="Cian" score=4825 kills=23 deaths=20/>
+		</teamScore>
+	</match>
+</series>

@@ -1,6 +1,792 @@
 {
-  "path": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data",
-  "files": [
-    "series.pdml"
-  ]
+  "Matches": {
+    "BCL Season 10": {
+      "SX_10_Super Dude_vs_Whatever's Clever.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_10_Super Dude_vs_Whatever's Clever.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_10_Super Dude_vs_Whatever's Clever.pdml",
+        "fileName": "SX_10_Super Dude_vs_Whatever's Clever",
+        "extension": ".pdml"
+      },
+      "SX_11_Super Dude_vs_Mild Salsa.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_11_Super Dude_vs_Mild Salsa.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_11_Super Dude_vs_Mild Salsa.pdml",
+        "fileName": "SX_11_Super Dude_vs_Mild Salsa",
+        "extension": ".pdml"
+      },
+      "SX_12_Midlothian Marauders_vs_Super Dude.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_12_Midlothian Marauders_vs_Super Dude.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_12_Midlothian Marauders_vs_Super Dude.pdml",
+        "fileName": "SX_12_Midlothian Marauders_vs_Super Dude",
+        "extension": ".pdml"
+      },
+      "SX_13_British Empire_vs_Midlothian Marauders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_13_British Empire_vs_Midlothian Marauders.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_13_British Empire_vs_Midlothian Marauders.pdml",
+        "fileName": "SX_13_British Empire_vs_Midlothian Marauders",
+        "extension": ".pdml"
+      },
+      "SX_1_British Empire_vs_IRA.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_1_British Empire_vs_IRA.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_1_British Empire_vs_IRA.pdml",
+        "fileName": "SX_1_British Empire_vs_IRA",
+        "extension": ".pdml"
+      },
+      "SX_2_Super Dude_vs_Mild Salsa.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_2_Super Dude_vs_Mild Salsa.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_2_Super Dude_vs_Mild Salsa.pdml",
+        "fileName": "SX_2_Super Dude_vs_Mild Salsa",
+        "extension": ".pdml"
+      },
+      "SX_3_Whatever's Clever_vs_Midlothian Marauders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_3_Whatever's Clever_vs_Midlothian Marauders.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_3_Whatever's Clever_vs_Midlothian Marauders.pdml",
+        "fileName": "SX_3_Whatever's Clever_vs_Midlothian Marauders",
+        "extension": ".pdml"
+      },
+      "SX_4_Los Angeles Lakers_vs_The Steifens.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_4_Los Angeles Lakers_vs_The Steifens.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_4_Los Angeles Lakers_vs_The Steifens.pdml",
+        "fileName": "SX_4_Los Angeles Lakers_vs_The Steifens",
+        "extension": ".pdml"
+      },
+      "SX_5_Whatever's Clever_vs_Los Angeles Lakers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_5_Whatever's Clever_vs_Los Angeles Lakers.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_5_Whatever's Clever_vs_Los Angeles Lakers.pdml",
+        "fileName": "SX_5_Whatever's Clever_vs_Los Angeles Lakers",
+        "extension": ".pdml"
+      },
+      "SX_6_The Steifens_vs_Midlothian Marauders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_6_The Steifens_vs_Midlothian Marauders.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_6_The Steifens_vs_Midlothian Marauders.pdml",
+        "fileName": "SX_6_The Steifens_vs_Midlothian Marauders",
+        "extension": ".pdml"
+      },
+      "SX_7_British Empire_vs_Super Dude.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_7_British Empire_vs_Super Dude.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_7_British Empire_vs_Super Dude.pdml",
+        "fileName": "SX_7_British Empire_vs_Super Dude",
+        "extension": ".pdml"
+      },
+      "SX_8_Mild Salsa_vs_IRA.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_8_Mild Salsa_vs_IRA.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_8_Mild Salsa_vs_IRA.pdml",
+        "fileName": "SX_8_Mild Salsa_vs_IRA",
+        "extension": ".pdml"
+      },
+      "SX_8_Mild Salsa_vs_The Steifens.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_8_Mild Salsa_vs_The Steifens.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_8_Mild Salsa_vs_The Steifens.pdml",
+        "fileName": "SX_8_Mild Salsa_vs_The Steifens",
+        "extension": ".pdml"
+      },
+      "SX_9_British Empire_vs_Midlothian Marauders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 10\\SX_9_British Empire_vs_Midlothian Marauders.pdml",
+        "relativePath": "Matches\\BCL Season 10\\SX_9_British Empire_vs_Midlothian Marauders.pdml",
+        "fileName": "SX_9_British Empire_vs_Midlothian Marauders",
+        "extension": ".pdml"
+      }
+    },
+    "BCL Season 11": {
+      "S11_2_EDL_vs_OJH.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 11\\S11_2_EDL_vs_OJH.pdml",
+        "relativePath": "Matches\\BCL Season 11\\S11_2_EDL_vs_OJH.pdml",
+        "fileName": "S11_2_EDL_vs_OJH",
+        "extension": ".pdml"
+      },
+      "S11_3_EDL_vs_OJH.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 11\\S11_3_EDL_vs_OJH.pdml",
+        "relativePath": "Matches\\BCL Season 11\\S11_3_EDL_vs_OJH.pdml",
+        "fileName": "S11_3_EDL_vs_OJH",
+        "extension": ".pdml"
+      }
+    },
+    "BCL Season 6": {
+      "S6_1_SWAT_vs_SawC.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 6\\S6_1_SWAT_vs_SawC.pdml",
+        "relativePath": "Matches\\BCL Season 6\\S6_1_SWAT_vs_SawC.pdml",
+        "fileName": "S6_1_SWAT_vs_SawC",
+        "extension": ".pdml"
+      }
+    },
+    "BCL Season 8": {
+      "S8_10_ZHU_vs_Hawg Riders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_10_ZHU_vs_Hawg Riders.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_10_ZHU_vs_Hawg Riders.pdml",
+        "fileName": "S8_10_ZHU_vs_Hawg Riders",
+        "extension": ".pdml"
+      },
+      "S8_11_SawC_vs_ZHU.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_11_SawC_vs_ZHU.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_11_SawC_vs_ZHU.pdml",
+        "fileName": "S8_11_SawC_vs_ZHU",
+        "extension": ".pdml"
+      },
+      "S8_12_Lumberjacks_vs_Kumalala.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_12_Lumberjacks_vs_Kumalala.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_12_Lumberjacks_vs_Kumalala.pdml",
+        "fileName": "S8_12_Lumberjacks_vs_Kumalala",
+        "extension": ".pdml"
+      },
+      "S8_13_Tha Kids_vs_Kumalala.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_13_Tha Kids_vs_Kumalala.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_13_Tha Kids_vs_Kumalala.pdml",
+        "fileName": "S8_13_Tha Kids_vs_Kumalala",
+        "extension": ".pdml"
+      },
+      "S8_14_SawC_vs_SWAT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_14_SawC_vs_SWAT.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_14_SawC_vs_SWAT.pdml",
+        "fileName": "S8_14_SawC_vs_SWAT",
+        "extension": ".pdml"
+      },
+      "S8_15_SawC_vs_Tha Kids.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_15_SawC_vs_Tha Kids.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_15_SawC_vs_Tha Kids.pdml",
+        "fileName": "S8_15_SawC_vs_Tha Kids",
+        "extension": ".pdml"
+      },
+      "S8_1_SWAT_vs_Kumalala.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_1_SWAT_vs_Kumalala.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_1_SWAT_vs_Kumalala.pdml",
+        "fileName": "S8_1_SWAT_vs_Kumalala",
+        "extension": ".pdml"
+      },
+      "S8_2_SawC_vs_OGYB.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_2_SawC_vs_OGYB.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_2_SawC_vs_OGYB.pdml",
+        "fileName": "S8_2_SawC_vs_OGYB",
+        "extension": ".pdml"
+      },
+      "S8_3_SWAT_vs_MeM.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 8\\S8_3_SWAT_vs_MeM.pdml",
+        "relativePath": "Matches\\BCL Season 8\\S8_3_SWAT_vs_MeM.pdml",
+        "fileName": "S8_3_SWAT_vs_MeM",
+        "extension": ".pdml"
+      }
+    },
+    "BCL Season 9": {
+      "S9_1_AnT_vs_ZHU.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_1_AnT_vs_ZHU.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_1_AnT_vs_ZHU.pdml",
+        "fileName": "S9_1_AnT_vs_ZHU",
+        "extension": ".pdml"
+      },
+      "S9_2_SWAT_vs_OGYB.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_2_SWAT_vs_OGYB.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_2_SWAT_vs_OGYB.pdml",
+        "fileName": "S9_2_SWAT_vs_OGYB",
+        "extension": ".pdml"
+      },
+      "S9_3_TRA_vs_ZHU.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_3_TRA_vs_ZHU.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_3_TRA_vs_ZHU.pdml",
+        "fileName": "S9_3_TRA_vs_ZHU",
+        "extension": ".pdml"
+      },
+      "S9_4_Plax Goons_vs_SWAT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_4_Plax Goons_vs_SWAT.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_4_Plax Goons_vs_SWAT.pdml",
+        "fileName": "S9_4_Plax Goons_vs_SWAT",
+        "extension": ".pdml"
+      },
+      "S9_5_TRA_vs_AnT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_5_TRA_vs_AnT.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_5_TRA_vs_AnT.pdml",
+        "fileName": "S9_5_TRA_vs_AnT",
+        "extension": ".pdml"
+      },
+      "S9_7_SWAT_vs_AnT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_7_SWAT_vs_AnT.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_7_SWAT_vs_AnT.pdml",
+        "fileName": "S9_7_SWAT_vs_AnT",
+        "extension": ".pdml"
+      },
+      "S9_8_OGYB_vs_Plax Goons.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_8_OGYB_vs_Plax Goons.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_8_OGYB_vs_Plax Goons.pdml",
+        "fileName": "S9_8_OGYB_vs_Plax Goons",
+        "extension": ".pdml"
+      },
+      "S9_9_OGYB_vs_SWAT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BCL Season 9\\S9_9_OGYB_vs_SWAT.pdml",
+        "relativePath": "Matches\\BCL Season 9\\S9_9_OGYB_vs_SWAT.pdml",
+        "fileName": "S9_9_OGYB_vs_SWAT",
+        "extension": ".pdml"
+      }
+    },
+    "BS Season 1 (Cha)": {
+      "BS S1 Chall_1.1_Darth Steelers_vs_Y-Wing.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_1.1_Darth Steelers_vs_Y-Wing.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_1.1_Darth Steelers_vs_Y-Wing.pdml",
+        "fileName": "BS S1 Chall_1.1_Darth Steelers_vs_Y-Wing",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_1.2_Oakland Vaders_vs_SWAT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_1.2_Oakland Vaders_vs_SWAT.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_1.2_Oakland Vaders_vs_SWAT.pdml",
+        "fileName": "BS S1 Chall_1.2_Oakland Vaders_vs_SWAT",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_1.3_Atlanta Falcons_vs_E11.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_1.3_Atlanta Falcons_vs_E11.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_1.3_Atlanta Falcons_vs_E11.pdml",
+        "fileName": "BS S1 Chall_1.3_Atlanta Falcons_vs_E11",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_2.1_SWAT_vs_Darth Steelers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_2.1_SWAT_vs_Darth Steelers.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_2.1_SWAT_vs_Darth Steelers.pdml",
+        "fileName": "BS S1 Chall_2.1_SWAT_vs_Darth Steelers",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_2.2_Y-Wing_vs_Atlanta Falcons.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_2.2_Y-Wing_vs_Atlanta Falcons.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_2.2_Y-Wing_vs_Atlanta Falcons.pdml",
+        "fileName": "BS S1 Chall_2.2_Y-Wing_vs_Atlanta Falcons",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_2.3_Bacta+_vs_Oakland Vaders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_2.3_Bacta+_vs_Oakland Vaders.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_2.3_Bacta+_vs_Oakland Vaders.pdml",
+        "fileName": "BS S1 Chall_2.3_Bacta+_vs_Oakland Vaders",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_3.1_Y-Wing_vs_SWAT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_3.1_Y-Wing_vs_SWAT.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_3.1_Y-Wing_vs_SWAT.pdml",
+        "fileName": "BS S1 Chall_3.1_Y-Wing_vs_SWAT",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_3.2_Atlanta Falcons_vs_Oakland Vaders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_3.2_Atlanta Falcons_vs_Oakland Vaders.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_3.2_Atlanta Falcons_vs_Oakland Vaders.pdml",
+        "fileName": "BS S1 Chall_3.2_Atlanta Falcons_vs_Oakland Vaders",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_3.3_E11_vs_Bacta+.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_3.3_E11_vs_Bacta+.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_3.3_E11_vs_Bacta+.pdml",
+        "fileName": "BS S1 Chall_3.3_E11_vs_Bacta+",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_4.1_E11_vs_Darth Steelers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_4.1_E11_vs_Darth Steelers.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_4.1_E11_vs_Darth Steelers.pdml",
+        "fileName": "BS S1 Chall_4.1_E11_vs_Darth Steelers",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_4.2_SWAT_vs_Bacta+.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_4.2_SWAT_vs_Bacta+.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_4.2_SWAT_vs_Bacta+.pdml",
+        "fileName": "BS S1 Chall_4.2_SWAT_vs_Bacta+",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_4.3_Y-Wing_vs_Oakland Vaders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_4.3_Y-Wing_vs_Oakland Vaders.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_4.3_Y-Wing_vs_Oakland Vaders.pdml",
+        "fileName": "BS S1 Chall_4.3_Y-Wing_vs_Oakland Vaders",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_5.1_Oakland Vaders_vs_Darth Steelers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_5.1_Oakland Vaders_vs_Darth Steelers.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_5.1_Oakland Vaders_vs_Darth Steelers.pdml",
+        "fileName": "BS S1 Chall_5.1_Oakland Vaders_vs_Darth Steelers",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_5.2_SWAT_vs_E11.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_5.2_SWAT_vs_E11.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_5.2_SWAT_vs_E11.pdml",
+        "fileName": "BS S1 Chall_5.2_SWAT_vs_E11",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_5.3_Bacta+_vs_Atlanta Falcons.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_5.3_Bacta+_vs_Atlanta Falcons.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_5.3_Bacta+_vs_Atlanta Falcons.pdml",
+        "fileName": "BS S1 Chall_5.3_Bacta+_vs_Atlanta Falcons",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_6.1_Oaklands Vaders_vs_E11.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_6.1_Oaklands Vaders_vs_E11.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_6.1_Oaklands Vaders_vs_E11.pdml",
+        "fileName": "BS S1 Chall_6.1_Oaklands Vaders_vs_E11",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_6.2_Darth Steelers_vs_Atlanta Falcons.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_6.2_Darth Steelers_vs_Atlanta Falcons.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_6.2_Darth Steelers_vs_Atlanta Falcons.pdml",
+        "fileName": "BS S1 Chall_6.2_Darth Steelers_vs_Atlanta Falcons",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_6.3_Bacta+_vs_Y-Wing.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_6.3_Bacta+_vs_Y-Wing.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_6.3_Bacta+_vs_Y-Wing.pdml",
+        "fileName": "BS S1 Chall_6.3_Bacta+_vs_Y-Wing",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_7.1_Darth Steelers_vs_Bacta+.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_7.1_Darth Steelers_vs_Bacta+.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_7.1_Darth Steelers_vs_Bacta+.pdml",
+        "fileName": "BS S1 Chall_7.1_Darth Steelers_vs_Bacta+",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_7.2_E11_vs_Y-Wing.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_7.2_E11_vs_Y-Wing.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_7.2_E11_vs_Y-Wing.pdml",
+        "fileName": "BS S1 Chall_7.2_E11_vs_Y-Wing",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_7.3_Atlanta Falcons_vs_SWAT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_7.3_Atlanta Falcons_vs_SWAT.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_7.3_Atlanta Falcons_vs_SWAT.pdml",
+        "fileName": "BS S1 Chall_7.3_Atlanta Falcons_vs_SWAT",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_8.1_SWAT_vs_Y-Wing.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_8.1_SWAT_vs_Y-Wing.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_8.1_SWAT_vs_Y-Wing.pdml",
+        "fileName": "BS S1 Chall_8.1_SWAT_vs_Y-Wing",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_8.2_E11_vs_Y-Wing.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_8.2_E11_vs_Y-Wing.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_8.2_E11_vs_Y-Wing.pdml",
+        "fileName": "BS S1 Chall_8.2_E11_vs_Y-Wing",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_8.3_E11_vs_SWAT.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_8.3_E11_vs_SWAT.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_8.3_E11_vs_SWAT.pdml",
+        "fileName": "BS S1 Chall_8.3_E11_vs_SWAT",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_9.1_Y-Wing_vs_Oackland Vaders.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_9.1_Y-Wing_vs_Oackland Vaders.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_9.1_Y-Wing_vs_Oackland Vaders.pdml",
+        "fileName": "BS S1 Chall_9.1_Y-Wing_vs_Oackland Vaders",
+        "extension": ".pdml"
+      },
+      "BS S1 Chall_9.2_SWAT_vs_Darth Steelers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Cha)\\BS S1 Chall_9.2_SWAT_vs_Darth Steelers.pdml",
+        "relativePath": "Matches\\BS Season 1 (Cha)\\BS S1 Chall_9.2_SWAT_vs_Darth Steelers.pdml",
+        "fileName": "BS S1 Chall_9.2_SWAT_vs_Darth Steelers",
+        "extension": ".pdml"
+      }
+    },
+    "BS Season 1 (Pro)": {
+      "BS S1 Pro_1.1_Undisputed_vs_Mohicans.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_1.1_Undisputed_vs_Mohicans.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_1.1_Undisputed_vs_Mohicans.pdml",
+        "fileName": "BS S1 Pro_1.1_Undisputed_vs_Mohicans",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_1.2_Plantation FC_vs_Big Sippers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_1.2_Plantation FC_vs_Big Sippers.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_1.2_Plantation FC_vs_Big Sippers.pdml",
+        "fileName": "BS S1 Pro_1.2_Plantation FC_vs_Big Sippers",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_2.1_Plantation FC_vs_2016 Leicester.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_2.1_Plantation FC_vs_2016 Leicester.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_2.1_Plantation FC_vs_2016 Leicester.pdml",
+        "fileName": "BS S1 Pro_2.1_Plantation FC_vs_2016 Leicester",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_2.2_Big Sippers_vs_Mohicans.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_2.2_Big Sippers_vs_Mohicans.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_2.2_Big Sippers_vs_Mohicans.pdml",
+        "fileName": "BS S1 Pro_2.2_Big Sippers_vs_Mohicans",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_3.1_Plantation FC_vs_Undisputed.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_3.1_Plantation FC_vs_Undisputed.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_3.1_Plantation FC_vs_Undisputed.pdml",
+        "fileName": "BS S1 Pro_3.1_Plantation FC_vs_Undisputed",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_3.2_2016 Leicester_vs_Big Sippers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_3.2_2016 Leicester_vs_Big Sippers.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_3.2_2016 Leicester_vs_Big Sippers.pdml",
+        "fileName": "BS S1 Pro_3.2_2016 Leicester_vs_Big Sippers",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_4.1_2016 Leicester_vs_Undisputed.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_4.1_2016 Leicester_vs_Undisputed.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_4.1_2016 Leicester_vs_Undisputed.pdml",
+        "fileName": "BS S1 Pro_4.1_2016 Leicester_vs_Undisputed",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_4.2_Mohicans_vs_Plantation FC.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_4.2_Mohicans_vs_Plantation FC.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_4.2_Mohicans_vs_Plantation FC.pdml",
+        "fileName": "BS S1 Pro_4.2_Mohicans_vs_Plantation FC",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_5.1_Mohicans_vs_2016 Leicester.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_5.1_Mohicans_vs_2016 Leicester.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_5.1_Mohicans_vs_2016 Leicester.pdml",
+        "fileName": "BS S1 Pro_5.1_Mohicans_vs_2016 Leicester",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_5.2_Undisputed_vs_Big Sippers.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_5.2_Undisputed_vs_Big Sippers.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_5.2_Undisputed_vs_Big Sippers.pdml",
+        "fileName": "BS S1 Pro_5.2_Undisputed_vs_Big Sippers",
+        "extension": ".pdml"
+      },
+      "BS S1 Pro_6.1_Undisputed_vs_Mohicans.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\BS Season 1 (Pro)\\BS S1 Pro_6.1_Undisputed_vs_Mohicans.pdml",
+        "relativePath": "Matches\\BS Season 1 (Pro)\\BS S1 Pro_6.1_Undisputed_vs_Mohicans.pdml",
+        "fileName": "BS S1 Pro_6.1_Undisputed_vs_Mohicans",
+        "extension": ".pdml"
+      }
+    },
+    "OPL Season 1 (Ama)": {
+      "OPLS1 AL_1.2_4Skinz_vs_BYC.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_1.2_4Skinz_vs_BYC.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_1.2_4Skinz_vs_BYC.pdml",
+        "fileName": "OPLS1 AL_1.2_4Skinz_vs_BYC",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_1.3_Tell That To Kanjiklub_vs_Suuslax.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_1.3_Tell That To Kanjiklub_vs_Suuslax.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_1.3_Tell That To Kanjiklub_vs_Suuslax.pdml",
+        "fileName": "OPLS1 AL_1.3_Tell That To Kanjiklub_vs_Suuslax",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_1.4_BFL_vs_LFG.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_1.4_BFL_vs_LFG.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_1.4_BFL_vs_LFG.pdml",
+        "fileName": "OPLS1 AL_1.4_BFL_vs_LFG",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_2.1_Bhocolate Bhip Bookies_vs_4Skinz.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.1_Bhocolate Bhip Bookies_vs_4Skinz.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.1_Bhocolate Bhip Bookies_vs_4Skinz.pdml",
+        "fileName": "OPLS1 AL_2.1_Bhocolate Bhip Bookies_vs_4Skinz",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_2.2_Tell That To Kanjiklub_vs_LFG.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.2_Tell That To Kanjiklub_vs_LFG.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.2_Tell That To Kanjiklub_vs_LFG.pdml",
+        "fileName": "OPLS1 AL_2.2_Tell That To Kanjiklub_vs_LFG",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_2.3_BYC_vs_FRA.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.3_BYC_vs_FRA.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.3_BYC_vs_FRA.pdml",
+        "fileName": "OPLS1 AL_2.3_BYC_vs_FRA",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_2.4_BFL_vs_Suuslax.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.4_BFL_vs_Suuslax.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_2.4_BFL_vs_Suuslax.pdml",
+        "fileName": "OPLS1 AL_2.4_BFL_vs_Suuslax",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_3.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_3.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_3.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub.pdml",
+        "fileName": "OPLS1 AL_3.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_3.2_LFG_vs_BYC.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_3.2_LFG_vs_BYC.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_3.2_LFG_vs_BYC.pdml",
+        "fileName": "OPLS1 AL_3.2_LFG_vs_BYC",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_3.3_BFL_vs_4Skinz.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_3.3_BFL_vs_4Skinz.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_3.3_BFL_vs_4Skinz.pdml",
+        "fileName": "OPLS1 AL_3.3_BFL_vs_4Skinz",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_4.1_LFG_vs_4Skinz.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_4.1_LFG_vs_4Skinz.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_4.1_LFG_vs_4Skinz.pdml",
+        "fileName": "OPLS1 AL_4.1_LFG_vs_4Skinz",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_5.1_Tell That To Kanjiklub_vs_4Skinz.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_5.1_Tell That To Kanjiklub_vs_4Skinz.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_5.1_Tell That To Kanjiklub_vs_4Skinz.pdml",
+        "fileName": "OPLS1 AL_5.1_Tell That To Kanjiklub_vs_4Skinz",
+        "extension": ".pdml"
+      },
+      "OPLS1 AL_6.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Ama)\\OPLS1 AL_6.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Ama)\\OPLS1 AL_6.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub.pdml",
+        "fileName": "OPLS1 AL_6.1_Bhocolate Bhip Bookies_vs_Tell That To Kanjiklub",
+        "extension": ".pdml"
+      }
+    },
+    "OPL Season 1 (GS)": {
+      "OPLS1 GS_10_BRO_vs_Bhocolate Bhip Bookies.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_10_BRO_vs_Bhocolate Bhip Bookies.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_10_BRO_vs_Bhocolate Bhip Bookies.pdml",
+        "fileName": "OPLS1 GS_10_BRO_vs_Bhocolate Bhip Bookies",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_11_Oak Forest High School_vs_LFG.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_11_Oak Forest High School_vs_LFG.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_11_Oak Forest High School_vs_LFG.pdml",
+        "fileName": "OPLS1 GS_11_Oak Forest High School_vs_LFG",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_12_DW Beaver_vs_4Skinz.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_12_DW Beaver_vs_4Skinz.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_12_DW Beaver_vs_4Skinz.pdml",
+        "fileName": "OPLS1 GS_12_DW Beaver_vs_4Skinz",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_13_Deathwatch_vs_BFL.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_13_Deathwatch_vs_BFL.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_13_Deathwatch_vs_BFL.pdml",
+        "fileName": "OPLS1 GS_13_Deathwatch_vs_BFL",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_14_DEA_vs_DWxNMW.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_14_DEA_vs_DWxNMW.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_14_DEA_vs_DWxNMW.pdml",
+        "fileName": "OPLS1 GS_14_DEA_vs_DWxNMW",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_15_Tell That To Kanjiklub_vs_DWxNMW.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_15_Tell That To Kanjiklub_vs_DWxNMW.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_15_Tell That To Kanjiklub_vs_DWxNMW.pdml",
+        "fileName": "OPLS1 GS_15_Tell That To Kanjiklub_vs_DWxNMW",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_16_Deathwatch_vs_FRA.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_16_Deathwatch_vs_FRA.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_16_Deathwatch_vs_FRA.pdml",
+        "fileName": "OPLS1 GS_16_Deathwatch_vs_FRA",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_17_Elmos Minions_vs_FRA.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_17_Elmos Minions_vs_FRA.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_17_Elmos Minions_vs_FRA.pdml",
+        "fileName": "OPLS1 GS_17_Elmos Minions_vs_FRA",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_18_Elmos Minions_vs_BFL.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_18_Elmos Minions_vs_BFL.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_18_Elmos Minions_vs_BFL.pdml",
+        "fileName": "OPLS1 GS_18_Elmos Minions_vs_BFL",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_19_Elmos Minions_vs_Deathwatch.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_19_Elmos Minions_vs_Deathwatch.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_19_Elmos Minions_vs_Deathwatch.pdml",
+        "fileName": "OPLS1 GS_19_Elmos Minions_vs_Deathwatch",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_1_DWxNMW_vs_Suuslax.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_1_DWxNMW_vs_Suuslax.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_1_DWxNMW_vs_Suuslax.pdml",
+        "fileName": "OPLS1 GS_1_DWxNMW_vs_Suuslax",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_20_DW Beaver_vs_Oak Forest High School.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_20_DW Beaver_vs_Oak Forest High School.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_20_DW Beaver_vs_Oak Forest High School.pdml",
+        "fileName": "OPLS1 GS_20_DW Beaver_vs_Oak Forest High School",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_21_BRO_vs_BYC.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_21_BRO_vs_BYC.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_21_BRO_vs_BYC.pdml",
+        "fileName": "OPLS1 GS_21_BRO_vs_BYC",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_22_BRO_vs_Myrmidons-DW.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_22_BRO_vs_Myrmidons-DW.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_22_BRO_vs_Myrmidons-DW.pdml",
+        "fileName": "OPLS1 GS_22_BRO_vs_Myrmidons-DW",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_2_4Skinz_vs_LFG.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_2_4Skinz_vs_LFG.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_2_4Skinz_vs_LFG.pdml",
+        "fileName": "OPLS1 GS_2_4Skinz_vs_LFG",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_3_DW Beaver_vs_LFG.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_3_DW Beaver_vs_LFG.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_3_DW Beaver_vs_LFG.pdml",
+        "fileName": "OPLS1 GS_3_DW Beaver_vs_LFG",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_4_Suuslax_vs_DEA.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_4_Suuslax_vs_DEA.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_4_Suuslax_vs_DEA.pdml",
+        "fileName": "OPLS1 GS_4_Suuslax_vs_DEA",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_5_BYC_vs_Bhocolate Bhip Bookies.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_5_BYC_vs_Bhocolate Bhip Bookies.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_5_BYC_vs_Bhocolate Bhip Bookies.pdml",
+        "fileName": "OPLS1 GS_5_BYC_vs_Bhocolate Bhip Bookies",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_6_Suuslax_vs_Tell That To Kanjiklub.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_6_Suuslax_vs_Tell That To Kanjiklub.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_6_Suuslax_vs_Tell That To Kanjiklub.pdml",
+        "fileName": "OPLS1 GS_6_Suuslax_vs_Tell That To Kanjiklub",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_7_FRA_vs_BFL.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_7_FRA_vs_BFL.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_7_FRA_vs_BFL.pdml",
+        "fileName": "OPLS1 GS_7_FRA_vs_BFL",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_8_Myrmidons-DW_vs_Bhocolate Bhip Bookies.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_8_Myrmidons-DW_vs_Bhocolate Bhip Bookies.pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_8_Myrmidons-DW_vs_Bhocolate Bhip Bookies.pdml",
+        "fileName": "OPLS1 GS_8_Myrmidons-DW_vs_Bhocolate Bhip Bookies",
+        "extension": ".pdml"
+      },
+      "OPLS1 GS_9_Myrmidons-DW_vs_BYC..pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (GS)\\OPLS1 GS_9_Myrmidons-DW_vs_BYC..pdml",
+        "relativePath": "Matches\\OPL Season 1 (GS)\\OPLS1 GS_9_Myrmidons-DW_vs_BYC..pdml",
+        "fileName": "OPLS1 GS_9_Myrmidons-DW_vs_BYC.",
+        "extension": ".pdml"
+      }
+    },
+    "OPL Season 1 (Pro)": {
+      "OPLS1 PL_1.2_NMW_vs_Oak Forest High School.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_1.2_NMW_vs_Oak Forest High School.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_1.2_NMW_vs_Oak Forest High School.pdml",
+        "fileName": "OPLS1 PL_1.2_NMW_vs_Oak Forest High School",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_1.3_Myrmidons_vs_BRO.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_1.3_Myrmidons_vs_BRO.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_1.3_Myrmidons_vs_BRO.pdml",
+        "fileName": "OPLS1 PL_1.3_Myrmidons_vs_BRO",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_1.4_Beaver_vs_Elmos Minions.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_1.4_Beaver_vs_Elmos Minions.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_1.4_Beaver_vs_Elmos Minions.pdml",
+        "fileName": "OPLS1 PL_1.4_Beaver_vs_Elmos Minions",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_2.1_Deathwatch_vs_NMW.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_2.1_Deathwatch_vs_NMW.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_2.1_Deathwatch_vs_NMW.pdml",
+        "fileName": "OPLS1 PL_2.1_Deathwatch_vs_NMW",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_2.2_Myrmidons_vs_Beaver.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_2.2_Myrmidons_vs_Beaver.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_2.2_Myrmidons_vs_Beaver.pdml",
+        "fileName": "OPLS1 PL_2.2_Myrmidons_vs_Beaver",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_3.1_Deathwatch_vs_Beaver.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_3.1_Deathwatch_vs_Beaver.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_3.1_Deathwatch_vs_Beaver.pdml",
+        "fileName": "OPLS1 PL_3.1_Deathwatch_vs_Beaver",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_3.2_Myrmidons_vs_Oak Forest High School.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_3.2_Myrmidons_vs_Oak Forest High School.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_3.2_Myrmidons_vs_Oak Forest High School.pdml",
+        "fileName": "OPLS1 PL_3.2_Myrmidons_vs_Oak Forest High School",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_3.3_NMW_vs_Elmos Minions.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_3.3_NMW_vs_Elmos Minions.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_3.3_NMW_vs_Elmos Minions.pdml",
+        "fileName": "OPLS1 PL_3.3_NMW_vs_Elmos Minions",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_4.1_NMW_vs_Oak Forest High School.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_4.1_NMW_vs_Oak Forest High School.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_4.1_NMW_vs_Oak Forest High School.pdml",
+        "fileName": "OPLS1 PL_4.1_NMW_vs_Oak Forest High School",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_5.1_Beaver_vs_NMW.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_5.1_Beaver_vs_NMW.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_5.1_Beaver_vs_NMW.pdml",
+        "fileName": "OPLS1 PL_5.1_Beaver_vs_NMW",
+        "extension": ".pdml"
+      },
+      "OPLS1 PL_6.1_Deathwatch_VS_NMW.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 1 (Pro)\\OPLS1 PL_6.1_Deathwatch_VS_NMW.pdml",
+        "relativePath": "Matches\\OPL Season 1 (Pro)\\OPLS1 PL_6.1_Deathwatch_VS_NMW.pdml",
+        "fileName": "OPLS1 PL_6.1_Deathwatch_VS_NMW",
+        "extension": ".pdml"
+      }
+    },
+    "OPL Season 2 (Ama)": {
+      "OPLS2 AL_1.1_SWAT_vs_HOMSC.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 2 (Ama)\\OPLS2 AL_1.1_SWAT_vs_HOMSC.pdml",
+        "relativePath": "Matches\\OPL Season 2 (Ama)\\OPLS2 AL_1.1_SWAT_vs_HOMSC.pdml",
+        "fileName": "OPLS2 AL_1.1_SWAT_vs_HOMSC",
+        "extension": ".pdml"
+      },
+      "OPLS2 AL_1.2_FRA_vs_JOF.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 2 (Ama)\\OPLS2 AL_1.2_FRA_vs_JOF.pdml",
+        "relativePath": "Matches\\OPL Season 2 (Ama)\\OPLS2 AL_1.2_FRA_vs_JOF.pdml",
+        "fileName": "OPLS2 AL_1.2_FRA_vs_JOF",
+        "extension": ".pdml"
+      },
+      "OPLS2 AL_1.3_Walker_vs_Suuslax.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 2 (Ama)\\OPLS2 AL_1.3_Walker_vs_Suuslax.pdml",
+        "relativePath": "Matches\\OPL Season 2 (Ama)\\OPLS2 AL_1.3_Walker_vs_Suuslax.pdml",
+        "fileName": "OPLS2 AL_1.3_Walker_vs_Suuslax",
+        "extension": ".pdml"
+      }
+    },
+    "OPL Season 2 (Pro)": {
+      "OPLS2 PL_1.1_FIF_vs_HAH.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 2 (Pro)\\OPLS2 PL_1.1_FIF_vs_HAH.pdml",
+        "relativePath": "Matches\\OPL Season 2 (Pro)\\OPLS2 PL_1.1_FIF_vs_HAH.pdml",
+        "fileName": "OPLS2 PL_1.1_FIF_vs_HAH",
+        "extension": ".pdml"
+      },
+      "OPLS2 PL_1.2_EDL_vs_MLV.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 2 (Pro)\\OPLS2 PL_1.2_EDL_vs_MLV.pdml",
+        "relativePath": "Matches\\OPL Season 2 (Pro)\\OPLS2 PL_1.2_EDL_vs_MLV.pdml",
+        "fileName": "OPLS2 PL_1.2_EDL_vs_MLV",
+        "extension": ".pdml"
+      },
+      "OPLS2 PL_1.3_ZIS_vs_Yeezus.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 2 (Pro)\\OPLS2 PL_1.3_ZIS_vs_Yeezus.pdml",
+        "relativePath": "Matches\\OPL Season 2 (Pro)\\OPLS2 PL_1.3_ZIS_vs_Yeezus.pdml",
+        "fileName": "OPLS2 PL_1.3_ZIS_vs_Yeezus",
+        "extension": ".pdml"
+      },
+      "OPLS2 PL_2.1_Yeezus_vs_EDL.pdml": {
+        "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Matches\\OPL Season 2 (Pro)\\OPLS2 PL_2.1_Yeezus_vs_EDL.pdml",
+        "relativePath": "Matches\\OPL Season 2 (Pro)\\OPLS2 PL_2.1_Yeezus_vs_EDL.pdml",
+        "fileName": "OPLS2 PL_2.1_Yeezus_vs_EDL",
+        "extension": ".pdml"
+      }
+    }
+  },
+  "Meta": {},
+  "Season Headers": {},
+  "series.pdml": {
+    "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\series.pdml",
+    "relativePath": "series.pdml",
+    "fileName": "series",
+    "extension": ".pdml"
+  },
+  "SX_10_Super Dude_vs_Whatever's Clever.pdml": {
+    "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\SX_10_Super Dude_vs_Whatever's Clever.pdml",
+    "relativePath": "SX_10_Super Dude_vs_Whatever's Clever.pdml",
+    "fileName": "SX_10_Super Dude_vs_Whatever's Clever",
+    "extension": ".pdml"
+  },
+  "TestNewSeries.pdml": {
+    "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\TestNewSeries.pdml",
+    "relativePath": "TestNewSeries.pdml",
+    "fileName": "TestNewSeries",
+    "extension": ".pdml"
+  }
 }

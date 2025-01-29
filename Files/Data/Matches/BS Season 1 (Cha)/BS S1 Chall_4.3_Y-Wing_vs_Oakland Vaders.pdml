@@ -1,0 +1,44 @@
+<series team1="Y-Wing" team2="Oakland Vaders.sri" round=4 index=3>
+	<match map="Jawa Refuge" timeLeft="00:00" gameMode="Drop Zone" server="US West">
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Sween" score=8850 kills=44 deaths=28/>
+			<playerScore name="KingCaldera" score=7325 kills=22 deaths=22/>
+			<playerScore name="Uliday" score=6950 kills=22 deaths=31/>
+			<playerScore name="Sarrows" score=4300 kills=12 deaths=21/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="FireBringer" score=9325 kills=33 deaths=38/>
+			<playerScore name="BFL-Ice" score=7450 kills=24 deaths=21/>
+			<playerScore name="CaZuaL" score=6075 kills=28 deaths=14/>
+			<playerScore name="Eky" score=5725 kills=16 deaths=27/>
+	</match>
+	<match map="Dune Sea" timeLeft="00:00" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="KingCaldera" score=8625 kills=31 deaths=34/>
+			<playerScore name="Sween" score=8525 kills=41 deaths=27/>
+			<playerScore name="Sarrows" score=5425 kills=17 deaths=31/>
+			<playerScore name="Uliday" score=5335 kills=24 deaths=36/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="FireBringer" score=10725 kills=50 deaths=34/>
+			<playerScore name="Eky" score=6900 kills=22 deaths=30/>
+			<playerScore name="BFL-Ice" score=6850 kills=25 deaths=28/>
+			<playerScore name="CaZuaL" score=6560 kills=30 deaths=22/>
+	</match>
+	<match map="Swamp Crash Site" timeLeft="01:38" gameMode="Drop Zone" server="US West">
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Uliday" score=6065 kills=24 deaths=16/>
+			<playerScore name="Sween" score=5825 kills=31 deaths=17/>
+			<playerScore name="KingCaldera" score=4275 kills=12 deaths=16/>
+			<playerScore name="Sarrows" score=3775 kills=8 deaths=23/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="FireBringer" score=7000 kills=32 deaths=22/>
+			<playerScore name="BFL-Ice" score=5325 kills=15 deaths=19/>
+			<playerScore name="CaZuaL" score=5430 kills=18 deaths=12/>
+			<playerScore name="Eky" score=4525 kills=7 deaths=23/>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,25 @@
+<series team1="Tell That To Kanjiklub" team2="DWxNMW.sri" round=0 index=15>
+	<match map="Dune Sea" timeLeft="00:-35" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Vic" score=9400 kills=20 deaths=37/>
+			<playerScore name="Tryhard" score=5925 kills=17 deaths=39/>
+			<playerScore name="Haztof" score=3200 kills=13 deaths=26/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Bazo" score=15250 kills=58 deaths=28/>
+			<playerScore name="Prometheus" score=13250 kills=42 deaths=22/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="00:07" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Vic" score=8100 kills=28 deaths=22/>
+			<playerScore name="Tryhard" score=6425 kills=15 deaths=24/>
+			<playerScore name="Haztof" score=2525 kills=7 deaths=30/>
+			<playerScore name="Alimpan" score=0 kills=0 deaths=0/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Bazo" score=10400 kills=37 deaths=26/>
+			<playerScore name="Prometheus" score=9375 kills=34 deaths=26/>
+		</teamScore>
+	</match>
+</series>

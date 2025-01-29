@@ -1,0 +1,72 @@
+<series team1="Los Angeles Lakers" team2="The Steifens.sri" round=0 index=4>
+	<match map="Sulfur Fields" timeLeft="02:39" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Unakkorn" score=6750 kills=27 deaths=20/>
+			<playerScore name="Hashemy" score=6330 kills=22 deaths=14/>
+			<playerScore name="Envy" score=6250 kills=23 deaths=20/>
+			<playerScore name="K3sharr" score=3425 kills=11 deaths=21/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Foggle" score=6275 kills=18 deaths=25/>
+			<playerScore name="Kurko" score=4505 kills=17 deaths=14/>
+			<playerScore name="Karnage" score=4400 kills=23 deaths=25/>
+			<playerScore name="Papl" score=3425 kills=15 deaths=14/>
+	</match>
+	<match map="Raider Camp" timeLeft="04:49" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Envy" score=5700 kills=24 deaths=22/>
+			<playerScore name="Hashemy" score=4110 kills=19 deaths=17/>
+			<playerScore name="Unakkorn" score=4100 kills=22 deaths=23/>
+			<playerScore name="K3sharr" score=2150 kills=5 deaths=20/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Foggle" score=7565 kills=21 deaths=19/>
+			<playerScore name="Karnage" score=6275 kills=27 deaths=23/>
+			<playerScore name="Kurko" score=5300 kills=15 deaths=17/>
+			<playerScore name="Papl" score=5000 kills=19 deaths=12/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="03:03" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Hashemy" score=9450 kills=38 deaths=18/>
+			<playerScore name="Envy" score=8375 kills=29 deaths=13/>
+			<playerScore name="Unakkorn" score=7725 kills=31 deaths=17/>
+			<playerScore name="K3sharr" score=5475 kills=10 deaths=24/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Foggle" score=6500 kills=21 deaths=31/>
+			<playerScore name="Kurko" score=4950 kills=17 deaths=27/>
+			<playerScore name="Karnage" score=4875 kills=18 deaths=25/>
+			<playerScore name="Papl" score=4000 kills=14 deaths=26/>
+	</match>
+	<match map="Dune Sea" timeLeft="05:34" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Hashemy" score=4640 kills=22 deaths=23/>
+			<playerScore name="Envy" score=4250 kills=19 deaths=26/>
+			<playerScore name="Unakkorn" score=4225 kills=22 deaths=25/>
+			<playerScore name="K3sharr" score=3550 kills=8 deaths=27/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Foggle" score=8195 kills=29 deaths=18/>
+			<playerScore name="Karnage" score=7600 kills=35 deaths=20/>
+			<playerScore name="Kurko" score=6300 kills=19 deaths=19/>
+			<playerScore name="Papl" score=5100 kills=18 deaths=15/>
+	</match>
+	<match map="Rebel Depot" timeLeft="03:07" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Hashemy" score=6140 kills=23 deaths=17/>
+			<playerScore name="Unakkorn" score=4975 kills=24 deaths=18/>
+			<playerScore name="Envy" score=4425 kills=17 deaths=22/>
+			<playerScore name="K3sharr" score=2650 kills=8 deaths=24/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Karnage" score=6550 kills=31 deaths=19/>
+			<playerScore name="Foggle" score=5780 kills=16 deaths=23/>
+			<playerScore name="Papl" score=5250 kills=16 deaths=15/>
+			<playerScore name="Kurko" score=5000 kills=19 deaths=17/>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,44 @@
+<series team1="EDL" team2="MLV.sri" round=1 index=2>
+	<match map="Dune Sea" timeLeft="-01:-05" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Kurko" score=8800 kills=24 deaths=40/>
+			<playerScore name="Foggle" score=8125 kills=34 deaths=41/>
+			<playerScore name="Slayz" score=8125 kills=35 deaths=40/>
+			<playerScore name="Prometheus" score=8075 kills=36 deaths=26/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Sween" score=10630 kills=41 deaths=27/>
+			<playerScore name="Falco" score=10150 kills=32 deaths=29/>
+			<playerScore name="Padis" score=8300 kills=40 deaths=38/>
+			<playerScore name="Gpooy" score=8275 kills=33 deaths=35/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="02:49" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Prometheus" score=5825 kills=26 deaths=21/>
+			<playerScore name="Kurko" score=5100 kills=15 deaths=27/>
+			<playerScore name="Foggle" score=4925 kills=20 deaths=29/>
+			<playerScore name="Slayz" score=4875 kills=19 deaths=22/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Falco" score=7850 kills=22 deaths=22/>
+			<playerScore name="Gpooy" score=6600 kills=26 deaths=16/>
+			<playerScore name="Padis" score=6475 kills=28 deaths=20/>
+			<playerScore name="Sween" score=5660 kills=23 deaths=22/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="-00:-41" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Kurko" score=7775 kills=19 deaths=29/>
+			<playerScore name="Foggle" score=7050 kills=23 deaths=24/>
+			<playerScore name="Prometheus" score=6850 kills=30 deaths=25/>
+			<playerScore name="Slayz" score=5600 kills=22 deaths=29/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Sween" score=9065 kills=41 deaths=20/>
+			<playerScore name="Padis" score=8150 kills=30 deaths=28/>
+			<playerScore name="Gpooy" score=6675 kills=15 deaths=20/>
+			<playerScore name="Falco" score=6150 kills=21 deaths=27/>
+		</teamScore>
+	</match>
+</series>

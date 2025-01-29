@@ -67,5 +67,4 @@ function convertFile(inputPath) {
     console.log(`Converted file saved to: ${outputPath}`);
 }
 
-const inputFilePath = "./Files/Data/SX_10_Super Dude_vs_Whatever's Clever.sri";
-convertFile(inputFilePath);
+module.exports = { convertFile };

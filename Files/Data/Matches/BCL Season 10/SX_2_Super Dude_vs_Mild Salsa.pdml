@@ -1,0 +1,44 @@
+<series team1="Super Dude" team2="Mild Salsa.sri" round=0 index=2>
+	<match map="Jawa Refuge" timeLeft="06:01" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Tio" score=4850 kills=18 deaths=17/>
+			<playerScore name="Vex" score=4775 kills=20 deaths=13/>
+			<playerScore name="Swaggy" score=4290 kills=14 deaths=8/>
+			<playerScore name="Mortal" score=4175 kills=13 deaths=9/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Fitality" score=3625 kills=20 deaths=18/>
+			<playerScore name="Voamz" score=2760 kills=9 deaths=16/>
+			<playerScore name="Cricken" score=2670 kills=9 deaths=18/>
+			<playerScore name="Hobo" score=2300 kills=7 deaths=15/>
+	</match>
+	<match map="Swamp Crash Site" timeLeft="02:45" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Tio" score=7975 kills=27 deaths=14/>
+			<playerScore name="Vex" score=5875 kills=26 deaths=15/>
+			<playerScore name="Swaggy" score=4785 kills=13 deaths=16/>
+			<playerScore name="Mortal" score=4325 kills=14 deaths=20/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Fitality" score=5100 kills=28 deaths=17/>
+			<playerScore name="Voamz" score=4655 kills=12 deaths=18/>
+			<playerScore name="Cricken" score=3775 kills=13 deaths=24/>
+			<playerScore name="Hobo" score=3225 kills=12 deaths=21/>
+	</match>
+	<match map="Dune Sea" timeLeft="03:40" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Tio" score=9575 kills=26 deaths=24/>
+			<playerScore name="Vex" score=7175 kills=29 deaths=22/>
+			<playerScore name="Swaggy" score=6320 kills=22 deaths=24/>
+			<playerScore name="Mortal" score=6100 kills=30 deaths=26/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Fitality" score=7750 kills=36 deaths=23/>
+			<playerScore name="Cricken" score=6415 kills=20 deaths=28/>
+			<playerScore name="Hobo" score=5450 kills=25 deaths=27/>
+			<playerScore name="Voamz" score=5330 kills=15 deaths=30/>
+		</teamScore>
+	</match>
+</series>

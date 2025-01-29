@@ -1,0 +1,26 @@
+<series team1="Suuslax" team2="Tell That To Kanjiklub.sri" round=0 index=6>
+	<match map="Jawa Refuge" timeLeft="08:41" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Wolf" score=1700 kills=8 deaths=16/>
+			<playerScore name="Joro" score=1250 kills=7 deaths=8/>
+			<playerScore name="Austrian Eagle" score=1150 kills=3 deaths=13/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=6450 kills=17 deaths=5/>
+			<playerScore name="DarkObitoS" score=4250 kills=13 deaths=5/>
+			<playerScore name="Tryhard" score=2200 kills=6 deaths=8/>
+	</match>
+	<match map="Rebel Base" timeLeft="00:51" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Wolf" score=4875 kills=27 deaths=24/>
+			<playerScore name="Joro" score=3400 kills=19 deaths=18/>
+			<playerScore name="Austrian Eagle" score=2675 kills=12 deaths=35/>
+		</teamScore>
+		<teamScore faction="Imperial" score=10>
+			<playerScore name="Vic" score=6500 kills=27 deaths=20/>
+			<playerScore name="DarkObitoS" score=5525 kills=32 deaths=19/>
+			<playerScore name="Tryhard" score=4275 kills=18 deaths=19/>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,54 @@
+<series team1="E11" team2="Bacta+.sri" round=3 index=3>
+	<match map="Sulfur Fields" timeLeft="07:19" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Kronix" score=4875 kills=9 deaths=6/>
+			<playerScore name="Cian" score=4700 kills=21 deaths=10/>
+			<playerScore name="Dajdog" score=2700 kills=8 deaths=8/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Sam-BTC" score=2025 kills=12 deaths=10/>
+			<playerScore name="Ugarte" score=2000 kills=7 deaths=15/>
+			<playerScore name="Redloz" score=1825 kills=5 deaths=14/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="-00:-06" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Kronix" score=10250 kills=23 deaths=22/>
+			<playerScore name="Cian" score=8100 kills=35 deaths=29/>
+			<playerScore name="Dajdog" score=6375 kills=20 deaths=21/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Sam-BTC" score=7875 kills=33 deaths=28/>
+			<playerScore name="Ugarte" score=7400 kills=22 deaths=20/>
+			<playerScore name="Redloz" score=7350 kills=15 deaths=31/>
+	</match>
+	<match map="Raider Camp" timeLeft="06:15" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Cian" score=6075 kills=32 deaths=9/>
+			<playerScore name="Kronix" score=6000 kills=13 deaths=9/>
+			<playerScore name="XLand" score=4425 kills=17 deaths=13/>
+			<playerScore name="Dajdog" score=3400 kills=11 deaths=11/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="BFL-Ice" score=4125 kills=16 deaths=15/>
+			<playerScore name="Emmanuel" score=2850 kills=8 deaths=17/>
+			<playerScore name="Redloz" score=2550 kills=6 deaths=24/>
+			<playerScore name="Kygin" score=2050 kills=10 deaths=18/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="05:54" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="XLand" score=5600 kills=20 deaths=15/>
+			<playerScore name="Kronix" score=5575 kills=13 deaths=9/>
+			<playerScore name="Dajdog" score=5240 kills=21 deaths=7/>
+			<playerScore name="Cian" score=4875 kills=20 deaths=11/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="BFL-Ice" score=3200 kills=11 deaths=18/>
+			<playerScore name="Emmanuel" score=2850 kills=13 deaths=18/>
+			<playerScore name="Kygin" score=2225 kills=12 deaths=18/>
+			<playerScore name="Redloz" score=1925 kills=6 deaths=21/>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,58 @@
+<series team1="SWAT" team2="Kumalala.sri" round=0 index=1>
+	<match map="Dune Sea" timeLeft="01:35" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Vic" score=7100 kills=18 deaths=34/>
+			<playerScore name="Foggle" score=6850 kills=32 deaths=27/>
+			<playerScore name="Subsided" score=5600 kills=31 deaths=35/>
+			<playerScore name="Laguiza" score=4990 kills=21 deaths=27/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Alimpan" score=8850 kills=31 deaths=22/>
+			<playerScore name="Prometheus" score=8550 kills=38 deaths=21/>
+			<playerScore name="Diego" score=8385 kills=30 deaths=33/>
+			<playerScore name="Iamenedo" score=5925 kills=23 deaths=27/>
+	</match>
+	<match map="Raider Camp" timeLeft="03:54" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=6600 kills=10 deaths=18/>
+			<playerScore name="Foggle" score=5250 kills=32 deaths=21/>
+			<playerScore name="Subsided" score=5975 kills=25 deaths=20/>
+			<playerScore name="Laguiza" score=4490 kills=11 deaths=14/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Alimpan" score=3875 kills=13 deaths=17/>
+			<playerScore name="Prometheus" score=5000 kills=19 deaths=18/>
+			<playerScore name="Diego" score=5195 kills=17 deaths=22/>
+			<playerScore name="Iamenedo" score=4575 kills=21 deaths=20/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="00:11" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vic" score=8575 kills=22 deaths=30/>
+			<playerScore name="Foggle" score=5250 kills=32 deaths=21/>
+			<playerScore name="Subsided" score=5975 kills=25 deaths=20/>
+			<playerScore name="Laguiza" score=4490 kills=11 deaths=14/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Alimpan" score=7325 kills=27 deaths=24/>
+			<playerScore name="Shadows" score=7125 kills=25 deaths=39/>
+			<playerScore name="Diego" score=7905 kills=31 deaths=36/>
+			<playerScore name="Iamenedo" score=6175 kills=23 deaths=27/>
+	</match>
+	<match map="Rebel Depot" timeLeft="02:05" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=6800 kills=19 deaths=16/>
+			<playerScore name="Foggle" score=7375 kills=27 deaths=27/>
+			<playerScore name="Subsided" score=6250 kills=28 deaths=20/>
+			<playerScore name="Laguiza" score=5925 kills=23 deaths=12/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Amjedjohn" score=5175 kills=20 deaths=19/>
+			<playerScore name="Shadows" score=4850 kills=23 deaths=33/>
+			<playerScore name="Diego" score=5025 kills=17 deaths=24/>
+			<playerScore name="Iamenedo" score=5600 kills=14 deaths=22/>
+		</teamScore>
+	</match>
+</series>

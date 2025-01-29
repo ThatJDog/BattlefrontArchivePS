@@ -1,0 +1,30 @@
+<series team1="AnT" team2="ZHU.sri" round=0 index=1>
+	<match map="Goazon Badlands" timeLeft="05:47" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Prometheus" score=7275 kills=29 deaths=9/>
+			<playerScore name="Vanarin" score=7075 kills=27 deaths=7/>
+			<playerScore name="Slayz" score=5195 kills=16 deaths=9/>
+			<playerScore name="Iamenedo" score=4830 kills=17 deaths=10/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Coloses" score=2595 kills=12 deaths=21/>
+			<playerScore name="SymmPhonic" score=2575 kills=6 deaths=20/>
+			<playerScore name="Blue" score=2525 kills=8 deaths=25/>
+			<playerScore name="Shadows" score=1575 kills=9 deaths=23/>
+	</match>
+	<match map="Deathstar" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=6>
+			<playerScore name="Vanarin" score=4825 kills=22 deaths=12/>
+			<playerScore name="Prometheus" score=4425 kills=32 deaths=20/>
+			<playerScore name="Keyys" score=3505 kills=20 deaths=20/>
+			<playerScore name="Slayz" score=3200 kills=19 deaths=6/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Shadows" score=2825 kills=17 deaths=38/>
+			<playerScore name="Coloses" score=2755 kills=15 deaths=20/>
+			<playerScore name="Blue" score=2375 kills=13 deaths=13/>
+			<playerScore name="SymmPhonic" score=2025 kills=10 deaths=26/>
+		</teamScore>
+	</match>
+</series>

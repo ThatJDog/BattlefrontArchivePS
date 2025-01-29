@@ -1,0 +1,58 @@
+<series team1="British Empire" team2="Midlothian Marauders.sri" round=0 index=13>
+	<match map="Swamp Crash Site" timeLeft="00:52" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Foggle" score=9375 kills=37 deaths=25/>
+			<playerScore name="Diego" score=6625 kills=16 deaths=19/>
+			<playerScore name="Prometheus" score=8525 kills=23 deaths=23/>
+			<playerScore name="Slayz" score=6350 kills=23 deaths=27/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Rage" score=5150 kills=27 deaths=25/>
+			<playerScore name="TheSup" score=6425 kills=23 deaths=30/>
+			<playerScore name="Bdozen" score=6600 kills=24 deaths=25/>
+			<playerScore name="Quipsy" score=7255 kills=19 deaths=21/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="06:28" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Foggle" score=3680 kills=12 deaths=17/>
+			<playerScore name="Diego" score=3425 kills=15 deaths=20/>
+			<playerScore name="Prometheus" score=3300 kills=11 deaths=13/>
+			<playerScore name="Slayz" score=1925 kills=8 deaths=15/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Rage" score=4675 kills=18 deaths=11/>
+			<playerScore name="TheSup" score=4100 kills=17 deaths=15/>
+			<playerScore name="Bdozen" score=4450 kills=15 deaths=13/>
+			<playerScore name="Quipsy" score=6045 kills=14 deaths=7/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="05:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Foggle" score=8010 kills=33 deaths=14/>
+			<playerScore name="Diego" score=5500 kills=16 deaths=13/>
+			<playerScore name="Prometheus" score=7075 kills=30 deaths=13/>
+			<playerScore name="Slayz" score=5325 kills=18 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Rage" score=3650 kills=15 deaths=22/>
+			<playerScore name="TheSup" score=3400 kills=14 deaths=25/>
+			<playerScore name="Bdozen" score=4300 kills=13 deaths=26/>
+			<playerScore name="Quipsy" score=3435 kills=12 deaths=24/>
+	</match>
+	<match map="Twilight On Hoth" timeLeft="02:37" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Foggle" score=7175 kills=24 deaths=19/>
+			<playerScore name="Diego" score=6825 kills=24 deaths=23/>
+			<playerScore name="Prometheus" score=6800 kills=24 deaths=17/>
+			<playerScore name="Slayz" score=5800 kills=26 deaths=19/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Rage" score=6225 kills=20 deaths=25/>
+			<playerScore name="TheSup" score=5650 kills=27 deaths=31/>
+			<playerScore name="Bdozen" score=5625 kills=18 deaths=23/>
+			<playerScore name="Quipsy" score=3530 kills=12 deaths=19/>
+		</teamScore>
+	</match>
+</series>

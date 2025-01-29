@@ -1,0 +1,44 @@
+<series team1="2016 Leicester" team2="Undisputed.sri" round=4 index=1>
+	<match map="Twilight On Hoth" timeLeft="05:08" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Prometheus" score=3800 kills=16 deaths=24/>
+			<playerScore name="Vanarin" score=4030 kills=15 deaths=20/>
+			<playerScore name="Tio" score=2550 kills=9 deaths=19/>
+			<playerScore name="Hildingsson" score=2500 kills=6 deaths=21/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Appolo" score=5625 kills=25 deaths=14/>
+			<playerScore name="Subsided" score=5545 kills=17 deaths=11/>
+			<playerScore name="Karnage" score=5475 kills=17 deaths=11/>
+			<playerScore name="Foggle" score=5300 kills=23 deaths=11/>
+	</match>
+	<match map="Dune Sea" timeLeft="05:28" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Prometheus" score=4825 kills=24 deaths=23/>
+			<playerScore name="Vanarin" score=3935 kills=21 deaths=25/>
+			<playerScore name="Tio" score=3575 kills=14 deaths=24/>
+			<playerScore name="Hildingsson" score=4675 kills=14 deaths=24/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Appolo" score=5000 kills=19 deaths=20/>
+			<playerScore name="Subsided" score=6855 kills=19 deaths=20/>
+			<playerScore name="Karnage" score=6775 kills=29 deaths=20/>
+			<playerScore name="Foggle" score=5700 kills=26 deaths=17/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="06:20" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Hildingsson" score=3325 kills=10 deaths=17/>
+			<playerScore name="Tio" score=3275 kills=13 deaths=21/>
+			<playerScore name="Vanarin" score=3085 kills=11 deaths=19/>
+			<playerScore name="Prometheus" score=2675 kills=10 deaths=17/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Karnage" score=6425 kills=25 deaths=9/>
+			<playerScore name="Subsided" score=5540 kills=11 deaths=10/>
+			<playerScore name="Appolo" score=5000 kills=15 deaths=15/>
+			<playerScore name="Foggle" score=4850 kills=22 deaths=13/>
+		</teamScore>
+	</match>
+</series>

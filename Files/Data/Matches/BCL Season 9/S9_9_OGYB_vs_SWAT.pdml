@@ -1,0 +1,30 @@
+<series team1="OGYB" team2="SWAT.sri" round=0 index=9>
+	<match map="Dune Sea" timeLeft="-04:34" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Vex" score=12200 kills=57 deaths=38/>
+			<playerScore name="Falco" score=12150 kills=47 deaths=42/>
+			<playerScore name="Hobo" score=11595 kills=35 deaths=51/>
+			<playerScore name="Swaggy" score=10120 kills=42 deaths=45/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Vic" score=12645 kills=40 deaths=48/>
+			<playerScore name="Tryhard" score=10665 kills=27 deaths=43/>
+			<playerScore name="Foggle" score=10525 kills=54 deaths=44/>
+			<playerScore name="Bazo" score=10450 kills=52 deaths=49/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="-00:13" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Swaggy" score=8385 kills=28 deaths=23/>
+			<playerScore name="Vex" score=8075 kills=39 deaths=19/>
+			<playerScore name="Falco" score=7225 kills=24 deaths=24/>
+			<playerScore name="Hobo" score=6600 kills=23 deaths=28/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Foggle" score=8525 kills=31 deaths=29/>
+			<playerScore name="Bazo" score=7250 kills=36 deaths=30/>
+			<playerScore name="Tryhard" score=5650 kills=13 deaths=31/>
+			<playerScore name="Vic" score=5300 kills=13 deaths=24/>
+		</teamScore>
+	</match>
+</series>

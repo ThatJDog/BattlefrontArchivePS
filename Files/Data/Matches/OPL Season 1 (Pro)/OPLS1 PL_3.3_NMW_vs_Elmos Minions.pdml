@@ -1,0 +1,20 @@
+<series team1="NMW" team2="Elmos Minions.sri" round=3 index=3>
+	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+	</match>
+	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+	</match>
+	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+</series>

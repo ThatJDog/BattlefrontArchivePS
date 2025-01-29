@@ -1,0 +1,38 @@
+<series team1="SWAT" team2="Bacta+.sri" round=4 index=2>
+	<match map="Jawa Refuge" timeLeft="08:05" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Haztof" score=4675 kills=13 deaths=4/>
+			<playerScore name="Alimpan" score=3650 kills=13 deaths=1/>
+			<playerScore name="Laguiza" score=3625 kills=13 deaths=3/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="DarkSmile" score=1255 kills=3 deaths=14/>
+			<playerScore name="Betfroont" score=1175 kills=4 deaths=13/>
+			<playerScore name="Ugarte" score=1100 kills=1 deaths=14/>
+	</match>
+	<match map="Dune Sea" timeLeft="04:07" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Laguiza" score=7325 kills=22 deaths=17/>
+			<playerScore name="Alimpan" score=7150 kills=27 deaths=12/>
+			<playerScore name="Haztof" score=6150 kills=24 deaths=14/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="DarkSmile" score=5010 kills=13 deaths=25/>
+			<playerScore name="Betfroont" score=3975 kills=13 deaths=25/>
+			<playerScore name="Ugarte" score=3500 kills=17 deaths=25/>
+	</match>
+	<match map="Rebel Depot" timeLeft="03:08" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Alimpan" score=5975 kills=25 deaths=10/>
+			<playerScore name="Laguiza" score=5675 kills=14 deaths=13/>
+			<playerScore name="Haztof" score=3950 kills=15 deaths=14/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="DarkSmile" score=4215 kills=10 deaths=18/>
+			<playerScore name="Betfroont" score=4150 kills=16 deaths=18/>
+			<playerScore name="Ugarte" score=3850 kills=11 deaths=18/>
+		</teamScore>
+	</match>
+</series>

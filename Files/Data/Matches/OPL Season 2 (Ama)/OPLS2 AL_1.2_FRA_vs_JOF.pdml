@@ -1,0 +1,38 @@
+<series team1="FRA" team2="JOF.sri" round=1 index=2>
+	<match map="Jawa Refuge" timeLeft="06:15" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Redloz" score=3825 kills=8 deaths=24/>
+			<playerScore name="Xonei" score=2825 kills=6 deaths=21/>
+			<playerScore name="Spaghetti" score=2400 kills=7 deaths=19/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Gromme" score=7400 kills=21 deaths=6/>
+			<playerScore name="Gswede" score=6225 kills=18 deaths=9/>
+			<playerScore name="Rayanswag" score=5900 kills=21 deaths=6/>
+	</match>
+	<match map="Dune Sea" timeLeft="04:17" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Spaghetti" score=6850 kills=25 deaths=33/>
+			<playerScore name="Redloz" score=4440 kills=7 deaths=29/>
+			<playerScore name="Xonei" score=3550 kills=19 deaths=27/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Gromme" score=9425 kills=35 deaths=19/>
+			<playerScore name="Gswede" score=7975 kills=27 deaths=16/>
+			<playerScore name="Rayanswag" score=6430 kills=25 deaths=17/>
+	</match>
+	<match map="Sulfur Fields" timeLeft="08:14" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Xonei" score=1325 kills=4 deaths=16/>
+			<playerScore name="Spaghetti" score=775 kills=3 deaths=18/>
+			<playerScore name="Redloz" score=760 kills=4 deaths=15/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Gswede" score=6300 kills=18 deaths=4/>
+			<playerScore name="Gromme" score=4475 kills=16 deaths=5/>
+			<playerScore name="Rayanswag" score=3555 kills=15 deaths=3/>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,86 @@
+<series team1="SawC" team2="SWAT.sri" round=0 index=14>
+	<match map="Raider Camp" timeLeft="00:36" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Spree" score=7525 kills=30 deaths=29/>
+			<playerScore name="Shadows" score=6350 kills=24 deaths=29/>
+			<playerScore name="Sarrows" score=5525 kills=21 deaths=24/>
+			<playerScore name="Uliday" score=5055 kills=20 deaths=23/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Foggle" score=9155 kills=43 deaths=22/>
+			<playerScore name="Subsided" score=6875 kills=31 deaths=25/>
+			<playerScore name="Vic" score=5950 kills=19 deaths=24/>
+			<playerScore name="Laguiza" score=5650 kills=11 deaths=27/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="00:07" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Shadows" score=8150 kills=34 deaths=34/>
+			<playerScore name="Uliday" score=7585 kills=18 deaths=29/>
+			<playerScore name="Spree" score=6950 kills=31 deaths=34/>
+			<playerScore name="Sarrows" score=5125 kills=11 deaths=27/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Foggle" score=9705 kills=38 deaths=22/>
+			<playerScore name="Vic" score=9075 kills=27 deaths=23/>
+			<playerScore name="Subsided" score=9025 kills=42 deaths=26/>
+			<playerScore name="Laguiza" score=5600 kills=17 deaths=23/>
+	</match>
+	<match map="Rebel Depot" timeLeft="06:51" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Spree" score=5425 kills=25 deaths=10/>
+			<playerScore name="Shadows" score=4435 kills=12 deaths=15/>
+			<playerScore name="Sarrows" score=3900 kills=14 deaths=5/>
+			<playerScore name="Uliday" score=2700 kills=11 deaths=10/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Foggle" score=2775 kills=9 deaths=13/>
+			<playerScore name="Subsided" score=2225 kills=14 deaths=17/>
+			<playerScore name="Vic" score=2025 kills=10 deaths=19/>
+			<playerScore name="Laguiza" score=1725 kills=7 deaths=14/>
+	</match>
+	<match map="Dune Sea" timeLeft="02:07" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Shadows" score=10945 kills=43 deaths=27/>
+			<playerScore name="Spree" score=10225 kills=48 deaths=29/>
+			<playerScore name="Uliday" score=6940 kills=18 deaths=28/>
+			<playerScore name="Sarrows" score=6800 kills=28 deaths=22/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Foggle" score=8325 kills=35 deaths=29/>
+			<playerScore name="Vic" score=7575 kills=30 deaths=35/>
+			<playerScore name="Subsided" score=7250 kills=29 deaths=33/>
+			<playerScore name="Laguiza" score=4925 kills=11 deaths=41/>
+	</match>
+	<match map="Swamp Crash Site" timeLeft="00:06" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Shadows" score=8355 kills=34 deaths=22/>
+			<playerScore name="Spree" score=6375 kills=27 deaths=23/>
+			<playerScore name="Uliday" score=4805 kills=17 deaths=19/>
+			<playerScore name="Sarrows" score=3900 kills=12 deaths=19/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Foggle" score=7075 kills=27 deaths=18/>
+			<playerScore name="Vic" score=6150 kills=21 deaths=23/>
+			<playerScore name="Subsided" score=5500 kills=25 deaths=23/>
+			<playerScore name="Laguiza" score=3735 kills=9 deaths=19/>
+	</match>
+	<match map="Ice Caves" timeLeft="02:59" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Shadows" score=8525 kills=30 deaths=26/>
+			<playerScore name="Spree" score=5875 kills=27 deaths=22/>
+			<playerScore name="Uliday" score=5290 kills=19 deaths=23/>
+			<playerScore name="Sarrows" score=3500 kills=11 deaths=16/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Foggle" score=5500 kills=28 deaths=20/>
+			<playerScore name="Vic" score=5125 kills=22 deaths=24/>
+			<playerScore name="Laguiza" score=4900 kills=14 deaths=20/>
+			<playerScore name="Subsided" score=4675 kills=21 deaths=25/>
+		</teamScore>
+	</match>
+</series>

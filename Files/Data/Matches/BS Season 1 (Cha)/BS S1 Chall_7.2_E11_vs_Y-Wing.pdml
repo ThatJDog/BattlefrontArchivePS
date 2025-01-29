@@ -1,0 +1,58 @@
+<series team1="E11" team2="Y-Wing.sri" round=7 index=2>
+	<match map="Dune Sea" timeLeft="-01:-30" gameMode="Drop Zone" server="US East">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="XLand" score=13250 kills=53 deaths=25/>
+			<playerScore name="Cian" score=10850 kills=45 deaths=32/>
+			<playerScore name="QuiteGoneG" score=9450 kills=32 deaths=38/>
+			<playerScore name="M4TT3 BL4CK" score=7725 kills=19 deaths=37/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="KingCaldera" score=11430 kills=33 deaths=38/>
+			<playerScore name="OMB-Xan" score=8850 kills=45 deaths=40/>
+			<playerScore name="BFL-Ice" score=7800 kills=29 deaths=34/>
+			<playerScore name="Sarrows" score=5925 kills=25 deaths=39/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="01:02" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="QuiteGoneG" score=6775 kills=21 deaths=21/>
+			<playerScore name="XLand" score=6450 kills=30 deaths=26/>
+			<playerScore name="MysticSwaggy" score=6350 kills=16 deaths=19/>
+			<playerScore name="Cian" score=5550 kills=25 deaths=24/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="KingCaldera" score=7650 kills=25 deaths=27/>
+			<playerScore name="OMB-Xan" score=7650 kills=32 deaths=24/>
+			<playerScore name="BFL-Ice" score=5125 kills=20 deaths=23/>
+			<playerScore name="Sarrows" score=4900 kills=13 deaths=20/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="03:37" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="MysticSwaggy" score=6100 kills=19 deaths=17/>
+			<playerScore name="Cian" score=5950 kills=19 deaths=16/>
+			<playerScore name="XLand" score=5550 kills=22 deaths=19/>
+			<playerScore name="QuiteGoneG" score=5025 kills=14 deaths=22/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="KingCaldera" score=6365 kills=19 deaths=21/>
+			<playerScore name="OMB-Xan" score=5850 kills=26 deaths=20/>
+			<playerScore name="BFL-Ice" score=4275 kills=17 deaths=14/>
+			<playerScore name="Sarrows" score=3325 kills=12 deaths=23/>
+	</match>
+	<match map="Raider Camp" timeLeft="-00:-30" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Cian" score=9650 kills=33 deaths=28/>
+			<playerScore name="XLand" score=7950 kills=32 deaths=27/>
+			<playerScore name="QuiteGoneG" score=6795 kills=17 deaths=25/>
+			<playerScore name="Kronix" score=3900 kills=16 deaths=22/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="KingCaldera" score=8025 kills=21 deaths=25/>
+			<playerScore name="OMB-Xan" score=7325 kills=39 deaths=25/>
+			<playerScore name="Sarrows" score=7300 kills=23 deaths=28/>
+			<playerScore name="BFL-Ice" score=5590 kills=17 deaths=24/>
+		</teamScore>
+	</match>
+</series>

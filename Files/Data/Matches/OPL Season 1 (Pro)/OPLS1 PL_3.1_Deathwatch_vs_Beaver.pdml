@@ -1,0 +1,114 @@
+<series team1="Deathwatch" team2="Beaver.sri" round=3 index=1>
+	<match map="Jawa Refuge" timeLeft="01:54" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Unakkorn" score=11250 kills=23 deaths=26/>
+			<playerScore name="Vanarin" score=7070 kills=31 deaths=18/>
+			<playerScore name="Hashemy" score=6375 kills=25 deaths=17/>
+			<playerScore name="Spree" score=6050 kills=26 deaths=23/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Goudapest" score=7300 kills=15 deaths=32/>
+			<playerScore name="Vex" score=7000 kills=30 deaths=22/>
+			<playerScore name="Padis" score=5825 kills=23 deaths=30/>
+			<playerScore name="Swaggy" score=4010 kills=16 deaths=22/>
+	</match>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Unakkorn" score=4225 kills=21 deaths=25/>
+			<playerScore name="Hashemy" score=3650 kills=21 deaths=12/>
+			<playerScore name="Spree" score=3450 kills=18 deaths=23/>
+			<playerScore name="Vanarin" score=2880 kills=15 deaths=12/>
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Goudapest" score=4325 kills=18 deaths=28/>
+			<playerScore name="Padis" score=4050 kills=20 deaths=27/>
+			<playerScore name="Vex" score=4025 kills=20 deaths=8/>
+			<playerScore name="Swaggy" score=2670 kills=14 deaths=12/>
+	</match>
+	<match map="Sulfur Fields" timeLeft="00:50" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Unakkorn" score=8575 kills=22 deaths=27/>
+			<playerScore name="Vanarin" score=6445 kills=27 deaths=19/>
+			<playerScore name="Spree" score=5675 kills=25 deaths=27/>
+			<playerScore name="Hashemy" score=5225 kills=22 deaths=18/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Vex" score=6900 kills=28 deaths=21/>
+			<playerScore name="Goudapest" score=6100 kills=21 deaths=28/>
+			<playerScore name="Swaggy" score=5225 kills=24 deaths=22/>
+			<playerScore name="Padis" score=5200 kills=16 deaths=26/>
+	</match>
+	<match map="Imperial Station" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Spree" score=4475 kills=28 deaths=24/>
+			<playerScore name="Unakkorn" score=4250 kills=16 deaths=39/>
+			<playerScore name="Hashemy" score=3350 kills=19 deaths=13/>
+			<playerScore name="Vanarin" score=2905 kills=17 deaths=16/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Goudapest" score=5050 kills=28 deaths=23/>
+			<playerScore name="Swaggy" score=4860 kills=21 deaths=13/>
+			<playerScore name="Padis" score=4400 kills=21 deaths=25/>
+			<playerScore name="Vex" score=4225 kills=19 deaths=20/>
+	</match>
+	<match map="Imperial Station" timeLeft="10:05" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Vanarin" score=1640 kills=10 deaths=4/>
+			<playerScore name="Hashemy" score=1125 kills=5 deaths=8/>
+			<playerScore name="Unakkorn" score=825 kills=5 deaths=12/>
+			<playerScore name="Spree" score=675 kills=4 deaths=6/>
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Padis" score=1625 kills=12 deaths=9/>
+			<playerScore name="Vex" score=1425 kills=7 deaths=3/>
+			<playerScore name="Swaggy" score=1215 kills=7 deaths=5/>
+			<playerScore name="Goudapest" score=1200 kills=4 deaths=7/>
+	</match>
+	<match map="Goazon Badlands" timeLeft="01:54" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Unakkorn" score=8125 kills=23 deaths=28/>
+			<playerScore name="Spree" score=7175 kills=32 deaths=21/>
+			<playerScore name="Vanarin" score=6690 kills=24 deaths=9/>
+			<playerScore name="Hashemy" score=6200 kills=26 deaths=16/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Vex" score=6950 kills=21 deaths=23/>
+			<playerScore name="Goudapest" score=5925 kills=13 deaths=28/>
+			<playerScore name="Swaggy" score=4885 kills=18 deaths=22/>
+			<playerScore name="Padis" score=4050 kills=20 deaths=33/>
+	</match>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Spree" score=4125 kills=25 deaths=26/>
+			<playerScore name="Hashemy" score=3875 kills=24 deaths=21/>
+			<playerScore name="Unakkorn" score=3475 kills=15 deaths=41/>
+			<playerScore name="Vanarin" score=1705 kills=5 deaths=11/>
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Vex" score=5425 kills=25 deaths=10/>
+			<playerScore name="Swaggy" score=4580 kills=29 deaths=16/>
+			<playerScore name="Goudapest" score=4175 kills=21 deaths=20/>
+			<playerScore name="Padis" score=3675 kills=24 deaths=24/>
+	</match>
+	<match map="Swamp Crash Site" timeLeft="00:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Spree" score=8750 kills=37 deaths=26/>
+			<playerScore name="Unakkorn" score=7750 kills=29 deaths=26/>
+			<playerScore name="Hashemy" score=6650 kills=19 deaths=22/>
+			<playerScore name="Vanarin" score=5045 kills=14 deaths=27/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Vex" score=8950 kills=36 deaths=19/>
+			<playerScore name="Padis" score=7375 kills=22 deaths=27/>
+			<playerScore name="Swaggy" score=5965 kills=21 deaths=21/>
+			<playerScore name="Goudapest" score=5900 kills=21 deaths=32/>
+		</teamScore>
+	</match>
+</series>

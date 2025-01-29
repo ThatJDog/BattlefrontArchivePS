@@ -1,0 +1,44 @@
+<series team1="BRO" team2="BYC.sri" round=0 index=21>
+	<match map="Raider Camp" timeLeft="06:49" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Skumszy" score=5675 kills=16 deaths=12/>
+			<playerScore name="Albert Blah" score=5650 kills=20 deaths=14/>
+			<playerScore name="Wookie" score=4475 kills=17 deaths=2/>
+			<playerScore name="Reviem" score=4040 kills=11 deaths=6/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Firebringer" score=2350 kills=9 deaths=18/>
+			<playerScore name="XLand" score=2150 kills=13 deaths=18/>
+			<playerScore name="M4TT3 BL4CK" score=1975 kills=3 deaths=18/>
+			<playerScore name="RiP SpR" score=1800 kills=7 deaths=14/>
+	</match>
+	<match map="Imperial Hangar" timeLeft="00:00" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Wookie" score=6700 kills=34 deaths=20/>
+			<playerScore name="Skumszy" score=6200 kills=23 deaths=23/>
+			<playerScore name="Reviem" score=5740 kills=27 deaths=21/>
+			<playerScore name="Albert Blah" score=4950 kills=31 deaths=34/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="XLand" score=6975 kills=26 deaths=28/>
+			<playerScore name="RiP SpR" score=5375 kills=27 deaths=22/>
+			<playerScore name="M4TT3 BL4CK" score=5250 kills=22 deaths=29/>
+			<playerScore name="Firebringer" score=5175 kills=19 deaths=36/>
+	</match>
+	<match map="Imperial Hangar" timeLeft="13:21" gameMode="Cargo" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Albert Blah" score=1075 kills=7 deaths=3/>
+			<playerScore name="Wookie" score=900 kills=5 deaths=1/>
+			<playerScore name="Skumszy" score=575 kills=1 deaths=1/>
+			<playerScore name="Reviem" score=400 kills=2 deaths=1/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="XLand" score=550 kills=2 deaths=4/>
+			<playerScore name="M4TT3 BL4CK" score=350 kills=2 deaths=5/>
+			<playerScore name="Firebringer" score=250 kills=1 deaths=5/>
+			<playerScore name="RiP SpR" score=0 kills=0 deaths=2/>
+		</teamScore>
+	</match>
+</series>

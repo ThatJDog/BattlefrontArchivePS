@@ -1,0 +1,20 @@
+<series team1="Whatever's Clever" team2="Los Angeles Lakers.sri" round=0 index=5>
+	<match map="Null" timeLeft="15:00" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+	</match>
+	<match map="Null" timeLeft="15:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+	</match>
+	<match map="Null" timeLeft="15:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+</series>

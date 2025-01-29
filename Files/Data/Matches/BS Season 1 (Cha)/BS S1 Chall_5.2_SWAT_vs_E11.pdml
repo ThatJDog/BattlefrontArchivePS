@@ -1,0 +1,72 @@
+<series team1="SWAT" team2="E11.sri" round=5 index=2>
+	<match map="Dune Sea" timeLeft="11:49" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Haztof" score=2440 kills=7 deaths=5/>
+			<playerScore name="Puffy" score=2050 kills=6 deaths=7/>
+			<playerScore name="Alimpan" score=1925 kills=8 deaths=7/>
+			<playerScore name="Vic" score=1800 kills=9 deaths=5/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="XLand" score=1975 kills=9 deaths=8/>
+			<playerScore name="QuiteGoneG" score=1400 kills=6 deaths=9/>
+			<playerScore name="Cian" score=1200 kills=2 deaths=7/>
+			<playerScore name="Tryhard" score=1120 kills=6 deaths=7/>
+	</match>
+	<match map="Dune Sea" timeLeft="01:17" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Alimpan" score=9525 kills=43 deaths=30/>
+			<playerScore name="Vic" score=9325 kills=32 deaths=19/>
+			<playerScore name="Hazotf" score=7775 kills=27 deaths=23/>
+			<playerScore name="Puffy" score=6900 kills=20 deaths=32/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Cian" score=8400 kills=35 deaths=35/>
+			<playerScore name="QuiteGoneG" score=7900 kills=21 deaths=35/>
+			<playerScore name="Tryhard" score=6880 kills=28 deaths=28/>
+			<playerScore name="XLand" score=5150 kills=18 deaths=25/>
+	</match>
+	<match map="Jawa Refuge" timeLeft="00:53" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Alimpan" score=10450 kills=40 deaths=25/>
+			<playerScore name="Vic" score=7675 kills=27 deaths=25/>
+			<playerScore name="Haztof" score=7100 kills=21 deaths=30/>
+			<playerScore name="Puffy" score=5200 kills=19 deaths=24/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Tryhard" score=7905 kills=26 deaths=25/>
+			<playerScore name="XLand" score=7525 kills=32 deaths=20/>
+			<playerScore name="QuiteGoneG" score=6575 kills=17 deaths=35/>
+			<playerScore name="Cian" score=6425 kills=27 deaths=27/>
+	</match>
+	<match map="Raider Camp" timeLeft="05:41" gameMode="Drop Zone" server="Europe">
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Alimpan" score=6750 kills=26 deaths=16/>
+			<playerScore name="Vic" score=5400 kills=24 deaths=9/>
+			<playerScore name="Puffy" score=4500 kills=17 deaths=15/>
+			<playerScore name="Haztof" score=4160 kills=14 deaths=13/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Tryhard" score=3510 kills=14 deaths=21/>
+			<playerScore name="XLand" score=3425 kills=13 deaths=18/>
+			<playerScore name="Cian" score=3275 kills=16 deaths=21/>
+			<playerScore name="QuiteGoneG" score=2750 kills=10 deaths=22/>
+	</match>
+	<match map="Rebel Depot" timeLeft="04:20" gameMode="Drop Zone" server="US East">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Alimpan" score=8525 kills=37 deaths=19/>
+			<playerScore name="Haztof" score=7160 kills=25 deaths=21/>
+			<playerScore name="Vic" score=5600 kills=15 deaths=19/>
+			<playerScore name="Puffy" score=4650 kills=16 deaths=15/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Cian" score=6275 kills=25 deaths=23/>
+			<playerScore name="Tryhard" score=5550 kills=24 deaths=20/>
+			<playerScore name="XLand" score=4775 kills=14 deaths=28/>
+			<playerScore name="QuiteGoneG" score=4000 kills=10 deaths=25/>
+		</teamScore>
+	</match>
+</series>

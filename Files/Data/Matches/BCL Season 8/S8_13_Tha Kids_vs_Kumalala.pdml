@@ -1,0 +1,72 @@
+<series team1="Tha Kids" team2="Kumalala.sri" round=0 index=13>
+	<match map="Jawa Refuge" timeLeft="05:34" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Unakkorn" score=6825 kills=29 deaths=14/>
+			<playerScore name="Falco" score=5850 kills=15 deaths=15/>
+			<playerScore name="TheSup" score=4380 kills=20 deaths=16/>
+			<playerScore name="Szeth" score=2225 kills=6 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Iamenedo" score=3975 kills=15 deaths=15/>
+			<playerScore name="Baseball" score=3960 kills=18 deaths=16/>
+			<playerScore name="Diego" score=3850 kills=13 deaths=23/>
+			<playerScore name="Prometheus" score=3700 kills=14 deaths=16/>
+	</match>
+	<match map="Dune Sea" timeLeft="00:00" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Unakkorn" score=12025 kills=47 deaths=34/>
+			<playerScore name="TheSup" score=10945 kills=41 deaths=41/>
+			<playerScore name="Falco" score=8900 kills=40 deaths=27/>
+			<playerScore name="Szeth" score=6200 kills=29 deaths=25/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Prometheus" score=9550 kills=33 deaths=41/>
+			<playerScore name="Diego" score=8225 kills=32 deaths=45/>
+			<playerScore name="Iamenedo" score=7650 kills=31 deaths=36/>
+			<playerScore name="Baseball" score=7100 kills=30 deaths=35/>
+	</match>
+	<match map="Raider Camp" timeLeft="05:07" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="TheSup" score=5975 kills=13 deaths=13/>
+			<playerScore name="Falco" score=5750 kills=25 deaths=14/>
+			<playerScore name="Unakkorn" score=4425 kills=24 deaths=18/>
+			<playerScore name="Szeth" score=3700 kills=12 deaths=16/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Diego" score=4650 kills=13 deaths=22/>
+			<playerScore name="Prometheus" score=4200 kills=21 deaths=20/>
+			<playerScore name="Iamenedo" score=3175 kills=12 deaths=17/>
+			<playerScore name="Baseball" score=2535 kills=13 deaths=16/>
+	</match>
+	<match map="Sulfur Fields" timeLeft="00:25" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Falco" score=8125 kills=29 deaths=23/>
+			<playerScore name="Unakkorn" score=7875 kills=39 deaths=27/>
+			<playerScore name="TheSup" score=6735 kills=25 deaths=26/>
+			<playerScore name="Szeth" score=4400 kills=11 deaths=23/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Prometheus" score=7875 kills=30 deaths=28/>
+			<playerScore name="Diego" score=7325 kills=25 deaths=27/>
+			<playerScore name="Iamenedo" score=6175 kills=22 deaths=27/>
+			<playerScore name="Baseball" score=5255 kills=22 deaths=23/>
+	</match>
+	<match map="Rebel Depot" timeLeft="09:12" gameMode="Drop Zone" server="">
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Falco" score=4400 kills=12 deaths=4/>
+			<playerScore name="Unakkorn" score=3475 kills=16 deaths=3/>
+			<playerScore name="TheSup" score=2905 kills=11 deaths=9/>
+			<playerScore name="Szeth" score=2675 kills=10 deaths=5/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Baseball" score=1400 kills=7 deaths=12/>
+			<playerScore name="Prometheus" score=1200 kills=6 deaths=13/>
+			<playerScore name="Diego" score=1000 kills=3 deaths=14/>
+			<playerScore name="Iamenedo" score=775 kills=5 deaths=10/>
+		</teamScore>
+	</match>
+</series>
