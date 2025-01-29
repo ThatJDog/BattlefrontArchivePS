@@ -1,0 +1,247 @@
+![OPLS1]Pro League
+[ShortenedName] "OPLS1 PL"
+[SeasonIndex] "17"
+[SeasonColour] "FF155D"
+[TournamentMode] "roundedTournament"
+[RatingLowerBound] "1"
+[RatingUpperBound] "8"
+//[TeamCap] "18"
+
+#Deathwatch
+Hashemy
+[PlayerRating] "7.42"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_Magma"
+[ImperialSkin] "M_Shadowtrooper"
+
+Unakkorn
+[PlayerRating] "7.86"
+[CountryCode] "US"
+[RebelSkin] "M_Quarren_Pilot"
+[ImperialSkin] "F_StormtrooperOrangePauldron"
+
+Spree
+[PlayerRating] "7.79"
+[CountryCode] "US"
+
+Vanarin
+[PlayerRating] "7.58"
+[CountryCode] "IE"
+
+SlewedPanic
+[PlayerRating] "6.11"
+[CountryCode] "SE"
+[RebelSkin] "M_Anton_Helmet_Magma"
+[ImperialSkin] "F_Shocktrooper"
+
+
+#Elmos Minions
+Mortal
+[PlayerRating] "6.6"
+[CountryCode] "AU"
+[RebelSkin] "M_Ishi-Tib_Magma"
+[ImperialSkin] "M_Shocktrooper"
+
+Subsided
+[PlayerRating] "6.53"
+[CountryCode] "SE"
+[RebelSkin] "F_Ingrid_Helmet_Magma"
+[ImperialSkin] "F_Shadowtrooper"
+
+Laddas
+[PlayerRating] "5.06"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_Magma"
+[ImperialSkin] "F_Lilian_DSTrooper"
+
+CaZuaL
+[PlayerRating] "6.18"
+[CountryCode] "US"
+[RebelSkin] "F_Catherine_Helmet_Magma"
+[ImperialSkin] "M_Scouttrooper"
+
+Syvatti
+[PlayerRating] "3.45"
+[CountryCode] "US"
+[RebelSkin] "F_LingXu_Helmet_Magma"
+[ImperialSkin] "M_Stormtrooper"
+
+Syriskor
+[PlayerRating] "4.99"
+[CountryCode] "US"
+[RebelSkin] "F_Ingrid_BlondePonytail_Magma"
+[ImperialSkin] "M_Shadowtrooper"
+
+
+#Beaver
+[PrimaryColour] "2868D8"
+[SecondaryColour] "2868D8"
+
+Swaggy
+[PlayerRating] "6.86"
+[CountryCode] "US"
+[RebelSkin] "M_Rodian_Magma"
+[ImperialSkin] "M_Shadowtrooper"
+
+Vex
+[PlayerRating] "7.88"
+[CountryCode] "US"
+
+Poochamos
+[PlayerRating] "6.65"
+[CountryCode] "US"
+[RebelSkin] "M_Victor_Helmet_RebOfficer"
+[ImperialSkin] "M_Shadowtrooper"
+
+Padis
+[PlayerRating] "7.35"
+[CountryCode] "AU"
+[RebelSkin] "F_Ingrid_BlondePonytail_Magma"
+[ImperialSkin] "F_Shocktrooper"
+
+Goudapest
+[PlayerRating] "6.67"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_BlackBraids_Magma"
+[ImperialSkin] "F_Shadowtrooper"
+
+
+#Oak Forest High School
+[PrimaryColour] "A25F00"
+[SecondaryColour] "00FF00"
+
+TheSup
+[PlayerRating] "7.07"
+[CountryCode] "US"
+[RebelSkin] "M_Duros_WingGuard"
+[ImperialSkin] "F_Shadowtrooper"
+
+Rage
+[PlayerRating] "7.18"
+[CountryCode] "US"
+[RebelSkin] "M_Ishi-Tib_RebOfficer"
+[ImperialSkin] "M_Anton_ImpOfficer"
+
+Quipsy
+[PlayerRating] "6.79"
+[CountryCode] "US"
+
+Envy
+[PlayerRating] "7.23"
+[CountryCode] "US"
+[RebelSkin] "F_LingXu_BlackPonytail_Magma"
+[ImperialSkin] "M_StormtrooperWhitePauldron"
+
+Crown
+[PlayerRating] "6.46"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_Helmet_Magma"
+[ImperialSkin] "F_Shadowtrooper"
+
+Veggie
+[PlayerRating] "6.95"
+[CountryCode] "SE"
+[RebelSkin] "M_Jin_Helmet_Magma"
+[ImperialSkin] "F_Scouttrooper"
+
+#BRO
+[PrimaryColour] "CBFF81"
+[SecondaryColour] "000000"
+
+Reviem
+[PlayerRating] "6.6"
+[CountryCode] "US"
+[RebelSkin] "M_Duros_Magma"
+[ImperialSkin] "F_Shocktrooper"
+
+Wookie
+[PlayerRating] "6.88"
+[CountryCode] "US"
+[RebelSkin] "M_Ishi-Tib_Magma"
+[ImperialSkin] "F_Shadowtrooper"
+
+Albert Blah
+[PlayerRating] "6.93"
+[CountryCode] "US"
+[RebelSkin] "M_Sullustan_Magma"
+[ImperialSkin] "F_Scouttrooper"
+
+Gpooy
+[PlayerRating] "7.07"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_Helmet_Magma"
+[ImperialSkin] "M_Shocktrooper"
+
+Skumszy
+[PlayerRating] "6.88"
+[CountryCode] "CA"
+[RebelSkin] ""
+[ImperialSkin] ""
+
+
+#Myrmidons
+Baseball
+[PlayerRating] "7.3"
+[CountryCode] "US"
+[RebelSkin] "F_Zabrak_Magma"
+[ImperialSkin] "M_Shocktrooper"
+
+Cassady
+[PlayerRating] "7.35"
+[CountryCode] "US"
+
+Tio
+[PlayerRating] "7.14"
+[CountryCode] "MX"
+
+Fitality
+[PlayerRating] "7.16"
+[CountryCode] "CA"
+[RebelSkin] "F_Cybernetic_RebOfficer"
+[ImperialSkin] "M_Shadowtrooper"
+
+Hildingsson
+[PlayerRating] "6.97"
+[CountryCode] "SE"
+
+Beerus
+[PlayerRating] "7.09"
+[CountryCode] "US"
+[RebelSkin] "F_LingXu_Helmet_Magma"
+[ImperialSkin] "M_Scouttrooper"
+
+
+#NMW
+Foggle
+[PlayerRating] "7.79"
+[CountryCode] "UK"
+[RebelSkin] "F_Zabrak_Magma"
+[ImperialSkin] "F_Lilian_ImpOfficer"
+
+Karnage
+[PlayerRating] "7.58"
+[CountryCode] "SE"
+
+Bazo
+[PlayerRating] "7.98"
+[CountryCode] "DE"
+[RebelSkin] "F_Lilian_BlackPonytail_Magma"
+[ImperialSkin] "F_Shadowtrooper"
+
+Prometheus
+[PlayerRating] "7.86"
+[CountryCode] "UK"
+[RebelSkin] "F_Cybernetic_Magma"
+[ImperialSkin] "F_Lilian_ImpOfficer"
+
+Goetzeus
+[PlayerRating] "7.16"
+[CountryCode] "DE"
+[RebelSkin] "M_Henry_Helmet_Magma"
+[ImperialSkin] "M_Shocktrooper"
+
+Diego
+[PlayerRating] "7"
+[CountryCode] "ES"
+[RebelSkin] "F_Lilian_Magma"
+[ImperialSkin] "F_Shadowtrooper"

@@ -1,0 +1,463 @@
+![OPLS2]Pro League
+[SeasonColour] "662D91"
+[ShortenedName] "OPLS2 PL"
+[SeasonIndex] "19"
+[TournamentMode] "roundedTournament"
+[RatingLowerBound] "0"
+[RatingUpperBound] "100"
+[TeamCap] "38"
+[CardRatingLowerBound] "30"
+[CardRatingUpperBound] "99"
+[EliteCardThreshold] = "90"
+[ImpactCardThreshold] = "75"
+[TeamCardThreshold] = "60"
+[SystemCardThreshold] = "40"
+[ProjectCardThreshold] = "0"
+
+#FIF
+Spree
+[PlayerRating] "100"
+[CardRating] "98"
+[CountryCode] "US"
+[RebelSkin] "F_Ingrid_BlondePonytail_Magma"
+[ImperialSkin] "M_Shadowtrooper"
+[IsPrimaryPlayer] = "true"
+[IsCaptain] = "true"
+[CardStats] "off: 6, def: 5, obj: 3, pos: 5, int: 5, kdr: 4"
+[PlayerPosition] "Slayer"
+
+Vex
+[PlayerRating] "100"
+[CardRating] "99"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 6, def: 4, obj: 2, pos: 5, int: 5, kdr: 6"
+[PlayerPosition] "Slayer"
+
+Swaggy
+[PlayerRating] "77.27"
+[CardRating] "83"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 4, def: 4, obj: 2, pos: 5, int: 5, kdr: 3"
+[PlayerPosition] "Slayer"
+
+Sarrows
+[PlayerRating] "18.18"
+[CardRating] "43"
+[CountryCode] "US"
+[RebelSkin] "F_Ingrid_Helmet_Magma"
+[ImperialSkin] "M_Shocktrooper"
+[CardStats] "off: 2, def: 3, obj: 2, pos: 2, int: 2, kdr: 3"
+[PlayerPosition] "Objective"
+
+Rubstery
+[PlayerRating] "36.36"
+[CardRating] "56"
+[CountryCode] "MX"
+[RebelSkin] "M_Victor_BrownGeneric_RebOfficer"
+[ImperialSkin] "M_Shadowtrooper"
+[CardStats] "off: 3, def: 2, obj: 3, pos: 2, int: 2, kdr: 2"
+[PlayerPosition] "Objective"
+
+QuiteGoneG
+[PlayerRating] "31.82"
+[CardRating] "56"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 2, obj: 3, pos: 3, int: 2, kdr: 2"
+[PlayerPosition] "Objective"
+
+#Strikers
+Envy
+[PlayerRating] "84.09"
+[CardRating] "91"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[IsCaptain] = "true"
+[CardStats] "off: 5, def: 4, obj: 3, pos: 4, int: 5, kdr: 4"
+[PlayerPosition] "Support"
+
+Hashemy
+[PlayerRating] "90.91"
+[CardRating] "92"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_Magma"
+[ImperialSkin] "F_Shoretrooper"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 3, kdr: 5"
+[PlayerPosition] "Slayer"
+
+Unakkorn
+[PlayerRating] "88.64"
+[CardRating] "96"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 5, def: 5, obj: 4, pos: 4, int: 5, kdr: 4"
+[PlayerPosition] "Slayer"
+
+CaZuaL
+[PlayerRating] "45.45"
+[CardRating] "57"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 2, def: 3, obj: 2, pos: 4, int: 4, kdr: 2"
+[PlayerPosition] "Support"
+
+Nai-Sora
+[PlayerRating] "61.36"
+[CardRating] "76"
+[CountryCode] "NO"
+[RebelSkin] "M_Rodian_Pilot"
+[ImperialSkin] "F_Shadowtrooper"
+[CardStats] "off: 3, def: 4, obj: 3, pos: 3, int: 3, kdr: 3"
+[PlayerPosition] "Support"
+
+Rage
+[PlayerRating] "78.18"
+[CardRating] "85"
+[CountryCode] "US"
+[CardStats] "off: 4, def: 4, obj: 3, pos: 4, int: 4, kdr: 3"
+[PlayerPosition] "Slayer"
+
+#HAH
+Vanarin
+[PlayerRating] "93.18"
+[CardRating] "94"
+[CountryCode] "IE"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 5, kdr: 5"
+[PlayerPosition] "Support"
+
+Karnage
+[PlayerRating] "90.91"
+[CardRating] "95"
+[CountryCode] "SE"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 5, def: 5, obj: 4, pos: 4, int: 4, kdr: 4"
+[PlayerPosition] "Support"
+
+Goudapest
+[PlayerRating] "70.45"
+[CardRating] "81"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[IsCaptain] = "true"
+[CardStats] "off: 3, def: 3, obj: 3, pos: 3, int: 4, kdr: 3"
+[PlayerPosition] "Objective"
+
+Cricken
+[PlayerRating] "54.55"
+[CardRating] "65"
+[CountryCode] "CA"
+[CardStats] "off: 3, def: 3, obj: 4, pos: 3, int: 3, kdr: 2"
+[PlayerPosition] "Objective"
+
+Mortal
+[PlayerRating] "58.18"
+[CardRating] "71"
+[CountryCode] "AU"
+[CardStats] "off: 3, def: 3, obj: 2, pos: 3, int: 3, kdr: 3"
+[PlayerPosition] "Slayer"
+
+Cappa
+[PlayerRating] "57.58"
+[CardRating] "70"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 3, obj: 3, pos: 3, int: 3, kdr: 3"
+[PlayerPosition] "Support"
+
+#MLV
+Blue
+[PlayerRating] "67.27"
+[CardRating] "78"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[IsCaptain] = "true"
+[CardStats] "off: 3, def: 3, obj: 3, pos: 4, int: 3, kdr: 3"
+[PlayerPosition] "Support"
+
+Padis
+[PlayerRating] "72.73"
+[CardRating] "84"
+[CountryCode] "AU"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 4, def: 3, obj: 2, pos: 4, int: 3, kdr: 4"
+[PlayerPosition] "Slayer"
+
+Falco
+[PlayerRating] "72.73"
+[CardRating] "82"
+[CountryCode] "CA"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 4, def: 2, obj: 1, pos: 3, int: 3, kdr: 4"
+[PlayerPosition] "Slayer"
+
+Gpooy
+[PlayerRating] "72.73"
+[CardRating] "83"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 4, obj: 3, pos: 4, int: 3, kdr: 3"
+[PlayerPosition] "Support"
+
+Sween
+[PlayerRating] "61.36"
+[CardRating] "76"
+[CountryCode] "US"
+[CardStats] "off: 3, def: 2, obj: 2, pos: 4, int: 3, kdr: 3"
+[PlayerPosition] "Support"
+
+#ZIS
+Bazo
+[PlayerRating] "98.18"
+[CardRating] "97"
+[CountryCode] "DE"
+[IsPrimaryPlayer] = "true"
+[IsCaptain] = "true"
+[CardStats] "off: 6, def: 4, obj: 2, pos: 5, int: 4, kdr: 5"
+[PlayerPosition] "Slayer"
+
+Appolo
+[PlayerRating] "75"
+[CardRating] "84"
+[CountryCode] "DE"
+[RebelSkin] "F_Ingrid_BlondePonytail_Magma"
+[ImperialSkin] "M_Shadowtrooper"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 5, def: 3, obj: 1, pos: 4, int: 3, kdr: 5"
+[PlayerPosition] "Slayer"
+
+Papl
+[PlayerRating] "56.82"
+[CardRating] "68"
+[CountryCode] "DE"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 3, obj: 4, pos: 3, int: 3, kdr: 3"
+[PlayerPosition] "Objective"
+
+Goetzeus
+[PlayerRating] "81.82"
+[CardRating] "89"
+[CountryCode] "DE"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 4, def: 4, obj: 3, pos: 5, int: 4, kdr: 4"
+[PlayerPosition] "Support"
+
+Diego
+[PlayerRating] "70.45"
+[CardRating] "84"
+[CountryCode] "ES"
+[CardStats] "off: 3, def: 4, obj: 4, pos: 3, int: 4, kdr: 3"
+[PlayerPosition] "Objective"
+
+Cookie
+[PlayerRating] "45.45"
+[CardRating] "60"
+[CountryCode] "DE"
+[CardStats] "off: 3, def: 2, obj: 2, pos: 2, int: 2, kdr: 3"
+[PlayerPosition] "Support"
+
+#Yeezus
+SymmPhonic
+[PlayerRating] "56.82"
+[CardRating] "69"
+[CountryCode] "US"
+[RebelSkin] "F_Twilek_WingGuard"
+[ImperialSkin] "F_Lilian_DSTrooper"
+[IsPrimaryPlayer] = "true"
+[IsCaptain] = "true"
+[CardStats] "off: 3, def: 3, obj: 3, pos: 2, int: 3, kdr: 3"
+[PlayerPosition] "Support"
+
+Vamsps
+[PlayerRating] "45.45"
+[CardRating] "57"
+[CountryCode] "US"
+[RebelSkin] "M_Ishi-Tib_Magma"
+[ImperialSkin] "M_Stormtrooper"
+[CardStats] "off: 3, def: 2, obj: 2, pos: 3, int: 2, kdr: 3"
+[PlayerPosition] "Slayer"
+
+Nihiles
+[PlayerRating] "27.27"
+[CardRating] "47"
+[CountryCode] "US"
+[RebelSkin] "M_Henry_Helmet_Magma"
+[ImperialSkin] "F_Shocktrooper"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 2, obj: 2, pos: 3, int: 2, kdr: 3"
+[PlayerPosition] "Slayer"
+
+Klumszy
+[PlayerRating] "27.27"
+[CardRating] "46"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_Helmet_Magma"
+[ImperialSkin] "M_Shocktrooper"
+[CardStats] "off: 3, def: 2, obj: 2, pos: 2, int: 2, kdr: 3"
+[PlayerPosition] "Slayer"
+
+Figuxe
+[PlayerRating] "56.82"
+[CardRating] "68"
+[CountryCode] "US"
+[RebelSkin] "F_Lilian_Magma"
+[ImperialSkin] "F_Shadowtrooper"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 2, obj: 2, pos: 3, int: 2, kdr: 3"
+[PlayerPosition] "Slayer"
+
+TheSup
+[PlayerRating] "75"
+[CardRating] "82"
+[CountryCode] "US"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 4, obj: 3, pos: 4, int: 4, kdr: 3"
+[PlayerPosition] "Support"
+
+#EDL
+Foggle
+[PlayerRating] "100"
+[CardRating] "98"
+[CountryCode] "UK"
+[RebelSkin] "F_Zabrak_RebOfficer"
+[ImperialSkin] "F_Ingrid_ImpOfficer"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 5, def: 6, obj: 3, pos: 5, int: 5, kdr: 4"
+[PlayerPosition] "Support"
+
+Slayz
+[PlayerRating] "60"
+[CardRating] "77"
+[CountryCode] "UK"
+[RebelSkin] "F_Zabrak_Magma"
+[ImperialSkin] "F_Shoretrooper"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 4, def: 3, obj: 2, pos: 3, int: 2, kdr: 3"
+[PlayerPosition] "Support"
+
+Kurko
+[PlayerRating] "43.64"
+[CardRating] "63"
+[CountryCode] "FI"
+[IsPrimaryPlayer] = "true"
+[CardStats] "off: 3, def: 3, obj: 3, pos: 2, int: 2, kdr: 3"
+[PlayerPosition] "Support"
+
+Prometheus
+[PlayerRating] "100"
+[CardRating] "99"
+[CountryCode] "UK"
+[RebelSkin] "F_Cybernetic_Magma"
+[ImperialSkin] "F_Shadowtrooper"
+[IsPrimaryPlayer] = "true"
+[IsCaptain] = "true"
+[CardStats] "off: 6, def: 4, obj: 2, pos: 5, int: 5, kdr: 6"
+[PlayerPosition] "Slayer"
+
+Isolani
+[PlayerRating] "40.91"
+[CardRating] "63"
+[CountryCode] "US"
+[RebelSkin] "M_Jin_Magma"
+[ImperialSkin] "F_Shocktrooper"
+[CardStats] "off: 2, def: 3, obj: 3, pos: 2, int: 2, kdr: 3"
+[PlayerPosition] "Support"
+
+Alimpan
+[PlayerRating] "65.45"
+[CardRating] "78"
+[CountryCode] "SE"
+[CardStats] "off: 1, def: 1, obj: 1, pos: 1, int: 1, kdr: 2"
+[PlayerPosition] "Slayer"
+
+// F_Lilian_BrownBob1_Magma
+// F_Catherine_BrownBraids_Magma
+// F_Ingrid_BlondePonytail_RebOfficer
+
+// OPLS2 CARD STATS AND POSITIONS
+@[OPLS2] Pro League.@?.Spree.[CardStats] "off: 6, def: 5, obj: 3, pos: 5, int: 5, kdr: 4"
+@[OPLS2] Pro League.@?.Foggle.[CardStats] "off: 5, def: 6, obj: 3, pos: 5, int: 5, kdr: 4"
+@[OPLS2] Pro League.@?.Prometheus.[CardStats] "off: 6, def: 4, obj: 2, pos: 5, int: 5, kdr: 6"
+@[OPLS2] Pro League.@?.Vex.[CardStats] "off: 6, def: 4, obj: 2, pos: 5, int: 5, kdr: 6"
+@[OPLS2] Pro League.@?.Bazo.[CardStats] "off: 6, def: 4, obj: 2, pos: 5, int: 4, kdr: 5"
+@[OPLS2] Pro League.@?.Vanarin.[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 5, kdr: 5"
+@[OPLS2] Pro League.@?.Karnage.[CardStats] "off: 5, def: 5, obj: 4, pos: 4, int: 4, kdr: 4"
+@[OPLS2] Pro League.@?.Hashemy.[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 3, kdr: 5"
+@[OPLS2] Pro League.@?.Unakkorn.[CardStats] "off: 5, def: 5, obj: 4, pos: 4, int: 5, kdr: 4"
+@[OPLS2] Pro League.@?.Envy.[CardStats] "off: 5, def: 4, obj: 3, pos: 4, int: 5, kdr: 4"
+@[OPLS2] Pro League.@?.Rage.[CardStats] "off: 4, def: 4, obj: 3, pos: 4, int: 4, kdr: 4"
+@[OPLS2] Pro League.@?.Swaggy.[CardStats] "off: 4, def: 4, obj: 2, pos: 5, int: 5, kdr: 3"
+@[OPLS2] Pro League.@?.TheSup.[CardStats] "off: 3, def: 5, obj: 4, pos: 4, int: 4, kdr: 3"
+@[OPLS2] Pro League.@?.Appolo.[CardStats] "off: 5, def: 3, obj: 1, pos: 4, int: 3, kdr: 5"
+@[OPLS2] Pro League.@?.Falco.[CardStats] "off: 4, def: 2, obj: 1, pos: 3, int: 3, kdr: 4"
+@[OPLS2] Pro League.@?.Padis.[CardStats] "off: 4, def: 3, obj: 2, pos: 4, int: 3, kdr: 4"
+@[OPLS2] Pro League.@?.Diego.[CardStats] "off: 3, def: 5, obj: 4, pos: 3, int: 4, kdr: 3"
+@[OPLS2] Pro League.@?.Goudapest.[CardStats] "off: 3, def: 4, obj: 4, pos: 3, int: 4, kdr: 3"
+@[OPLS2] Pro League.@?.Blue.[CardStats] "off: 4, def: 4, obj: 3, pos: 4, int: 3, kdr: 3"
+@[OPLS2] Pro League.@?.Alimpan.[CardStats] "off: 4, def: 2, obj: 2, pos: 4, int: 3, kdr: 4"
+@[OPLS2] Pro League.@?.Nai-Sora.[CardStats] "off: 3, def: 4, obj: 4, pos: 4, int: 3, kdr: 3"
+@[OPLS2] Pro League.@?.Sween.[CardStats] "off: 4, def: 3, obj: 3, pos: 4, int: 3, kdr: 4"
+@[OPLS2] Pro League.@?.Slayz.[CardStats] "off: 4, def: 4, obj: 2, pos: 3, int: 3, kdr: 4"
+@[OPLS2] Pro League.@?.Mortal.[CardStats] "off: 5, def: 3, obj: 2, pos: 4, int: 3, kdr: 3"
+@[OPLS2] Pro League.@?.Cappa.[CardStats] "off: 4, def: 4, obj: 3, pos: 3, int: 3, kdr: 4"
+@[OPLS2] Pro League.@?.Figuxe.[CardStats] "off: 4, def: 4, obj: 2, pos: 3, int: 3, kdr: 4"
+@[OPLS2] Pro League.@?.Papl.[CardStats] "off: 3, def: 4, obj: 4, pos: 3, int: 3, kdr: 3"
+@[OPLS2] Pro League.@?.SymmPhonic.[CardStats] "off: 4, def: 4, obj: 4, pos: 2, int: 3, kdr: 3"
+@[OPLS2] Pro League.@?.Cricken.[CardStats] "off: 3, def: 4, obj: 5, pos: 3, int: 4, kdr: 2"
+@[OPLS2] Pro League.@?.CaZuaL.[CardStats] "off: 2, def: 4, obj: 2, pos: 5, int: 4, kdr: 3"
+@[OPLS2] Pro League.@?.Kurko.[CardStats] "off: 3, def: 4, obj: 4, pos: 2, int: 2, kdr: 3"
+@[OPLS2] Pro League.@?.Isolani.[CardStats] "off: 4, def: 3, obj: 3, pos: 3, int: 2, kdr: 3"
+@[OPLS2] Pro League.@?.QuiteGoneG.[CardStats] "off: 3, def: 4, obj: 4, pos: 3, int: 2, kdr: 2"
+@[OPLS2] Pro League.@?.Vamsps.[CardStats] "off: 4, def: 2, obj: 2, pos: 3, int: 2, kdr: 4"
+@[OPLS2] Pro League.@?.Nihiles.[CardStats] "off: 4, def: 2, obj: 2, pos: 3, int: 2, kdr: 4"
+@[OPLS2] Pro League.@?.Klumszy.[CardStats] "off: 4, def: 2, obj: 2, pos: 2, int: 2, kdr: 4"
+@[OPLS2] Pro League.@?.Sarrows.[CardStats] "off: 2, def: 3, obj: 2, pos: 2, int: 2, kdr: 3"
+@[OPLS2] Pro League.@?.Gpooy.[CardStats] "off: 3, def: 5, obj: 4, pos: 4, int: 3, kdr: 3"
+@[OPLS2] Pro League.@?.Cookie.[CardStats] "off: 3, def: 2, obj: 2, pos: 2, int: 2, kdr: 3"
+@[OPLS2] Pro League.@?.Goetzeus.[CardStats] "off: 4, def: 4, obj: 3, pos: 5, int: 4, kdr: 4"
+@[OPLS2] Pro League.@?.Rubstery.[CardStats] "off: 3, def: 3, obj: 3, pos: 2, int: 2, kdr: 2"
+
+@[OPLS2] Pro League.@?.Spree.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Foggle.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Prometheus.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Vex.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Bazo.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Vanarin.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Karnage.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Hashemy.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Unakkorn.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Envy.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Rage.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Swaggy.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.TheSup.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Appolo.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Falco.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Padis.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Diego.[PlayerPosition] "Objective"
+@[OPLS2] Pro League.@?.Goudapest.[PlayerPosition] "Objective"
+@[OPLS2] Pro League.@?.Blue.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Alimpan.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Nai-Sora.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Sween.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Slayz.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Mortal.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Cappa.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Figuxe.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Papl.[PlayerPosition] "Objective"
+@[OPLS2] Pro League.@?.SymmPhonic.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Cricken.[PlayerPosition] "Objective"
+@[OPLS2] Pro League.@?.CaZuaL.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Kurko.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Isolani.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.QuiteGoneG.[PlayerPosition] "Objective"
+@[OPLS2] Pro League.@?.Vamsps.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Nihiles.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Klumszy.[PlayerPosition] "Slayer"
+@[OPLS2] Pro League.@?.Sarrows.[PlayerPosition] "Objective"
+@[OPLS2] Pro League.@?.Gpooy.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Cookie.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Goetzeus.[PlayerPosition] "Support"
+@[OPLS2] Pro League.@?.Rubstery.[PlayerPosition] "Objective"

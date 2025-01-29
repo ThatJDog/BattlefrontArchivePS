@@ -1,0 +1,286 @@
+/* Comment */
+
+[NewSeason] "[OPLS2]Amateur League";
+[SeasonColour] "662D91";
+[ShortenedName] "OPLS2 AL";
+[TournamentMode] "roundedTournament";
+[RatingLowerBound] "0";
+[RatingUpperBound] "100";
+[TeamCap] "18";
+
+[NewTeam] "Walker";
+[PrimaryColour] "FFFFFF";
+[SecondaryColour] "000000";
+
+[NewPlayer] "Revxnge";
+[PlayerRating] "0";
+[CardRating] "26";
+[CountryCode] "FR";
+[RebelSkin] "M_Sullustan_Magma";
+[ImperialSkin] "F_Shadowtrooper";
+[IsPrimaryPlayer] "true";
+[IsCaptain] "true";
+[CardStats] "off: 1, def: 1, obj: 1, pos: 1, int: 1, kdr: 1";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Nappy";
+[PlayerRating] "9.09";
+[CardRating] "30";
+[CountryCode] "FR";
+[RebelSkin] "M_Duros_Magma";
+[ImperialSkin] "M_Shadowtrooper";
+[IsPrimaryPlayer] "true";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Heizer-Bestrike";
+[PlayerRating] "9.09";
+[CardRating] "31";
+[CountryCode] "FR";
+[RebelSkin] "F_Ingrid_Helmet_Magma";
+[ImperialSkin] "M_Stormtrooper";
+[IsPrimaryPlayer] "true";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Zodiac";
+[PlayerRating] "9.09";
+[CardRating] "30";
+[CountryCode] "FR";
+[RebelSkin] "M_Anton_Helmet_Magma";
+[ImperialSkin] "F_Stormtrooper";
+[IsPrimaryPlayer] "true";
+[PlayerPosition] "Slayer";
+
+[NewPlayer] "Sam-BTC";
+[PlayerRating] "0";
+[CardRating] "26";
+[CountryCode] "BE";
+[RebelSkin] "F_Zabrak_Magma";
+[ImperialSkin] "F_Shadowtrooper";
+[CardStats] "off: 1, def: 1, obj: 1, pos: 1, int: 1, kdr: 1";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Malizia";
+[PlayerRating] "0";
+[CardRating] "25";
+[CountryCode] "FR";
+[CardStats] "off: 1, def: 1, obj: 1, pos: 1, int: 1, kdr: 1";
+[PlayerPosition] "Support";
+
+[NewTeam] "SWAT";
+[PrimaryColour] "FFFFFF";
+[SecondaryColour] "000000";
+
+[NewPlayer] "Tryhard";
+[PlayerRating] "38.64";
+[CardRating] "59";
+[CountryCode] "UK";
+[IsPrimaryPlayer] "true";
+[IsCaptain] "true";
+[CardStats] "off: 2, def: 3, obj: 3, pos: 2, int: 3, kdr: 2";
+[PlayerPosition] "Objective";
+
+[NewPlayer] "Iamenedo";
+[PlayerRating] "45.45";
+[CardRating] "65";
+[CountryCode] "ES";
+[IsPrimaryPlayer] "true";
+[CardStats] "off: 3, def: 3, obj: 1, pos: 3, int: 3, kdr: 4";
+[PlayerPosition] "Slayer"
+
+[NewPlayer] "Laguiza";
+[PlayerRating] "22.73";
+[CardRating] "46";
+[CountryCode] "FR";
+[RebelSkin] "M_Victor_Helmet_Magma";
+[ImperialSkin] "M_Scouttrooper";
+[IsPrimaryPlayer] "true";
+[CardStats] "off: 2, def: 2, obj: 3, pos: 2, int: 2, kdr: 2";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Dajdog";
+[PlayerRating] "18.18";
+[CardRating] "40";
+[CountryCode] "UK";
+[IsPrimaryPlayer] "true";
+[CardStats] "off: 2, def: 3, obj: 2, pos: 1, int: 2, kdr: 2";
+[PlayerPosition] "Support";
+
+[NewPlayer] "ShawdenFrosst";
+[PlayerRating] "18.18";
+[CardRating] "41";
+[RebelSkin] "M_Henry_Helmet_Magma";
+[ImperialSkin] "F_Shocktrooper";
+[CountryCode] "FR";
+[CardStats] "off: 2, def: 3, obj: 3, pos: 1, int: 1, kdr: 2";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Vic";
+[PlayerRating] "61.36";
+[CardRating] "76";
+[CountryCode] "FR";
+[CardStats] "off: 2, def: 5, obj: 6, pos: 3, int: 3, kdr: 2";
+[PlayerPosition] "Objective";
+
+[NewTeam] "JOF;
+[PrimaryColour] "FFFFFF";
+[SecondaryColour] "000000";
+
+[NewPlayer] "Gromme";
+[PlayerRating] "27.27";
+[CardRating] "49";
+[CountryCode] "NO";
+[RebelSkin] "F_Ingrid_BlondeBraids_Magma";
+[ImperialSkin] "F_Shadowtrooper";
+[IsPrimaryPlayer] "true";
+[IsCaptain] "true";
+[CardStats] "off: 3, def: 2, obj: 2, pos: 2, int: 3, kdr: 3";
+
+[NewPlayer] "Alien Predator";
+[PlayerRating] "18.18";
+[CardRating] "42";
+[CountryCode] "RS";
+[RebelSkin] "M_Henry_Helmet_Magma";
+[ImperialSkin] "F_Stormtrooper";
+[IsPrimaryPlayer] "true";
+
+[NewPlayer] "Rayanswag";
+[PlayerRating] "25";
+[CardRating] "42";
+[CountryCode] "SE";
+[RebelSkin] "M_Henry_Helmet_Magma";
+[ImperialSkin] "F_Lilian_DSTrooper";
+[IsPrimaryPlayer] "true";
+
+[NewPlayer] "Gswede";
+[PlayerRating] "38.64";
+[CardRating] "55";
+[CountryCode] "SE";
+[RebelSkin] "M_Victor_Helmet_Magma";
+[ImperialSkin] "M_Shadowtrooper";
+[IsPrimaryPlayer] "true";
+[CardStats] "off: 3, def: 2, obj: 2, pos: 2, int: 2, kdr: 3";
+[PlayerPosition] "Slayer";
+
+[NewPlayer] "Cheseo97";
+[PlayerRating] "21.21";
+[CardRating] "42";
+[CountryCode] "SE";
+[RebelSkin] "F_LingXu_Helmet_Magma";
+[ImperialSkin] "F_Scouttrooper";
+[CardStats] "off: 2, def: 2, obj: 2, pos: 2, int: 2, kdr: 2";
+[PlayerPosition] "Support";
+
+[NewPlayer] "ennowez";
+[PlayerRating] "9.09";
+[CardRating] "30";
+[CountryCode] "IE";
+[RebelSkin] "M_Jin_Helmet_Magma";
+[ImperialSkin] "M_Scouttrooper";
+[PlayerPosition] "Support";
+
+[NewTeam] "Suuslax";
+[PrimaryColour] "FFFFFF";
+[SecondaryColour] "000000";
+
+[NewPlayer] "Wolf";
+[PlayerRating] "27.27";
+[CardRating] "45";
+[CountryCode] "AT";
+[RebelSkin] "M_Sullustan_Magma";
+[ImperialSkin] "M_Shadowtrooper";
+[IsPrimaryPlayer] "true";
+[IsCaptain] "true";
+[CardStats] "off: 3, def: 2, obj: 2, pos: 2, int: 3, kdr: 2";
+[PlayerPosition] "Slayer";
+
+[NewPlayer] "Joro";
+[PlayerRating] "0";
+[CardRating] "34";
+[CountryCode] "DE";
+[IsPrimaryPlayer] "true";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Deutscher";
+[PlayerRating] "0";
+[CardRating] "32";
+[CountryCode] "DE";
+[IsPrimaryPlayer] "true";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Austrian Eagle";
+[PlayerRating] "11.36";
+[CardRating] "38";
+[CountryCode] "AT";
+[IsPrimaryPlayer] "true";
+[CardStats] "off: 2, def: 2, obj: 2, pos: 2, int: 2, kdr: 1";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Skyfall";
+[PlayerRating] "0";
+[CardRating] "25";
+[CountryCode] "DE";
+[RebelSkin] "F_Cybernetic_Magma";
+[ImperialSkin] "M_Shadowtrooper";
+[PlayerPosition] "Support";
+
+[NewPlayer] "Yolo";
+[PlayerRating] "24.24";
+[CardRating] "46";
+[CountryCode] "NL";
+[RebelSkin] "F_Lilian_Magma";
+[ImperialSkin] "M_Shadowtrooper";
+[CardStats] "off: 3, def: 2, obj: 2, pos: 2, int: 2, kdr: 2";
+[PlayerPosition] "Slayer";
+
+[NewTeam] "Wii Play";
+[PrimaryColour] "FFFFFF";
+[SecondaryColour] "000000";
+
+[NewPlayer] "lsq14";
+[PlayerRating] "0";
+[CardRating] "26";
+[CountryCode] "##";
+[RebelSkin] "M_Weequay_Magma";
+[ImperialSkin] "F_Shocktrooper";
+[IsPrimaryPlayer] "true";
+[IsCaptain] "true";
+
+[NewPlayer] "avelah";
+[PlayerRating] "0";
+[CardRating] "27";
+[CountryCode] "##";
+[RebelSkin] "F_Twilek_Magma";
+[ImperialSkin] "F_Shadowtrooper";
+[IsPrimaryPlayer] "true";
+
+[NewPlayer] "cryptic";
+[PlayerRating] "0";
+[CardRating] "25";
+[CountryCode] "##";
+[RebelSkin] "M_Quarren_Magma";
+[ImperialSkin] "F_Stormtrooper";
+[IsPrimaryPlayer] "true";
+
+[NewPlayer] "ryk chan";
+[PlayerRating] "0";
+[CardRating] "27";
+[CountryCode] "##";
+[RebelSkin] "F_Twilek_Magma";
+[ImperialSkin] "F_Shadowtrooper";
+[IsPrimaryPlayer] "true";
+
+[NewPlayer] "wicker bean";
+[PlayerRating] "0";
+[CardRating] "26";
+[CountryCode] "##";
+[RebelSkin] "M_Henry_Helmet_Magma";
+[ImperialSkin] "M_Shocktrooper";
+
+[NewPlayer] "BobaFett";
+[PlayerRating] "0";
+[CardRating] "25";
+[CountryCode] "##";
+[RebelSkin] "M_Sullustan_Magma";
+[ImperialSkin] "F_Shocktrooper";
+
+@[OPLS2]Amateur League.@?.BobaFett.[PlayerPosition] "Objective";

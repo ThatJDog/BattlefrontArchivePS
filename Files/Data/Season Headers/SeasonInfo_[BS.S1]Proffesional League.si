@@ -1,0 +1,238 @@
+![BS S1]Professional League
+[ShortenedName] "BS S1 Pro"
+[SeasonIndex] "25"
+[SeasonColour] "FF155D"
+[TournamentMode] "roundedTournament"
+[RatingLowerBound] "1"
+[RatingUpperBound] "8"
+
+//[TeamCap] "18"
+//[CardRatingLowerBound] "30"
+//[CardRatingUpperBound] "99"
+//[EliteCardThreshold] = "90"
+//[ImpactCardThreshold] = "75"
+//[TeamCardThreshold] = "60"
+//[SystemCardThreshold] = "40"
+//[ProjectCardThreshold] = "0"
+
+[CardRatingLowerBound] "50"
+[CardRatingUpperBound] "94"
+
+[EliteCardThreshold] = "90"
+[ImpactCardThreshold] = "85"
+[TeamCardThreshold] = "80"
+[SystemCardThreshold] = "70"
+[ProjectCardThreshold] = "0"
+
+[TeamStarThresholds] = "star2: 70, star3: 80, star4: 85, star5: 90"
+
+#Undisputed
+//[TeamColors] "Red & Blue"
+Foggle
+[IsCaptain] = "true"
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "8"
+Karnage
+[IsCaptain] = "true"
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "8"
+Appolo
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "5.67"
+Kurko
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "5.92"
+Veggie
+[PlayerRating] "6.86"
+Subsided
+[PlayerRating] "6"
+
+#Mohicans
+//[TeamColors] "Green & Yellow"
+Hashemy
+[IsCaptain] = "true"
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "8"
+Unakkorn
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "7.5"
+Goudapest
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "5.7"
+Envy
+[IsPrimaryPlayer] = "false"
+[PlayerRating] "5.8"
+Nai-Sora
+[PlayerRating] "5.25"
+Rage
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "6.2"
+Bdozen
+[PlayerRating] "6"
+
+#2016 Leicester
+//[TeamColors] "Blue & White"
+Prometheus
+[IsCaptain] = "true"
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "7.6"
+Vanarin
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "7.14"
+Tio
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "5.79"
+Diego
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "6"
+Mendo
+[PlayerRating] "5.36"
+Papl
+[PlayerRating] "4.17"
+Hildingsson
+[PlayerRating] "5.25"
+CaZuaL
+[CardStats] "off: 2, def: 4, obj: 1, pos: 5, int: 3, kdr: 3"
+[CardRating] "79"
+[PlayerPosition] "Anchor"
+
+#Plantation FC
+//[TeamColors] "Black & White"
+Spree
+[IsCaptain] = "true"
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "8"
+Bazo
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "7.21"
+Slayz
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "6"
+Blue
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "5.71"
+Figuxe
+[PlayerRating] "6.86"
+
+#Big Sippers
+//[TeamColors] "(choose 2)"
+Baseball
+[IsCaptain] = "true"
+[IsPrimaryPlayer] = "true"
+[CountryCode] "US"
+[PlayerRating] "7.92"
+Cassady
+[IsCaptain] = "true"
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "6"
+[CountryCode] "US"
+Swaggy
+[IsPrimaryPlayer] = "true"
+[CountryCode] "US"
+[PlayerRating] "5.86"
+Fitality
+[IsPrimaryPlayer] = "true"
+[PlayerRating] "6.64"
+[CountryCode] "CA"
+Klumszy
+[PlayerRating] "5"
+[CountryCode] "US"
+Padis
+[CountryCode] "AU"
+[PlayerRating] "7"
+
+@[BS S1] Professional League.@?.Foggle.[CardStats] "off: 5, def: 6, obj: 4, pos: 5, int: 5, kdr: 4"
+@[BS S1] Professional League.@?.Karnage.[CardStats] "off: 5, def: 5, obj: 4, pos: 5, int: 4, kdr: 4"
+@[BS S1] Professional League.@?.Appolo.[CardStats] "off: 5, def: 3, obj: 1, pos: 4, int: 3, kdr: 5"
+@[BS S1] Professional League.@?.Kurko.[CardStats] "off: 3, def: 4, obj: 3, pos: 3, int: 2, kdr: 3"
+@[BS S1] Professional League.@?.Veggie.[CardStats] "off: 5, def: 4, obj: 2, pos: 4, int: 3, kdr: 4"
+@[BS S1] Professional League.@?.Subsided.[CardStats] "off: 3, def: 4, obj: 4, pos: 3, int: 4, kdr: 3"
+@[BS S1] Professional League.@?.Hashemy.[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 3, kdr: 5"
+@[BS S1] Professional League.@?.Unakkorn.[CardStats] "off: 5, def: 5, obj: 4, pos: 4, int: 5, kdr: 4"
+@[BS S1] Professional League.@?.Goudapest.[CardStats] "off: 3, def: 4, obj: 5, pos: 3, int: 4, kdr: 3"
+@[BS S1] Professional League.@?.Envy.[CardStats] "off: 4, def: 4, obj: 4, pos: 4, int: 4, kdr: 4"
+@[BS S1] Professional League.@?.Nai-Sora.[CardStats] "off: 3, def: 4, obj: 4, pos: 4, int: 4, kdr: 3"
+@[BS S1] Professional League.@?.Rage.[CardStats] "off: 4, def: 4, obj: 3, pos: 4, int: 4, kdr: 4"
+@[BS S1] Professional League.@?.Bdozen.[CardStats] "off: 3, def: 4, obj: 4, pos: 4, int: 4, kdr: 3"
+@[BS S1] Professional League.@?.Prometheus.[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 5, kdr: 6"
+@[BS S1] Professional League.@?.Vanarin.[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 5, kdr: 5"
+@[BS S1] Professional League.@?.Tio.[CardStats] "off: 3, def: 5, obj: 4, pos: 4, int: 6, kdr: 3"
+@[BS S1] Professional League.@?.Diego.[CardStats] "off: 3, def: 4, obj: 5, pos: 3, int: 4, kdr: 3"
+@[BS S1] Professional League.@?.Mendo.[CardStats] "off: 4, def: 4, obj: 4, pos: 3, int: 3, kdr: 3"
+@[BS S1] Professional League.@?.Papl.[CardStats] "off: 3, def: 3, obj: 4, pos: 3, int: 2, kdr: 3"
+@[BS S1] Professional League.@?.Spree.[CardStats] "off: 6, def: 5, obj: 4, pos: 5, int: 5, kdr: 4"
+@[BS S1] Professional League.@?.Bazo.[CardStats] "off: 5, def: 4, obj: 2, pos: 5, int: 4, kdr: 5"
+@[BS S1] Professional League.@?.Slayz.[CardStats] "off: 4, def: 4, obj: 2, pos: 4, int: 3, kdr: 4"
+@[BS S1] Professional League.@?.Blue.[CardStats] "off: 4, def: 4, obj: 3, pos: 4, int: 4, kdr: 3"
+@[BS S1] Professional League.@?.Figuxe.[CardStats] "off: 5, def: 4, obj: 3, pos: 4, int: 4, kdr: 5"
+@[BS S1] Professional League.@?.Baseball.[CardStats] "off: 4, def: 4, obj: 3, pos: 4, int: 5, kdr: 4"
+@[BS S1] Professional League.@?.Cassady.[CardStats] "off: 4, def: 3, obj: 2, pos: 6, int: 5, kdr: 4"
+@[BS S1] Professional League.@?.Swaggy.[CardStats] "off: 3, def: 4, obj: 3, pos: 4, int: 5, kdr: 3"
+@[BS S1] Professional League.@?.Fitality.[CardStats] "off: 4, def: 4, obj: 4, pos: 4, int: 5, kdr: 4"
+@[BS S1] Professional League.@?.Klumszy.[CardStats] "off: 4, def: 2, obj: 2, pos: 3, int: 3, kdr: 4"
+@[BS S1] Professional League.@?.Padis.[CardStats] "off: 4, def: 4, obj: 3, pos: 5, int: 3, kdr: 4"
+@[BS S1] Professional League.@?.Hildingsson.[CardStats] "off: 4, def: 3, obj: 1, pos: 4, int: 4, kdr: 3"
+
+@[BS S1] Professional League.@?.Foggle.[CardRating] "94"
+@[BS S1] Professional League.@?.Karnage.[CardRating] "92"
+@[BS S1] Professional League.@?.Appolo.[CardRating] "85"
+@[BS S1] Professional League.@?.Kurko.[CardRating] "83"
+@[BS S1] Professional League.@?.Veggie.[CardRating] "88"
+@[BS S1] Professional League.@?.Subsided.[CardRating] "83"
+@[BS S1] Professional League.@?.Hashemy.[CardRating] "90"
+@[BS S1] Professional League.@?.Unakkorn.[CardRating] "92"
+@[BS S1] Professional League.@?.Goudapest.[CardRating] "84"
+@[BS S1] Professional League.@?.Envy.[CardRating] "87"
+@[BS S1] Professional League.@?.Nai-Sora.[CardRating] "85"
+@[BS S1] Professional League.@?.Rage.[CardRating] "86"
+@[BS S1] Professional League.@?.Bdozen.[CardRating] "85"
+@[BS S1] Professional League.@?.Prometheus.[CardRating] "93"
+@[BS S1] Professional League.@?.Vanarin.[CardRating] "92"
+@[BS S1] Professional League.@?.Tio.[CardRating] "87"
+@[BS S1] Professional League.@?.Diego.[CardRating] "84"
+@[BS S1] Professional League.@?.Mendo.[CardRating] "83"
+@[BS S1] Professional League.@?.Papl.[CardRating] "80"
+@[BS S1] Professional League.@?.Spree.[CardRating] "94"
+@[BS S1] Professional League.@?.Bazo.[CardRating] "91"
+@[BS S1] Professional League.@?.Slayz.[CardRating] "86"
+@[BS S1] Professional League.@?.Blue.[CardRating] "86"
+@[BS S1] Professional League.@?.Figuxe.[CardRating] "89"
+@[BS S1] Professional League.@?.Baseball.[CardRating] "90"
+@[BS S1] Professional League.@?.Cassady.[CardRating] "87"
+@[BS S1] Professional League.@?.Swaggy.[CardRating] "85"
+@[BS S1] Professional League.@?.Fitality.[CardRating] "89"
+@[BS S1] Professional League.@?.Klumszy.[CardRating] "82"
+@[BS S1] Professional League.@?.Padis.[CardRating] "88"
+@[BS S1] Professional League.@?.Hildingsson.[CardRating] "85"
+
+@[BS S1] Professional League.@?.Foggle.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Karnage.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Appolo.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Kurko.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Veggie.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Subsided.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Hashemy.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Unakkorn.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Goudapest.[PlayerPosition] "Claimer"
+@[BS S1] Professional League.@?.Envy.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Nai-Sora.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Rage.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Bdozen.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Prometheus.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Vanarin.[PlayerPosition] "Anchor"
+@[BS S1] Professional League.@?.Tio.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Diego.[PlayerPosition] "Claimer"
+@[BS S1] Professional League.@?.Mendo.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Papl.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Spree.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Bazo.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Slayz.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Blue.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Figuxe.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Baseball.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Cassady.[PlayerPosition] "Anchor"
+@[BS S1] Professional League.@?.Swaggy.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Fitality.[PlayerPosition] "Support"
+@[BS S1] Professional League.@?.Klumszy.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Padis.[PlayerPosition] "Slayer"
+@[BS S1] Professional League.@?.Hildingsson.[PlayerPosition] "Anchor"

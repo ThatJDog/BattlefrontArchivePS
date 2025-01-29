@@ -1,0 +1,50 @@
+!Season 11
+[ShortenedName] "S11"
+[SeasonIndex] "14"
+[TournamentMode] "tournament"
+
+#EDL
+Foggle
+[PlayerRating] "8"
+[CountryCode] "UK"
+
+Prometheus
+[PlayerRating] "7"
+[CountryCode] "UK"
+
+Diego
+[PlayerRating] "6"
+[CountryCode] "ES"
+
+Appolo
+[PlayerRating] "2"
+[CountryCode] "DE"
+
+Dajdog
+[PlayerRating] "2"
+[CountryCode] "UK"
+
+Kurko
+
+#OJH
+Karnage
+[PlayerRating] "8"
+[CountryCode] "SE"
+
+Bazo
+[PlayerRating] "7"
+[CountryCode] "DE"
+
+Subsided
+[PlayerRating] "1"
+[CountryCode] "SE"
+
+Uliday
+[PlayerRating] "1"
+[CountryCode] "US"
+[RebelSkin] "M_Sullustan_WingGuard"
+[ImperialSkin] "F_StormtrooperBlackPauldron"
+
+Hashemy
+[PlayerRating] "1"
+[CountryCode] "US"
