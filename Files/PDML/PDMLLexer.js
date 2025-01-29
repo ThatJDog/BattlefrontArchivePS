@@ -1,6 +1,6 @@
 // Generated from PDML.g4 by ANTLR 4.13.2
 // jshint ignore: start
-import antlr4 from 'antlr4';
+// import antlr4 from 'antlr4';
 
 
 const serializedATN = [4,0,22,199,6,-1,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,
@@ -71,9 +71,13 @@ const serializedATN = [4,0,22,199,6,-1,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,
 6,0,0];
 
 
-const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+// const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
 
-const decisionsToDFA = atn.decisionToState.map( (ds, index) => new antlr4.dfa.DFA(ds, index) );
+// const decisionsToDFA = atn.decisionToState.map( (ds, index) => new antlr4.dfa.DFA(ds, index) );
+
+const atn = new window.antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+
+const decisionsToDFA = atn.decisionToState.map((ds, index) => new window.antlr4.dfa.DFA(ds, index));
 
 export default class PDMLLexer extends antlr4.Lexer {
 

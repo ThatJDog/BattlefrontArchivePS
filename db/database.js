@@ -1,6 +1,13 @@
-class CustomDatabase {
-    constructor() {
-        this.tables = {}; // Stores tables and their schemas
+export class Database {
+    constructor(schema = null) {
+        this.tables = {}; // Object to store data for each table
+
+        // If a schema is provided, create tables based on it
+        if (schema) {
+            for (const tableName of Object.keys(schema)) {
+                this.createTable(tableName, schema[tableName]);
+            }
+        }
     }
 
     // Create a new table with predefined fields

@@ -1,7 +1,8 @@
-const fs = require('fs');
-const PDMLCompiler = require('./PDMLCompiler'); // PDML parser
-const SWBFArchive = require('./db/swbf-archive');
-const schema = require('./db/swbf-schema');
+import PDMLCompiler, { PDMLBody, PDMLNumber } from '../Files/PDML/PDMLCompiler.js';
+const compiler = new PDMLCompiler();
+
+// import SWBFArchive from './database.js';
+// import schema from './swbf-schema.js';
 
 // Helper function to parse attributes from a node
 function parseAttributes(node) {
@@ -13,12 +14,19 @@ function parseAttributes(node) {
 }
 
 // Process a single series file
-function processSeriesFile(filePath, db) {
-    const pdmlContent = fs.readFileSync(filePath, 'utf-8');
+export async function processSeriesFile(filePath, db) {
+    // Fetch the file content
+    // Fetch the file content
+    const response = await fetch(filePath);
+    if (!response.ok) {
+        throw new Error(`Failed to fetch ${filePath}: ${response.statusText}`);
+    }
+    const pdmlContent = await response.text();
 
     // Parse the PDML file
-    const compiler = new PDMLCompiler();
     const parsedData = compiler.compile(pdmlContent); // Parse the PDML file
+    console.log(parsedData);
+    // print(parsedData);
 
     // Root element: <series>
     const seriesAttributes = parseAttributes(parsedData);
@@ -85,8 +93,4 @@ function processSeriesFile(filePath, db) {
             });
         });
     });
-
-    print(parsedData);
 }
-
-module.exports = { processSeriesFile };

@@ -1,6 +1,6 @@
 // Generated from PDML.g4 by ANTLR 4.13.2
 // jshint ignore: start
-import antlr4 from 'antlr4';
+// import antlr4 from 'antlr4';
 
 // This class defines a complete listener for a parse tree produced by PDMLParser.
 export default class PDMLListener extends antlr4.tree.ParseTreeListener {

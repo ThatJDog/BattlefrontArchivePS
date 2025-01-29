@@ -1,134 +1,100 @@
-class PDMLBody {
+// Use Antlr4 for parsing
+// import antlr4 from 'antlr4';
+import PDMLLexer from './PDMLLexer.js';
+import PDMLParser from './PDMLParser.js';
+
+// PDMLBody Class
+export class PDMLBody {
     constructor(name) {
         this.name = name.toLowerCase(); // Tag name (normalized to lowercase)
         this.attributes = {}; // Key-value pairs of attributes
         this.children = []; // List of child nodes
     }
 
-    // Get the tag name
     getTagName() {
         return this.name;
     }
 
-    // Check if the tag name matches a given string (case insensitive)
     tagIs(match) {
         return this.name === match.toLowerCase();
     }
 
-    // Add an attribute (key-value pair)
     addAttribute(key, value) {
         this.attributes[key.toLowerCase()] = value;
     }
 
-    // Get an attribute value
     getAttribute(key) {
         return this.attributes[key.toLowerCase()] || null;
     }
 
-    // Get a double (number) attribute
     getDoubleAttribute(key) {
         const attribute = this.getAttribute(key);
-        if (attribute instanceof PDMLNumber) {
-            return attribute.value;
-        }
-        return 0.0;
+        return attribute instanceof PDMLNumber ? attribute.value : 0.0;
     }
 
-    // Get a boolean attribute
     getBoolAttribute(key) {
         const attribute = this.getAttribute(key);
-        if (attribute instanceof PDMLBoolean) {
-            return attribute.value;
-        }
-        return false;
+        return attribute instanceof PDMLBoolean ? attribute.value : false;
     }
 
-    // Get a hexadecimal color attribute (returns as string for simplicity)
     getHexAttribute(key) {
         const attribute = this.getAttribute(key);
-        if (attribute instanceof PDMLHexColor) {
-            return attribute.value; // Return the raw color string (e.g., "#ff0000")
-        }
-        return "#000000"; // Default to black
+        return attribute instanceof PDMLHexColor ? attribute.value : "#000000";
     }
 
-    // Get a string attribute
     getStringAttribute(key) {
         const attribute = this.getAttribute(key);
-        if (attribute instanceof PDMLString) {
-            return attribute.value;
-        }
-        return null;
+        return attribute instanceof PDMLString ? attribute.value : null;
     }
 
-    // Get a struct attribute
     getStructAttribute(key) {
         const attribute = this.getAttribute(key);
-        if (attribute instanceof PDMLStruct) {
-            return attribute;
-        }
-        return null;
+        return attribute instanceof PDMLStruct ? attribute : null;
     }
 
-    // Get an array attribute
     getArrayAttribute(key) {
         const attribute = this.getAttribute(key);
-        if (attribute instanceof PDMLArray) {
-            return attribute;
-        }
-        return null;
+        return attribute instanceof PDMLArray ? attribute : null;
     }
 
-    // Check if an attribute is a double (number)
     hasDoubleAttribute(key) {
-        const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLNumber;
+        return this.getAttribute(key) instanceof PDMLNumber;
     }
 
-    // Check if an attribute is a boolean
     hasBoolAttribute(key) {
-        const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLBoolean;
+        return this.getAttribute(key) instanceof PDMLBoolean;
     }
 
-    // Check if an attribute is a hex color
     hasHexAttribute(key) {
-        const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLHexColor;
+        return this.getAttribute(key) instanceof PDMLHexColor;
     }
 
-    // Check if an attribute is a string
     hasStringAttribute(key) {
-        const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLString;
+        return this.getAttribute(key) instanceof PDMLString;
     }
 
-    // Check if an attribute is a struct
     hasStructAttribute(key) {
-        const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLStruct;
+        return this.getAttribute(key) instanceof PDMLStruct;
     }
 
-    // Check if an attribute is an array
     hasArrayAttribute(key) {
-        const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLArray;
+        return this.getAttribute(key) instanceof PDMLArray;
     }
 
-    // Add a child node
     addChild(child) {
         this.children.push(child);
     }
 }
 
-class PDMLValue {
+// Value Types
+export class PDMLValue {
     constructor(type, value) {
         this.type = type;
         this.value = value;
     }
 }
 
-class PDMLStruct {
+export class PDMLStruct {
     constructor() {
         this.fields = {};
     }
@@ -138,7 +104,7 @@ class PDMLStruct {
     }
 }
 
-class PDMLArray {
+export class PDMLArray {
     constructor() {
         this.elements = [];
     }
@@ -148,45 +114,40 @@ class PDMLArray {
     }
 }
 
-class PDMLNumber extends PDMLValue {
+export class PDMLNumber extends PDMLValue {
     constructor(value) {
         super("number", value);
     }
 }
 
-class PDMLString extends PDMLValue {
+export class PDMLString extends PDMLValue {
     constructor(value) {
         super("string", value);
     }
 }
 
-class PDMLHexColor extends PDMLValue {
+export class PDMLHexColor extends PDMLValue {
     constructor(value) {
         super("hexColor", value);
     }
 }
 
-class PDMLBoolean extends PDMLValue {
+export class PDMLBoolean extends PDMLValue {
     constructor(value) {
         super("boolean", value);
     }
 }
 
-class PDMLCompiler {
+// PDMLCompiler Class
+export default class PDMLCompiler {
     compile(input) {
-        const antlr4 = require('antlr4');
-        const PDMLLexer = require('./PDMLLexer');
-        const PDMLParser = require('./PDMLParser');
-
         const chars = new antlr4.InputStream(input);
-        const lexer = new PDMLLexer.PDMLLexer(chars);
+        const lexer = new PDMLLexer(chars);
         const tokens = new antlr4.CommonTokenStream(lexer);
-        const parser = new PDMLParser.PDMLParser(tokens);
+        const parser = new PDMLParser(tokens);
 
         const tree = parser.grammarSpec(); // Start parsing from the grammarSpec rule
-        const result = this.visitGrammarSpec(tree);
-
-        return result;
+        return this.visitGrammarSpec(tree);
     }
 
     visitGrammarSpec(ctx) {
@@ -206,14 +167,12 @@ class PDMLCompiler {
         const tagName = ctx.open_tag().IDFR().getText();
         const body = new PDMLBody(tagName);
 
-        // Parse attributes
         for (const valueCtx of ctx.open_tag().valueAssignment()) {
             const key = valueCtx.IDFR().getText();
             const value = this.visitValue(valueCtx.value());
             body.addAttribute(key, value);
         }
 
-        // Parse children
         for (const childCtx of ctx.body()) {
             body.addChild(this.visitBody(childCtx));
         }
@@ -225,7 +184,6 @@ class PDMLCompiler {
         const tagName = ctx.IDFR().getText();
         const body = new PDMLBody(tagName);
 
-        // Parse attributes
         for (const valueCtx of ctx.valueAssignment()) {
             const key = valueCtx.IDFR().getText();
             const value = this.visitValue(valueCtx.value());
@@ -242,7 +200,7 @@ class PDMLCompiler {
             return new PDMLNumber(parseFloat(ctx.getText()));
         } else if (ctx instanceof PDMLParser.StringLitContext) {
             const rawText = ctx.getText();
-            return new PDMLString(rawText.substring(1, rawText.length - 1)); // Remove quotes
+            return new PDMLString(rawText.substring(1, rawText.length - 1));
         } else if (ctx instanceof PDMLParser.HexColourContext) {
             return new PDMLHexColor(ctx.getText());
         } else if (ctx instanceof PDMLParser.StructContext) {
@@ -285,5 +243,3 @@ class PDMLCompiler {
         throw new Error("Parsing error: " + errorNode.getText());
     }
 }
-
-module.exports = PDMLCompiler;

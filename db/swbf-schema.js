@@ -1,4 +1,6 @@
-const schema = {
+import { Database } from './database.js';
+
+export const SWBF_DB = new Database({
     Organisation: ['Name'],
     Season: [
         'ID',
@@ -67,6 +69,4 @@ const schema = {
         'Positioning',
         'Intelligence',
     ],
-};
-
-module.exports = schema;
+});

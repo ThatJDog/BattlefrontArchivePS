@@ -37,7 +37,11 @@
             }
         </style>
         <script type="module">
-            import { parseData } from 'D:/F Drive Backup/VisualStudioCode/BattlefrontArchivePS/db/process-data.js';
+            import antlr4 from '/libs/antlr4/index.web.js'; // Point to the main entry file
+            window.antlr4 = antlr4; // Make it globally accessible
+        </script>        
+        <script type="module">
+            import { parseData } from '/db/process-data.js';
             async function main() {
                 try {
                     // Call the parseData method
@@ -45,13 +49,11 @@
 
                     // Show redirect message and redirect after a short delay
                     document.getElementById("loading-message").textContent = "Data loaded successfully!";
-                    const redirectMessage = document.getElementById("redirect-message");
-                    redirectMessage.style.display = "block";
+                    //const redirectMessage = document.getElementById("redirect-message");
+                    //redirectMessage.style.display = "block";
 
                     // Redirect to the home page
-                    setTimeout(() => {
-                        window.location.href = "public/HTML/home.html";
-                    }, 100); // Redirect after 2 seconds
+                    // window.location.href = "front/HTML/home.html";
                 } catch (error) {
                     console.error("Error loading data:", error);
                     document.getElementById("loading-message").textContent =
@@ -67,7 +69,7 @@
         <div>
             <p id="loading-message">Loading data, please wait...</p>
             <p id="redirect-message">
-                If you are not redirected, <a href="public/HTML/home.html">click here</a>.
+                If you are not redirected, <a href="front/HTML/home.html">click here</a>.
             </p>
         </div>
     </body>
