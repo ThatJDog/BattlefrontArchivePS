@@ -1,12 +1,12 @@
 <series team1="Plantation FC" team2="Big Sippers" round=1 index=1>
 	<match map="Jawa Refuge" timeLeft="00:57" gameMode="Drop Zone" server="">
-		<teamScore faction="Imperial" score=5/>
+		<teamScore faction="Imperial" score=5>
 			<playerScore name="Spree" score=8275 kills=31 deaths=25/>
 			<playerScore name="Blue" score=7100 kills=15 deaths=24/>
 			<playerScore name="Bazo" score=6100 kills=27 deaths=23/>
 			<playerScore name="Slayz" score=5710 kills=24 deaths=23/>
 		</teamScore>
-		<teamScore faction="Rebel" score=3/>
+		<teamScore faction="Rebel" score=3>
 			<playerScore name="Swaggy" score=7080 kills=17 deaths=23/>
 			<playerScore name="Baseball" score=6375 kills=18 deaths=23/>
 			<playerScore name="Padis" score=6200 kills=31 deaths=27/>
@@ -14,13 +14,13 @@
 		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="01:11" gameMode="Drop Zone" server="US East">
-		<teamScore faction="Imperial" score=5/>
+		<teamScore faction="Imperial" score=5>
 			<playerScore name="Blue" score=10975 kills=31 deaths=41/>
 			<playerScore name="Spree" score=9575 kills=41 deaths=38/>
 			<playerScore name="Slayz" score=7555 kills=27 deaths=27/>
 			<playerScore name="Bazo" score=6150 kills=26 deaths=28/>
 		</teamScore>
-		<teamScore faction="Rebel" score=1/>
+		<teamScore faction="Rebel" score=1>
 			<playerScore name="Padis" score=11300 kills=46 deaths=32/>
 			<playerScore name="Cassady" score=7075 kills=28 deaths=28/>
 			<playerScore name="Baseball" score=6450 kills=33 deaths=33/>
@@ -28,13 +28,13 @@
 		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="04:51" gameMode="Drop Zone" server="">
-		<teamScore faction="Imperial" score=5/>
+		<teamScore faction="Imperial" score=5>
 			<playerScore name="Blue" score=5100 kills=18 deaths=17/>
 			<playerScore name="Spree" score=5025 kills=21 deaths=25/>
 			<playerScore name="Slayz" score=4900 kills=14 deaths=9/>
 			<playerScore name="Bazo" score=4350 kills=19 deaths=13/>
 		</teamScore>
-		<teamScore faction="Rebel" score=1/>
+		<teamScore faction="Rebel" score=1>
 			<playerScore name="Padis" score=3850 kills=15 deaths=17/>
 			<playerScore name="Swaggy" score=3780 kills=10 deaths=16/>
 			<playerScore name="Cassady" score=3500 kills=17 deaths=24/>

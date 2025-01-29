@@ -7,7 +7,8 @@ const compiler = new PDMLCompiler();
 // Helper function to parse attributes from a node
 function parseAttributes(node) {
     const attributes = {};
-    node.attributes.forEach((attr) => {
+    // Convert NamedNodeMap to an array and iterate
+    Array.from(node.attributes).forEach((attr) => {
         attributes[attr.name] = attr.value;
     });
     return attributes;
@@ -26,7 +27,6 @@ export async function processSeriesFile(filePath, db) {
     // Parse the PDML file
     const parsedData = compiler.compile(pdmlContent); // Parse the PDML file
     console.log(parsedData);
-    // print(parsedData);
 
     // Root element: <series>
     const seriesAttributes = parseAttributes(parsedData);

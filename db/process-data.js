@@ -19,6 +19,9 @@ export async function parseData() {
             TeamScore: SWBF_DB.select('TeamScore'),
             PlayerScore: SWBF_DB.select('PlayerScore'),
         });
+
+        console.log(SWBF_DB);
+
         resolve();
     });
 }
