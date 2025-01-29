@@ -20,7 +20,7 @@ valueAssignment: IDFR WS* ASSIGN WS* value WS*;
 // Value options
 value
     : BOOL_LITERAL                                          # boolLit
-    | SIGNED_DOUBLE                                         # numLit
+    | NUMBER                                                # numLit
     | STRING_LITERAL                                        # stringLit
     | HEX_COLOR                                             # hexColour
     | '{' WS* (valueAssignment (WS* valueAssignment)*)? WS* '}' # struct
@@ -50,13 +50,7 @@ MULTI_COMMENT: '/*' .*? '*/' -> skip;
 IDFR: [a-zA-Z_][a-zA-Z0-9_-]*;
 
 // Numeric values
-fragment DIGIT: [0-9];
-fragment SIGN: [-+];
-INT: DIGIT+;
-DOUBLE: DIGIT+ '.' DIGIT+;
-SIGNED_INT: SIGN? DIGIT+;
-SIGNED_DOUBLE: SIGN? DIGIT+ '.' DIGIT+;
-NUMBER: SIGNED_DOUBLE | SIGNED_INT;
+NUMBER: [-+]? [0-9]+ ('.' [0-9]+)?;
 
 // Whitespace
 WS: [ \t\r\n]+;
