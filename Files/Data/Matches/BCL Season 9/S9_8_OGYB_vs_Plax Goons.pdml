@@ -1,4 +1,4 @@
-<series season="S9" teams=["OGYB" "Plax Goons"] round=0 index=8>
+<series season="bcl-s9" teams=["OGYB" "Plax Goons"] round=0 index=8>
 	<match map="Goazon Badlands" timeLeft="02:36" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Vex" score=6375 kills=28 deaths=14 time="02:36"/>

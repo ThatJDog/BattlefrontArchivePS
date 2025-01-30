@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["E11" "Bacta+"] round=3 index=3>
+<series season="bs-s1-cha" teams=["E11" "Bacta+"] round=3 index=3>
 	<match map="Sulfur Fields" timeLeft="07:19" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Kronix" score=4875 kills=9 deaths=6/>

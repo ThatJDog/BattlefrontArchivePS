@@ -1,4 +1,4 @@
-<series season="S8" teams=["SawC" "SWAT"] round=0 index=14>
+<series season="bcl-s8" teams=["SawC" "SWAT"] round=0 index=14>
 	<match map="Raider Camp" timeLeft="00:36" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Spree" score=7525 kills=30 deaths=29 time="00:36"/>

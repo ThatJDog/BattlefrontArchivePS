@@ -1,4 +1,6 @@
-![OPLS1]Pro League
+!Pro League
+[SeasonID] "opl-s1-pro"
+[Group] "OPLS1"
 [ShortenedName] "OPLS1 PL"
 [SeasonIndex] "17"
 [SeasonColour] "FF155D"

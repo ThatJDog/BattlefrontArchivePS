@@ -1,4 +1,5 @@
 !Winter Classic
+[SeasonID] "bcl-winter-classic"
 [ShortenedName] "WintClass"
 [SeasonIndex] "12"
 [TournamentMode] "tournament"

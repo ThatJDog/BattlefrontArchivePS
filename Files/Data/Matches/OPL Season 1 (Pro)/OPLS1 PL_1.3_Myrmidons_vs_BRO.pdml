@@ -1,4 +1,4 @@
-<series season="OPLS1 PL" teams=["Myrmidons" "BRO"] round=1 index=3>
+<series season="opl-s1-pro" teams=["Myrmidons" "BRO"] round=1 index=3>
 	<match map="Jawa Refuge" timeLeft="-01:-48" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Baseball" score=9795 kills=40 deaths=27 time="-01:-48"/>

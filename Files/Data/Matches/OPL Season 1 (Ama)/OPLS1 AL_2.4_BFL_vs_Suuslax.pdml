@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["BFL" "Suuslax"] round=2 index=4>
+<series season="opl-s1-ama" teams=["BFL" "Suuslax"] round=2 index=4>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Imperial" score=6>
 			<playerScore name="Cheers" score=6175 kills=33 deaths=18 time="00:00"/>

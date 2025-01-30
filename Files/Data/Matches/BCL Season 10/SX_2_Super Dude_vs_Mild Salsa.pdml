@@ -1,4 +1,4 @@
-<series season="SX" teams=["Super Dude" "Mild Salsa"] round=0 index=2>
+<series season="bcl-s10" teams=["Super Dude" "Mild Salsa"] round=0 index=2>
 	<match map="Jawa Refuge" timeLeft="06:01" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Tio" score=4850 kills=18 deaths=17 time="06:01"/>

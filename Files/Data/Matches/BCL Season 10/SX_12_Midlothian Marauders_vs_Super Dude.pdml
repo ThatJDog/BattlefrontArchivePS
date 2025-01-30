@@ -1,4 +1,4 @@
-<series season="SX" teams=["Midlothian Marauders" "Super Dude"] round=0 index=12>
+<series season="bcl-s10" teams=["Midlothian Marauders" "Super Dude"] round=0 index=12>
 	<match map="Jawa Refuge" timeLeft="06:33" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Quipsy" score=5240 kills=16 deaths=11 time="06:33"/>

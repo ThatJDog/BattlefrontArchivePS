@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["Suuslax" "Tell That To Kanjiklub"] round=0 index=6>
+<series season="opl-s1-gs" teams=["Suuslax" "Tell That To Kanjiklub"] round=0 index=6>
 	<match map="Jawa Refuge" timeLeft="08:41" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="Wolf" score=1700 kills=8 deaths=16 time="08:41"/>

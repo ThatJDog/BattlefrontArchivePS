@@ -1,4 +1,4 @@
-<series season="OPLS2 PL" teams=["EDL" "MLV"] round=1 index=2>
+<series season="opl-s2-pro" teams=["EDL" "MLV"] round=1 index=2>
 	<match map="Dune Sea" timeLeft="-01:-05" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Kurko" score=8800 kills=24 deaths=40 time="-01:-05"/>

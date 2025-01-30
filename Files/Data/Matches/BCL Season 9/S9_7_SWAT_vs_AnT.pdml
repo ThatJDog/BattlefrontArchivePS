@@ -1,4 +1,4 @@
-<series season="S9" teams=["SWAT" "AnT"] round=0 index=7>
+<series season="bcl-s9" teams=["SWAT" "AnT"] round=0 index=7>
 	<match map="Raider Camp" timeLeft="02:02" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=0>
 			<playerScore name="Foggle" score=5625 kills=20 deaths=13 time="02:02"/>

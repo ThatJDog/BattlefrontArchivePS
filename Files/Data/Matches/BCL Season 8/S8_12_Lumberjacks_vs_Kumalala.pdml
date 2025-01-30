@@ -1,4 +1,4 @@
-<series season="S8" teams=["Lumberjacks" "Kumalala"] round=0 index=12>
+<series season="bcl-s8" teams=["Lumberjacks" "Kumalala"] round=0 index=12>
 	<match map="Dune Sea" timeLeft="03:23" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=1>
 			<playerScore name="Bdozen" score=5550 kills=23 deaths=27 time="03:23"/>

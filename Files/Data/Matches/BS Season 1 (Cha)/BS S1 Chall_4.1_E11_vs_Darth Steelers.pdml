@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["E11" "Darth Steelers"] round=4 index=1>
+<series season="bs-s1-cha" teams=["E11" "Darth Steelers"] round=4 index=1>
 	<match map="Jawa Refuge" timeLeft="03:16" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Cian" score=10550 kills=51 deaths=12/>

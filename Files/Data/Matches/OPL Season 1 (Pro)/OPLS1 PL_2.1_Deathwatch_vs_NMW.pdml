@@ -1,4 +1,4 @@
-<series season="OPLS1 PL" teams=["Deathwatch" "NMW"] round=2 index=1>
+<series season="opl-s1-pro" teams=["Deathwatch" "NMW"] round=2 index=1>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Vanarin" score=4885 kills=28 deaths=15 time="00:00"/>

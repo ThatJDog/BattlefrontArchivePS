@@ -1,4 +1,4 @@
-<series season="SX" teams=["Mild Salsa" "The Steifens"] round=0 index=8>
+<series season="bcl-s10" teams=["Mild Salsa" "The Steifens"] round=0 index=8>
 	<match map="Null" timeLeft="15:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>

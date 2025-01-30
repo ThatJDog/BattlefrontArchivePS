@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["LFG" "BYC"] round=3 index=2>
+<series season="opl-s1-ama" teams=["LFG" "BYC"] round=3 index=2>
 	<match map="Dune Sea" timeLeft="10:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Cricken" score=4500 kills=9 deaths=5 time="10:00"/>

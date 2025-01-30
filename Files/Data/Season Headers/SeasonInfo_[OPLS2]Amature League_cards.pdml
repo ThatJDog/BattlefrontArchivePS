@@ -1,44 +1,44 @@
-<cardData SeasonID="">
-	<cardInfo playerName="Revxnge" imperialSkin="F_Shadowtrooper" rebelSkin="M_Sullustan_Magma" cardRating=26 cardStats={off=2 def=1 obj=2 pos=1 int=1 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Nappy" imperialSkin="M_Shadowtrooper" rebelSkin="M_Duros_Magma" cardRating=30 cardStats={off=2 def=1 obj=1 pos=1 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Heizer-Bestrike" imperialSkin="M_Stormtrooper" rebelSkin="F_Ingrid_Helmet_Magma" cardRating=31 cardStats={off=2 def=1 obj=1 pos=1 int=2 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Zodiac" imperialSkin="F_Stormtrooper" rebelSkin="M_Anton_Helmet_Magma" cardRating=30 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=2} imperialSkin="Slayer"/>
-	<cardInfo playerName="Sam-BTC" imperialSkin="F_Shadowtrooper" rebelSkin="F_Zabrak_Magma" cardRating=26 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Malizia" imperialSkin="" rebelSkin="" cardRating=25 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Tryhard" imperialSkin="" rebelSkin="" cardRating=59 cardStats={off=3 def=4 obj=4 pos=2 int=3 kdr=2} imperialSkin="Objective"/>
-	<cardInfo playerName="Mendo" imperialSkin="" rebelSkin="" cardRating=65 cardStats={off=5 def=3 obj=1 pos=4 int=2 kdr=5} imperialSkin="Slayer"/>
-	<cardInfo playerName="Laguiza" imperialSkin="M_Scouttrooper" rebelSkin="M_Victor_Helmet_Magma" cardRating=46 cardStats={off=2 def=4 obj=4 pos=2 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Dajdog" imperialSkin="" rebelSkin="" cardRating=40 cardStats={off=2 def=4 obj=3 pos=1 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="ShawdenFrost" imperialSkin="F_Shocktrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=41 cardStats={off=4 def=3 obj=3 pos=1 int=1 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Vic" imperialSkin="" rebelSkin="" cardRating=76 cardStats={off=2 def=5 obj=6 pos=3 int=3 kdr=2} imperialSkin="Objective"/>
-	<cardInfo playerName="Gromme" imperialSkin="F_Shadowtrooper" rebelSkin="F_Ingrid_BlondeBraids_Magma" cardRating=49 cardStats={off=4 def=2 obj=2 pos=2 int=3 kdr=3} imperialSkin="Slayer"/>
-	<cardInfo playerName="Alien Predator" imperialSkin="F_Stormtrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=42 cardStats={off=2 def=2 obj=2 pos=2 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Rayanswag" imperialSkin="F_Lilian_DSTrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=42 cardStats={off=3 def=3 obj=3 pos=2 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Gswede" imperialSkin="M_Shadowtrooper" rebelSkin="M_Victor_Helmet_Magma" cardRating=55 cardStats={off=4 def=3 obj=2 pos=3 int=2 kdr=3} imperialSkin="Slayer"/>
-	<cardInfo playerName="Cheseo97" imperialSkin="F_Scouttrooper" rebelSkin="F_LingXu_Helmet_Magma" cardRating=42 cardStats={off=2 def=4 obj=2 pos=2 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="ennowez" imperialSkin="M_Scouttrooper" rebelSkin="M_Jin_Helmet_Magma" cardRating=30 cardStats={off=2 def=1 obj=1 pos=1 int=2 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Wolf" imperialSkin="M_Shadowtrooper" rebelSkin="M_Sullustan_Magma" cardRating=45 cardStats={off=4 def=4 obj=2 pos=2 int=3 kdr=3} imperialSkin="Slayer"/>
-	<cardInfo playerName="Joro" imperialSkin="" rebelSkin="" cardRating=34 cardStats={off=2 def=2 obj=2 pos=1 int=1 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Deutscher" imperialSkin="" rebelSkin="" cardRating=32 cardStats={off=1 def=2 obj=1 pos=1 int=1 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Austrian Eagle" imperialSkin="" rebelSkin="" cardRating=38 cardStats={off=2 def=3 obj=2 pos=2 int=2 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="SkyFall" imperialSkin="M_Shadowtrooper" rebelSkin="F_Cybernetic_Magma" cardRating=25 cardStats={off=1 def=1 obj=1 pos=1 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Yolo" imperialSkin="M_Shadowtrooper" rebelSkin="F_Lilian_Magma" cardRating=46 cardStats={off=4 def=3 obj=2 pos=3 int=2 kdr=2} imperialSkin="Slayer"/>
-	<cardInfo playerName="lsq14" imperialSkin="F_Shocktrooper" rebelSkin="M_Weequay_Magma" cardRating=26 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="avelah" imperialSkin="F_Shadowtrooper" rebelSkin="F_Twilek_Magma" cardRating=27 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Cryptic Zero" imperialSkin="F_Stormtrooper" rebelSkin="M_Quarren_Magma" cardRating=25 cardStats={off=0 def=1 obj=1 pos=2 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="ryk chan" imperialSkin="F_Shadowtrooper" rebelSkin="F_Twilek_Magma" cardRating=27 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="wicker bean" imperialSkin="M_Shocktrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=26 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="BobaFett" imperialSkin="F_Shocktrooper" rebelSkin="M_Sullustan_Magma" cardRating=25 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Uliday" imperialSkin="F_LingXu_DSTrooper" rebelSkin="F_Ingrid_BlondePonytail_RebOfficer" cardRating=52 cardStats={off=3 def=4 obj=4 pos=3 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Voamz" imperialSkin="F_Shocktrooper" rebelSkin="F_LingXu_Helmet_Magma" cardRating=44 cardStats={off=4 def=4 obj=3 pos=2 int=2 kdr=3} imperialSkin="Support"/>
-	<cardInfo playerName="FireBringer" imperialSkin="" rebelSkin="" cardRating=56 cardStats={off=4 def=3 obj=2 pos=3 int=2 kdr=4} imperialSkin="Slayer"/>
-	<cardInfo playerName="XLand" imperialSkin="" rebelSkin="" cardRating=39 cardStats={off=2 def=4 obj=3 pos=2 int=1 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Magooboo" imperialSkin="" rebelSkin="" cardRating=46 cardStats={off=3 def=4 obj=3 pos=4 int=2 kdr=2} imperialSkin="Support"/>
-	<cardInfo playerName="Coloses" imperialSkin="" rebelSkin="" cardRating=52 cardStats={off=2 def=4 obj=4 pos=2 int=3 kdr=2} imperialSkin="Objective"/>
-	<cardInfo playerName="Redloz" imperialSkin="F_Shocktrooper" rebelSkin="M_Rodian_WingGuard" cardRating=27 cardStats={off=1 def=2 obj=3 pos=2 int=1 kdr=1} imperialSkin="Objective"/>
-	<cardInfo playerName="Macketbie" imperialSkin="F_Ingrid_DSTrooper" rebelSkin="F_Ingrid_BlondePonytail_RebOfficer" cardRating=30 cardStats={off=1 def=2 obj=1 pos=1 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Spaghetti" imperialSkin="M_StormtrooperOrangePauldron" rebelSkin="F_Lilian_Helmet_Magma" cardRating=28 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Betfroont" imperialSkin="M_StormtrooperRedPauldron" rebelSkin="F_Lilian_BrownBob1_Magma" cardRating=28 cardStats={off=1 def=1 obj=1 pos=2 int=1 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Ugarte" imperialSkin="F_Shadowtrooper" rebelSkin="F_Catherine_BrownBraids_Magma" cardRating=28 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} imperialSkin="Support"/>
-	<cardInfo playerName="Xonei" imperialSkin="M_Shadowtrooper" rebelSkin="F_Lilian_Helmet_Magma" cardRating=30 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+<cardData seasonID="opl-s2-ama">
+	<cardInfo playerName="Revxnge" imperialSkin="F_Shadowtrooper" rebelSkin="M_Sullustan_Magma" cardRating=26 cardStats={off=2 def=1 obj=2 pos=1 int=1 kdr=2} position="Support"/>
+	<cardInfo playerName="Nappy" imperialSkin="M_Shadowtrooper" rebelSkin="M_Duros_Magma" cardRating=30 cardStats={off=2 def=1 obj=1 pos=1 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="Heizer-Bestrike" imperialSkin="M_Stormtrooper" rebelSkin="F_Ingrid_Helmet_Magma" cardRating=31 cardStats={off=2 def=1 obj=1 pos=1 int=2 kdr=1} position="Support"/>
+	<cardInfo playerName="Zodiac" imperialSkin="F_Stormtrooper" rebelSkin="M_Anton_Helmet_Magma" cardRating=30 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=2} position="Slayer"/>
+	<cardInfo playerName="Sam-BTC" imperialSkin="F_Shadowtrooper" rebelSkin="F_Zabrak_Magma" cardRating=26 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="Malizia" imperialSkin="" rebelSkin="" cardRating=25 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} position="Support"/>
+	<cardInfo playerName="Tryhard" imperialSkin="" rebelSkin="" cardRating=59 cardStats={off=3 def=4 obj=4 pos=2 int=3 kdr=2} position="Objective"/>
+	<cardInfo playerName="Mendo" imperialSkin="" rebelSkin="" cardRating=65 cardStats={off=5 def=3 obj=1 pos=4 int=2 kdr=5} position="Slayer"/>
+	<cardInfo playerName="Laguiza" imperialSkin="M_Scouttrooper" rebelSkin="M_Victor_Helmet_Magma" cardRating=46 cardStats={off=2 def=4 obj=4 pos=2 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="Dajdog" imperialSkin="" rebelSkin="" cardRating=40 cardStats={off=2 def=4 obj=3 pos=1 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="ShawdenFrost" imperialSkin="F_Shocktrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=41 cardStats={off=4 def=3 obj=3 pos=1 int=1 kdr=2} position="Support"/>
+	<cardInfo playerName="Vic" imperialSkin="" rebelSkin="" cardRating=76 cardStats={off=2 def=5 obj=6 pos=3 int=3 kdr=2} position="Objective"/>
+	<cardInfo playerName="Gromme" imperialSkin="F_Shadowtrooper" rebelSkin="F_Ingrid_BlondeBraids_Magma" cardRating=49 cardStats={off=4 def=2 obj=2 pos=2 int=3 kdr=3} position="Slayer"/>
+	<cardInfo playerName="Alien Predator" imperialSkin="F_Stormtrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=42 cardStats={off=2 def=2 obj=2 pos=2 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="Rayanswag" imperialSkin="F_Lilian_DSTrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=42 cardStats={off=3 def=3 obj=3 pos=2 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="Gswede" imperialSkin="M_Shadowtrooper" rebelSkin="M_Victor_Helmet_Magma" cardRating=55 cardStats={off=4 def=3 obj=2 pos=3 int=2 kdr=3} position="Slayer"/>
+	<cardInfo playerName="Cheseo97" imperialSkin="F_Scouttrooper" rebelSkin="F_LingXu_Helmet_Magma" cardRating=42 cardStats={off=2 def=4 obj=2 pos=2 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="ennowez" imperialSkin="M_Scouttrooper" rebelSkin="M_Jin_Helmet_Magma" cardRating=30 cardStats={off=2 def=1 obj=1 pos=1 int=2 kdr=1} position="Support"/>
+	<cardInfo playerName="Wolf" imperialSkin="M_Shadowtrooper" rebelSkin="M_Sullustan_Magma" cardRating=45 cardStats={off=4 def=4 obj=2 pos=2 int=3 kdr=3} position="Slayer"/>
+	<cardInfo playerName="Joro" imperialSkin="" rebelSkin="" cardRating=34 cardStats={off=2 def=2 obj=2 pos=1 int=1 kdr=2} position="Support"/>
+	<cardInfo playerName="Deutscher" imperialSkin="" rebelSkin="" cardRating=32 cardStats={off=1 def=2 obj=1 pos=1 int=1 kdr=2} position="Support"/>
+	<cardInfo playerName="Austrian Eagle" imperialSkin="" rebelSkin="" cardRating=38 cardStats={off=2 def=3 obj=2 pos=2 int=2 kdr=1} position="Support"/>
+	<cardInfo playerName="SkyFall" imperialSkin="M_Shadowtrooper" rebelSkin="F_Cybernetic_Magma" cardRating=25 cardStats={off=1 def=1 obj=1 pos=1 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="Yolo" imperialSkin="M_Shadowtrooper" rebelSkin="F_Lilian_Magma" cardRating=46 cardStats={off=4 def=3 obj=2 pos=3 int=2 kdr=2} position="Slayer"/>
+	<cardInfo playerName="lsq14" imperialSkin="F_Shocktrooper" rebelSkin="M_Weequay_Magma" cardRating=26 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} position="Support"/>
+	<cardInfo playerName="avelah" imperialSkin="F_Shadowtrooper" rebelSkin="F_Twilek_Magma" cardRating=27 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="Cryptic Zero" imperialSkin="F_Stormtrooper" rebelSkin="M_Quarren_Magma" cardRating=25 cardStats={off=0 def=1 obj=1 pos=2 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="ryk chan" imperialSkin="F_Shadowtrooper" rebelSkin="F_Twilek_Magma" cardRating=27 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="wicker bean" imperialSkin="M_Shocktrooper" rebelSkin="M_Henry_Helmet_Magma" cardRating=26 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} position="Support"/>
+	<cardInfo playerName="BobaFett" imperialSkin="F_Shocktrooper" rebelSkin="M_Sullustan_Magma" cardRating=25 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="Uliday" imperialSkin="F_LingXu_DSTrooper" rebelSkin="F_Ingrid_BlondePonytail_RebOfficer" cardRating=52 cardStats={off=3 def=4 obj=4 pos=3 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="Voamz" imperialSkin="F_Shocktrooper" rebelSkin="F_LingXu_Helmet_Magma" cardRating=44 cardStats={off=4 def=4 obj=3 pos=2 int=2 kdr=3} position="Support"/>
+	<cardInfo playerName="FireBringer" imperialSkin="" rebelSkin="" cardRating=56 cardStats={off=4 def=3 obj=2 pos=3 int=2 kdr=4} position="Slayer"/>
+	<cardInfo playerName="XLand" imperialSkin="" rebelSkin="" cardRating=39 cardStats={off=2 def=4 obj=3 pos=2 int=1 kdr=2} position="Support"/>
+	<cardInfo playerName="Magooboo" imperialSkin="" rebelSkin="" cardRating=46 cardStats={off=3 def=4 obj=3 pos=4 int=2 kdr=2} position="Support"/>
+	<cardInfo playerName="Coloses" imperialSkin="" rebelSkin="" cardRating=52 cardStats={off=2 def=4 obj=4 pos=2 int=3 kdr=2} position="Objective"/>
+	<cardInfo playerName="Redloz" imperialSkin="F_Shocktrooper" rebelSkin="M_Rodian_WingGuard" cardRating=27 cardStats={off=1 def=2 obj=3 pos=2 int=1 kdr=1} position="Objective"/>
+	<cardInfo playerName="Macketbie" imperialSkin="F_Ingrid_DSTrooper" rebelSkin="F_Ingrid_BlondePonytail_RebOfficer" cardRating=30 cardStats={off=1 def=2 obj=1 pos=1 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="Spaghetti" imperialSkin="M_StormtrooperOrangePauldron" rebelSkin="F_Lilian_Helmet_Magma" cardRating=28 cardStats={off=2 def=1 obj=1 pos=1 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="Betfroont" imperialSkin="M_StormtrooperRedPauldron" rebelSkin="F_Lilian_BrownBob1_Magma" cardRating=28 cardStats={off=1 def=1 obj=1 pos=2 int=1 kdr=1} position="Support"/>
+	<cardInfo playerName="Ugarte" imperialSkin="F_Shadowtrooper" rebelSkin="F_Catherine_BrownBraids_Magma" cardRating=28 cardStats={off=1 def=1 obj=1 pos=1 int=2 kdr=1} position="Support"/>
+	<cardInfo playerName="Xonei" imperialSkin="M_Shadowtrooper" rebelSkin="F_Lilian_Helmet_Magma" cardRating=30 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} position=""/>
 </cardData>

@@ -1,4 +1,4 @@
-<season shortenedName="S7" seasonIndex=9 tournamentMode="tournament">
+<season name="Season 7" seasonID="bcl-s7" shortName="S7" seasonIndex=9 tournamentMode="tournament">
 	<team name="Aliens" >
 		<player-entry name="Cricken" />
 		<player-entry name="Unakkorn" />

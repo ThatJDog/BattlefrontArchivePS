@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["DW Beaver" "LFG"] round=0 index=3>
+<series season="opl-s1-gs" teams=["DW Beaver" "LFG"] round=0 index=3>
 	<match map="Goazon Badlands" timeLeft="01:57" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Vex" score=7600 kills=33 deaths=14 time="01:57"/>

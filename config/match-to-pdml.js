@@ -54,7 +54,26 @@ function parsePDML(input) {
 
 function convertFile(inputPath) {
     const fileName = path.basename(inputPath, ".pdml");
-    const [season, seasonRound, team1, vs, team2] = fileName.split("_");
+    let [season, seasonRound, team1, vs, team2] = fileName.split("_");
+
+    // Converting known seasons (short) to SeasonID
+    switch (season){
+        case "S6": season = "bcl-s6"; break;
+        case "S7": season = "bcl-s7"; break;
+        case "S8": season = "bcl-s8"; break;
+        case "S9": season = "bcl-s9"; break;
+        case "SX": season = "bcl-s10"; break;
+        case "S11": season = "bcl-s11"; break;
+        case "S12": season = "bcl-s12"; break;
+        case "S13": season = "bcl-s13"; break;
+        case "BS S1 Chall": season = "bs-s1-cha"; break;
+        case "BS S1 Pro": season = "bs-s1-pro"; break;
+        case "OPLS1 AL": season = "opl-s1-ama"; break;
+        case "OPLS1 PL": season = "opl-s1-pro"; break;
+        case "OPLS1 GS": season = "opl-s1-gs"; break;
+        case "OPLS2 AL": season = "opl-s2-ama"; break;
+        case "OPLS2 PL": season = "opl-s2-pro"; break;
+    }
     
     let round = 0;
     let roundIndex = 0;

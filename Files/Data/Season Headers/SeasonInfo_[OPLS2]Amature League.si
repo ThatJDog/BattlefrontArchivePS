@@ -1,6 +1,8 @@
-![OPLS2]Amateur League
-[SeasonColour] "662D91"
+!Amateur League
+[SeasonID] "opl-s2-ama"
+[Group] "OPLS2"
 [ShortenedName] "OPLS2 AL"
+[SeasonColour] "662D91"
 [SeasonIndex] "18"
 [TournamentMode] "roundedTournament"
 [RatingLowerBound] "0"

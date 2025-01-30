@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["Atlanta Falcons" "Oakland Vaders"] round=3 index=2>
+<series season="bs-s1-cha" teams=["Atlanta Falcons" "Oakland Vaders"] round=3 index=2>
 	<match map="Jawa Refuge" timeLeft="-00:-45" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Hobo" score=8410 kills=32 deaths=30/>

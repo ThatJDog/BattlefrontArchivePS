@@ -1,4 +1,6 @@
-![OPLS1]Group Stage
+!Group Stage
+[SeasonID] "opl-s1-gs"
+[Group] "OPLS1"
 [ShortenedName] "OPLS1 GS"
 [SeasonIndex] "15"
 [TournamentMode] "groupStage"

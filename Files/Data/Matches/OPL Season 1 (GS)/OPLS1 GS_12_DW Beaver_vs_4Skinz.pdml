@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["DW Beaver" "4Skinz"] round=0 index=12>
+<series season="opl-s1-gs" teams=["DW Beaver" "4Skinz"] round=0 index=12>
 	<match map="Jawa Refuge" timeLeft="03:59" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Vex" score=7875 kills=26 deaths=19 time="03:59"/>

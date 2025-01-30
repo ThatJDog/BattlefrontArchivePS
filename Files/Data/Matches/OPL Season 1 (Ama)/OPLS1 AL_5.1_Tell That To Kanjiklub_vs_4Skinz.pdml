@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["Tell That To Kanjiklub" "4Skinz"] round=5 index=1>
+<series season="opl-s1-ama" teams=["Tell That To Kanjiklub" "4Skinz"] round=5 index=1>
 	<match map="Dune Sea" timeLeft="-03:-19" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Vic" score=15650 kills=36 deaths=39 time="-03:-19"/>

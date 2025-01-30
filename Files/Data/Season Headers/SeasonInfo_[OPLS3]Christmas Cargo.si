@@ -1,4 +1,6 @@
-![OPLS3]Christmas Cargo
+!Christmas Cargo
+[SeasonID] "xmas-cargo"
+[Group] "OPLS3"
 [ShortenedName] "Xmas Cargo"
 [SeasonIndex] "20"
 

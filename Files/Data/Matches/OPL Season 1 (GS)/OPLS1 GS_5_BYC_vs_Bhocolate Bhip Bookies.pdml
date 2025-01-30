@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["BYC" "Bhocolate Bhip Bookies"] round=0 index=5>
+<series season="opl-s1-gs" teams=["BYC" "Bhocolate Bhip Bookies"] round=0 index=5>
 	<match map="Imperial Hangar" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Imperial" score=6>
 			<playerScore name="Firebringer" score=6725 kills=33 deaths=30 time="00:00"/>

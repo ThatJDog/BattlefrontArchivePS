@@ -1,4 +1,4 @@
-<series season="BS S1 Pro" teams=["Undisputed" "Mohicans"] round=6 index=1>
+<series season="bs-s1-pro" teams=["Undisputed" "Mohicans"] round=6 index=1>
 	<match map="Jawa Refuge" timeLeft="02:59" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Karnage" score=7550 kills=22 deaths=26/>

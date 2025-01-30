@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["SWAT" "E11"] round=5 index=2>
+<series season="bs-s1-cha" teams=["SWAT" "E11"] round=5 index=2>
 	<match map="Dune Sea" timeLeft="11:49" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=2>
 			<playerScore name="Haztof" score=2440 kills=7 deaths=5/>

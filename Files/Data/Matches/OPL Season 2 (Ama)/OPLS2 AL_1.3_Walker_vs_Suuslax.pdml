@@ -1,4 +1,4 @@
-<series season="OPLS2 AL" teams=["Walker" "Suuslax"] round=1 index=3>
+<series season="opl-s2-ama" teams=["Walker" "Suuslax"] round=1 index=3>
 	<match map="Dune Sea" timeLeft="08:08" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=0>
 			<playerScore name="Nappy" score=2550 kills=12 deaths=20 time="08:08"/>

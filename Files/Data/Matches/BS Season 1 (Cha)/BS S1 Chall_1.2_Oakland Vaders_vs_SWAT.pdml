@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["Oakland Vaders" "SWAT"] round=1 index=2>
+<series season="bs-s1-cha" teams=["Oakland Vaders" "SWAT"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="07:22" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="FireBringer" score=4525 kills=22 deaths=13 time="07:22"/>

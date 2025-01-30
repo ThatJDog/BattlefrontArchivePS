@@ -1,4 +1,4 @@
-<series season="SX" teams=["Super Dude" "Mild Salsa"] round=0 index=11>
+<series season="bcl-s10" teams=["Super Dude" "Mild Salsa"] round=0 index=11>
 	<match map="Sulfur Fields" timeLeft="06:18" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Vex" score=5175 kills=21 deaths=10 time="06:18"/>

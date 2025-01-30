@@ -1,4 +1,4 @@
-<series season="OPLS1 PL" teams=["NMW" "Oak Forest High School"] round=1 index=2>
+<series season="opl-s1-pro" teams=["NMW" "Oak Forest High School"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="07:32" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Foggle" score=3860 kills=10 deaths=3 time="07:32"/>

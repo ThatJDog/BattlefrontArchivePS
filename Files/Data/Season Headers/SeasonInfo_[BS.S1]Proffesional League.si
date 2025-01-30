@@ -1,4 +1,6 @@
-![BS S1]Professional League
+!Professional League
+[SeasonID] "bs-s1-pro"
+[Group] "BS S1"
 [ShortenedName] "BS S1 Pro"
 [SeasonIndex] "25"
 [SeasonColour] "FF155D"

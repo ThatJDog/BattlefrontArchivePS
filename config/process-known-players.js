@@ -1,6 +1,6 @@
 
 // Process a single series file
-export async function processPlayers(parsedData, db) {
+async function processPlayers(parsedData, db) {
     if (parsedData.name.toLowerCase() !== 'knownplayers') return;
 
     // Process matches
@@ -18,3 +18,5 @@ export async function processPlayers(parsedData, db) {
 
     });
 }
+
+module.exports = {processPlayers};

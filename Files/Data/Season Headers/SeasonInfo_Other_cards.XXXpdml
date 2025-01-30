@@ -1,3 +1,3 @@
-<cardData SeasonID="">
+<cardData seasonID=>
 	<cardInfo playerName="Sween" imperialSkin="" rebelSkin="" cardRating=97 cardStats={off=6 def=4 obj=3 pos=5 int=5 kdr=6} imperialSkin="Support"/>
 </cardData>

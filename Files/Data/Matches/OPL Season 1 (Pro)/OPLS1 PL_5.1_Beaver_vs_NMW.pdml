@@ -1,4 +1,4 @@
-<series season="OPLS1 PL" teams=["Beaver" "NMW"] round=5 index=1>
+<series season="opl-s1-pro" teams=["Beaver" "NMW"] round=5 index=1>
 	<match map="Jawa Refuge" timeLeft="-03:-10" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Vex" score=11050 kills=44 deaths=30 time="-03:-10"/>

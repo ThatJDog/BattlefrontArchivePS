@@ -1,4 +1,4 @@
-<series season="S8" teams=["SWAT" "Kumalala"] round=0 index=1>
+<series season="bcl-s8" teams=["SWAT" "Kumalala"] round=0 index=1>
 	<match map="Dune Sea" timeLeft="01:35" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=2>
 			<playerScore name="Vic" score=7100 kills=18 deaths=34 time="01:35"/>

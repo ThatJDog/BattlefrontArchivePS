@@ -4,7 +4,7 @@ const path = require("path");
 function parseSeasonFile(input, originalFilePath) {
     const lines = input.split("\n").map(line => line.trim()).filter(line => line);
     let output = "";
-    let currentSeason = {};
+    let currentSeason = null;
     let currentTeam = null;
     let currentPlayer = null;
     let teams = [];
@@ -14,17 +14,17 @@ function parseSeasonFile(input, originalFilePath) {
         if (line.startsWith("//")) {
             continue;
         } else if (line.startsWith("!")) {
-            if (Object.keys(currentSeason).length) {
+            if (currentSeason) {
                 output += formatSeason(currentSeason, teams);
                 teams = [];
             }
-            currentSeason = {};
+            currentSeason = { name: line.trim().slice(1).trim(), attributes: {} };
         } else if (line.startsWith("#")) {
             if (currentTeam) {
                 teams.push({ ...currentTeam, players });
                 players = [];
             }
-            currentTeam = { name: line.slice(1).trim(), attributes: {} };
+            currentTeam = { name: line.trim().slice(1).trim(), attributes: {} };
         } else if (line.startsWith("[")) {
             const match = line.match(/\[([^\]]+)\]\s*=?\s*"?([^"]*)"?/);
             
@@ -32,15 +32,30 @@ function parseSeasonFile(input, originalFilePath) {
                 const [key, value] = match.slice(1, 3);
                 if (key == "CountryCode") continue;
                 
+                parsedKey = key.trim();
                 var parsedKey = key.charAt(0).toLowerCase() + key.slice(1);
-                var parsedVal = isNaN(value) && value.toLowerCase() !== "true" && value.toLowerCase() !== "false" ? `"${value}"` : value;
+
+                switch (parsedKey){
+                    case "playerRating":
+                        parsedKey = "rating";
+                        break;
+                    case "shortenedName":
+                        parsedKey = "shortName";
+                        break;
+                    case "isPrimaryPlayer":
+                        parsedKey = "isPrimary";
+                        break;
+                }
+
+                var parsedVal = isNaN(value) && value.toLowerCase() !== "true" && value.toLowerCase() !== "false" ?
+                    `"${value}"` : value;
 
                 if (currentPlayer) {
                     currentPlayer.attributes[parsedKey] = parsedVal;
                 } else if (currentTeam) {
                     currentTeam.attributes[parsedKey] = parsedVal;
                 } else {
-                    currentSeason[parsedKey] = parsedVal;
+                    currentSeason.attributes[parsedKey] = parsedVal;
                 }
             } else {
                 console.error("Invalid input format:", line);
@@ -74,40 +89,50 @@ function parseSeasonFile(input, originalFilePath) {
     
     let cardData = [];
     processPlayerAttributes(teams, cardData);
-    output += formatSeason(currentSeason, teams);
-    saveCardDataFile(originalFilePath, cardData, currentSeason);
+    
+    if (currentSeason) {
+        output += formatSeason(currentSeason, teams);
+        saveCardDataFile(originalFilePath, cardData, currentSeason);
+    }
     return output;
 }
 
 function saveCardDataFile(originalFilePath, cardData, season) {
     if (cardData.length === 0) return;
-    let seasonID = season.seasonID || "";
-    let cardDataContent = `<cardData SeasonID="${seasonID}">\n\t${cardData.join("\n\t")}\n</cardData>`;
+    let seasonID = season.attributes['seasonID'] || "";
+    let cardDataContent = `<cardData seasonID=${seasonID}>\n\t${cardData.join("\n\t")}\n</cardData>`;
     let fileName = path.basename(originalFilePath, path.extname(originalFilePath)) + "_cards.pdml";
     let cardFilePath = path.join(path.dirname(originalFilePath), fileName);
     fs.writeFileSync(cardFilePath, cardDataContent);
-    console.log(`Card data file saved to: ${cardFilePath}`);
+    // console.log(`Card data file saved to: ${cardFilePath}`);
 }
 
 function formatSeason(season, teams) {
-    let seasonAttrs = Object.entries(season).map(([key, value]) => `${key}=${value}`).join(" ");
+    let seasonAttrs;
+    if (season.attributes)
+        seasonAttrs = Object.entries(season.attributes).map(([key, value]) => `${key}=${value}`).join(" ");
+    else seasonAttrs = "";
+
     let teamXml = teams.map(team => formatTeam(team)).join("\n");
-    return `<season ${seasonAttrs}>\n${teamXml}\n</season>\n`;
+    return `<season name="${season.name}" ${seasonAttrs}>\n${teamXml}\n</season>\n`;
 }
 
 function formatTeam(team) {
-    let teamAttrs = Object.entries(team.attributes).map(([key, value]) => `${key}=${value}`).join(" ");
+    let teamAttrs;
+    if (team.attributes)
+        teamAttrs = Object.entries(team.attributes).map(([key, value]) => `${key}=${value}`).join(" ");
+    else teamAttrs = "";
+
     let playerXml = team.players.map(player => formatPlayer(player)).join("\n");
     return `\t<team name="${team.name}" ${teamAttrs}>\n${playerXml}\n\t</team>`;
 }
 
 function formatPlayer(player) {
-    let playerAttrs = Object.entries(player.attributes).map(([key, value]) => `${key}=${value}`).join(" ");
-    return `\t\t<player-entry name="${player.name}" ${playerAttrs}/>`;
-}
+    let playerAttrs;
+    if (player.attributes)
+        playerAttrs = Object.entries(player.attributes).map(([key, value]) => `${key}=${value}`).join(" ");
+    else playerAttrs = "";
 
-function formatPlayer(player) {
-    let playerAttrs = Object.entries(player.attributes).map(([key, value]) => `${key}=${value}`).join(" ");
     return `\t\t<player-entry name="${player.name}" ${playerAttrs}/>`;
 }
 
@@ -134,7 +159,7 @@ function processPlayerAttributes(teams, cardData) {
 function formatCardInfo(playerName, attributes) {
     const cardStats = attributes.cardStats || '"off: 0, def: 0, obj: 0, pos: 0, int: 0, kdr: 0"';
     let cardStatsString = convertStatsString("" + cardStats);
-    return `<cardInfo playerName="${playerName}" imperialSkin=${attributes.imperialSkin || '""'} rebelSkin=${attributes.rebelSkin || '""'} cardRating=${attributes.cardRating || "00"} cardStats=${cardStatsString} imperialSkin=${attributes.playerPosition || ""}/>`;
+    return `<cardInfo playerName="${playerName}" imperialSkin=${attributes.imperialSkin || '""'} rebelSkin=${attributes.rebelSkin || '""'} cardRating=${attributes.cardRating || "00"} cardStats=${cardStatsString} position=${attributes.playerPosition || '""'}/>`;
 }
 
 function convertStatsString(statsString) {

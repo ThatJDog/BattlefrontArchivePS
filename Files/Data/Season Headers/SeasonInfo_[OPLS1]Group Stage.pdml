@@ -1,4 +1,4 @@
-<season shortenedName="OPLS1 GS" seasonIndex=15 tournamentMode="groupStage" seasonColour="FF155D">
+<season name="Group Stage" seasonID="opl-s1-gs" group="OPLS1" shortName="OPLS1 GS" seasonIndex=15 tournamentMode="groupStage" seasonColour="FF155D">
 	<team name="Deathwatch" group=3>
 		<player-entry name="Hashemy" />
 		<player-entry name="Unakkorn" />

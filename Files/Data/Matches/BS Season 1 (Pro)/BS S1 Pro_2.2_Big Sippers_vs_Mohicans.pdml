@@ -1,4 +1,4 @@
-<series season="BS S1 Pro" teams=["Big Sippers" "Mohicans"] round=2 index=2>
+<series season="bs-s1-pro" teams=["Big Sippers" "Mohicans"] round=2 index=2>
 	<match map="Jawa refuge" timeLeft="06:06" gameMode="Drop Zone" server="US West">
 		<teamScore faction="Imperial" score=1>
 			<playerScore name="Baseball" score=4200 kills=23 deaths=15 time="06:06"/>

@@ -1,4 +1,4 @@
-<series season="S8" teams=["ZHU" "Hawg Riders"] round=0 index=10>
+<series season="bcl-s8" teams=["ZHU" "Hawg Riders"] round=0 index=10>
 	<match map="Dune Sea" timeLeft="00:26" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Healthy" score=10000 kills=32 deaths=21 time="00:26"/>

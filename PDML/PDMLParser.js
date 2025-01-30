@@ -1,6 +1,6 @@
 // Generated from PDML.g4 by ANTLR 4.13.2
 // jshint ignore: start
-// import antlr4 from 'antlr4';
+import antlr4 from 'antlr4';
 import PDMLListener from './PDMLListener.js';
 const serializedATN = [4,1,18,194,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,
 4,2,5,7,5,2,6,7,6,2,7,7,7,1,0,1,0,1,0,1,1,1,1,3,1,22,8,1,1,2,1,2,5,2,26,
@@ -65,17 +65,17 @@ const serializedATN = [4,1,18,194,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,
 76,86,93,98,105,112,119,126,137,144,150,153,158,166,173,179,182,187,191];
 
 
-//const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
 
-//const decisionsToDFA = atn.decisionToState.map( (ds, index) => new antlr4.dfa.DFA(ds, index) );
+const decisionsToDFA = atn.decisionToState.map( (ds, index) => new antlr4.dfa.DFA(ds, index) );
 
-// const sharedContextCache = new antlr4.atn.PredictionContextCache();
+const sharedContextCache = new antlr4.atn.PredictionContextCache();
 
-const atn = new window.antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+//const atn = new window.antlr4.atn.ATNDeserializer().deserialize(serializedATN);
 
-const decisionsToDFA = atn.decisionToState.map((ds, index) => new window.antlr4.dfa.DFA(ds, index));
+//const decisionsToDFA = atn.decisionToState.map((ds, index) => new window.antlr4.dfa.DFA(ds, index));
 
-const sharedContextCache = new window.antlr4.atn.PredictionContextCache();
+//const sharedContextCache = new window.antlr4.atn.PredictionContextCache();
 
 export default class PDMLParser extends antlr4.Parser {
 

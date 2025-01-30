@@ -1,4 +1,4 @@
-<series season="SX" teams=["Whatever's Clever" "Midlothian Marauders"] round=0 index=3>
+<series season="bcl-s10" teams=["Whatever's Clever" "Midlothian Marauders"] round=0 index=3>
 	<match map="Jawa Refuge" timeLeft="04:14" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=1>
 			<playerScore name="Spree" score=5475 kills=24 deaths=29 time="04:14"/>

@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Loading...</title>
+        <script type="module" src="/db/database-loader.js" defer></script>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -37,39 +38,31 @@
             }
         </style>
         <script type="module">
+            /*
             import antlr4 from '/libs/antlr4/index.web.js'; // Point to the main entry file
             window.antlr4 = antlr4; // Make it globally accessible
+            */
         </script>        
         <script type="module">
-            import { parseData } from '/db/process-data.js';
             async function main() {
-                try {
-                    // Call the parseData method
-                    await parseData();
+                // Show success message
+                document.getElementById("loading-message").textContent = "Data loaded successfully!";
+                document.getElementById("redirect-message").style.display = "block";
 
-                    // Show redirect message and redirect after a short delay
-                    document.getElementById("loading-message").textContent = "Data loaded successfully!";
-                    //const redirectMessage = document.getElementById("redirect-message");
-                    //redirectMessage.style.display = "block";
-
-                    // Redirect to the home page
-                    // window.location.href = "front/HTML/home.html";
-                } catch (error) {
-                    console.error("Error loading data:", error);
-                    document.getElementById("loading-message").textContent =
-                        "An error occurred while loading data. Please try again.";
-                }
+                // Redirect to the home page (uncomment when needed)
+                // window.location.href = "front/HTML/home.html";
             }
 
-            // Run the main function
-            main();
+            document.addEventListener("DatabaseReady", () => {
+                main();
+            });
         </script>
     </head>
     <body>
         <div>
             <p id="loading-message">Loading data, please wait...</p>
             <p id="redirect-message">
-                If you are not redirected, <a href="front/HTML/home.html">click here</a>.
+                If you are not redirected, <a href="front/HTML/data-table.html">click here</a>.
             </p>
         </div>
     </body>

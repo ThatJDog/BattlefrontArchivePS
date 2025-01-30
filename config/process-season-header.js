@@ -1,5 +1,5 @@
 
-export async function processSeasonFile(parsedData, db) {
+async function processSeasonFile(parsedData, db) {
     if (parsedData.name.toLowerCase() !== 'season') return;
 
     // Root element: <series>
@@ -89,3 +89,5 @@ export async function processSeasonFile(parsedData, db) {
         });
     });
 }
+
+module.exports = { processSeasonFile };

@@ -1,17 +1,17 @@
-<season shortenedName="S11" seasonIndex=14 tournamentMode="tournament">
+<season name="Season 11" seasonID="bcl-s11" shortName="S11" seasonIndex=14 tournamentMode="tournament">
 	<team name="EDL" >
-		<player-entry name="Foggle" playerRating=8/>
-		<player-entry name="Prometheus" playerRating=7/>
-		<player-entry name="Diego" playerRating=6/>
-		<player-entry name="Appolo" playerRating=2/>
-		<player-entry name="Dajdog" playerRating=2/>
+		<player-entry name="Foggle" rating=8/>
+		<player-entry name="Prometheus" rating=7/>
+		<player-entry name="Diego" rating=6/>
+		<player-entry name="Appolo" rating=2/>
+		<player-entry name="Dajdog" rating=2/>
 	</team>
 	<team name="OJH" >
 		<player-entry name="Kurko" />
-		<player-entry name="Karnage" playerRating=8/>
-		<player-entry name="Bazo" playerRating=7/>
-		<player-entry name="Subsided" playerRating=1/>
-		<player-entry name="Uliday" playerRating=1/>
-		<player-entry name="Hashemy" playerRating=1/>
+		<player-entry name="Karnage" rating=8/>
+		<player-entry name="Bazo" rating=7/>
+		<player-entry name="Subsided" rating=1/>
+		<player-entry name="Uliday" rating=1/>
+		<player-entry name="Hashemy" rating=1/>
 	</team>
 </season>

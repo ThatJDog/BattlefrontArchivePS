@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["Bhocolate Bhip Bookies" "4Skinz"] round=2 index=1>
+<series season="opl-s1-ama" teams=["Bhocolate Bhip Bookies" "4Skinz"] round=2 index=1>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Imperial" score=6>
 			<playerScore name="Falco" score=6075 kills=35 deaths=13 time="00:00"/>

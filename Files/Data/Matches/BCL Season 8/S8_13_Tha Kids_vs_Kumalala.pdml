@@ -1,4 +1,4 @@
-<series season="S8" teams=["Tha Kids" "Kumalala"] round=0 index=13>
+<series season="bcl-s8" teams=["Tha Kids" "Kumalala"] round=0 index=13>
 	<match map="Jawa Refuge" timeLeft="05:34" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Unakkorn" score=6825 kills=29 deaths=14 time="05:34"/>

@@ -1,4 +1,4 @@
-<series season="S9" teams=["TRA" "ZHU"] round=0 index=3>
+<series season="bcl-s9" teams=["TRA" "ZHU"] round=0 index=3>
 	<match map="Jawa Refuge" timeLeft="05:08" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=1>
 			<playerScore name="Fitality" score=5150 kills=19 deaths=23 time="05:08"/>

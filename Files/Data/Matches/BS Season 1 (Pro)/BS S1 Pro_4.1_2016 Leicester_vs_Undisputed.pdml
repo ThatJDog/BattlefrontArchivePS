@@ -1,4 +1,4 @@
-<series season="BS S1 Pro" teams=["2016 Leicester" "Undisputed"] round=4 index=1>
+<series season="bs-s1-pro" teams=["2016 Leicester" "Undisputed"] round=4 index=1>
 	<match map="Twilight On Hoth" timeLeft="05:08" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Imperial" score=2>
 			<playerScore name="Prometheus" score=3800 kills=16 deaths=24 time="05:08"/>

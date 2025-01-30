@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["DWxNMW" "Suuslax"] round=0 index=1>
+<series season="opl-s1-gs" teams=["DWxNMW" "Suuslax"] round=0 index=1>
 	<match map="Rebel Depot" timeLeft="10:17" gameMode="Cargo" server="">
 		<teamScore faction="Rebel" score=10>
 			<playerScore name="Karnage" score=2250 kills=11 deaths=2 time="10:17"/>

@@ -1,58 +1,58 @@
-<season shortenedName="BS S1 Chall" seasonIndex=24 seasonColour="15FFA0" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 cardRatingLowerBound=50 cardRatingUpperBound=94 eliteCardThreshold=90 impactCardThreshold=85 teamCardThreshold=80 systemCardThreshold=70 projectCardThreshold=0 teamStarThresholds="star2: 70, star3: 80, star4: 85, star5: 90">
-	<team name="Atlanta Falcons" teamColors="Red and Black">
-		<player-entry name="Hobo" isCaptain=true playerRating=3.67 isPrimaryPlayer=true/>
-		<player-entry name="Isolani" isPrimaryPlayer=true playerRating=4.8/>
-		<player-entry name="Magooboo" isPrimaryPlayer=true playerRating=3.86/>
-		<player-entry name="Mavry" isPrimaryPlayer=true playerRating=3/>
-		<player-entry name="Lobstah" playerRating=3/>
-		<player-entry name="Szeth" playerRating=3.3/>
+<season name="Challengers League" seasonID="bs-s1-cha" group="BS S1" shortName="BS S1 Chall" seasonIndex=24 seasonColour="15FFA0" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 cardRatingLowerBound=50 cardRatingUpperBound=94 eliteCardThreshold=90 impactCardThreshold=85 teamCardThreshold=80 systemCardThreshold=70 projectCardThreshold=0 teamStarThresholds="star2: 70, star3: 80, star4: 85, star5: 90">
+	<team name="Atlanta Falcons" >
+		<player-entry name="Hobo" isCaptain=true rating=3.67 isPrimary=true/>
+		<player-entry name="Isolani" isPrimary=true rating=4.8/>
+		<player-entry name="Magooboo" isPrimary=true rating=3.86/>
+		<player-entry name="Mavry" isPrimary=true rating=3/>
+		<player-entry name="Lobstah" rating=3/>
+		<player-entry name="Szeth" rating=3.3/>
 	</team>
 	<team name="Y-Wing" >
-		<player-entry name="Coloses" playerRating=5/>
-		<player-entry name="Sween" playerRating=5.5 isCaptain=true isPrimaryPlayer=true/>
-		<player-entry name="KingCaldera" isPrimaryPlayer=true playerRating=4/>
-		<player-entry name="Sarrows" isPrimaryPlayer=true/>
+		<player-entry name="Coloses" rating=5/>
+		<player-entry name="Sween" rating=5.5 isCaptain=true isPrimary=true/>
+		<player-entry name="KingCaldera" isPrimary=true rating=4/>
+		<player-entry name="Sarrows" isPrimary=true/>
 	</team>
 	<team name="SWAT" >
-		<player-entry name="Palmy" isPrimaryPlayer=true playerRating=3.83/>
-		<player-entry name="Alimpan" isPrimaryPlayer=true playerRating=5.14/>
-		<player-entry name="Vic" isPrimaryPlayer=true playerRating=4.43/>
-		<player-entry name="Laguiza" isPrimaryPlayer=true isCaptain=true playerRating=3.33/>
+		<player-entry name="Palmy" isPrimary=true rating=3.83/>
+		<player-entry name="Alimpan" isPrimary=true rating=5.14/>
+		<player-entry name="Vic" isPrimary=true rating=4.43/>
+		<player-entry name="Laguiza" isPrimary=true isCaptain=true rating=3.33/>
 	</team>
 	<team name="Oakland Vaders" >
-		<player-entry name="Haztof" isPrimaryPlayer=true playerRating=3.43/>
-		<player-entry name="FireBringer" isPrimaryPlayer=true isCaptain=true playerRating=4.57/>
-		<player-entry name="BFL-Ice" isPrimaryPlayer=true playerRating=2.93/>
-		<player-entry name="Eky" isPrimaryPlayer=true playerRating=3.08/>
-		<player-entry name="CaZuaL" playerRating=4 isPrimaryPlayer=true/>
-		<player-entry name="Kygin" playerRating=3/>
-		<player-entry name="Rubstery" playerRating=4/>
+		<player-entry name="Haztof" isPrimary=true rating=3.43/>
+		<player-entry name="FireBringer" isPrimary=true isCaptain=true rating=4.57/>
+		<player-entry name="BFL-Ice" isPrimary=true rating=2.93/>
+		<player-entry name="Eky" isPrimary=true rating=3.08/>
+		<player-entry name="CaZuaL" rating=4 isPrimary=true/>
+		<player-entry name="Kygin" rating=3/>
+		<player-entry name="Rubstery" rating=4/>
 	</team>
 	<team name="E11" >
 		<player-entry name="Pyrtle" />
-		<player-entry name="XLand" isPrimaryPlayer=true isCaptain=true playerRating=4.58/>
-		<player-entry name="Cian" isPrimaryPlayer=true playerRating=4/>
-		<player-entry name="Dajdog" playerRating=2.7/>
-		<player-entry name="MysticSwaggy" isPrimaryPlayer=true playerRating=2.5/>
-		<player-entry name="QuiteGoneG" isPrimaryPlayer=true playerRating=3.08/>
-		<player-entry name="Tryhard" playerRating=3.43/>
-		<player-entry name="M4TT3 BL4CK" playerRating=2/>
-		<player-entry name="CrabKiller" playerRating=2/>
+		<player-entry name="XLand" isPrimary=true isCaptain=true rating=4.58/>
+		<player-entry name="Cian" isPrimary=true rating=4/>
+		<player-entry name="Dajdog" rating=2.7/>
+		<player-entry name="MysticSwaggy" isPrimary=true rating=2.5/>
+		<player-entry name="QuiteGoneG" isPrimary=true rating=3.08/>
+		<player-entry name="Tryhard" rating=3.43/>
+		<player-entry name="M4TT3 BL4CK" rating=2/>
+		<player-entry name="CrabKiller" rating=2/>
 	</team>
 	<team name="Bacta+" >
-		<player-entry name="Kronix" playerRating=2/>
-		<player-entry name="Redloz" isPrimaryPlayer=true isCaptain=true/>
-		<player-entry name="Ugarte" isPrimaryPlayer=true playerRating=2/>
-		<player-entry name="DarkSmile" isPrimaryPlayer=true playerRating=2/>
-		<player-entry name="Betfroont" isPrimaryPlayer=true playerRating=3/>
-		<player-entry name="StarAI" playerRating=2/>
+		<player-entry name="Kronix" rating=2/>
+		<player-entry name="Redloz" isPrimary=true isCaptain=true/>
+		<player-entry name="Ugarte" isPrimary=true rating=2/>
+		<player-entry name="DarkSmile" isPrimary=true rating=2/>
+		<player-entry name="Betfroont" isPrimary=true rating=3/>
+		<player-entry name="StarAI" rating=2/>
 	</team>
 	<team name="Darth Steelers" >
-		<player-entry name="Sam-BTC" playerRating=4/>
-		<player-entry name="Uliday" isPrimaryPlayer=true isCaptain=true playerRating=3.83/>
-		<player-entry name="Mortal" isPrimaryPlayer=true playerRating=5.2/>
-		<player-entry name="Garvey" isPrimaryPlayer=true/>
-		<player-entry name="K3sharr" isPrimaryPlayer=true playerRating=2.2/>
-		<player-entry name="Amjedjohn" playerRating=4/>
+		<player-entry name="Sam-BTC" rating=4/>
+		<player-entry name="Uliday" isPrimary=true isCaptain=true rating=3.83/>
+		<player-entry name="Mortal" isPrimary=true rating=5.2/>
+		<player-entry name="Garvey" isPrimary=true/>
+		<player-entry name="K3sharr" isPrimary=true rating=2.2/>
+		<player-entry name="Amjedjohn" rating=4/>
 	</team>
 </season>

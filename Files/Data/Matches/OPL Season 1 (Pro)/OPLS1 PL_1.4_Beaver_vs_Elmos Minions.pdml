@@ -1,4 +1,4 @@
-<series season="OPLS1 PL" teams=["Beaver" "Elmos Minions"] round=1 index=4>
+<series season="opl-s1-pro" teams=["Beaver" "Elmos Minions"] round=1 index=4>
 	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>

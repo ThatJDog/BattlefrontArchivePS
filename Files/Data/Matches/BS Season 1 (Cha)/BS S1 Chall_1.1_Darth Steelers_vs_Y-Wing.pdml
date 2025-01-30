@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["Darth Steelers" "Y-Wing"] round=1 index=1>
+<series season="bs-s1-cha" teams=["Darth Steelers" "Y-Wing"] round=1 index=1>
 	<match map="Jawa Refuge" timeLeft="13:10" gameMode="Drop Zone" server="US West">
 		<teamScore faction="Imperial" score=2>
 			<playerScore name="Amjedjohn" score=1550 kills=5 deaths=1 time="13:10"/>

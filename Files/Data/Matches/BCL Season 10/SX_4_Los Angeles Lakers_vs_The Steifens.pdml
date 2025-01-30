@@ -1,4 +1,4 @@
-<series season="SX" teams=["Los Angeles Lakers" "The Steifens"] round=0 index=4>
+<series season="bcl-s10" teams=["Los Angeles Lakers" "The Steifens"] round=0 index=4>
 	<match map="Sulfur Fields" timeLeft="02:39" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Unakkorn" score=6750 kills=27 deaths=20 time="02:39"/>

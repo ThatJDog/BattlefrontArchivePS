@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["SWAT" "Darth Steelers"] round=2 index=1>
+<series season="bs-s1-cha" teams=["SWAT" "Darth Steelers"] round=2 index=1>
 	<match map="Jawa Refuge" timeLeft="01:00" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Alimpan" score=7475 kills=36 deaths=24 time="01:00"/>

@@ -1,4 +1,4 @@
-<series season="OPLS2 PL" teams=["ZIS" "Yeezus"] round=1 index=3>
+<series season="opl-s2-pro" teams=["ZIS" "Yeezus"] round=1 index=3>
 	<match map="Jawa Refuge" timeLeft="07:36" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Appolo" score=4525 kills=12 deaths=8 time="07:36"/>

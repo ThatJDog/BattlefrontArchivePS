@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["Oak Forest High School" "LFG"] round=0 index=11>
+<series season="opl-s1-gs" teams=["Oak Forest High School" "LFG"] round=0 index=11>
 	<match map="Goazon Badlands" timeLeft="05:12" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Rage" score=7650 kills=24 deaths=5 time="05:12"/>

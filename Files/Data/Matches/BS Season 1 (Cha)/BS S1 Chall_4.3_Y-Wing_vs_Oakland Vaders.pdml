@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["Y-Wing" "Oakland Vaders"] round=4 index=3>
+<series season="bs-s1-cha" teams=["Y-Wing" "Oakland Vaders"] round=4 index=3>
 	<match map="Jawa Refuge" timeLeft="00:00" gameMode="Drop Zone" server="US West">
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Sween" score=8850 kills=44 deaths=28/>

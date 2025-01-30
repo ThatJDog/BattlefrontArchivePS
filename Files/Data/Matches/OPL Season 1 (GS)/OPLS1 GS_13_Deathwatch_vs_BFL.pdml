@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["Deathwatch" "BFL"] round=0 index=13>
+<series season="opl-s1-gs" teams=["Deathwatch" "BFL"] round=0 index=13>
 	<match map="Jawa Refuge" timeLeft="06:14" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Hashemy" score=7125 kills=20 deaths=2 time="06:14"/>

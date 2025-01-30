@@ -1,4 +1,4 @@
-<series season="S9" teams=["TRA" "AnT"] round=0 index=5>
+<series season="bcl-s9" teams=["TRA" "AnT"] round=0 index=5>
 	<match map="Jawa Refuge" timeLeft="02:24" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Rage" score=6475 kills=20 deaths=23 time="02:24"/>

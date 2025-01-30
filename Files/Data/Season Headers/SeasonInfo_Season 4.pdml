@@ -1,4 +1,4 @@
-<season shortenedName="S4" seasonIndex=4 tournamentMode="tournament">
+<season name="Season 4" seasonID="bcl-s4" shortName="S4" seasonIndex=4 tournamentMode="tournament">
 	<team name="All Brain No Aim" >
 		<player-entry name="Aiikeed" />
 		<player-entry name="Prometheus" />

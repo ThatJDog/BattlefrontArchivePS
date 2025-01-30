@@ -1,55 +1,55 @@
-<season shortenedName="OPLS1 PL" seasonIndex=17 seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
+<season name="Pro League" seasonID="opl-s1-pro" group="OPLS1" shortName="OPLS1 PL" seasonIndex=17 seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
 	<team name="Deathwatch" >
-		<player-entry name="Hashemy" playerRating=7.42/>
-		<player-entry name="Unakkorn" playerRating=7.86/>
-		<player-entry name="Spree" playerRating=7.79/>
-		<player-entry name="Vanarin" playerRating=7.58/>
+		<player-entry name="Hashemy" rating=7.42/>
+		<player-entry name="Unakkorn" rating=7.86/>
+		<player-entry name="Spree" rating=7.79/>
+		<player-entry name="Vanarin" rating=7.58/>
 	</team>
 	<team name="Elmos Minions" >
-		<player-entry name="SlewedPanic" playerRating=6.11/>
-		<player-entry name="Mortal" playerRating=6.6/>
-		<player-entry name="Subsided" playerRating=6.53/>
-		<player-entry name="Laddas" playerRating=5.06/>
-		<player-entry name="CaZuaL" playerRating=6.18/>
-		<player-entry name="Syvatti" playerRating=3.45/>
+		<player-entry name="SlewedPanic" rating=6.11/>
+		<player-entry name="Mortal" rating=6.6/>
+		<player-entry name="Subsided" rating=6.53/>
+		<player-entry name="Laddas" rating=5.06/>
+		<player-entry name="CaZuaL" rating=6.18/>
+		<player-entry name="Syvatti" rating=3.45/>
 	</team>
 	<team name="Beaver" >
-		<player-entry name="Syriskor" playerRating=4.99 primaryColour="2868D8" secondaryColour="2868D8"/>
-		<player-entry name="Swaggy" playerRating=6.86/>
-		<player-entry name="Vex" playerRating=7.88/>
-		<player-entry name="Poochamos" playerRating=6.65/>
-		<player-entry name="Padis" playerRating=7.35/>
+		<player-entry name="Syriskor" rating=4.99 primaryColour="2868D8" secondaryColour="2868D8"/>
+		<player-entry name="Swaggy" rating=6.86/>
+		<player-entry name="Vex" rating=7.88/>
+		<player-entry name="Poochamos" rating=6.65/>
+		<player-entry name="Padis" rating=7.35/>
 	</team>
 	<team name="Oak Forest High School" >
-		<player-entry name="Goudapest" playerRating=6.67 primaryColour="A25F00" secondaryColour="00FF00"/>
-		<player-entry name="TheSup" playerRating=7.07/>
-		<player-entry name="Rage" playerRating=7.18/>
-		<player-entry name="Quipsy" playerRating=6.79/>
-		<player-entry name="Envy" playerRating=7.23/>
-		<player-entry name="Crown" playerRating=6.46/>
+		<player-entry name="Goudapest" rating=6.67 primaryColour="A25F00" secondaryColour="00FF00"/>
+		<player-entry name="TheSup" rating=7.07/>
+		<player-entry name="Rage" rating=7.18/>
+		<player-entry name="Quipsy" rating=6.79/>
+		<player-entry name="Envy" rating=7.23/>
+		<player-entry name="Crown" rating=6.46/>
 	</team>
 	<team name="BRO" >
-		<player-entry name="Veggie" playerRating=6.95 primaryColour="CBFF81" secondaryColour=000000/>
-		<player-entry name="Reviem" playerRating=6.6/>
-		<player-entry name="Wookie" playerRating=6.88/>
-		<player-entry name="Albert Blah" playerRating=6.93/>
-		<player-entry name="Gpooy" playerRating=7.07/>
+		<player-entry name="Veggie" rating=6.95 primaryColour="CBFF81" secondaryColour=000000/>
+		<player-entry name="Reviem" rating=6.6/>
+		<player-entry name="Wookie" rating=6.88/>
+		<player-entry name="Albert Blah" rating=6.93/>
+		<player-entry name="Gpooy" rating=7.07/>
 	</team>
 	<team name="Myrmidons" >
-		<player-entry name="Skumszy" playerRating=6.88/>
-		<player-entry name="Baseball" playerRating=7.3/>
-		<player-entry name="Cassady" playerRating=7.35/>
-		<player-entry name="Tio" playerRating=7.14/>
-		<player-entry name="Fitality" playerRating=7.16/>
-		<player-entry name="Hildingsson" playerRating=6.97/>
+		<player-entry name="Skumszy" rating=6.88/>
+		<player-entry name="Baseball" rating=7.3/>
+		<player-entry name="Cassady" rating=7.35/>
+		<player-entry name="Tio" rating=7.14/>
+		<player-entry name="Fitality" rating=7.16/>
+		<player-entry name="Hildingsson" rating=6.97/>
 	</team>
 	<team name="NMW" >
-		<player-entry name="Beerus" playerRating=7.09/>
-		<player-entry name="Foggle" playerRating=7.79/>
-		<player-entry name="Karnage" playerRating=7.58/>
-		<player-entry name="Bazo" playerRating=7.98/>
-		<player-entry name="Prometheus" playerRating=7.86/>
-		<player-entry name="Goetzeus" playerRating=7.16/>
-		<player-entry name="Diego" playerRating=7/>
+		<player-entry name="Beerus" rating=7.09/>
+		<player-entry name="Foggle" rating=7.79/>
+		<player-entry name="Karnage" rating=7.58/>
+		<player-entry name="Bazo" rating=7.98/>
+		<player-entry name="Prometheus" rating=7.86/>
+		<player-entry name="Goetzeus" rating=7.16/>
+		<player-entry name="Diego" rating=7/>
 	</team>
 </season>

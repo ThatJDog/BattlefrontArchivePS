@@ -1,4 +1,4 @@
-<series season="S11" teams=["EDL" "OJH"] round=0 index=3>
+<series season="bcl-s11" teams=["EDL" "OJH"] round=0 index=3>
 	<match map="Jawa Refuge" timeLeft="-00:-52" gameMode="DropZone" server="">
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Foggle" score=11630 kills=42 deaths=30 time="-00:-52"/>

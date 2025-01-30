@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["Bhocolate Bhip Bookies" "Tell That To Kanjiklub"] round=3 index=1>
+<series season="opl-s1-ama" teams=["Bhocolate Bhip Bookies" "Tell That To Kanjiklub"] round=3 index=1>
 	<match map="Raider Camp" timeLeft="03:38" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Falco" score=7325 kills=33 deaths=10 time="03:38"/>

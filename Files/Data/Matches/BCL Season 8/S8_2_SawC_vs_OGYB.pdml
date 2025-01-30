@@ -1,4 +1,4 @@
-<series season="S8" teams=["SawC" "OGYB"] round=0 index=2>
+<series season="bcl-s8" teams=["SawC" "OGYB"] round=0 index=2>
 	<match map="Jawa Refuge" timeLeft="03:03" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Spree" score=6975 kills=34 deaths=22 time="03:03"/>

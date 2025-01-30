@@ -1,4 +1,4 @@
-<series season="SX" teams=["Mild Salsa" "IRA"] round=0 index=8>
+<series season="bcl-s10" teams=["Mild Salsa" "IRA"] round=0 index=8>
 	<match map="Jawa Refuge" timeLeft="07:35" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Fitality" score=6050 kills=20 deaths=9 time="07:35"/>

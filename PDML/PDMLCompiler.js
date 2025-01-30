@@ -1,5 +1,5 @@
 // Use Antlr4 for parsing
-// import antlr4 from 'antlr4';
+import antlr4 from 'antlr4';
 import PDMLLexer from './PDMLLexer.js';
 import PDMLParser from './PDMLParser.js';
 
@@ -24,7 +24,11 @@ export class PDMLBody {
     }
 
     getAttribute(key) {
-        return this.attributes[key.toLowerCase()] || null;
+        return this.attributes[key.toLowerCase()] ? this.attributes[key.toLowerCase()].value : null;
+    }
+
+    getOrDefaultAttribute(key, defaultValue) {
+        return this.attributes[key.toLowerCase()] ? this.attributes[key.toLowerCase()].value : defaultValue;
     }
 
     getDoubleAttribute(key) {
@@ -49,12 +53,16 @@ export class PDMLBody {
 
     getStructAttribute(key) {
         const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLStruct ? attribute : null;
+        return attribute instanceof PDMLStruct ? attribute.fields : null;
     }
 
     getArrayAttribute(key) {
         const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLArray ? attribute : null;
+        return attribute instanceof PDMLArray ? attribute.elements : null;
+    }
+
+    hasAttribute(key) {
+        return this.getAttribute(key) != null;
     }
 
     hasDoubleAttribute(key) {
@@ -139,7 +147,7 @@ export class PDMLBoolean extends PDMLValue {
 }
 
 // PDMLCompiler Class
-export default class PDMLCompiler {
+export class PDMLCompiler {
     compile(input) {
         const chars = new antlr4.InputStream(input);
         const lexer = new PDMLLexer(chars);

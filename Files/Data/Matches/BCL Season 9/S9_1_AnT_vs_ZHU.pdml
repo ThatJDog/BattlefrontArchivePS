@@ -1,4 +1,4 @@
-<series season="S9" teams=["AnT" "ZHU"] round=0 index=1>
+<series season="bcl-s9" teams=["AnT" "ZHU"] round=0 index=1>
 	<match map="Goazon Badlands" timeLeft="05:47" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Prometheus" score=7275 kills=29 deaths=9 time="05:47"/>

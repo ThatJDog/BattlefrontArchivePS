@@ -1,4 +1,4 @@
-<series season="OPLS1 PL" teams=["NMW" "Oak Forest High School"] round=4 index=1>
+<series season="opl-s1-pro" teams=["NMW" "Oak Forest High School"] round=4 index=1>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Rebel" score=7>
 			<playerScore name="Bazo" score=6150 kills=31 deaths=22 time="00:00"/>

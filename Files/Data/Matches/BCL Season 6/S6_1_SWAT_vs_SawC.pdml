@@ -1,4 +1,4 @@
-<series season="S6" teams=["SWAT" "SawC"] round=0 index=1>
+<series season="bcl-s6" teams=["SWAT" "SawC"] round=0 index=1>
 	<match map="Jawa Refuge" timeLeft="-00:-35" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Foggle" score=9400 kills=48 deaths=28 time="-00:-35"/>

@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["Bhocolate Bhip Bookies" "Tell That To Kanjiklub"] round=6 index=1>
+<series season="opl-s1-ama" teams=["Bhocolate Bhip Bookies" "Tell That To Kanjiklub"] round=6 index=1>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Blue" score=4825 kills=32 deaths=34 time="00:00"/>

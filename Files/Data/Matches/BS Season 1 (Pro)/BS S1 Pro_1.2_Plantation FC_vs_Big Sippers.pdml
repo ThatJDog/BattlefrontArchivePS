@@ -1,4 +1,4 @@
-<series season="BS S1 Pro" teams=["Plantation FC" "Big Sippers"] round=1 index=2>
+<series season="bs-s1-pro" teams=["Plantation FC" "Big Sippers"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="00:57" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Spree" score=8275 kills=31 deaths=25 time="00:57"/>

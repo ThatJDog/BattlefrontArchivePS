@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["FRA" "BFL"] round=0 index=7>
+<series season="opl-s1-gs" teams=["FRA" "BFL"] round=0 index=7>
 	<match map="Jawa Refuge" timeLeft="08:12" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="Ange Des Neiiges" score=3300 kills=5 deaths=15 time="08:12"/>

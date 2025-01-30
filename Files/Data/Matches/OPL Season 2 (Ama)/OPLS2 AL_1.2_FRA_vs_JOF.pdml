@@ -1,4 +1,4 @@
-<series season="OPLS2 AL" teams=["FRA" "JOF"] round=1 index=2>
+<series season="opl-s2-ama" teams=["FRA" "JOF"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="06:15" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="Redloz" score=3825 kills=8 deaths=24 time="06:15"/>

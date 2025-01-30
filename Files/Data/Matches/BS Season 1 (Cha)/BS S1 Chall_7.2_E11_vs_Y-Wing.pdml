@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["E11" "Y-Wing"] round=7 index=2>
+<series season="bs-s1-cha" teams=["E11" "Y-Wing"] round=7 index=2>
 	<match map="Dune Sea" timeLeft="-01:-30" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="XLand" score=13250 kills=53 deaths=25/>

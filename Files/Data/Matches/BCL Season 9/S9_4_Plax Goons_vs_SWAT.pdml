@@ -1,4 +1,4 @@
-<series season="S9" teams=["Plax Goons" "SWAT"] round=0 index=4>
+<series season="bcl-s9" teams=["Plax Goons" "SWAT"] round=0 index=4>
 	<match map="Imperial Station" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Rebel" score=7>
 			<playerScore name="Unakkorn" score=5675 kills=39 deaths=20 time="00:00"/>

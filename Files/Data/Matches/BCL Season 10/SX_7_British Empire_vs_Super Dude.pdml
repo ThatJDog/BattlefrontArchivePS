@@ -1,4 +1,4 @@
-<series season="SX" teams=["British Empire" "Super Dude"] round=0 index=7>
+<series season="bcl-s10" teams=["British Empire" "Super Dude"] round=0 index=7>
 	<match map="Dune Sea" timeLeft="01:53" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Foggle" score=9175 kills=38 deaths=29 time="01:53"/>

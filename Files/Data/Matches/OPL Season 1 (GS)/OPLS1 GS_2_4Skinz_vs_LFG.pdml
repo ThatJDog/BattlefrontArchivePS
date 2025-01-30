@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["4Skinz" "LFG"] round=0 index=2>
+<series season="opl-s1-gs" teams=["4Skinz" "LFG"] round=0 index=2>
 	<match map="Dune Sea" timeLeft="-00:-29" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Figuxe" score=9630 kills=48 deaths=24 time="-00:-29"/>

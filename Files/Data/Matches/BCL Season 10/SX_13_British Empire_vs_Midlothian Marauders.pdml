@@ -1,4 +1,4 @@
-<series season="SX" teams=["British Empire" "Midlothian Marauders"] round=0 index=13>
+<series season="bcl-s10" teams=["British Empire" "Midlothian Marauders"] round=0 index=13>
 	<match map="Swamp Crash Site" timeLeft="00:52" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Foggle" score=9375 kills=37 deaths=25 time="00:52"/>

@@ -1,4 +1,4 @@
-<series season="S9" teams=["OGYB" "SWAT"] round=0 index=9>
+<series season="bcl-s9" teams=["OGYB" "SWAT"] round=0 index=9>
 	<match map="Dune Sea" timeLeft="-04:34" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Vex" score=12200 kills=57 deaths=38 time="-04:34"/>

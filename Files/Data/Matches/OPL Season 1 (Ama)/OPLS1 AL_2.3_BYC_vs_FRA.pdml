@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["BYC" "FRA"] round=2 index=3>
+<series season="opl-s1-ama" teams=["BYC" "FRA"] round=2 index=3>
 	<match map="Dune Sea" timeLeft="08:23" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="XLand" score=5300 kills=19 deaths=3 time="08:23"/>

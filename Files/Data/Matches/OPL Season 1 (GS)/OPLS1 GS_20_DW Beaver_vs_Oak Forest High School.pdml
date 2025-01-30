@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["DW Beaver" "Oak Forest High School"] round=0 index=20>
+<series season="opl-s1-gs" teams=["DW Beaver" "Oak Forest High School"] round=0 index=20>
 	<match map="Sulfur Fields" timeLeft="03:16" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Vex" score=7000 kills=28 deaths=6 time="03:16"/>

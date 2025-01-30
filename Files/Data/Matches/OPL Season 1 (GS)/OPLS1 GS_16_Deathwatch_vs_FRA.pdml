@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["Deathwatch" "FRA"] round=0 index=16>
+<series season="opl-s1-gs" teams=["Deathwatch" "FRA"] round=0 index=16>
 	<match map="Dune Sea" timeLeft="05:37" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Hashemy" score=8790 kills=30 deaths=14 time="05:37"/>

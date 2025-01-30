@@ -1,4 +1,4 @@
-<series season="BS S1 Pro" teams=["2016 Leicester" "Big Sippers"] round=3 index=2>
+<series season="bs-s1-pro" teams=["2016 Leicester" "Big Sippers"] round=3 index=2>
 	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>

@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["Tell That To Kanjiklub" "LFG"] round=2 index=2>
+<series season="opl-s1-ama" teams=["Tell That To Kanjiklub" "LFG"] round=2 index=2>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Alimpan" score=4650 kills=29 deaths=26 time="00:00"/>

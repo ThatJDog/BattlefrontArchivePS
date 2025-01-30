@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["Elmos Minions" "Deathwatch"] round=0 index=19>
+<series season="opl-s1-gs" teams=["Elmos Minions" "Deathwatch"] round=0 index=19>
 	<match map="Jawa Refuge" timeLeft="06:22" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="CaZuaL" score=2960 kills=9 deaths=20 time="06:22"/>

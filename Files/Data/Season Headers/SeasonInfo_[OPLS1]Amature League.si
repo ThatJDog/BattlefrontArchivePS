@@ -1,4 +1,6 @@
-![OPLS1]Amateur League
+!Amateur League
+[SeasonID] "opl-s1-ama"
+[Group] "OPLS1"
 [ShortenedName] "OPLS1 AL"
 [SeasonIndex] "16"
 [SeasonColour] "FF155D"

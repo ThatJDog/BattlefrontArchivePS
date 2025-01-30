@@ -1,4 +1,4 @@
-<series season="OPLS1 AL" teams=["LFG" "4Skinz"] round=4 index=1>
+<series season="opl-s1-ama" teams=["LFG" "4Skinz"] round=4 index=1>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="ZeroRedical" score=4925 kills=23 deaths=16 time="00:00"/>

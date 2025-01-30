@@ -1,4 +1,4 @@
-<series season="BS S1 Pro" teams=["Mohicans" "2016 Leicester"] round=5 index=1>
+<series season="bs-s1-pro" teams=["Mohicans" "2016 Leicester"] round=5 index=1>
 	<match map="Goazon Badlands" timeLeft="15:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>

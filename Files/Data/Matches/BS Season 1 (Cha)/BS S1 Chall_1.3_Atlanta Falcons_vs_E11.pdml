@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["Atlanta Falcons" "E11"] round=1 index=3>
+<series season="bs-s1-cha" teams=["Atlanta Falcons" "E11"] round=1 index=3>
 	<match map="Jawa Refuge" timeLeft="00:13" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Lobstah" score=7000 kills=23 deaths=26 time="00:13"/>

@@ -1,4 +1,4 @@
-<series season="OPLS1 GS" teams=["Tell That To Kanjiklub" "DWxNMW"] round=0 index=15>
+<series season="opl-s1-gs" teams=["Tell That To Kanjiklub" "DWxNMW"] round=0 index=15>
 	<match map="Dune Sea" timeLeft="00:-35" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=2>
 			<playerScore name="Vic" score=9400 kills=20 deaths=37 time="00:-35"/>

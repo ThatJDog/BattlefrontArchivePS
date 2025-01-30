@@ -1,4 +1,4 @@
-<series season="OPLS2 PL" teams=["FIF" "HAH"] round=1 index=1>
+<series season="opl-s2-pro" teams=["FIF" "HAH"] round=1 index=1>
 	<match map="Dune Sea" timeLeft="-00:-57" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Vex" score=9950 kills=41 deaths=41 time="-00:-57"/>

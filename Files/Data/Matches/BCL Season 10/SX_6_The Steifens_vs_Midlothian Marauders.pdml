@@ -1,4 +1,4 @@
-<series season="SX" teams=["The Steifens" "Midlothian Marauders"] round=0 index=6>
+<series season="bcl-s10" teams=["The Steifens" "Midlothian Marauders"] round=0 index=6>
 	<match map="Jawa Refuge" timeLeft="07:37" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=1>
 			<playerScore name="Kurko" score=2655 kills=6 deaths=16 time="07:37"/>

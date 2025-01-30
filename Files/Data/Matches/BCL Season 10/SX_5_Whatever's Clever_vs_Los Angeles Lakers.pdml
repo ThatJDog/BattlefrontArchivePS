@@ -1,4 +1,4 @@
-<series season="SX" teams=["Whatever's Clever" "Los Angeles Lakers"] round=0 index=5>
+<series season="bcl-s10" teams=["Whatever's Clever" "Los Angeles Lakers"] round=0 index=5>
 	<match map="Null" timeLeft="15:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>

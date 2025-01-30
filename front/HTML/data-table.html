@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Database Table Viewer</title>
+        <script type="module" src="/db/database-loader.js" defer></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                /*background: url('/assets/background.jpg') no-repeat center center;*/
+                background-size: cover;
+                text-align: center;
+                flex-direction: column;
+            }
+
+            h1 {
+                color: white;
+                margin-bottom: 20px;
+            }
+
+            table {
+                width: 80%;
+                border-collapse: collapse;
+                background-color: white;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                border-radius: 8px;
+                overflow: hidden;
+            }
+
+            th {
+                background-color: red;
+                color: white;
+                padding: 12px;
+                text-align: left;
+            }
+
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr:nth-child(odd) {
+                background-color: #d6d6d6;
+            }
+
+            #loading-message {
+                font-size: 1.5em;
+                color: white;
+            }
+
+            .hidden {
+                display: none;
+            }
+        </style>
+        <script type="module">
+            import { Table } from '../../db/database.js'; // Adjust path as needed
+
+            async function loadTable() {
+                const loadingMessage = document.getElementById("loading-message");
+                const tableContainer = document.getElementById("table-container");
+
+                try {
+                    const table = window.db.getTable('Season');
+                    console.log(table);
+
+                    // Create table
+                    createTable(table);
+                    loadingMessage.classList.add("hidden");
+                    tableContainer.classList.remove("hidden");
+                } catch (error) {
+                    console.error("Error loading data:", error);
+                    loadingMessage.textContent = "Failed to load data. Please try again.";
+                }
+            }
+
+            function createTable(tableInstance) {
+                const table = document.createElement("table");
+                const thead = document.createElement("thead");
+                const tbody = document.createElement("tbody");
+
+                // Create table header
+                const headerRow = document.createElement("tr");
+                tableInstance.schema.forEach((col) => {
+                    const th = document.createElement("th");
+                    th.textContent = col;
+                    headerRow.appendChild(th);
+                });
+                thead.appendChild(headerRow);
+
+                // Create table rows
+                tableInstance.records.forEach((record) => {
+                    const row = document.createElement("tr");
+                    tableInstance.schema.forEach((col) => {
+                        const td = document.createElement("td");
+                        td.textContent = record[col];
+                        row.appendChild(td);
+                    });
+                    tbody.appendChild(row);
+                });
+
+                table.appendChild(thead);
+                table.appendChild(tbody);
+                document.getElementById("table-container").appendChild(table);
+            }
+
+            document.addEventListener("DatabaseReady", () => {
+                loadTable();
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Database Table Viewer</h1>
+        <p id="loading-message">Loading data, please wait...</p>
+        <div id="table-container" class="hidden"></div>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-<series season="BS S1 Chall" teams=["Y-Wing" "Atlanta Falcons"] round=2 index=2>
+<series season="bs-s1-cha" teams=["Y-Wing" "Atlanta Falcons"] round=2 index=2>
 	<match map="Jawa Refuge" timeLeft="03:06" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="KingCaldera" score=9105 kills=28 deaths=22/>
