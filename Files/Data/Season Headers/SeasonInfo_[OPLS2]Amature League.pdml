@@ -1,0 +1,58 @@
+<season seasonColour="662D91" shortenedName="OPLS2 AL" seasonIndex=18 tournamentMode="roundedTournament" ratingLowerBound=0 ratingUpperBound=100 teamCap=18 cardRatingLowerBound=30 cardRatingUpperBound=99 eliteCardThreshold=90 impactCardThreshold=75 teamCardThreshold=60 systemCardThreshold=40 projectCardThreshold=0>
+	<team name="Walker" primaryColour="FFFFFF" secondaryColour=000000>
+		<player-entry name="Revxnge" playerRating=0 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Nappy" playerRating=9.09 isPrimaryPlayer=true/>
+		<player-entry name="Heizer-Bestrike" playerRating=9.09 isPrimaryPlayer=true/>
+		<player-entry name="Zodiac" playerRating=9.09 isPrimaryPlayer=true/>
+		<player-entry name="Sam-BTC" playerRating=0/>
+	</team>
+	<team name="SWAT" >
+		<player-entry name="Malizia" playerRating=0 primaryColour="FFFFFF" secondaryColour=000000/>
+		<player-entry name="Tryhard" playerRating=38.64 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Mendo" playerRating=45.45 isPrimaryPlayer=true/>
+		<player-entry name="Laguiza" playerRating=22.73 isPrimaryPlayer=true/>
+		<player-entry name="Dajdog" playerRating=18.18 isPrimaryPlayer=true/>
+		<player-entry name="ShawdenFrost" playerRating=18.18/>
+	</team>
+	<team name="JOF" >
+		<player-entry name="Vic" playerRating=61.36 primaryColour="FFFFFF" secondaryColour=000000/>
+		<player-entry name="Gromme" playerRating=27.27 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Alien Predator" playerRating=18.18 isPrimaryPlayer=true/>
+		<player-entry name="Rayanswag" playerRating=25 isPrimaryPlayer=true/>
+		<player-entry name="Gswede" playerRating=38.64 isPrimaryPlayer=true/>
+		<player-entry name="Cheseo97" playerRating=21.21/>
+	</team>
+	<team name="Suuslax" >
+		<player-entry name="ennowez" playerRating=9.09 primaryColour="FFFFFF" secondaryColour=000000/>
+		<player-entry name="Wolf" playerRating=27.27 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Joro" playerRating=0 isPrimaryPlayer=true/>
+		<player-entry name="Deutscher" playerRating=0 isPrimaryPlayer=true/>
+		<player-entry name="Austrian Eagle" playerRating=11.36 isPrimaryPlayer=true/>
+		<player-entry name="SkyFall" playerRating=0/>
+	</team>
+	<team name="Wii Play" >
+		<player-entry name="Yolo" playerRating=24.24 primaryColour="FFFFFF" secondaryColour=000000/>
+		<player-entry name="lsq14" playerRating=0 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="avelah" playerRating=0 isPrimaryPlayer=true/>
+		<player-entry name="Cryptic Zero" playerRating=0 isPrimaryPlayer=true/>
+		<player-entry name="ryk chan" playerRating=0 isPrimaryPlayer=true/>
+		<player-entry name="wicker bean" playerRating=0/>
+	</team>
+	<team name="HOMSC" >
+		<player-entry name="BobaFett" playerRating=0/>
+		<player-entry name="Uliday" playerRating=29.55 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Voamz" playerRating=27.27 isPrimaryPlayer=true/>
+		<player-entry name="FireBringer" playerRating=36.36 isPrimaryPlayer=true/>
+		<player-entry name="XLand" playerRating=21.21/>
+		<player-entry name="Magooboo" playerRating=29.55/>
+	</team>
+	<team name="FRA" >
+		<player-entry name="Coloses" playerRating=36.36 isPrimaryPlayer=true/>
+		<player-entry name="Redloz" playerRating=11.36 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Macketbie" playerRating=9.09 isPrimaryPlayer=true/>
+		<player-entry name="Spaghetti" playerRating=0 isPrimaryPlayer=true/>
+		<player-entry name="Betfroont" playerRating=9.09 isPrimaryPlayer=true/>
+		<player-entry name="Ugarte" playerRating=4.55/>
+		<player-entry name="Xonei" playerRating=9.09/>
+	</team>
+</season>

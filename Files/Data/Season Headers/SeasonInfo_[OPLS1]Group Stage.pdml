@@ -1,0 +1,128 @@
+<season shortenedName="OPLS1 GS" seasonIndex=15 tournamentMode="groupStage" seasonColour="FF155D">
+	<team name="Deathwatch" group=3>
+		<player-entry name="Hashemy" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Spree" />
+		<player-entry name="Vanarin" />
+	</team>
+	<team name="FRA" >
+		<player-entry name="SlewedPanic" group=3/>
+		<player-entry name="Redloz" />
+		<player-entry name="Mileena" />
+		<player-entry name="ShawdenFrost" />
+		<player-entry name="Golden Panda" />
+		<player-entry name="Revxnge" />
+		<player-entry name="Malizia" />
+	</team>
+	<team name="Elmos Minions" >
+		<player-entry name="MF-Zerev" group=3/>
+		<player-entry name="Mortal" />
+		<player-entry name="Subsided" />
+		<player-entry name="Laddas" />
+		<player-entry name="CaZuaL" />
+		<player-entry name="Syvatti" />
+	</team>
+	<team name="BFL" >
+		<player-entry name="Syriskor" group=3/>
+		<player-entry name="Magooboo" />
+		<player-entry name="Bobstaj" />
+		<player-entry name="Yolo" />
+		<player-entry name="Kurziiya" />
+		<player-entry name="Lego Matt" />
+	</team>
+	<team name="DW Beaver" >
+		<player-entry name="Cheers" group=2/>
+		<player-entry name="Swaggy" />
+		<player-entry name="Vex" />
+		<player-entry name="Poochamos" />
+		<player-entry name="Padis" />
+	</team>
+	<team name="Oak Forest High School" >
+		<player-entry name="Goudapest" group=2/>
+		<player-entry name="TheSup" />
+		<player-entry name="Rage" />
+		<player-entry name="Quipsy" />
+		<player-entry name="Envy" />
+		<player-entry name="Crown" />
+	</team>
+	<team name="4Skinz" >
+		<player-entry name="Cappa" group=2/>
+		<player-entry name="Sween" />
+		<player-entry name="Healthy" />
+		<player-entry name="Mendo" />
+		<player-entry name="Coloses" />
+		<player-entry name="Figuxe" />
+	</team>
+	<team name="LFG" >
+		<player-entry name="Bdozen" group=2/>
+		<player-entry name="QuiteGoneG" />
+		<player-entry name="K3sharr" />
+		<player-entry name="ThraxOD" />
+		<player-entry name="IcyQueen" />
+		<player-entry name="Cricken" />
+	</team>
+	<team name="BRO" >
+		<player-entry name="ZeroRedical" group=1/>
+		<player-entry name="Reviem" />
+		<player-entry name="Wookie" />
+		<player-entry name="Albert Blah" />
+		<player-entry name="Gpooy" />
+	</team>
+	<team name="Myrmidons-DW" >
+		<player-entry name="Skumszy" group=1/>
+		<player-entry name="Baseball" />
+		<player-entry name="Cassady" />
+		<player-entry name="Tio" />
+		<player-entry name="Fitality" />
+		<player-entry name="Hildingsson" />
+	</team>
+	<team name="BYC" >
+		<player-entry name="Beerus" group=1/>
+		<player-entry name="XLand" />
+		<player-entry name="FireBringer" />
+		<player-entry name="OneFlow" />
+		<player-entry name="KingCaldera" />
+		<player-entry name="M4TT3 BL4CK" />
+		<player-entry name="RiP SpR" />
+	</team>
+	<team name="Bhocolate Bhip Bookies" >
+		<player-entry name="Andrew" group=1/>
+		<player-entry name="Uliday" />
+		<player-entry name="Blue" />
+		<player-entry name="Falco" />
+		<player-entry name="DJ-Chimera" />
+		<player-entry name="Voamz" />
+		<player-entry name="Amjedjohn" />
+		<player-entry name="SymmPhonic" />
+	</team>
+	<team name="Suuslax" >
+		<player-entry name="Palmy" group=4/>
+		<player-entry name="Wolf" />
+		<player-entry name="Austrian Eagle" />
+		<player-entry name="Joro" />
+	</team>
+	<team name="DEA" >
+		<player-entry name="Deutscher" group=4/>
+		<player-entry name="Slayz" />
+		<player-entry name="Appolo" />
+		<player-entry name="Papl" />
+		<player-entry name="Kurko" />
+	</team>
+	<team name="Tell That To Kanjiklub" >
+		<player-entry name="Nevrixia" group=4/>
+		<player-entry name="Laguiza" />
+		<player-entry name="Haztof" />
+		<player-entry name="Vic" />
+		<player-entry name="Tryhard" />
+		<player-entry name="DarkObitoS" />
+	</team>
+	<team name="DWxNMW" >
+		<player-entry name="Alimpan" group=4/>
+		<player-entry name="Foggle" />
+		<player-entry name="Karnage" />
+		<player-entry name="Bazo" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Goetzeus" />
+		<player-entry name="Diego" />
+	</team>
+</season>

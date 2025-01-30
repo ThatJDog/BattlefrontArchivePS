@@ -1,0 +1,86 @@
+<season shortenedName="S4" seasonIndex=4 tournamentMode="tournament">
+	<team name="All Brain No Aim" >
+		<player-entry name="Aiikeed" />
+		<player-entry name="Prometheus" />
+		<player-entry name="MrJazzyDoo" />
+	</team>
+	<team name="Born To Lose" >
+		<player-entry name="Alien Predator" />
+		<player-entry name="Whatever" />
+		<player-entry name="QuiteGoneG" />
+		<player-entry name="Nexlated" />
+	</team>
+	<team name="Chosen 1" >
+		<player-entry name="Laguiza" />
+		<player-entry name="Hildingsson" />
+		<player-entry name="Goetzeus" />
+		<player-entry name="ReDirK" />
+	</team>
+	<team name="FN1 Remastered" >
+		<player-entry name="Amjedjohn" />
+		<player-entry name="Fitality" />
+		<player-entry name="Baseball" />
+		<player-entry name="Szeth" />
+	</team>
+	<team name="Mos Eisley Mandem" >
+		<player-entry name="BuringSkull" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Karnage" />
+		<player-entry name="Tryhard" />
+	</team>
+	<team name="Night Sentinals" >
+		<player-entry name="Veggie" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Keyys" />
+		<player-entry name="YoShiiRR" />
+	</team>
+	<team name="OGYB" >
+		<player-entry name="Haztof" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Padis" />
+		<player-entry name="Sarrows" />
+	</team>
+	<team name="Sinister" >
+		<player-entry name="Kygin" />
+		<player-entry name="Cassady" />
+		<player-entry name="SlewedPanic" />
+		<player-entry name="Uliday" />
+	</team>
+	<team name="SWAT" >
+		<player-entry name="Serluir" />
+		<player-entry name="Spree" />
+		<player-entry name="Slope" />
+		<player-entry name="CrazyKiVi" />
+	</team>
+	<team name="Teen X" >
+		<player-entry name="BattleFront" />
+		<player-entry name="SymmPhonic" />
+		<player-entry name="TheSup" />
+		<player-entry name="Steen" />
+	</team>
+	<team name="The Splooge Men" >
+		<player-entry name="Zayne" />
+		<player-entry name="Gpooy" />
+		<player-entry name="Hobo" />
+		<player-entry name="Lobstah" />
+	</team>
+	<team name="Veni Vidi Vici" >
+		<player-entry name="Misha" />
+		<player-entry name="Tio" />
+		<player-entry name="Overwhelmed" />
+		<player-entry name="Falco" />
+	</team>
+	<team name="Wratt" >
+		<player-entry name="Diego" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Coloses" />
+		<player-entry name="White Jedi" />
+	</team>
+	<team name="ZHU" >
+		<player-entry name="Brisker" />
+		<player-entry name="Blue" />
+		<player-entry name="Cricken" />
+		<player-entry name="Sween" />
+		<player-entry name="Puffy" />
+	</team>
+</season>

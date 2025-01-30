@@ -1,44 +1,44 @@
-<series team1="OGYB" team2="Plax Goons.sri" round=0 index=8>
+<series season="S9" teams=["OGYB" "Plax Goons"] round=0 index=8>
 	<match map="Goazon Badlands" timeLeft="02:36" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=4>
-			<playerScore name="Vex" score=6375 kills=28 deaths=14/>
-			<playerScore name="Keyys" score=4975 kills=18 deaths=20/>
-			<playerScore name="Swaggy" score=3780 kills=16 deaths=19/>
-			<playerScore name="Hobo" score=3700 kills=13 deaths=19/>
+			<playerScore name="Vex" score=6375 kills=28 deaths=14 time="02:36"/>
+			<playerScore name="Keyys" score=4975 kills=18 deaths=20 time="02:36"/>
+			<playerScore name="Swaggy" score=3780 kills=16 deaths=19 time="02:36"/>
+			<playerScore name="Hobo" score=3700 kills=13 deaths=19 time="02:36"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Unakkorn" score=5600 kills=25 deaths=20/>
-			<playerScore name="TheSup" score=5400 kills=15 deaths=20/>
-			<playerScore name="Overwhelmed" score=3975 kills=14 deaths=18/>
-			<playerScore name="Nai-Sora" score=3975 kills=18 deaths=18/>
+			<playerScore name="Unakkorn" score=5600 kills=25 deaths=20 time="02:36"/>
+			<playerScore name="TheSup" score=5400 kills=15 deaths=20 time="02:36"/>
+			<playerScore name="Overwhelmed" score=3975 kills=14 deaths=18 time="02:36"/>
+			<playerScore name="Nai-Sora" score=3975 kills=18 deaths=18 time="02:36"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Vex" score=3875 kills=21 deaths=23/>
-			<playerScore name="Hobo" score=3020 kills=11 deaths=22/>
-			<playerScore name="Swaggy" score=2955 kills=15 deaths=15/>
-			<playerScore name="Keyys" score=1900 kills=11 deaths=19/>
+			<playerScore name="Vex" score=3875 kills=21 deaths=23 time="00:00"/>
+			<playerScore name="Hobo" score=3020 kills=11 deaths=22 time="00:00"/>
+			<playerScore name="Swaggy" score=2955 kills=15 deaths=15 time="00:00"/>
+			<playerScore name="Keyys" score=1900 kills=11 deaths=19 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=7>
-			<playerScore name="Unakkorn" score=5275 kills=30 deaths=21/>
-			<playerScore name="TheSup" score=3840 kills=19 deaths=15/>
-			<playerScore name="Overwhelmed" score=3810 kills=14 deaths=17/>
-			<playerScore name="Nai-Sora" score=2975 kills=16 deaths=7/>
+			<playerScore name="Unakkorn" score=5275 kills=30 deaths=21 time="00:00"/>
+			<playerScore name="TheSup" score=3840 kills=19 deaths=15 time="00:00"/>
+			<playerScore name="Overwhelmed" score=3810 kills=14 deaths=17 time="00:00"/>
+			<playerScore name="Nai-Sora" score=2975 kills=16 deaths=7 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="04:16" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=2>
-			<playerScore name="Swaggy" score=7040 kills=31 deaths=22/>
-			<playerScore name="Keyys" score=6350 kills=26 deaths=23/>
-			<playerScore name="Vex" score=5250 kills=24 deaths=19/>
-			<playerScore name="Hobo" score=4070 kills=20 deaths=27/>
+			<playerScore name="Swaggy" score=7040 kills=31 deaths=22 time="04:16"/>
+			<playerScore name="Keyys" score=6350 kills=26 deaths=23 time="04:16"/>
+			<playerScore name="Vex" score=5250 kills=24 deaths=19 time="04:16"/>
+			<playerScore name="Hobo" score=4070 kills=20 deaths=27 time="04:16"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="TheSup" score=6425 kills=24 deaths=26/>
-			<playerScore name="Unakkorn" score=6175 kills=25 deaths=27/>
-			<playerScore name="Overwhelmed" score=6095 kills=18 deaths=22/>
-			<playerScore name="Nai-Sora" score=5200 kills=22 deaths=28/>
+			<playerScore name="TheSup" score=6425 kills=24 deaths=26 time="04:16"/>
+			<playerScore name="Unakkorn" score=6175 kills=25 deaths=27 time="04:16"/>
+			<playerScore name="Overwhelmed" score=6095 kills=18 deaths=22 time="04:16"/>
+			<playerScore name="Nai-Sora" score=5200 kills=22 deaths=28 time="04:16"/>
 		</teamScore>
 	</match>
 </series>

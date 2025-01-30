@@ -1,44 +1,44 @@
-<series team1="SWAT" team2="Darth Steelers.sri" round=2 index=1>
+<series season="BS S1 Chall" teams=["SWAT" "Darth Steelers"] round=2 index=1>
 	<match map="Jawa Refuge" timeLeft="01:00" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="Alimpan" score=7475 kills=36 deaths=24/>
-			<playerScore name="Vic" score=7425 kills=13 deaths=26/>
-			<playerScore name="Haztof" score=5550 kills=18 deaths=23/>
-			<playerScore name="QuiteGoneG" score=4350 kills=18 deaths=22/>
+			<playerScore name="Alimpan" score=7475 kills=36 deaths=24 time="01:00"/>
+			<playerScore name="Vic" score=7425 kills=13 deaths=26 time="01:00"/>
+			<playerScore name="Haztof" score=5550 kills=18 deaths=23 time="01:00"/>
+			<playerScore name="QuiteGoneG" score=4350 kills=18 deaths=22 time="01:00"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Mortal" score=7675 kills=28 deaths=19/>
-			<playerScore name="Amjedjohn" score=7450 kills=28 deaths=22/>
-			<playerScore name="Uliday" score=6795 kills=21 deaths=22/>
-			<playerScore name="K3sharr" score=4700 kills=15 deaths=22/>
+			<playerScore name="Mortal" score=7675 kills=28 deaths=19 time="01:00"/>
+			<playerScore name="Amjedjohn" score=7450 kills=28 deaths=22 time="01:00"/>
+			<playerScore name="Uliday" score=6795 kills=21 deaths=22 time="01:00"/>
+			<playerScore name="K3sharr" score=4700 kills=15 deaths=22 time="01:00"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="00:14" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="QuiteGoneG" score=10070 kills=29 deaths=31/>
-			<playerScore name="Alimpan" score=8525 kills=44 deaths=29/>
-			<playerScore name="Vic" score=8150 kills=30 deaths=36/>
-			<playerScore name="Haztof" score=7100 kills=23 deaths=38/>
+			<playerScore name="QuiteGoneG" score=10070 kills=29 deaths=31 time="00:14"/>
+			<playerScore name="Alimpan" score=8525 kills=44 deaths=29 time="00:14"/>
+			<playerScore name="Vic" score=8150 kills=30 deaths=36 time="00:14"/>
+			<playerScore name="Haztof" score=7100 kills=23 deaths=38 time="00:14"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Mortal" score=11075 kills=50 deaths=28/>
-			<playerScore name="Amjedjohn" score=9000 kills=31 deaths=35/>
-			<playerScore name="K3sharr" score=8350 kills=23 deaths=33/>
-			<playerScore name="Uliday" score=8220 kills=28 deaths=31/>
+			<playerScore name="Mortal" score=11075 kills=50 deaths=28 time="00:14"/>
+			<playerScore name="Amjedjohn" score=9000 kills=31 deaths=35 time="00:14"/>
+			<playerScore name="K3sharr" score=8350 kills=23 deaths=33 time="00:14"/>
+			<playerScore name="Uliday" score=8220 kills=28 deaths=31 time="00:14"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="04:26" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="Alimpan" score=4550 kills=17 deaths=17/>
-			<playerScore name="Vic" score=3675 kills=9 deaths=16/>
-			<playerScore name="Haztof" score=3665 kills=10 deaths=14/>
-			<playerScore name="QuiteGoneG" score=3000 kills=15 deaths=20/>
+			<playerScore name="Alimpan" score=4550 kills=17 deaths=17 time="04:26"/>
+			<playerScore name="Vic" score=3675 kills=9 deaths=16 time="04:26"/>
+			<playerScore name="Haztof" score=3665 kills=10 deaths=14 time="04:26"/>
+			<playerScore name="QuiteGoneG" score=3000 kills=15 deaths=20 time="04:26"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Mortal" score=7075 kills=32 deaths=11/>
-			<playerScore name="Uliday" score=4625 kills=17 deaths=14/>
-			<playerScore name="Amjedjohn" score=4200 kills=13 deaths=13/>
-			<playerScore name="K3sharr" score=3675 kills=4 deaths=13/>
+			<playerScore name="Mortal" score=7075 kills=32 deaths=11 time="04:26"/>
+			<playerScore name="Uliday" score=4625 kills=17 deaths=14 time="04:26"/>
+			<playerScore name="Amjedjohn" score=4200 kills=13 deaths=13 time="04:26"/>
+			<playerScore name="K3sharr" score=3675 kills=4 deaths=13 time="04:26"/>
 		</teamScore>
 	</match>
 </series>

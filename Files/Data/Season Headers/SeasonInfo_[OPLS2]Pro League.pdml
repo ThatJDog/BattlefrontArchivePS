@@ -1,0 +1,57 @@
+<season seasonColour="662D91" shortenedName="OPLS2 PL" seasonIndex=19 tournamentMode="roundedTournament" ratingLowerBound=0 ratingUpperBound=100 teamCap=38 cardRatingLowerBound=30 cardRatingUpperBound=99 eliteCardThreshold=90 impactCardThreshold=75 teamCardThreshold=60 systemCardThreshold=40 projectCardThreshold=0>
+	<team name="FIF" >
+		<player-entry name="Spree" playerRating=100 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Vex" playerRating=100 isPrimaryPlayer=true/>
+		<player-entry name="Swaggy" playerRating=77.27 isPrimaryPlayer=true/>
+		<player-entry name="Sarrows" playerRating=18.18/>
+		<player-entry name="Rubstery" playerRating=36.36/>
+	</team>
+	<team name="Strikers" >
+		<player-entry name="QuiteGoneG" playerRating=31.82 isPrimaryPlayer=true/>
+		<player-entry name="Envy" playerRating=84.09 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Hashemy" playerRating=90.91 isPrimaryPlayer=true/>
+		<player-entry name="Unakkorn" playerRating=88.64 isPrimaryPlayer=true/>
+		<player-entry name="CaZuaL" playerRating=45.45 isPrimaryPlayer=true/>
+		<player-entry name="Nai-Sora" playerRating=61.36/>
+	</team>
+	<team name="HAH" >
+		<player-entry name="Rage" playerRating=78.18/>
+		<player-entry name="Vanarin" playerRating=93.18 isPrimaryPlayer=true/>
+		<player-entry name="Karnage" playerRating=90.91 isPrimaryPlayer=true/>
+		<player-entry name="Goudapest" playerRating=70.45 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Cricken" playerRating=54.55/>
+		<player-entry name="Mortal" playerRating=58.18/>
+	</team>
+	<team name="MLV" >
+		<player-entry name="Cappa" playerRating=57.58 isPrimaryPlayer=true/>
+		<player-entry name="Blue" playerRating=67.27 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Padis" playerRating=72.73 isPrimaryPlayer=true/>
+		<player-entry name="Falco" playerRating=72.73 isPrimaryPlayer=true/>
+		<player-entry name="Gpooy" playerRating=72.73 isPrimaryPlayer=true/>
+	</team>
+	<team name="ZIS" >
+		<player-entry name="Sween" playerRating=61.36/>
+		<player-entry name="Bazo" playerRating=98.18 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Appolo" playerRating=75 isPrimaryPlayer=true/>
+		<player-entry name="Papl" playerRating=56.82 isPrimaryPlayer=true/>
+		<player-entry name="Goetzeus" playerRating=81.82 isPrimaryPlayer=true/>
+		<player-entry name="Diego" playerRating=70.45/>
+	</team>
+	<team name="Yeezus" >
+		<player-entry name="Cookie" playerRating=45.45/>
+		<player-entry name="SymmPhonic" playerRating=56.82 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Vamsps" playerRating=45.45/>
+		<player-entry name="Nihiles" playerRating=27.27 isPrimaryPlayer=true/>
+		<player-entry name="Klumszy" playerRating=27.27/>
+		<player-entry name="Figuxe" playerRating=56.82 isPrimaryPlayer=true/>
+	</team>
+	<team name="EDL" >
+		<player-entry name="TheSup" playerRating=75 isPrimaryPlayer=true/>
+		<player-entry name="Foggle" playerRating=100 isPrimaryPlayer=true/>
+		<player-entry name="Slayz" playerRating=60 isPrimaryPlayer=true/>
+		<player-entry name="Kurko" playerRating=43.64 isPrimaryPlayer=true/>
+		<player-entry name="Prometheus" playerRating=100 isPrimaryPlayer=true isCaptain=true/>
+		<player-entry name="Isolani" playerRating=40.91/>
+		<player-entry name="Alimpan" playerRating=65.45/>
+	</team>
+</season>

@@ -1,4 +1,4 @@
-<series team1="SWAT" team2="E11.sri" round=5 index=2>
+<series season="BS S1 Chall" teams=["SWAT" "E11"] round=5 index=2>
 	<match map="Dune Sea" timeLeft="11:49" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=2>
 			<playerScore name="Haztof" score=2440 kills=7 deaths=5/>
@@ -11,9 +11,9 @@
 			<playerScore name="QuiteGoneG" score=1400 kills=6 deaths=9/>
 			<playerScore name="Cian" score=1200 kills=2 deaths=7/>
 			<playerScore name="Tryhard" score=1120 kills=6 deaths=7/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="01:17" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Alimpan" score=9525 kills=43 deaths=30/>
 			<playerScore name="Vic" score=9325 kills=32 deaths=19/>
@@ -25,9 +25,9 @@
 			<playerScore name="QuiteGoneG" score=7900 kills=21 deaths=35/>
 			<playerScore name="Tryhard" score=6880 kills=28 deaths=28/>
 			<playerScore name="XLand" score=5150 kills=18 deaths=25/>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="00:53" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Alimpan" score=10450 kills=40 deaths=25/>
 			<playerScore name="Vic" score=7675 kills=27 deaths=25/>
@@ -39,9 +39,9 @@
 			<playerScore name="XLand" score=7525 kills=32 deaths=20/>
 			<playerScore name="QuiteGoneG" score=6575 kills=17 deaths=35/>
 			<playerScore name="Cian" score=6425 kills=27 deaths=27/>
+		</teamScore>
 	</match>
 	<match map="Raider Camp" timeLeft="05:41" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Alimpan" score=6750 kills=26 deaths=16/>
 			<playerScore name="Vic" score=5400 kills=24 deaths=9/>
@@ -53,9 +53,9 @@
 			<playerScore name="XLand" score=3425 kills=13 deaths=18/>
 			<playerScore name="Cian" score=3275 kills=16 deaths=21/>
 			<playerScore name="QuiteGoneG" score=2750 kills=10 deaths=22/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="04:20" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Alimpan" score=8525 kills=37 deaths=19/>
 			<playerScore name="Haztof" score=7160 kills=25 deaths=21/>

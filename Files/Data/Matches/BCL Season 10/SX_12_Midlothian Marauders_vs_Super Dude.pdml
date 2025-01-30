@@ -1,44 +1,44 @@
-<series team1="Midlothian Marauders" team2="Super Dude.sri" round=0 index=12>
+<series season="SX" teams=["Midlothian Marauders" "Super Dude"] round=0 index=12>
 	<match map="Jawa Refuge" timeLeft="06:33" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Quipsy" score=5240 kills=16 deaths=11/>
-			<playerScore name="Rage" score=5100 kills=17 deaths=14/>
-			<playerScore name="Bdozen" score=4825 kills=13 deaths=14/>
-			<playerScore name="TheSup" score=4300 kills=18 deaths=14/>
+			<playerScore name="Quipsy" score=5240 kills=16 deaths=11 time="06:33"/>
+			<playerScore name="Rage" score=5100 kills=17 deaths=14 time="06:33"/>
+			<playerScore name="Bdozen" score=4825 kills=13 deaths=14 time="06:33"/>
+			<playerScore name="TheSup" score=4300 kills=18 deaths=14 time="06:33"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Swaggy" score=4290 kills=18 deaths=18/>
-			<playerScore name="Vex" score=3400 kills=13 deaths=14/>
-			<playerScore name="Mortal" score=2875 kills=14 deaths=16/>
-			<playerScore name="Tio" score=2625 kills=8 deaths=16/>
+			<playerScore name="Swaggy" score=4290 kills=18 deaths=18 time="06:33"/>
+			<playerScore name="Vex" score=3400 kills=13 deaths=14 time="06:33"/>
+			<playerScore name="Mortal" score=2875 kills=14 deaths=16 time="06:33"/>
+			<playerScore name="Tio" score=2625 kills=8 deaths=16 time="06:33"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="03:50" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="TheSup" score=5400 kills=26 deaths=22/>
-			<playerScore name="Quipsy" score=5295 kills=20 deaths=13/>
-			<playerScore name="Bdozen" score=3975 kills=14 deaths=21/>
-			<playerScore name="Rage" score=4025 kills=18 deaths=15/>
+			<playerScore name="TheSup" score=5400 kills=26 deaths=22 time="03:50"/>
+			<playerScore name="Quipsy" score=5295 kills=20 deaths=13 time="03:50"/>
+			<playerScore name="Bdozen" score=3975 kills=14 deaths=21 time="03:50"/>
+			<playerScore name="Rage" score=4025 kills=18 deaths=15 time="03:50"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="Swaggy" score=5110 kills=10 deaths=17/>
-			<playerScore name="Tio" score=4950 kills=17 deaths=26/>
-			<playerScore name="Vex" score=4675 kills=26 deaths=20/>
-			<playerScore name="Mortal" score=4550 kills=19 deaths=17/>
+			<playerScore name="Swaggy" score=5110 kills=10 deaths=17 time="03:50"/>
+			<playerScore name="Tio" score=4950 kills=17 deaths=26 time="03:50"/>
+			<playerScore name="Vex" score=4675 kills=26 deaths=20 time="03:50"/>
+			<playerScore name="Mortal" score=4550 kills=19 deaths=17 time="03:50"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="00:45" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Rage" score=10325 kills=39 deaths=31/>
-			<playerScore name="Bdozen" score=9950 kills=31 deaths=32/>
-			<playerScore name="TheSup" score=9075 kills=46 deaths=31/>
-			<playerScore name="Quipsy" score=7055 kills=18 deaths=32/>
+			<playerScore name="Rage" score=10325 kills=39 deaths=31 time="00:45"/>
+			<playerScore name="Bdozen" score=9950 kills=31 deaths=32 time="00:45"/>
+			<playerScore name="TheSup" score=9075 kills=46 deaths=31 time="00:45"/>
+			<playerScore name="Quipsy" score=7055 kills=18 deaths=32 time="00:45"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Vex" score=8900 kills=40 deaths=32/>
-			<playerScore name="Swaggy" score=8565 kills=35 deaths=35/>
-			<playerScore name="Tio" score=8000 kills=32 deaths=42/>
-			<playerScore name="Mortal" score=6175 kills=18 deaths=28/>
+			<playerScore name="Vex" score=8900 kills=40 deaths=32 time="00:45"/>
+			<playerScore name="Swaggy" score=8565 kills=35 deaths=35 time="00:45"/>
+			<playerScore name="Tio" score=8000 kills=32 deaths=42 time="00:45"/>
+			<playerScore name="Mortal" score=6175 kills=18 deaths=28 time="00:45"/>
 		</teamScore>
 	</match>
 </series>

@@ -1,0 +1,68 @@
+<season shortenedName="S2" seasonIndex=2 tournamentMode="tournament">
+	<team name="Bhocolate Bhip Bookies" >
+		<player-entry name="Uliday" />
+		<player-entry name="Intruce" />
+		<player-entry name="DJ-Chimera" />
+		<player-entry name="Klumszy" />
+	</team>
+	<team name="Cricken's Fanclub 2.0" >
+		<player-entry name="Old Relative" />
+		<player-entry name="Sushi" />
+		<player-entry name="Cryptic Zero" />
+		<player-entry name="Anoxia" />
+		<player-entry name="Solution" />
+	</team>
+	<team name="EU Washed" >
+		<player-entry name="Padis" />
+		<player-entry name="Stook" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Nai-Sora" />
+	</team>
+	<team name="N'Tent" >
+		<player-entry name="Tryhard" />
+		<player-entry name="Cassady" />
+		<player-entry name="Baseball" />
+		<player-entry name="Hobo" />
+	</team>
+	<team name="OGYB" >
+		<player-entry name="TentFergus" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Exeyst" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Sarrows" />
+	</team>
+	<team name="SNUS" >
+		<player-entry name="Lobstah" />
+		<player-entry name="Hildingsson" />
+		<player-entry name="Fitality" />
+		<player-entry name="Cricken" />
+	</team>
+	<team name="The Artistic Dancers" >
+		<player-entry name="Puffy" />
+		<player-entry name="Tio" />
+		<player-entry name="Beerus" />
+		<player-entry name="Samuels" />
+		<player-entry name="YIANO" />
+	</team>
+	<team name="TornVeilProphets" >
+		<player-entry name="schmxtzifi3d" />
+		<player-entry name="Keyys" />
+		<player-entry name="Poochamos" />
+		<player-entry name="Palmy" />
+		<player-entry name="QuiteGoneG" />
+	</team>
+	<team name="WiiControllers" >
+		<player-entry name="Slope" />
+		<player-entry name="Laguiza" />
+		<player-entry name="Vic" />
+		<player-entry name="Chicken" />
+		<player-entry name="Voxlry" />
+	</team>
+	<team name="Wrath" >
+		<player-entry name="Hurt M3 Plenty" />
+		<player-entry name="TheSup" />
+		<player-entry name="Coloses" />
+		<player-entry name="CaZuaL" />
+		<player-entry name="Blue" />
+	</team>
+</season>

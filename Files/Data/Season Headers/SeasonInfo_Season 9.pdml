@@ -1,0 +1,72 @@
+<season shortenedName="S9" seasonIndex=11 tournamentMode="tournament">
+	<team name="MeM" >
+		<player-entry name="Skumszy" />
+		<player-entry name="Hildingsson" />
+		<player-entry name="Diego" />
+		<player-entry name="Palmy" />
+		<player-entry name="Cookie" />
+		<player-entry name="Insold" />
+		<player-entry name="Haes" />
+	</team>
+	<team name="ZHU" >
+		<player-entry name="RiP SpR" />
+		<player-entry name="Blue" />
+		<player-entry name="Shadows" />
+		<player-entry name="SymmPhonic" />
+		<player-entry name="Coloses" />
+		<player-entry name="Voamz" />
+		<player-entry name="Uliday" />
+		<player-entry name="Decker" />
+	</team>
+	<team name="OGYB" >
+		<player-entry name="Texnotic" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Vex" />
+		<player-entry name="Falco" />
+		<player-entry name="Hobo" />
+		<player-entry name="Lobstah" />
+		<player-entry name="Sarrows" />
+		<player-entry name="Fuego" />
+	</team>
+	<team name="TRA" >
+		<player-entry name="Pexcei" />
+		<player-entry name="Fitality" />
+		<player-entry name="Rage" />
+		<player-entry name="Quipsy" />
+		<player-entry name="Transplex" />
+		<player-entry name="Magooboo" />
+	</team>
+	<team name="Plax Goons" >
+		<player-entry name="MrJazzyDoo" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Envy" />
+		<player-entry name="Nai-Sora" />
+		<player-entry name="Kurko" />
+		<player-entry name="Gswede" />
+		<player-entry name="Symple" />
+		<player-entry name="Overwhelmed" />
+	</team>
+	<team name="SWAT" >
+		<player-entry name="Soled" />
+		<player-entry name="Foggle" />
+		<player-entry name="Bazo" />
+		<player-entry name="Vic" />
+		<player-entry name="Tryhard" />
+		<player-entry name="Dajdog" />
+		<player-entry name="Laguiza" />
+		<player-entry name="Papl" />
+		<player-entry name="Novacane" />
+	</team>
+	<team name="AnT" >
+		<player-entry name="Karnage" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Slayz" />
+		<player-entry name="Keyys" />
+		<player-entry name="Mendo" />
+		<player-entry name="DarkObitoS" />
+		<player-entry name="Appolo" />
+		<player-entry name="Puffy" />
+		<player-entry name="Yolo" />
+	</team>
+</season>

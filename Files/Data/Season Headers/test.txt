@@ -1,0 +1,3 @@
+<cardData SeasonID="">
+    <cardInfo playerName="" imperialSkin="" rebelSkin="" cardRating=00 cardStats={off=4 def=3 obj=3 pos=3 int=3 kdr=4}>
+</cardData>

@@ -1,0 +1,58 @@
+<season shortenedName="WintClass" seasonIndex=12 tournamentMode="tournament">
+	<team name="J Silly" >
+		<player-entry name="Vex" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Fitality" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Voamz" />
+	</team>
+	<team name="NMW" >
+		<player-entry name="Sarrows" />
+		<player-entry name="Foggle" />
+		<player-entry name="Karnage" />
+		<player-entry name="Diego" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Bazo" />
+	</team>
+	<team name="Reckoning" >
+		<player-entry name="Tryhard" />
+		<player-entry name="Cassady" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Hobo" />
+		<player-entry name="Cricken" />
+		<player-entry name="Kurko" />
+	</team>
+	<team name="RHCP" >
+		<player-entry name="Veggie" />
+		<player-entry name="Spree" />
+		<player-entry name="Shadows" />
+		<player-entry name="Tio" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Uliday" />
+	</team>
+	<team name="THE ZA" >
+		<player-entry name="Amjedjohn" />
+		<player-entry name="Goudapest" />
+		<player-entry name="Hashemy" />
+		<player-entry name="Bdozen" />
+		<player-entry name="Rage" />
+		<player-entry name="Quipsy" />
+	</team>
+	<team name="Turk Slayers" >
+		<player-entry name="Falco" />
+		<player-entry name="Papl" />
+		<player-entry name="Appolo" />
+		<player-entry name="Slayz" />
+		<player-entry name="Cookie" />
+		<player-entry name="EMPDestroyer" />
+	</team>
+	<team name="ZHU" >
+		<player-entry name="Slope" />
+		<player-entry name="Blue" />
+		<player-entry name="Coloses" />
+		<player-entry name="Sween" />
+		<player-entry name="SymmPhonic" />
+		<player-entry name="Palmy" />
+		<player-entry name="K3sharr" />
+	</team>
+</season>

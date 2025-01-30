@@ -1,72 +1,72 @@
-<series team1="NMW" team2="Oak Forest High School.sri" round=1 index=2>
+<series season="OPLS1 PL" teams=["NMW" "Oak Forest High School"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="07:32" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Foggle" score=3860 kills=10 deaths=3/>
-			<playerScore name="Bazo" score=4925 kills=20 deaths=13/>
-			<playerScore name="Prometheus" score=4750 kills=19 deaths=5/>
-			<playerScore name="Diego" score=3450 kills=14 deaths=12/>
+			<playerScore name="Foggle" score=3860 kills=10 deaths=3 time="07:32"/>
+			<playerScore name="Bazo" score=4925 kills=20 deaths=13 time="07:32"/>
+			<playerScore name="Prometheus" score=4750 kills=19 deaths=5 time="07:32"/>
+			<playerScore name="Diego" score=3450 kills=14 deaths=12 time="07:32"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="Veggie" score=3075 kills=13 deaths=20/>
-			<playerScore name="Rage" score=2375 kills=5 deaths=15/>
-			<playerScore name="TheSup" score=1700 kills=6 deaths=18/>
-			<playerScore name="Quipsy" score=1640 kills=8 deaths=10/>
+			<playerScore name="Veggie" score=3075 kills=13 deaths=20 time="07:32"/>
+			<playerScore name="Rage" score=2375 kills=5 deaths=15 time="07:32"/>
+			<playerScore name="TheSup" score=1700 kills=6 deaths=18 time="07:32"/>
+			<playerScore name="Quipsy" score=1640 kills=8 deaths=10 time="07:32"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="13:16" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Diego" score=475 kills=3 deaths=3/>
-			<playerScore name="Foggle" score=400 kills=3 deaths=3/>
-			<playerScore name="Prometheus" score=300 kills=1 deaths=2/>
-			<playerScore name="Bazo" score=225 kills=2 deaths=5/>
+			<playerScore name="Diego" score=475 kills=3 deaths=3 time="13:16"/>
+			<playerScore name="Foggle" score=400 kills=3 deaths=3 time="13:16"/>
+			<playerScore name="Prometheus" score=300 kills=1 deaths=2 time="13:16"/>
+			<playerScore name="Bazo" score=225 kills=2 deaths=5 time="13:16"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="TheSup" score=450 kills=3 deaths=2/>
-			<playerScore name="Quipsy" score=445 kills=3 deaths=0/>
-			<playerScore name="Veggie" score=375 kills=2 deaths=2/>
-			<playerScore name="Rage" score=300 kills=2 deaths=5/>
+			<playerScore name="TheSup" score=450 kills=3 deaths=2 time="13:16"/>
+			<playerScore name="Quipsy" score=445 kills=3 deaths=0 time="13:16"/>
+			<playerScore name="Veggie" score=375 kills=2 deaths=2 time="13:16"/>
+			<playerScore name="Rage" score=300 kills=2 deaths=5 time="13:16"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Bazo" score=6150 kills=32 deaths=34/>
-			<playerScore name="Prometheus" score=5565 kills=28 deaths=26/>
-			<playerScore name="Diego" score=4975 kills=21 deaths=28/>
-			<playerScore name="Foggle" score=4275 kills=16 deaths=17/>
+			<playerScore name="Bazo" score=6150 kills=32 deaths=34 time="00:00"/>
+			<playerScore name="Prometheus" score=5565 kills=28 deaths=26 time="00:00"/>
+			<playerScore name="Diego" score=4975 kills=21 deaths=28 time="00:00"/>
+			<playerScore name="Foggle" score=4275 kills=16 deaths=17 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=7>
-			<playerScore name="Rage" score=6425 kills=35 deaths=27/>
-			<playerScore name="TheSup" score=6000 kills=20 deaths=26/>
-			<playerScore name="Veggie" score=5475 kills=31 deaths=28/>
-			<playerScore name="Quipsy" score=4755 kills=18 deaths=17/>
+			<playerScore name="Rage" score=6425 kills=35 deaths=27 time="00:00"/>
+			<playerScore name="TheSup" score=6000 kills=20 deaths=26 time="00:00"/>
+			<playerScore name="Veggie" score=5475 kills=31 deaths=28 time="00:00"/>
+			<playerScore name="Quipsy" score=4755 kills=18 deaths=17 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="01:49" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=11690 kills=36 deaths=28/>
-			<playerScore name="Diego" score=10300 kills=26 deaths=26/>
-			<playerScore name="Prometheus" score=8650 kills=43 deaths=18/>
-			<playerScore name="Bazo" score=8050 kills=41 deaths=24/>
+			<playerScore name="Foggle" score=11690 kills=36 deaths=28 time="01:49"/>
+			<playerScore name="Diego" score=10300 kills=26 deaths=26 time="01:49"/>
+			<playerScore name="Prometheus" score=8650 kills=43 deaths=18 time="01:49"/>
+			<playerScore name="Bazo" score=8050 kills=41 deaths=24 time="01:49"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="TheSup" score=8400 kills=27 deaths=38/>
-			<playerScore name="Quipsy" score=5750 kills=27 deaths=34/>
-			<playerScore name="Rage" score=4850 kills=17 deaths=34/>
-			<playerScore name="Veggie" score=5625 kills=24 deaths=37/>
+			<playerScore name="TheSup" score=8400 kills=27 deaths=38 time="01:49"/>
+			<playerScore name="Quipsy" score=5750 kills=27 deaths=34 time="01:49"/>
+			<playerScore name="Rage" score=4850 kills=17 deaths=34 time="01:49"/>
+			<playerScore name="Veggie" score=5625 kills=24 deaths=37 time="02:44"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=8>
-			<playerScore name="Diego" score=7775 kills=31 deaths=32/>
-			<playerScore name="Bazo" score=7025 kills=44 deaths=30/>
-			<playerScore name="Foggle" score=6350 kills=33 deaths=25/>
-			<playerScore name="Prometheus" score=6875 kills=31 deaths=21/>
+			<playerScore name="Diego" score=7775 kills=31 deaths=32 time="00:00"/>
+			<playerScore name="Bazo" score=7025 kills=44 deaths=30 time="00:00"/>
+			<playerScore name="Foggle" score=6350 kills=33 deaths=25 time="00:00"/>
+			<playerScore name="Prometheus" score=6875 kills=31 deaths=21 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="Veggie" score=6375 kills=36 deaths=32/>
-			<playerScore name="TheSup" score=5475 kills=25 deaths=36/>
-			<playerScore name="Rage" score=4625 kills=26 deaths=35/>
-			<playerScore name="Quipsy" score=4445 kills=20 deaths=38/>
+			<playerScore name="Veggie" score=6375 kills=36 deaths=32 time="00:00"/>
+			<playerScore name="TheSup" score=5475 kills=25 deaths=36 time="00:00"/>
+			<playerScore name="Rage" score=4625 kills=26 deaths=35 time="00:00"/>
+			<playerScore name="Quipsy" score=4445 kills=20 deaths=38 time="00:00"/>
 		</teamScore>
 	</match>
 </series>

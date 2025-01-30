@@ -1,44 +1,44 @@
-<series team1="BFL" team2="LFG.sri" round=1 index=4>
+<series season="OPLS1 AL" teams=["BFL" "LFG"] round=1 index=4>
 	<match map="Jawa Refuge" timeLeft="04:11" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Cheers" score=4625 kills=18 deaths=20/>
-			<playerScore name="Nevrixia" score=4285 kills=13 deaths=16/>
-			<playerScore name="Kurziiya" score=3500 kills=18 deaths=19/>
-			<playerScore name="Magooboo" score=3100 kills=9 deaths=9/>
+			<playerScore name="Cheers" score=4625 kills=18 deaths=20 time="04:11"/>
+			<playerScore name="Nevrixia" score=4285 kills=13 deaths=16 time="04:11"/>
+			<playerScore name="Kurziiya" score=3500 kills=18 deaths=19 time="04:11"/>
+			<playerScore name="Magooboo" score=3100 kills=9 deaths=9 time="08:17"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="QuiteGoneG" score=5750 kills=14 deaths=15/>
-			<playerScore name="Cricken" score=4525 kills=16 deaths=15/>
-			<playerScore name="ThraxOD" score=4525 kills=17 deaths=13/>
-			<playerScore name="ZeroRedical" score=3875 kills=15 deaths=15/>
+			<playerScore name="QuiteGoneG" score=5750 kills=14 deaths=15 time="04:11"/>
+			<playerScore name="Cricken" score=4525 kills=16 deaths=15 time="04:11"/>
+			<playerScore name="ThraxOD" score=4525 kills=17 deaths=13 time="04:11"/>
+			<playerScore name="ZeroRedical" score=3875 kills=15 deaths=15 time="04:11"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Papl" score=4775 kills=29 deaths=27/>
-			<playerScore name="Magooboo" score=2955 kills=13 deaths=15/>
-			<playerScore name="Nevrixia" score=2575 kills=10 deaths=23/>
-			<playerScore name="Kurziiya" score=2250 kills=12 deaths=15/>
+			<playerScore name="Papl" score=4775 kills=29 deaths=27 time="00:00"/>
+			<playerScore name="Magooboo" score=2955 kills=13 deaths=15 time="00:00"/>
+			<playerScore name="Nevrixia" score=2575 kills=10 deaths=23 time="00:00"/>
+			<playerScore name="Kurziiya" score=2250 kills=12 deaths=15 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=7>
-			<playerScore name="ThraxOD" score=5825 kills=29 deaths=16/>
-			<playerScore name="QuiteGoneG" score=4375 kills=14 deaths=25/>
-			<playerScore name="ZeroRedical" score=4475 kills=25 deaths=16/>
-			<playerScore name="Cricken" score=2375 kills=12 deaths=8/>
+			<playerScore name="ThraxOD" score=5825 kills=29 deaths=16 time="00:00"/>
+			<playerScore name="QuiteGoneG" score=4375 kills=14 deaths=25 time="00:00"/>
+			<playerScore name="ZeroRedical" score=4475 kills=25 deaths=16 time="00:00"/>
+			<playerScore name="Cricken" score=2375 kills=12 deaths=8 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="06:09" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Nevrixia" score=3475 kills=12 deaths=12/>
-			<playerScore name="Papl" score=3450 kills=20 deaths=12/>
-			<playerScore name="Kurziiya" score=2975 kills=11 deaths=11/>
-			<playerScore name="Cheers" score=2475 kills=8 deaths=16/>
+			<playerScore name="Nevrixia" score=3475 kills=12 deaths=12 time="06:09"/>
+			<playerScore name="Papl" score=3450 kills=20 deaths=12 time="06:09"/>
+			<playerScore name="Kurziiya" score=2975 kills=11 deaths=11 time="06:09"/>
+			<playerScore name="Cheers" score=2475 kills=8 deaths=16 time="06:09"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Cricken" score=4750 kills=11 deaths=10/>
-			<playerScore name="QuiteGoneG" score=4675 kills=15 deaths=11/>
-			<playerScore name="ZeroRedical" score=3655 kills=12 deaths=15/>
-			<playerScore name="ThraxOD" score=3475 kills=10 deaths=15/>
+			<playerScore name="Cricken" score=4750 kills=11 deaths=10 time="06:09"/>
+			<playerScore name="QuiteGoneG" score=4675 kills=15 deaths=11 time="06:09"/>
+			<playerScore name="ZeroRedical" score=3655 kills=12 deaths=15 time="06:09"/>
+			<playerScore name="ThraxOD" score=3475 kills=10 deaths=15 time="06:09"/>
 		</teamScore>
 	</match>
 </series>

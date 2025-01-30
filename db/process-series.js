@@ -1,94 +1,104 @@
-import PDMLCompiler, { PDMLBody, PDMLNumber } from '../Files/PDML/PDMLCompiler.js';
-const compiler = new PDMLCompiler();
+// import { PDMLBody, PDMLNumber } from '../PDML/PDMLCompiler.js';
 
-// import SWBFArchive from './database.js';
-// import schema from './swbf-schema.js';
+function parseTimeToMinutes(timeString) {
+    // Split the string into minutes and seconds
+    const parts = timeString.split(":");
 
-// Helper function to parse attributes from a node
-function parseAttributes(node) {
-    const attributes = {};
-    // Convert NamedNodeMap to an array and iterate
-    Array.from(node.attributes).forEach((attr) => {
-        attributes[attr.name] = attr.value;
-    });
-    return attributes;
+    // Parse the minutes and seconds
+    const minutes = parseInt(parts[0], 10);
+    const seconds = parseInt(parts[1], 10);
+
+    // Convert total time to minutes
+    // Negate seconds if minutes are negative
+    return minutes + Math.sign(minutes) * (seconds / 60);
 }
 
 // Process a single series file
-export async function processSeriesFile(filePath, db) {
-    // Fetch the file content
-    // Fetch the file content
-    const response = await fetch(filePath);
-    if (!response.ok) {
-        throw new Error(`Failed to fetch ${filePath}: ${response.statusText}`);
-    }
-    const pdmlContent = await response.text();
-
-    // Parse the PDML file
-    const parsedData = compiler.compile(pdmlContent); // Parse the PDML file
-    console.log(parsedData);
+export async function processSeriesFile(parsedData, db) {
+    if (parsedData.name.toLowerCase() !== 'series') return;
 
     // Root element: <series>
-    const seriesAttributes = parseAttributes(parsedData);
-    const seriesIndex = parseInt(seriesAttributes.index, 10);
+    const seriesAttributes = parsedData.attributes; //parseAttributes(parsedData);
+
+    // Unique SeriesID generator
+    const seriesID = 1;
+    /*
+    var seriesIndex;
+    var roundIndex;
+    const roundParts = input.split(".");
+    if (roundParts.length === 2) {
+        // Case: "3.4" -> roundIndex = 3, seriesIndex = 4
+        roundIndex = parseInt(roundParts[0], 10);
+        seriesIndex = parseInt(roundParts[1], 10);
+    } else {
+        // Case: "5" -> roundIndex = 0, seriesIndex = 5
+        roundIndex = 0;
+        seriesIndex = parseInt(roundParts[0], 10)
+    }
+*/
 
     // Insert series into the Series table
     db.insert('Series', {
-        Index: seriesIndex,
-        Round: parseInt(seriesAttributes.round, 10),
+        SeriesID: seriesID,
+        Index: seriesAttributes['index'].value,
+        Round: seriesAttributes['round'].value,
     });
-
-    // Unique MatchID generator
-    let matchIDCounter = 1;
 
     // Process matches
     parsedData.children.forEach((matchNode, matchIndex) => {
-        if (matchNode.name !== 'match') return;
+        if (matchNode.name.toLowerCase() !== 'match') return;
 
-        const matchAttributes = parseAttributes(matchNode);
-        const matchID = matchIDCounter++;
+        const matchAttributes = matchNode.attributes;
+
+        // Unique MatchID generator
+        const matchID = 1;
+        const matchDuration = parseTimeToMinutes(matchAttributes['timeleft'].value);
 
         // Insert match into the Match table
         db.insert('Match', {
             MatchID: matchID,
-            SeriesIndex: seriesIndex,
+            SeriesID: seriesID,
             MatchIndex: matchIndex + 1, // Indexes from 1
-            GameMode: matchAttributes.gameMode,
-            Map: matchAttributes.map,
-            Server: matchAttributes.server,
-            Duration: matchAttributes.timeLeft,
+            GameMode: matchAttributes['gamemode'].value,
+            Map: matchAttributes['map'].value,
+            Server: matchAttributes['server'].value,
+            Duration: matchDuration,
         });
 
         // Process team scores
-        matchNode.children.forEach((teamNode) => {
-            if (teamNode.name !== 'teamScore') return;
+        matchNode.children.forEach((teamNode, teamIndex) => {
+            if (teamNode.name !== 'teamscore') return;
 
-            const teamAttributes = parseAttributes(teamNode);
-            const faction = teamAttributes.faction;
-            const teamScore = parseInt(teamAttributes.score, 10);
+            const teamAttributes = teamNode.attributes;
 
             // Insert team score into the TeamScore table
             db.insert('TeamScore', {
                 MatchID: matchID,
-                TeamName: faction,
-                Fraction: faction,
-                Score: teamScore,
+                TeamName: seriesAttributes['teams'].elements[teamIndex],
+                Faction: teamAttributes['faction'].value,
+                Score: teamAttributes['score'].value,
             });
 
             // Process player scores within the team
             teamNode.children.forEach((playerNode) => {
-                if (playerNode.name !== 'playerScore') return;
+                if (playerNode.name !== 'playerscore') return;
 
-                const playerAttributes = parseAttributes(playerNode);
+                const playerAttributes =  playerNode.attributes;
+
+                let playerDuration;
+                if (playerAttributes['time'])
+                    playerDuration = parseTimeToMinutes(playerAttributes['time'].value);
+                else
+                    playerDuration = matchDuration;
 
                 // Insert player score into the PlayerScore table
                 db.insert('PlayerScore', {
                     MatchID: matchID,
-                    PlayerName: playerAttributes.name,
-                    Score: parseInt(playerAttributes.score, 10),
-                    Kills: parseInt(playerAttributes.kills, 10),
-                    Deaths: parseInt(playerAttributes.deaths, 10),
-                    Duration: matchAttributes.timeLeft,
+                    PlayerName: playerAttributes['name'].value,
+                    Score: playerAttributes['score'].value,
+                    Kills: playerAttributes['kills'].value,
+                    Deaths: playerAttributes['deaths'].value,
+                    Duration: playerDuration
                 });
             });
         });

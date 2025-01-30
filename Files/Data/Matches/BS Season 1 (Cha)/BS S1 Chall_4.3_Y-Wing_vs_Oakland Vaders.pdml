@@ -1,4 +1,4 @@
-<series team1="Y-Wing" team2="Oakland Vaders.sri" round=4 index=3>
+<series season="BS S1 Chall" teams=["Y-Wing" "Oakland Vaders"] round=4 index=3>
 	<match map="Jawa Refuge" timeLeft="00:00" gameMode="Drop Zone" server="US West">
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Sween" score=8850 kills=44 deaths=28/>
@@ -11,9 +11,9 @@
 			<playerScore name="BFL-Ice" score=7450 kills=24 deaths=21/>
 			<playerScore name="CaZuaL" score=6075 kills=28 deaths=14/>
 			<playerScore name="Eky" score=5725 kills=16 deaths=27/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="00:00" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="KingCaldera" score=8625 kills=31 deaths=34/>
 			<playerScore name="Sween" score=8525 kills=41 deaths=27/>
@@ -25,9 +25,9 @@
 			<playerScore name="Eky" score=6900 kills=22 deaths=30/>
 			<playerScore name="BFL-Ice" score=6850 kills=25 deaths=28/>
 			<playerScore name="CaZuaL" score=6560 kills=30 deaths=22/>
+		</teamScore>
 	</match>
 	<match map="Swamp Crash Site" timeLeft="01:38" gameMode="Drop Zone" server="US West">
-		</teamScore>
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Uliday" score=6065 kills=24 deaths=16/>
 			<playerScore name="Sween" score=5825 kills=31 deaths=17/>

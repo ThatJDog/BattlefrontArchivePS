@@ -1,44 +1,44 @@
-<series team1="SWAT" team2="AnT.sri" round=0 index=7>
+<series season="S9" teams=["SWAT" "AnT"] round=0 index=7>
 	<match map="Raider Camp" timeLeft="02:02" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Foggle" score=5625 kills=20 deaths=13/>
-			<playerScore name="Vic" score=5425 kills=19 deaths=12/>
-			<playerScore name="Karnage" score=5225 kills=20 deaths=8/>
-			<playerScore name="Tryhard" score=4930 kills=13 deaths=13/>
+			<playerScore name="Foggle" score=5625 kills=20 deaths=13 time="02:02"/>
+			<playerScore name="Vic" score=5425 kills=19 deaths=12 time="02:02"/>
+			<playerScore name="Karnage" score=5225 kills=20 deaths=8 time="02:02"/>
+			<playerScore name="Tryhard" score=4930 kills=13 deaths=13 time="02:02"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Prometheus" score=4225 kills=12 deaths=21/>
-			<playerScore name="Iamenedo" score=3670 kills=14 deaths=14/>
-			<playerScore name="Slayz" score=2275 kills=9 deaths=18/>
-			<playerScore name="Vanarin" score=2275 kills=11 deaths=18/>
+			<playerScore name="Prometheus" score=4225 kills=12 deaths=21 time="02:02"/>
+			<playerScore name="Iamenedo" score=3670 kills=14 deaths=14 time="02:02"/>
+			<playerScore name="Slayz" score=2275 kills=9 deaths=18 time="02:02"/>
+			<playerScore name="Vanarin" score=2275 kills=11 deaths=18 time="02:02"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="02:55" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=10>
-			<playerScore name="Foggle" score=6700 kills=34 deaths=21/>
-			<playerScore name="Karnage" score=5600 kills=25 deaths=28/>
-			<playerScore name="Vic" score=5080 kills=26 deaths=12/>
-			<playerScore name="Tryhard" score=3435 kills=11 deaths=19/>
+			<playerScore name="Foggle" score=6700 kills=34 deaths=21 time="02:55"/>
+			<playerScore name="Karnage" score=5600 kills=25 deaths=28 time="02:55"/>
+			<playerScore name="Vic" score=5080 kills=26 deaths=12 time="02:55"/>
+			<playerScore name="Tryhard" score=3435 kills=11 deaths=19 time="02:55"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Vanarin" score=4975 kills=34 deaths=22/>
-			<playerScore name="Prometheus" score=4675 kills=15 deaths=28/>
-			<playerScore name="Slayz" score=3345 kills=17 deaths=25/>
-			<playerScore name="Iamenedo" score=2400 kills=14 deaths=21/>
+			<playerScore name="Vanarin" score=4975 kills=34 deaths=22 time="02:55"/>
+			<playerScore name="Prometheus" score=4675 kills=15 deaths=28 time="02:55"/>
+			<playerScore name="Slayz" score=3345 kills=17 deaths=25 time="02:55"/>
+			<playerScore name="Iamenedo" score=2400 kills=14 deaths=21 time="02:55"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="04:05" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Karnage" score=8175 kills=38 deaths=20/>
-			<playerScore name="Foggle" score=6150 kills=22 deaths=22/>
-			<playerScore name="Tryhard" score=6005 kills=20 deaths=17/>
-			<playerScore name="Vic" score=5830 kills=19 deaths=20/>
+			<playerScore name="Karnage" score=8175 kills=38 deaths=20 time="04:05"/>
+			<playerScore name="Foggle" score=6150 kills=22 deaths=22 time="04:05"/>
+			<playerScore name="Tryhard" score=6005 kills=20 deaths=17 time="04:05"/>
+			<playerScore name="Vic" score=5830 kills=19 deaths=20 time="04:05"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Prometheus" score=5225 kills=18 deaths=30/>
-			<playerScore name="Slayz" score=4865 kills=15 deaths=27/>
-			<playerScore name="Vanarin" score=4325 kills=22 deaths=25/>
-			<playerScore name="Iamenedo" score=4285 kills=23 deaths=19/>
+			<playerScore name="Prometheus" score=5225 kills=18 deaths=30 time="04:05"/>
+			<playerScore name="Slayz" score=4865 kills=15 deaths=27 time="04:05"/>
+			<playerScore name="Vanarin" score=4325 kills=22 deaths=25 time="04:05"/>
+			<playerScore name="Iamenedo" score=4285 kills=23 deaths=19 time="04:05"/>
 		</teamScore>
 	</match>
 </series>

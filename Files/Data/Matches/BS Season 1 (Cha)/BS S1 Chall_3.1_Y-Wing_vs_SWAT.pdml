@@ -1,4 +1,4 @@
-<series team1="Y-Wing" team2="SWAT.sri" round=3 index=1>
+<series season="BS S1 Chall" teams=["Y-Wing" "SWAT"] round=3 index=1>
 	<match map="Jawa Refuge" timeLeft="01:38" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Sween" score=7450 kills=29 deaths=25/>
@@ -11,9 +11,9 @@
 			<playerScore name="Vic" score=8475 kills=27 deaths=22/>
 			<playerScore name="Haztof" score=6185 kills=20 deaths=23/>
 			<playerScore name="Laguiza" score=5500 kills=19 deaths=18/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="-03:-00" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="KingCaldera" score=11895 kills=41 deaths=31/>
 			<playerScore name="Palmy" score=10750 kills=40 deaths=42/>
@@ -25,9 +25,9 @@
 			<playerScore name="Haztof" score=9730 kills=37 deaths=42/>
 			<playerScore name="Laguiza" score=8925 kills=35 deaths=35/>
 			<playerScore name="Alimpan" score=7675 kills=38 deaths=29/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="01:33" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Sween" score=6925 kills=33 deaths=21/>
 			<playerScore name="KingCaldera" score=5825 kills=18 deaths=17/>
@@ -39,9 +39,9 @@
 			<playerScore name="Vic" score=5000 kills=15 deaths=23/>
 			<playerScore name="Haztof" score=4385 kills=9 deaths=25/>
 			<playerScore name="Laguiza" score=3750 kills=15 deaths=20/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="01:23" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Sween" score=8000 kills=35 deaths=15/>
 			<playerScore name="KingCaldera" score=7845 kills=24 deaths=21/>

@@ -1,17 +1,17 @@
-<series team1="Mohicans" team2="Plantation FC.sri" round=4 index=2>
+<series season="BS S1 Pro" teams=["Mohicans" "Plantation FC"] round=4 index=2>
 	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>

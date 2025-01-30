@@ -24,11 +24,11 @@ export const SWBF_DB = new Database({
         'ImperialImage',
         'CardStatsID',
     ],
-    Player: ['Name', 'Nationality'],
-    Series: ['Index', 'Round'],
+    Player: ['Name', 'Nationality', 'AlterEgos'],
+    Series: ['SeriesID', 'Index', 'Round'],
     Match: [
         'MatchID',
-        'SeriesIndex',
+        'SeriesID',
         'MatchIndex',
         'GameMode',
         'Map',
@@ -46,10 +46,10 @@ export const SWBF_DB = new Database({
     TeamScore: [
         'MatchID',
         'TeamName',
-        'Fraction',
+        'Faction',
         'Score',
     ],
-    SeriesIn: ['SeasonID', 'SeriesIndex', 'SeriesRound'],
+    SeriesIn: ['SeasonID', 'SeriesID'],
     Award: [
         'SeasonID',
         'SeriesIndex',

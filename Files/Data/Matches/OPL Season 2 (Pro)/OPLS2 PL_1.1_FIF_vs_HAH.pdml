@@ -1,72 +1,72 @@
-<series team1="FIF" team2="HAH.sri" round=1 index=1>
+<series season="OPLS2 PL" teams=["FIF" "HAH"] round=1 index=1>
 	<match map="Dune Sea" timeLeft="-00:-57" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=3>
-			<playerScore name="Vex" score=9950 kills=41 deaths=41/>
-			<playerScore name="Spree" score=7350 kills=30 deaths=42/>
-			<playerScore name="Swaggy" score=7035 kills=31 deaths=41/>
-			<playerScore name="Rubstery" score=6825 kills=27 deaths=42/>
+			<playerScore name="Vex" score=9950 kills=41 deaths=41 time="-00:-57"/>
+			<playerScore name="Spree" score=7350 kills=30 deaths=42 time="-00:-57"/>
+			<playerScore name="Swaggy" score=7035 kills=31 deaths=41 time="-00:-57"/>
+			<playerScore name="Rubstery" score=6825 kills=27 deaths=42 time="-00:-57"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Karnage" score=11905 kills=53 deaths=31/>
-			<playerScore name="Cappa" score=11150 kills=32 deaths=29/>
-			<playerScore name="Goudapest" score=10175 kills=42 deaths=36/>
-			<playerScore name="Vanarin" score=7600 kills=38 deaths=35/>
+			<playerScore name="Karnage" score=11905 kills=53 deaths=31 time="-00:-57"/>
+			<playerScore name="Cappa" score=11150 kills=32 deaths=29 time="-00:-57"/>
+			<playerScore name="Goudapest" score=10175 kills=42 deaths=36 time="-00:-57"/>
+			<playerScore name="Vanarin" score=7600 kills=38 deaths=35 time="-00:-57"/>
+		</teamScore>
 	</match>
 	<match map="Sulfur Fields" timeLeft="02:05" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Vex" score=7025 kills=27 deaths=15/>
-			<playerScore name="Spree" score=5900 kills=27 deaths=25/>
-			<playerScore name="Swaggy" score=5735 kills=22 deaths=10/>
-			<playerScore name="Rubstery" score=4050 kills=13 deaths=24/>
+			<playerScore name="Vex" score=7025 kills=27 deaths=15 time="02:05"/>
+			<playerScore name="Spree" score=5900 kills=27 deaths=25 time="02:05"/>
+			<playerScore name="Swaggy" score=5735 kills=22 deaths=10 time="02:05"/>
+			<playerScore name="Rubstery" score=4050 kills=13 deaths=24 time="02:05"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="Karnage" score=6335 kills=29 deaths=24/>
-			<playerScore name="Cappa" score=5475 kills=12 deaths=24/>
-			<playerScore name="Vanarin" score=4125 kills=18 deaths=20/>
-			<playerScore name="Goudapest" score=3400 kills=14 deaths=20/>
+			<playerScore name="Karnage" score=6335 kills=29 deaths=24 time="02:05"/>
+			<playerScore name="Cappa" score=5475 kills=12 deaths=24 time="02:05"/>
+			<playerScore name="Vanarin" score=4125 kills=18 deaths=20 time="02:05"/>
+			<playerScore name="Goudapest" score=3400 kills=14 deaths=20 time="02:05"/>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="04:55" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Swaggy" score=6120 kills=25 deaths=11/>
-			<playerScore name="Vex" score=6025 kills=14 deaths=15/>
-			<playerScore name="Spree" score=5625 kills=22 deaths=14/>
-			<playerScore name="Rubstery" score=4650 kills=16 deaths=17/>
+			<playerScore name="Swaggy" score=6120 kills=25 deaths=11 time="04:55"/>
+			<playerScore name="Vex" score=6025 kills=14 deaths=15 time="04:55"/>
+			<playerScore name="Spree" score=5625 kills=22 deaths=14 time="04:55"/>
+			<playerScore name="Rubstery" score=4650 kills=16 deaths=17 time="04:55"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=2>
-			<playerScore name="Karnage" score=3610 kills=11 deaths=23/>
-			<playerScore name="Vanarin" score=3600 kills=15 deaths=19/>
-			<playerScore name="Cappa" score=3500 kills=14 deaths=18/>
-			<playerScore name="Goudapest" score=3300 kills=17 deaths=19/>
+			<playerScore name="Karnage" score=3610 kills=11 deaths=23 time="04:55"/>
+			<playerScore name="Vanarin" score=3600 kills=15 deaths=19 time="04:55"/>
+			<playerScore name="Cappa" score=3500 kills=14 deaths=18 time="04:55"/>
+			<playerScore name="Goudapest" score=3300 kills=17 deaths=19 time="04:55"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="07:50" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Rubstery" score=2500 kills=6 deaths=19/>
-			<playerScore name="Spree" score=2200 kills=9 deaths=15/>
-			<playerScore name="Swaggy" score=1625 kills=11 deaths=12/>
-			<playerScore name="Vex" score=1575 kills=9 deaths=13/>
+			<playerScore name="Rubstery" score=2500 kills=6 deaths=19 time="07:50"/>
+			<playerScore name="Spree" score=2200 kills=9 deaths=15 time="07:50"/>
+			<playerScore name="Swaggy" score=1625 kills=11 deaths=12 time="07:50"/>
+			<playerScore name="Vex" score=1575 kills=9 deaths=13 time="07:50"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Karnage" score=6075 kills=19 deaths=11/>
-			<playerScore name="Goudapest" score=3950 kills=12 deaths=10/>
-			<playerScore name="Cappa" score=3725 kills=14 deaths=6/>
-			<playerScore name="Vanarin" score=2875 kills=12 deaths=8/>
+			<playerScore name="Karnage" score=6075 kills=19 deaths=11 time="07:50"/>
+			<playerScore name="Goudapest" score=3950 kills=12 deaths=10 time="07:50"/>
+			<playerScore name="Cappa" score=3725 kills=14 deaths=6 time="07:50"/>
+			<playerScore name="Vanarin" score=2875 kills=12 deaths=8 time="07:50"/>
+		</teamScore>
 	</match>
 	<match map="Swamp Crash site" timeLeft="03:30" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="Spree" score=4925 kills=22 deaths=19/>
-			<playerScore name="Vex" score=4475 kills=19 deaths=14/>
-			<playerScore name="Swaggy" score=3550 kills=11 deaths=19/>
-			<playerScore name="Rubstery" score=3300 kills=15 deaths=16/>
+			<playerScore name="Spree" score=4925 kills=22 deaths=19 time="03:30"/>
+			<playerScore name="Vex" score=4475 kills=19 deaths=14 time="03:30"/>
+			<playerScore name="Swaggy" score=3550 kills=11 deaths=19 time="03:30"/>
+			<playerScore name="Rubstery" score=3300 kills=15 deaths=16 time="03:30"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Goudapest" score=5170 kills=19 deaths=14/>
-			<playerScore name="Cappa" score=4950 kills=18 deaths=20/>
-			<playerScore name="Karnage" score=4775 kills=13 deaths=17/>
-			<playerScore name="Vanarin" score=3900 kills=17 deaths=16/>
+			<playerScore name="Goudapest" score=5170 kills=19 deaths=14 time="03:30"/>
+			<playerScore name="Cappa" score=4950 kills=18 deaths=20 time="03:30"/>
+			<playerScore name="Karnage" score=4775 kills=13 deaths=17 time="03:30"/>
+			<playerScore name="Vanarin" score=3900 kills=17 deaths=16 time="03:30"/>
 		</teamScore>
 	</match>
 </series>

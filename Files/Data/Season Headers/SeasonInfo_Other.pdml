@@ -1,0 +1,23 @@
+<season >
+	<team name="Icon Series" >
+		<player-entry name="Albert Blah" />
+		<player-entry name="GoodPoo" />
+		<player-entry name="Wookie" />
+		<player-entry name="Beerus" />
+		<player-entry name="Deathless" />
+		<player-entry name="Reviem" />
+		<player-entry name="Exeyst" />
+		<player-entry name="Stook" />
+	</team>
+	<team name="FlashBack Series" >
+		<player-entry name="Stone" />
+		<player-entry name="Cricken" />
+		<player-entry name="Cassady" />
+		<player-entry name="Tio" />
+		<player-entry name="Goetzeus" />
+	</team>
+	<team name="PRO MOTM1" >
+		<player-entry name="Swaggy" />
+		<player-entry name="Sween" />
+	</team>
+</season>

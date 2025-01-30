@@ -1,17 +1,17 @@
-<series team1="Beaver" team2="Elmos Minions.sri" round=1 index=4>
+<series season="OPLS1 PL" teams=["Beaver" "Elmos Minions"] round=1 index=4>
 	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>

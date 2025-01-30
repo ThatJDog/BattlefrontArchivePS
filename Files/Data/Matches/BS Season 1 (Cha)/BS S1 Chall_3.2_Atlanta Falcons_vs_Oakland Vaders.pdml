@@ -1,4 +1,4 @@
-<series team1="Atlanta Falcons" team2="Oakland Vaders.sri" round=3 index=2>
+<series season="BS S1 Chall" teams=["Atlanta Falcons" "Oakland Vaders"] round=3 index=2>
 	<match map="Jawa Refuge" timeLeft="-00:-45" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Hobo" score=8410 kills=32 deaths=30/>
@@ -11,9 +11,9 @@
 			<playerScore name="Eky" score=7125 kills=25 deaths=31/>
 			<playerScore name="CaZuaL" score=6665 kills=25 deaths=20/>
 			<playerScore name="BFL-Ice" score=6175 kills=17 deaths=22/>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="01:42" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Rebel" score=2>
 			<playerScore name="Magooboo" score=6700 kills=27 deaths=23/>
 			<playerScore name="Papl" score=5200 kills=19 deaths=26/>
@@ -25,9 +25,9 @@
 			<playerScore name="CaZuaL" score=5910 kills=17 deaths=16/>
 			<playerScore name="BFL-Ice" score=5725 kills=18 deaths=12/>
 			<playerScore name="Eky" score=5650 kills=20 deaths=28/>
+		</teamScore>
 	</match>
 	<match map="Sulfur Fields" timeLeft="04:41" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="Magooboo" score=4225 kills=20 deaths=17/>
 			<playerScore name="Isolani" score=3775 kills=16 deaths=18/>
@@ -39,9 +39,9 @@
 			<playerScore name="CaZuaL" score=4390 kills=17 deaths=5/>
 			<playerScore name="BFL-Ice" score=4250 kills=12 deaths=13/>
 			<playerScore name="Eky" score=3675 kills=14 deaths=16/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="02:51" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Magooboo" score=7875 kills=27 deaths=11/>
 			<playerScore name="Isolani" score=5600 kills=20 deaths=19/>
@@ -53,9 +53,9 @@
 			<playerScore name="BFL-Ice" score=4025 kills=14 deaths=19/>
 			<playerScore name="Eky" score=3850 kills=11 deaths=23/>
 			<playerScore name="CaZuaL" score=2920 kills=15 deaths=17/>
+		</teamScore>
 	</match>
 	<match map="Raider Camp" timeLeft="00:41" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Isolani" score=8825 kills=27 deaths=25/>
 			<playerScore name="Magooboo" score=8200 kills=25 deaths=26/>

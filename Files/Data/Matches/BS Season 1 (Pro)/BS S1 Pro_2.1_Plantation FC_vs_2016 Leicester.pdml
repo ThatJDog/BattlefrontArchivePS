@@ -1,86 +1,86 @@
-<series team1="Plantation FC" team2="2016 Leicester.sri" round=2 index=1>
+<series season="BS S1 Pro" teams=["Plantation FC" "2016 Leicester"] round=2 index=1>
 	<match map="Jawa Refuge" timeLeft="03:28" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=2>
-			<playerScore name="Bazo" score=6225 kills=26 deaths=22/>
-			<playerScore name="Spree" score=6075 kills=20 deaths=22/>
-			<playerScore name="Kurko" score=5400 kills=23 deaths=26/>
-			<playerScore name="Slayz" score=3245 kills=13 deaths=21/>
+			<playerScore name="Bazo" score=6225 kills=26 deaths=22 time="03:28"/>
+			<playerScore name="Spree" score=6075 kills=20 deaths=22 time="03:28"/>
+			<playerScore name="Kurko" score=5400 kills=23 deaths=26 time="03:28"/>
+			<playerScore name="Slayz" score=3245 kills=13 deaths=21 time="03:28"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Diego" score=6800 kills=17 deaths=22/>
-			<playerScore name="Prometheus" score=6800 kills=26 deaths=20/>
-			<playerScore name="Tio" score=6450 kills=20 deaths=23/>
-			<playerScore name="Vanarin" score=5990 kills=26 deaths=18/>
+			<playerScore name="Diego" score=6800 kills=17 deaths=22 time="03:28"/>
+			<playerScore name="Prometheus" score=6800 kills=26 deaths=20 time="03:28"/>
+			<playerScore name="Tio" score=6450 kills=20 deaths=23 time="03:28"/>
+			<playerScore name="Vanarin" score=5990 kills=26 deaths=18 time="03:28"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="-01:-35" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Spree" score=8975 kills=36 deaths=31/>
-			<playerScore name="Slayz" score=8920 kills=39 deaths=25/>
-			<playerScore name="Bazo" score=7850 kills=22 deaths=22/>
-			<playerScore name="Kurko" score=7525 kills=20 deaths=33/>
+			<playerScore name="Spree" score=8975 kills=36 deaths=31 time="-01:-35"/>
+			<playerScore name="Slayz" score=8920 kills=39 deaths=25 time="-01:-35"/>
+			<playerScore name="Bazo" score=7850 kills=22 deaths=22 time="-01:-35"/>
+			<playerScore name="Kurko" score=7525 kills=20 deaths=33 time="-01:-35"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=4>
-			<playerScore name="Prometheus" score=9875 kills=39 deaths=26/>
-			<playerScore name="Vanarin" score=7600 kills=27 deaths=26/>
-			<playerScore name="Diego" score=7550 kills=26 deaths=36/>
-			<playerScore name="Tio" score=6600 kills=18 deaths=31/>
+			<playerScore name="Prometheus" score=9875 kills=39 deaths=26 time="-01:-35"/>
+			<playerScore name="Vanarin" score=7600 kills=27 deaths=26 time="-01:-35"/>
+			<playerScore name="Diego" score=7550 kills=26 deaths=36 time="-01:-35"/>
+			<playerScore name="Tio" score=6600 kills=18 deaths=31 time="-01:-35"/>
+		</teamScore>
 	</match>
 	<match map="Swamp Crash Site" timeLeft="12:26" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=3>
-			<playerScore name="Spree" score=2850 kills=9 deaths=3/>
-			<playerScore name="Kurko" score=1250 kills=6 deaths=3/>
-			<playerScore name="Slayz" score=1125 kills=3 deaths=2/>
-			<playerScore name="Bazo" score=950 kills=3 deaths=4/>
+			<playerScore name="Spree" score=2850 kills=9 deaths=3 time="12:26"/>
+			<playerScore name="Kurko" score=1250 kills=6 deaths=3 time="12:26"/>
+			<playerScore name="Slayz" score=1125 kills=3 deaths=2 time="12:26"/>
+			<playerScore name="Bazo" score=950 kills=3 deaths=4 time="12:26"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Diego" score=1050 kills=3 deaths=6/>
-			<playerScore name="Tio" score=675 kills=2 deaths=5/>
-			<playerScore name="Prometheus" score=625 kills=1 deaths=5/>
-			<playerScore name="Vanarin" score=545 kills=2 deaths=5/>
+			<playerScore name="Diego" score=1050 kills=3 deaths=6 time="12:26"/>
+			<playerScore name="Tio" score=675 kills=2 deaths=5 time="12:26"/>
+			<playerScore name="Prometheus" score=625 kills=1 deaths=5 time="12:26"/>
+			<playerScore name="Vanarin" score=545 kills=2 deaths=5 time="12:32"/>
+		</teamScore>
 	</match>
 	<match map="Swamp Crash Site" timeLeft="12:17" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="Spree" score=2025 kills=4 deaths=5/>
-			<playerScore name="Kurko" score=1450 kills=6 deaths=3/>
-			<playerScore name="Bazo" score=1375 kills=5 deaths=4/>
-			<playerScore name="Slayz" score=1320 kills=6 deaths=4/>
+			<playerScore name="Spree" score=2025 kills=4 deaths=5 time="12:17"/>
+			<playerScore name="Kurko" score=1450 kills=6 deaths=3 time="12:17"/>
+			<playerScore name="Bazo" score=1375 kills=5 deaths=4 time="12:17"/>
+			<playerScore name="Slayz" score=1320 kills=6 deaths=4 time="12:17"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Diego" score=950 kills=3 deaths=6/>
-			<playerScore name="Tio" score=950 kills=4 deaths=7/>
-			<playerScore name="Vanarin" score=910 kills=6 deaths=4/>
-			<playerScore name="Prometheus" score=550 kills=2 deaths=5/>
+			<playerScore name="Diego" score=950 kills=3 deaths=6 time="12:17"/>
+			<playerScore name="Tio" score=950 kills=4 deaths=7 time="12:17"/>
+			<playerScore name="Vanarin" score=910 kills=6 deaths=4 time="12:17"/>
+			<playerScore name="Prometheus" score=550 kills=2 deaths=5 time="12:17"/>
+		</teamScore>
 	</match>
 	<match map="Twilight on Hoth" timeLeft="04:24" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Bazo" score=4625 kills=21 deaths=20/>
-			<playerScore name="Kurko" score=4425 kills=16 deaths=22/>
-			<playerScore name="Spree" score=3625 kills=13 deaths=24/>
-			<playerScore name="Slayz" score=3375 kills=12 deaths=21/>
+			<playerScore name="Bazo" score=4625 kills=21 deaths=20 time="04:24"/>
+			<playerScore name="Kurko" score=4425 kills=16 deaths=22 time="04:24"/>
+			<playerScore name="Spree" score=3625 kills=13 deaths=24 time="04:24"/>
+			<playerScore name="Slayz" score=3375 kills=12 deaths=21 time="04:24"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Prometheus" score=7775 kills=26 deaths=15/>
-			<playerScore name="Tio" score=590 kills=20 deaths=17/>
-			<playerScore name="Diego" score=5800 kills=18 deaths=14/>
-			<playerScore name="Vanarin" score=5620 kills=23 deaths=16/>
+			<playerScore name="Prometheus" score=7775 kills=26 deaths=15 time="04:24"/>
+			<playerScore name="Tio" score=590 kills=20 deaths=17 time="04:24"/>
+			<playerScore name="Diego" score=5800 kills=18 deaths=14 time="04:24"/>
+			<playerScore name="Vanarin" score=5620 kills=23 deaths=16 time="04:24"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="05:12" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Spree" score=8825 kills=37 deaths=15/>
-			<playerScore name="Slayz" score=6160 kills=18 deaths=14/>
-			<playerScore name="Bazo" score=5575 kills=18 deaths=9/>
-			<playerScore name="Kurko" score=4300 kills=12 deaths=20/>
+			<playerScore name="Spree" score=8825 kills=37 deaths=15 time="05:12"/>
+			<playerScore name="Slayz" score=6160 kills=18 deaths=14 time="05:12"/>
+			<playerScore name="Bazo" score=5575 kills=18 deaths=9 time="05:12"/>
+			<playerScore name="Kurko" score=4300 kills=12 deaths=20 time="05:12"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="Diego" score=4825 kills=16 deaths=24/>
-			<playerScore name="Prometheus" score=4125 kills=18 deaths=18/>
-			<playerScore name="Tio" score=3500 kills=10 deaths=23/>
-			<playerScore name="Vanarin" score=2800 kills=13 deaths=21/>
+			<playerScore name="Diego" score=4825 kills=16 deaths=24 time="05:12"/>
+			<playerScore name="Prometheus" score=4125 kills=18 deaths=18 time="05:12"/>
+			<playerScore name="Tio" score=3500 kills=10 deaths=23 time="05:12"/>
+			<playerScore name="Vanarin" score=2800 kills=13 deaths=21 time="05:12"/>
 		</teamScore>
 	</match>
 </series>

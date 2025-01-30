@@ -1,46 +1,46 @@
-<series team1="Bhocolate Bhip Bookies" team2="Tell That To Kanjiklub.sri" round=3 index=1>
+<series season="OPLS1 AL" teams=["Bhocolate Bhip Bookies" "Tell That To Kanjiklub"] round=3 index=1>
 	<match map="Raider Camp" timeLeft="03:38" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Falco" score=7325 kills=33 deaths=10/>
-			<playerScore name="Blue" score=7300 kills=14 deaths=19/>
-			<playerScore name="SymmPhonic" score=5625 kills=18 deaths=15/>
-			<playerScore name="Uliday" score=4075 kills=13 deaths=8/>
+			<playerScore name="Falco" score=7325 kills=33 deaths=10 time="03:38"/>
+			<playerScore name="Blue" score=7300 kills=14 deaths=19 time="03:38"/>
+			<playerScore name="SymmPhonic" score=5625 kills=18 deaths=15 time="03:38"/>
+			<playerScore name="Uliday" score=4075 kills=13 deaths=8 time="03:38"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="DarkObitoS" score=4375 kills=9 deaths=24/>
-			<playerScore name="Tryhard" score=4175 kills=17 deaths=18/>
-			<playerScore name="Dajdog" score=4045 kills=11 deaths=20/>
-			<playerScore name="Alimpan" score=3225 kills=15 deaths=17/>
+			<playerScore name="DarkObitoS" score=4375 kills=9 deaths=24 time="03:38"/>
+			<playerScore name="Tryhard" score=4175 kills=17 deaths=18 time="03:38"/>
+			<playerScore name="Dajdog" score=4045 kills=11 deaths=20 time="03:38"/>
+			<playerScore name="Alimpan" score=3225 kills=15 deaths=17 time="03:38"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=6>
-			<playerScore name="Falco" score=5350 kills=31 deaths=14/>
-			<playerScore name="Blue" score=5100 kills=29 deaths=32/>
-			<playerScore name="SymmPhonic" score=4575 kills=16 deaths=20/>
-			<playerScore name="Uliday" score=2870 kills=15 deaths=13/>
+			<playerScore name="Falco" score=5350 kills=31 deaths=14 time="00:00"/>
+			<playerScore name="Blue" score=5100 kills=29 deaths=32 time="00:00"/>
+			<playerScore name="SymmPhonic" score=4575 kills=16 deaths=20 time="00:00"/>
+			<playerScore name="Uliday" score=2870 kills=15 deaths=13 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=4>
-			<playerScore name="Alimpan" score=4625 kills=24 deaths=24/>
-			<playerScore name="DarkObitoS" score=4250 kills=23 deaths=25/>
-			<playerScore name="Tryhard" score=3600 kills=15 deaths=28/>
-			<playerScore name="Dajdog" score=3375 kills=15 deaths=14/>
+			<playerScore name="Alimpan" score=4625 kills=24 deaths=24 time="00:00"/>
+			<playerScore name="DarkObitoS" score=4250 kills=23 deaths=25 time="00:00"/>
+			<playerScore name="Tryhard" score=3600 kills=15 deaths=28 time="00:00"/>
+			<playerScore name="Dajdog" score=3375 kills=15 deaths=14 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="05:55" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=4>
-			<playerScore name="SymmPhonic" score=5475 kills=18 deaths=11/>
-			<playerScore name="Uliday" score=5330 kills=22 deaths=8/>
-			<playerScore name="Blue" score=4525 kills=9 deaths=13/>
-			<playerScore name="Falco" score=4500 kills=17 deaths=7/>
+			<playerScore name="SymmPhonic" score=5475 kills=18 deaths=11 time="05:55"/>
+			<playerScore name="Uliday" score=5330 kills=22 deaths=8 time="05:55"/>
+			<playerScore name="Blue" score=4525 kills=9 deaths=13 time="05:55"/>
+			<playerScore name="Falco" score=4500 kills=17 deaths=7 time="05:55"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Tryhard" score=3750 kills=12 deaths=21/>
-			<playerScore name="Dajdog" score=3325 kills=11 deaths=12/>
-			<playerScore name="DarkObitoS" score=2200 kills=7 deaths=19/>
+			<playerScore name="Tryhard" score=3750 kills=12 deaths=21 time="05:55"/>
+			<playerScore name="Dajdog" score=3325 kills=11 deaths=12 time="05:55"/>
+			<playerScore name="DarkObitoS" score=2200 kills=7 deaths=19 time="05:55"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>

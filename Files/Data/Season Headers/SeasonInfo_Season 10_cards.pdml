@@ -1,0 +1,39 @@
+<cardData SeasonID="">
+	<cardInfo playerName="Foggle" imperialSkin="F_LingXu_ImpOfficer" rebelSkin="F_Zabrak_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Diego" imperialSkin="M_Shadowtrooper" rebelSkin="F_Ingrid_RedBraids_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Prometheus" imperialSkin="M_Victor_BrownBeard_ImpOfficer" rebelSkin="M_Victor_BrownBeard_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Slayz" imperialSkin="M_Shadowtrooper" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Hashemy" imperialSkin="M_Shocktrooper" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Envy" imperialSkin="M_Shadowtrooper" rebelSkin="F_LingXu_BlackPonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Unakkorn" imperialSkin="M_Shoretrooper" rebelSkin="M_Henry_Black Beard_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Andrew" imperialSkin="M_Scouttrooper" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="K3sharr" imperialSkin="M_Shadowtrooper" rebelSkin="F_Cybernetic_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Hobo" imperialSkin="M_Shadowtrooper" rebelSkin="M_Duros_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Fitality" imperialSkin="M_Shadowtrooper" rebelSkin="F_Cybernetic_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Cassady" imperialSkin="M_Shadowtrooper" rebelSkin="F_Zabrak_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Cricken" imperialSkin="F_LingXu_DSTrooper" rebelSkin="F_Twilek_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Swaggy" imperialSkin="M_Shadowtrooper" rebelSkin="M_Rodian_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Vex" imperialSkin="M_StormtrooperRedPauldron" rebelSkin="M_Weequay_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Tio" imperialSkin="M_Anton_ImpOfficer" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Mortal" imperialSkin="M_Shadowtrooper" rebelSkin="F_Lilian_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Vanarin" imperialSkin="M_Shadowtrooper" rebelSkin="M_Victor_BrownBeard_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Cappa" imperialSkin="M_StormtrooperOrangePauldron" rebelSkin="M_Henry_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Skumszy" imperialSkin="F_LingXu_ImpOfficer" rebelSkin="F_LingXu_BrownBob1_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Hildingsson" imperialSkin="M_Stormtrooper" rebelSkin="M_Duros_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="TheSup" imperialSkin="M_Shadowtrooper" rebelSkin="F_Ingrid_BrownBraids_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Rage" imperialSkin="M_Shadowtrooper" rebelSkin="M_Ishi-Tib_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Quipsy" imperialSkin="M_StormtrooperRedPauldron" rebelSkin="F_Lilian_Helmet_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Bdozen" imperialSkin="M_Shocktrooper" rebelSkin="F_Ingrid_BlondeBraids_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Karnage" imperialSkin="M_Shadowtrooper" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Bazo" imperialSkin="M_Shadowtrooper" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Subsided" imperialSkin="M_Shadowtrooper" rebelSkin="F_Ingrid_Helmet_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Papl" imperialSkin="F_Lilian_ImpOfficer" rebelSkin="F_Lilian_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Kurko" imperialSkin="M_Anton_ImpOfficer" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Vic" imperialSkin="M_Shadowtrooper" rebelSkin="F_Ingrid_BlondePonytail_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Cookie" imperialSkin="M_Shadowtrooper" rebelSkin="M_Weequay_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Appolo" imperialSkin="M_Shadowtrooper" rebelSkin="M_Victor_BrownBeard_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Coloses" imperialSkin="M_Shadowtrooper" rebelSkin="F_Cybernetic_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Spree" imperialSkin="M_Shadowtrooper" rebelSkin="F_Lilian_Helmet_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Shadows" imperialSkin="M_Shoretrooper" rebelSkin="F_Cybernetic_RebOfficer" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+	<cardInfo playerName="Sween" imperialSkin="M_Shadowtrooper" rebelSkin="F_Lilian_Helmet_Magma" cardRating=00 cardStats={off=0 def=0 obj=0 pos=0 int=0 kdr=0} imperialSkin=/>
+</cardData>

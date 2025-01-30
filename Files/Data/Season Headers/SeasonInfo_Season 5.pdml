@@ -1,0 +1,53 @@
+<season shortenedName="S5" seasonIndex=6 tournamentMode="tournament">
+	<team name="Annihilated" >
+		<player-entry name="Cassady" />
+		<player-entry name="Veggie" />
+		<player-entry name="Diego" />
+		<player-entry name="Laguiza" />
+	</team>
+	<team name="Empire" >
+		<player-entry name="BuringSkull" />
+		<player-entry name="Spree" />
+		<player-entry name="Healthy" />
+		<player-entry name="MrJazzyDoo" />
+		<player-entry name="Sween" />
+	</team>
+	<team name="Lobstaism" >
+		<player-entry name="Rayanswag" />
+		<player-entry name="Karnage" />
+		<player-entry name="Coloses" />
+		<player-entry name="Tryhard" />
+	</team>
+	<team name="NBB" >
+		<player-entry name="Lobstah" />
+		<player-entry name="Tio" />
+		<player-entry name="Keyys" />
+		<player-entry name="QuiteGoneG" />
+	</team>
+	<team name="Plax Goons" >
+		<player-entry name="Szeth" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Falco" />
+		<player-entry name="Slope" />
+	</team>
+	<team name="Pripz FC" >
+		<player-entry name="Overwhelmed" />
+		<player-entry name="Blue" />
+		<player-entry name="Hobo" />
+		<player-entry name="GoldenSwede" />
+		<player-entry name="Mavry" />
+	</team>
+	<team name="Sandberg FC" >
+		<player-entry name="Palmy" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Foggle" />
+		<player-entry name="SandbergValter" />
+	</team>
+	<team name="Tsukuyomi" >
+		<player-entry name="Haztof" />
+		<player-entry name="Cricken" />
+		<player-entry name="TheSup" />
+		<player-entry name="DarkObitoS" />
+		<player-entry name="Jonathy" />
+	</team>
+</season>

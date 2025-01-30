@@ -1,0 +1,139 @@
+<season shortenedName="S1" seasonIndex=1 tournamentMode="tournament">
+	<team name="350" >
+		<player-entry name="Bdozen" />
+		<player-entry name="Rage" />
+		<player-entry name="Fitality" />
+	</team>
+	<team name="Allanballan" >
+		<player-entry name="ColourMagician" />
+		<player-entry name="Stook" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Nai-Sora" />
+	</team>
+	<team name="Ballistic" >
+		<player-entry name="GoldenSwede" />
+		<player-entry name="Hobo" />
+		<player-entry name="Baseball" />
+		<player-entry name="Palmy" />
+		<player-entry name="TentFergus" />
+	</team>
+	<team name="Belguim Force Legion" >
+		<player-entry name="Prometheus" />
+		<player-entry name="Ghostspn" />
+		<player-entry name="Tryhard" />
+		<player-entry name="Haztof" />
+		<player-entry name="Karnage" />
+	</team>
+	<team name="Bhocolate Bhip Bookies" >
+		<player-entry name="Woody" />
+		<player-entry name="Uliday" />
+		<player-entry name="Shadows" />
+		<player-entry name="Intruce" />
+	</team>
+	<team name="Candy Cane Commandos" >
+		<player-entry name="MJKelzzz" />
+		<player-entry name="ToxicShadow" />
+		<player-entry name="The Joker" />
+		<player-entry name="Oholteno" />
+	</team>
+	<team name="Cricken's Fanclub" >
+		<player-entry name="ARCAMUS" />
+		<player-entry name="Sushi" />
+		<player-entry name="Cryptic Zero" />
+		<player-entry name="Anoxia" />
+		<player-entry name="Solution" />
+	</team>
+	<team name="Dathomir" >
+		<player-entry name="Vongyeo" />
+		<player-entry name="QuiteGoneG" />
+		<player-entry name="Albert Blah" />
+		<player-entry name="Gpooy" />
+	</team>
+	<team name="IMF" >
+		<player-entry name="White Jedi" />
+		<player-entry name="Beerus" />
+		<player-entry name="Cassady" />
+		<player-entry name="Samuels" />
+	</team>
+	<team name="Klueless" >
+		<player-entry name="Sarrows" />
+		<player-entry name="Bazo" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Hildingsson" />
+	</team>
+	<team name="MeeR" >
+		<player-entry name="Nexlated" />
+		<player-entry name="ESH" />
+		<player-entry name="EpicBossKing" />
+		<player-entry name="Meatball" />
+		<player-entry name="Lil Krummie" />
+	</team>
+	<team name="Nova" >
+		<player-entry name="WIIMOTE" />
+		<player-entry name="DJ-Chimera" />
+		<player-entry name="Switch Lag" />
+		<player-entry name="Tedslayer" />
+		<player-entry name="Delta" />
+	</team>
+	<team name="OGYB" >
+		<player-entry name="Misha" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Exeyst" />
+		<player-entry name="Cricken" />
+	</team>
+	<team name="The Rookies" >
+		<player-entry name="Padis" />
+		<player-entry name="D0kRX" />
+		<player-entry name="Andrew" />
+		<player-entry name="TempelBarry" />
+		<player-entry name="Filtermind" />
+		<player-entry name="JabbaPizzaHut" />
+	</team>
+	<team name="The Saltiest Crackers" >
+		<player-entry name="Daffy" />
+		<player-entry name="Aiikeed" />
+		<player-entry name="Poochamos" />
+		<player-entry name="Slope" />
+	</team>
+	<team name="The Swedish Mugs" >
+		<player-entry name="Wookie" />
+		<player-entry name="Puffy" />
+		<player-entry name="King Egserius" />
+		<player-entry name="Lila Ludde" />
+		<player-entry name="BenDixen" />
+	</team>
+	<team name="Tijuana Plays" >
+		<player-entry name="Twisted Existed" />
+		<player-entry name="Legoliss" />
+		<player-entry name="Spree" />
+		<player-entry name="Tio" />
+	</team>
+	<team name="TornVeilProphets" >
+		<player-entry name="RDDBros" />
+		<player-entry name="Keyys" />
+		<player-entry name="Szeth" />
+		<player-entry name="Zayne" />
+		<player-entry name="Ozer" />
+	</team>
+	<team name="Tsukuyomi" >
+		<player-entry name="Lobstah" />
+		<player-entry name="DarkObitoS" />
+		<player-entry name="Alex Miah" />
+		<player-entry name="YoShiiRR" />
+		<player-entry name="Jonathy" />
+	</team>
+	<team name="Wii Controllers" >
+		<player-entry name="Tanki" />
+		<player-entry name="Laguiza" />
+		<player-entry name="Vic" />
+		<player-entry name="Chicken" />
+		<player-entry name="Voxlry" />
+	</team>
+	<team name="Wrath" >
+		<player-entry name="Hurt M3 Plenty" />
+		<player-entry name="TheSup" />
+		<player-entry name="Coloses" />
+		<player-entry name="CaZuaL" />
+		<player-entry name="Blue" />
+	</team>
+</season>

@@ -9,7 +9,9 @@ function parsePDML(input) {
     
     for (let line of lines) {
         if (line.startsWith("!")) {
+            if (currentTeam) output += "\t\t</teamScore>\n";
             if (currentMatch) output += "\t</match>\n";
+            currentTeam = null; // <- Clear current team
             
             const parts = line.slice(1).split("/");
             let map = parts[0];
@@ -35,8 +37,13 @@ function parsePDML(input) {
             let score = parts[1] || "0";
             let kills = parts[2] || "0";
             let deaths = parts[3] || "0";
+            let time = parts[4] || null;
             
-            output += `\t\t\t<playerScore name="${name}" score=${score} kills=${kills} deaths=${deaths}/>\n`;
+            output += `\t\t\t<playerScore name="${name}" score=${score} kills=${kills} deaths=${deaths}`;
+            if (time)
+                output += ` time="${time}"/>\n`;
+            else
+                output += `/>\n`;
         }
     }
     if (currentTeam) output += "\t\t</teamScore>\n";
@@ -60,7 +67,7 @@ function convertFile(inputPath) {
     const inputText = fs.readFileSync(inputPath, "utf8");
     const outputText = parsePDML(inputText);
     
-    const finalOutput = `<series team1="${team1}" team2="${team2}" round=${round} index=${roundIndex}>\n${outputText}</series>`;
+    const finalOutput = `<series season="${season}" teams=["${team1}" "${team2.replace(/\.sri$/, "")}"] round=${round} index=${roundIndex}>\n${outputText}</series>`;
     
     const outputPath = inputPath.replace(/\.sri$/, ".pdml");
     fs.writeFileSync(outputPath, finalOutput);

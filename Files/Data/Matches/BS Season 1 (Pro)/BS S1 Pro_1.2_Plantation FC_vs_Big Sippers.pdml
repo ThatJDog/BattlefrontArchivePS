@@ -1,44 +1,44 @@
-<series team1="Plantation FC" team2="Big Sippers.sri" round=1 index=2>
+<series season="BS S1 Pro" teams=["Plantation FC" "Big Sippers"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="00:57" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Spree" score=8275 kills=31 deaths=25/>
-			<playerScore name="Blue" score=7100 kills=15 deaths=24/>
-			<playerScore name="Bazo" score=6100 kills=27 deaths=23/>
-			<playerScore name="Slayz" score=5710 kills=24 deaths=23/>
+			<playerScore name="Spree" score=8275 kills=31 deaths=25 time="00:57"/>
+			<playerScore name="Blue" score=7100 kills=15 deaths=24 time="00:57"/>
+			<playerScore name="Bazo" score=6100 kills=27 deaths=23 time="00:57"/>
+			<playerScore name="Slayz" score=5710 kills=24 deaths=23 time="00:57"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Swaggy" score=7080 kills=17 deaths=23/>
-			<playerScore name="Baseball" score=6375 kills=18 deaths=23/>
-			<playerScore name="Padis" score=6200 kills=31 deaths=27/>
-			<playerScore name="Cassady" score=5500 kills=26 deaths=24/>
+			<playerScore name="Swaggy" score=7080 kills=17 deaths=23 time="00:57"/>
+			<playerScore name="Baseball" score=6375 kills=18 deaths=23 time="00:57"/>
+			<playerScore name="Padis" score=6200 kills=31 deaths=27 time="00:57"/>
+			<playerScore name="Cassady" score=5500 kills=26 deaths=24 time="00:57"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="01:11" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Blue" score=10975 kills=31 deaths=41/>
-			<playerScore name="Spree" score=9575 kills=41 deaths=38/>
-			<playerScore name="Slayz" score=7555 kills=27 deaths=27/>
-			<playerScore name="Bazo" score=6150 kills=26 deaths=28/>
+			<playerScore name="Blue" score=10975 kills=31 deaths=41 time="01:11"/>
+			<playerScore name="Spree" score=9575 kills=41 deaths=38 time="01:11"/>
+			<playerScore name="Slayz" score=7555 kills=27 deaths=27 time="01:11"/>
+			<playerScore name="Bazo" score=6150 kills=26 deaths=28 time="01:11"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Padis" score=11300 kills=46 deaths=32/>
-			<playerScore name="Cassady" score=7075 kills=28 deaths=28/>
-			<playerScore name="Baseball" score=6450 kills=33 deaths=33/>
-			<playerScore name="Swaggy" score=6350 kills=26 deaths=33/>
+			<playerScore name="Padis" score=11300 kills=46 deaths=32 time="01:11"/>
+			<playerScore name="Cassady" score=7075 kills=28 deaths=28 time="01:11"/>
+			<playerScore name="Baseball" score=6450 kills=33 deaths=33 time="01:11"/>
+			<playerScore name="Swaggy" score=6350 kills=26 deaths=33 time="01:11"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="04:51" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Blue" score=5100 kills=18 deaths=17/>
-			<playerScore name="Spree" score=5025 kills=21 deaths=25/>
-			<playerScore name="Slayz" score=4900 kills=14 deaths=9/>
-			<playerScore name="Bazo" score=4350 kills=19 deaths=13/>
+			<playerScore name="Blue" score=5100 kills=18 deaths=17 time="04:51"/>
+			<playerScore name="Spree" score=5025 kills=21 deaths=25 time="04:51"/>
+			<playerScore name="Slayz" score=4900 kills=14 deaths=9 time="04:51"/>
+			<playerScore name="Bazo" score=4350 kills=19 deaths=13 time="04:51"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Padis" score=3850 kills=15 deaths=17/>
-			<playerScore name="Swaggy" score=3780 kills=10 deaths=16/>
-			<playerScore name="Cassady" score=3500 kills=17 deaths=24/>
-			<playerScore name="Baseball" score=3100 kills=10 deaths=17/>
+			<playerScore name="Padis" score=3850 kills=15 deaths=17 time="04:51"/>
+			<playerScore name="Swaggy" score=3780 kills=10 deaths=16 time="04:51"/>
+			<playerScore name="Cassady" score=3500 kills=17 deaths=24 time="04:51"/>
+			<playerScore name="Baseball" score=3100 kills=10 deaths=17 time="04:51"/>
 		</teamScore>
 	</match>
 </series>

@@ -1,0 +1,38 @@
+<season seasonIndex=23>
+	<team name="Kurko's Team" >
+		<player-entry name="Kurko" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Magooboo" />
+	</team>
+	<team name="Baseball's Team" >
+		<player-entry name="Dajdog" />
+		<player-entry name="Baseball" />
+		<player-entry name="Sween" />
+		<player-entry name="XLand" />
+	</team>
+	<team name="Spree's Team" >
+		<player-entry name="Cricken" />
+		<player-entry name="Spree" />
+		<player-entry name="Figuxe" />
+		<player-entry name="Uliday" />
+	</team>
+	<team name="Karnage's Team" >
+		<player-entry name="OMB-Xan" />
+		<player-entry name="Karnage" />
+		<player-entry name="Alimpan" />
+		<player-entry name="Haztof" />
+	</team>
+	<team name="Hashemy's Team" >
+		<player-entry name="Laguiza" />
+		<player-entry name="Hashemy" />
+		<player-entry name="XWhatever" />
+		<player-entry name="Cian" />
+	</team>
+	<team name="Foggle's Team" >
+		<player-entry name="Garvey" />
+		<player-entry name="Foggle" />
+		<player-entry name="Mendo" />
+		<player-entry name="Coloses" />
+		<player-entry name="Tryhard" />
+	</team>
+</season>

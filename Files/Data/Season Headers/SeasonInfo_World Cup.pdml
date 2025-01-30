@@ -1,0 +1,96 @@
+<season shortenedName="WC" seasonIndex=5 tournamentMode="tournament">
+	<team name="US East" >
+		<player-entry name="Hobo" />
+		<player-entry name="Cassady" />
+		<player-entry name="Blue" />
+		<player-entry name="BonnieDino" />
+		<player-entry name="Spree" />
+	</team>
+	<team name="US Central" >
+		<player-entry name="Unakkorn" />
+		<player-entry name="TheSup" />
+		<player-entry name="Baseball" />
+		<player-entry name="Keyys" />
+		<player-entry name="Szeth" />
+		<player-entry name="Lobstah" />
+	</team>
+	<team name="US West" >
+		<player-entry name="Kygin" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Poochamos" />
+		<player-entry name="Exeyst" />
+		<player-entry name="SymmPhonic" />
+		<player-entry name="Uliday" />
+	</team>
+	<team name="Canada" >
+		<player-entry name="QuiteGoneG" />
+		<player-entry name="Cricken" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Fitality" />
+		<player-entry name="Falco" />
+		<player-entry name="Legoliss" />
+	</team>
+	<team name="LATAM" >
+		<player-entry name="TraGyK" />
+		<player-entry name="Tio" />
+		<player-entry name="Coloses" />
+		<player-entry name="Diego" />
+		<player-entry name="Aiikeed" />
+		<player-entry name="Whatever" />
+	</team>
+	<team name="UK" >
+		<player-entry name="M4nnydm" />
+		<player-entry name="Steen" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Tryhard" />
+		<player-entry name="Foggle" />
+	</team>
+	<team name="Germany" >
+		<player-entry name="Bakanisimo" />
+		<player-entry name="Bazo" />
+		<player-entry name="Goetzeus" />
+		<player-entry name="Marscompany" />
+		<player-entry name="Bacoti" />
+		<player-entry name="BenDixen" />
+	</team>
+	<team name="Germany B" >
+		<player-entry name="CrazyKiVi" />
+		<player-entry name="Misha" />
+		<player-entry name="Schnackels" />
+		<player-entry name="Valorize" />
+		<player-entry name="Trance" />
+	</team>
+	<team name="France" >
+		<player-entry name="Jonathy" />
+		<player-entry name="Laguiza" />
+		<player-entry name="Haztof" />
+		<player-entry name="Vic" />
+		<player-entry name="DEATH WAVE" />
+		<player-entry name="ShawdenFrost" />
+	</team>
+	<team name="Scandinavia" >
+		<player-entry name="Serluir" />
+		<player-entry name="Hildingsson" />
+		<player-entry name="Karnage" />
+		<player-entry name="Stook" />
+		<player-entry name="SlewedPanic" />
+	</team>
+	<team name="Scandinavia B" >
+		<player-entry name="Emil-Heg" />
+		<player-entry name="GoldenSwede" />
+		<player-entry name="Rayanswag" />
+		<player-entry name="Veggie" />
+		<player-entry name="SandbergValter" />
+		<player-entry name="Nai-Sora" />
+	</team>
+	<team name="Australia" >
+		<player-entry name="Marthinii" />
+		<player-entry name="Sushi" />
+		<player-entry name="Cryptic Zero" />
+		<player-entry name="Padis" />
+		<player-entry name="Anoxia" />
+		<player-entry name="Reilly" />
+		<player-entry name="Griever" />
+	</team>
+</season>

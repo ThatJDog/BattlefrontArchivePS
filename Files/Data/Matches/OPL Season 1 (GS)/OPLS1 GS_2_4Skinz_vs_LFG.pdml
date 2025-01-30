@@ -1,30 +1,30 @@
-<series team1="4Skinz" team2="LFG.sri" round=0 index=2>
+<series season="OPLS1 GS" teams=["4Skinz" "LFG"] round=0 index=2>
 	<match map="Dune Sea" timeLeft="-00:-29" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Figuxe" score=9630 kills=48 deaths=24/>
-			<playerScore name="Coloses" score=8700 kills=16 deaths=30/>
-			<playerScore name="Sween" score=8625 kills=39 deaths=22/>
-			<playerScore name="Bdozen" score=7975 kills=35 deaths=31/>
+			<playerScore name="Figuxe" score=9630 kills=48 deaths=24 time="-00:-29"/>
+			<playerScore name="Coloses" score=8700 kills=16 deaths=30 time="-00:-29"/>
+			<playerScore name="Sween" score=8625 kills=39 deaths=22 time="-00:-29"/>
+			<playerScore name="Bdozen" score=7975 kills=35 deaths=31 time="-00:-29"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="ThraxOD" score=8100 kills=33 deaths=29/>
-			<playerScore name="Cricken" score=7925 kills=23 deaths=33/>
-			<playerScore name="IcyQueen" score=7025 kills=25 deaths=37/>
-			<playerScore name="QuiteGoneG" score=5625 kills=21 deaths=40/>
+			<playerScore name="ThraxOD" score=8100 kills=33 deaths=29 time="-00:-29"/>
+			<playerScore name="Cricken" score=7925 kills=23 deaths=33 time="-00:-29"/>
+			<playerScore name="IcyQueen" score=7025 kills=25 deaths=37 time="-00:-29"/>
+			<playerScore name="QuiteGoneG" score=5625 kills=21 deaths=40 time="-00:-29"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="00:38" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Figuxe" score=6315 kills=24 deaths=17/>
-			<playerScore name="Coloses" score=6900 kills=20 deaths=24/>
-			<playerScore name="Sween" score=6425 kills=25 deaths=22/>
-			<playerScore name="Bdozen" score=10525 kills=27 deaths=23/>
+			<playerScore name="Figuxe" score=6315 kills=24 deaths=17 time="00:38"/>
+			<playerScore name="Coloses" score=6900 kills=20 deaths=24 time="00:38"/>
+			<playerScore name="Sween" score=6425 kills=25 deaths=22 time="00:38"/>
+			<playerScore name="Bdozen" score=10525 kills=27 deaths=23 time="00:38"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=3>
-			<playerScore name="ThraxOD" score=5700 kills=28 deaths=19/>
-			<playerScore name="Cricken" score=7100 kills=22 deaths=25/>
-			<playerScore name="IcyQueen" score=5475 kills=18 deaths=28/>
-			<playerScore name="QuiteGoneG" score=5080 kills=18 deaths=24/>
+			<playerScore name="ThraxOD" score=5700 kills=28 deaths=19 time="00:38"/>
+			<playerScore name="Cricken" score=7100 kills=22 deaths=25 time="00:38"/>
+			<playerScore name="IcyQueen" score=5475 kills=18 deaths=28 time="00:38"/>
+			<playerScore name="QuiteGoneG" score=5080 kills=18 deaths=24 time="00:38"/>
 		</teamScore>
 	</match>
 </series>

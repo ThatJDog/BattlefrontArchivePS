@@ -1,0 +1,73 @@
+<season shortenedName="S8" seasonIndex=10 tournamentMode="tournament">
+	<team name="SWAT" >
+		<player-entry name="Vic" />
+		<player-entry name="Foggle" />
+		<player-entry name="Subsided" />
+	</team>
+	<team name="SawC" >
+		<player-entry name="Laguiza" />
+		<player-entry name="Shadows" />
+		<player-entry name="Spree" />
+		<player-entry name="Uliday" />
+		<player-entry name="Sarrows" />
+		<player-entry name="Magooboo" />
+		<player-entry name="Intruce" />
+	</team>
+	<team name="Lumberjacks" >
+		<player-entry name="Tio" />
+		<player-entry name="Goudapest" />
+		<player-entry name="Bdozen" />
+		<player-entry name="Rage" />
+		<player-entry name="Rayanswag" />
+		<player-entry name="Slope" />
+		<player-entry name="Hildingsson" />
+	</team>
+	<team name="MeM" >
+		<player-entry name="Cricken" />
+		<player-entry name="Tryhard" />
+		<player-entry name="Karnage" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Haztof" />
+		<player-entry name="xAnLiVi" />
+	</team>
+	<team name="Tha Kids" >
+		<player-entry name="Bazo" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="TheSup" />
+		<player-entry name="Amjedjohn" />
+		<player-entry name="Szeth" />
+		<player-entry name="Falco" />
+	</team>
+	<team name="ZHU" >
+		<player-entry name="Tio" />
+		<player-entry name="Blue" />
+		<player-entry name="Sween" />
+		<player-entry name="Healthy" />
+		<player-entry name="Palmy" />
+	</team>
+	<team name="Hawg Riders" >
+		<player-entry name="Coloses" />
+		<player-entry name="Hobo" />
+		<player-entry name="Cassady" />
+		<player-entry name="Keyys" />
+	</team>
+	<team name="Kumalala" >
+		<player-entry name="Symple" />
+		<player-entry name="Baseball" />
+		<player-entry name="Alimpan" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Diego" />
+		<player-entry name="Mendo" />
+	</team>
+	<team name="OGYB" >
+		<player-entry name="Aiikeed" />
+		<player-entry name="Hashemy" />
+		<player-entry name="Swaggy" />
+		<player-entry name="CaZuaL" />
+		<player-entry name="Slope" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Kurko" />
+		<player-entry name="Nai-Sora" />
+		<player-entry name="Envy" />
+	</team>
+</season>

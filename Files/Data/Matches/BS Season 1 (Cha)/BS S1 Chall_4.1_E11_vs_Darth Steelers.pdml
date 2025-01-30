@@ -1,4 +1,4 @@
-<series team1="E11" team2="Darth Steelers.sri" round=4 index=1>
+<series season="BS S1 Chall" teams=["E11" "Darth Steelers"] round=4 index=1>
 	<match map="Jawa Refuge" timeLeft="03:16" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Cian" score=10550 kills=51 deaths=12/>
@@ -11,9 +11,9 @@
 			<playerScore name="Uliday" score=4480 kills=12 deaths=31/>
 			<playerScore name="Mortal" score=4225 kills=17 deaths=28/>
 			<playerScore name="K3sharr" score=4100 kills=13 deaths=28/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="06:42" gameMode="Drop Zone" server="US West">
-		</teamScore>
 		<teamScore faction="Rebel" score=0>
 			<playerScore name="XLand" score=3975 kills=20 deaths=17/>
 			<playerScore name="QuiteGoneG" score=3625 kills=11 deaths=17/>
@@ -25,9 +25,9 @@
 			<playerScore name="Uliday" score=5285 kills=18 deaths=15/>
 			<playerScore name="Amjedjohn" score=4250 kills=16 deaths=15/>
 			<playerScore name="K3sharr" score=5675 kills=16 deaths=13/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="03:28" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Rebel" score=2>
 			<playerScore name="XLand" score=5375 kills=17 deaths=24/>
 			<playerScore name="Cian" score=4650 kills=22 deaths=21/>
@@ -39,9 +39,9 @@
 			<playerScore name="Mortal" score=5625 kills=19 deaths=18/>
 			<playerScore name="K3sharr" score=5625 kills=14 deaths=17/>
 			<playerScore name="Uliday" score=4740 kills=19 deaths=19/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="05:15" gameMode="Drop Zone" server="US West">
-		</teamScore>
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="XLand" score=4275 kills=17 deaths=21/>
 			<playerScore name="Cian" score=2850 kills=11 deaths=20/>

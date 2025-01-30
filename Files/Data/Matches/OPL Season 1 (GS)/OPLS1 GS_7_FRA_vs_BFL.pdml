@@ -1,28 +1,28 @@
-<series team1="FRA" team2="BFL.sri" round=0 index=7>
+<series season="OPLS1 GS" teams=["FRA" "BFL"] round=0 index=7>
 	<match map="Jawa Refuge" timeLeft="08:12" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="Ange Des Neiiges" score=3300 kills=5 deaths=15/>
-			<playerScore name="Golden Panda" score=1375 kills=10 deaths=15/>
-			<playerScore name="Redloz" score=250 kills=1 deaths=15/>
+			<playerScore name="Ange Des Neiiges" score=3300 kills=5 deaths=15 time="08:12"/>
+			<playerScore name="Golden Panda" score=1375 kills=10 deaths=15 time="08:12"/>
+			<playerScore name="Redloz" score=250 kills=1 deaths=15 time="08:12"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Yolo" score=4600 kills=16 deaths=1/>
-			<playerScore name="Bobstaj" score=4080 kills=9 deaths=7/>
-			<playerScore name="Kurziiya" score=3350 kills=13 deaths=7/>
-			<playerScore name="Cheers" score=3125 kills=5 deaths=3/>
+			<playerScore name="Yolo" score=4600 kills=16 deaths=1 time="08:12"/>
+			<playerScore name="Bobstaj" score=4080 kills=9 deaths=7 time="08:12"/>
+			<playerScore name="Kurziiya" score=3350 kills=13 deaths=7 time="08:12"/>
+			<playerScore name="Cheers" score=3125 kills=5 deaths=3 time="08:12"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Base" timeLeft="04:34" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Ange Des Neiiges" score=2795 kills=16 deaths=20/>
-			<playerScore name="Golden Panda" score=1900 kills=10 deaths=22/>
-			<playerScore name="Redloz" score=1425 kills=8 deaths=18/>
+			<playerScore name="Ange Des Neiiges" score=2795 kills=16 deaths=20 time="04:34"/>
+			<playerScore name="Golden Panda" score=1900 kills=10 deaths=22 time="04:34"/>
+			<playerScore name="Redloz" score=1425 kills=8 deaths=18 time="04:34"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=10>
-			<playerScore name="Lego Matt" score=4475 kills=23 deaths=9/>
-			<playerScore name="Kurziiya" score=3150 kills=15 deaths=9/>
-			<playerScore name="Bobstaj" score=2700 kills=14 deaths=10/>
-			<playerScore name="Yolo" score=2625 kills=7 deaths=8/>
+			<playerScore name="Lego Matt" score=4475 kills=23 deaths=9 time="04:34"/>
+			<playerScore name="Kurziiya" score=3150 kills=15 deaths=9 time="04:34"/>
+			<playerScore name="Bobstaj" score=2700 kills=14 deaths=10 time="04:34"/>
+			<playerScore name="Yolo" score=2625 kills=7 deaths=8 time="04:34"/>
 		</teamScore>
 	</match>
 </series>

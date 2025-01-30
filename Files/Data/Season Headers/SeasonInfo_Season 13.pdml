@@ -1,0 +1,87 @@
+<season shortenedName="S13" seasonIndex=22 tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
+	<team name="Strictly Business" >
+		<player-entry name="Foggle" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Tryhard" />
+		<player-entry name="Dajdog" />
+	</team>
+	<team name="America" >
+		<player-entry name="Magooboo" />
+		<player-entry name="Hashemy" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Amjedjohn" />
+		<player-entry name="QuiteGoneG" />
+		<player-entry name="Szeth" />
+		<player-entry name="Pmoney" />
+	</team>
+	<team name="Astro" >
+		<player-entry name="K3sharr" />
+		<player-entry name="Tio" />
+		<player-entry name="Karnage" />
+		<player-entry name="Kurko" />
+		<player-entry name="Mavry" />
+		<player-entry name="Slope" />
+		<player-entry name="Veggie" />
+	</team>
+	<team name="Klueless" >
+		<player-entry name="Mortal" />
+		<player-entry name="Bazo" />
+		<player-entry name="Appolo" />
+		<player-entry name="Papl" />
+		<player-entry name="Healthy" />
+		<player-entry name="Zeus" />
+	</team>
+	<team name="RHCP" >
+		<player-entry name="Cookie" />
+		<player-entry name="Spree" />
+		<player-entry name="Figuxe" />
+		<player-entry name="Slayz" />
+		<player-entry name="Redloz" />
+		<player-entry name="Cappa" />
+		<player-entry name="Swaggy" />
+		<player-entry name="XLand" />
+	</team>
+	<team name="Rusty" >
+		<player-entry name="Andrew" />
+		<player-entry name="Baseball" />
+		<player-entry name="Fitality" />
+		<player-entry name="Sween" />
+		<player-entry name="Coloses" />
+		<player-entry name="Klumszy" />
+	</team>
+	<team name="Foreign Strangers" >
+		<player-entry name="Alimpan" />
+		<player-entry name="Yolo" />
+		<player-entry name="SkyFall" />
+		<player-entry name="QDuhy" />
+		<player-entry name="FireBringer" />
+		<player-entry name="Cian" />
+		<player-entry name="OM-4309" />
+		<player-entry name="BFL-DarthNihilus" />
+	</team>
+	<team name="ViceTigers" >
+		<player-entry name="Zodiac" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Stook" />
+		<player-entry name="TheSup" />
+		<player-entry name="Uliday" />
+		<player-entry name="Mendo" />
+		<player-entry name="Veggie" />
+		<player-entry name="Hildingsson" />
+	</team>
+	<team name="Only 2016 Players Will Understand" >
+		<player-entry name="Laguiza" />
+		<player-entry name="Irrelevant" />
+		<player-entry name="Brock" />
+		<player-entry name="FNLPlayz" />
+		<player-entry name="Ranger" />
+		<player-entry name="La3yrynth" />
+	</team>
+	<team name="We Can't Win" >
+		<player-entry name="Intruce" />
+		<player-entry name="WWWW" />
+		<player-entry name="Cian" />
+		<player-entry name="Fire" />
+		<player-entry name="Zodiac" />
+	</team>
+</season>

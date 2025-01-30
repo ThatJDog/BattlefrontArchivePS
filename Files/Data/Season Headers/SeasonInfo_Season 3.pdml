@@ -1,0 +1,51 @@
+<season shortenedName="S3" seasonIndex=3 tournamentMode="tournament">
+	<team name="Battle Bug Bombers" >
+		<player-entry name="Beerus" />
+		<player-entry name="Stook" />
+		<player-entry name="TentFergus" />
+	</team>
+	<team name="Dancing Chipmunks" >
+		<player-entry name="Alien Predator" />
+		<player-entry name="Tio" />
+		<player-entry name="Blue" />
+		<player-entry name="Coloses" />
+	</team>
+	<team name="Fear No One" >
+		<player-entry name="KOI_kazoo" />
+		<player-entry name="Fitality" />
+		<player-entry name="Baseball" />
+		<player-entry name="Overwhelmed" />
+	</team>
+	<team name="KGB" >
+		<player-entry name="YoShiiRR" />
+		<player-entry name="Bdozen" />
+		<player-entry name="CaZuaL" />
+		<player-entry name="Slope" />
+	</team>
+	<team name="Loded Diper" >
+		<player-entry name="Lobstah" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Padis" />
+		<player-entry name="Keyys" />
+	</team>
+	<team name="Quitegone's Legal Team" >
+		<player-entry name="Anoxia" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Cricken" />
+		<player-entry name="QuiteGoneG" />
+	</team>
+	<team name="Reckoning" >
+		<player-entry name="Szeth" />
+		<player-entry name="Cassady" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Hobo" />
+	</team>
+	<team name="RHCP" >
+		<player-entry name="SlewedPanic" />
+		<player-entry name="Spree" />
+		<player-entry name="Shadows" />
+		<player-entry name="Uliday" />
+		<player-entry name="Diego" />
+		<player-entry name="Puffy" />
+	</team>
+</season>

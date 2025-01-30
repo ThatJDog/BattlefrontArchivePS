@@ -1,0 +1,62 @@
+<season shortenedName="CMC" seasonIndex=8 tournamentMode="tournament">
+	<team name="SWAT A" >
+		<player-entry name="Envy" />
+		<player-entry name="Hashemy" />
+		<player-entry name="Cricken" />
+		<player-entry name="Alimpan" />
+		<player-entry name="Rayanswag" />
+	</team>
+	<team name="SWAT B" >
+		<player-entry name="Nai-Sora" />
+		<player-entry name="Laguiza" />
+		<player-entry name="Slope" />
+		<player-entry name="Subsided" />
+		<player-entry name="Pie" />
+	</team>
+	<team name="Hawg Ridahs" >
+		<player-entry name="Tryhard" />
+		<player-entry name="Cassady" />
+		<player-entry name="Hobo" />
+		<player-entry name="Blue" />
+		<player-entry name="CaZuaL" />
+		<player-entry name="Fitality" />
+	</team>
+	<team name="HEART ATTACK" >
+		<player-entry name="Palmy" />
+		<player-entry name="SymmPhonic" />
+		<player-entry name="Stone" />
+		<player-entry name="Gpooy" />
+		<player-entry name="BonnieDino" />
+		<player-entry name="Baseball" />
+	</team>
+	<team name="Luhshmunkem" >
+		<player-entry name="TraGyK" />
+		<player-entry name="TheSup" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Goudapest" />
+		<player-entry name="Bdozen" />
+	</team>
+	<team name="Mid af" >
+		<player-entry name="Sarrows" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Spree" />
+		<player-entry name="Shadows" />
+	</team>
+	<team name="Mos Eisley Mandem v2" >
+		<player-entry name="Whatever" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Veggie" />
+		<player-entry name="Hildingsson" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Slope" />
+	</team>
+	<team name="NMW" >
+		<player-entry name="Tio" />
+		<player-entry name="Foggle" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Karnage" />
+		<player-entry name="Diego" />
+		<player-entry name="Bazo" />
+		<player-entry name="Goetzeus" />
+	</team>
+</season>

@@ -1,217 +1,217 @@
-<series team1="SWAT" team2="SawC.sri" round=0 index=1>
+<series season="S6" teams=["SWAT" "SawC"] round=0 index=1>
 	<match map="Jawa Refuge" timeLeft="-00:-35" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=9400 kills=48 deaths=28/>
+			<playerScore name="Foggle" score=9400 kills=48 deaths=28 time="-00:-35"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="01:13" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=10950 kills=47 deaths=21/>
+			<playerScore name="Foggle" score=10950 kills=47 deaths=21 time="01:13"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="04:08" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=8225 kills=38 deaths=16/>
+			<playerScore name="Foggle" score=8225 kills=38 deaths=16 time="04:08"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-00:-36" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=8775 kills=32 deaths=29/>
+			<playerScore name="Foggle" score=8775 kills=32 deaths=29 time="-00:-36"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-00:-43" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=10350 kills=45 deaths=34/>
+			<playerScore name="Foggle" score=10350 kills=45 deaths=34 time="-00:-43"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-01:-12" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=9075 kills=34 deaths=33/>
+			<playerScore name="Foggle" score=9075 kills=34 deaths=33 time="-01:-12"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="00:00" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=9275 kills=44 deaths=26/>
+			<playerScore name="Foggle" score=9275 kills=44 deaths=26 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="04:06" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=6700 kills=25 deaths=17/>
+			<playerScore name="Foggle" score=6700 kills=25 deaths=17 time="04:06"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-05:-43" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=14250 kills=49 deaths=26/>
+			<playerScore name="Foggle" score=14250 kills=49 deaths=26 time="-05:-43"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-06:-55" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=14275 kills=77 deaths=42/>
+			<playerScore name="Foggle" score=14275 kills=77 deaths=42 time="-06:-55"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="01:59" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=5650 kills=26 deaths=19/>
+			<playerScore name="Foggle" score=5650 kills=26 deaths=19 time="01:59"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="06:58" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=4875 kills=17 deaths=12/>
+			<playerScore name="Foggle" score=4875 kills=17 deaths=12 time="06:58"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-00:-58" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=10200 kills=42 deaths=30/>
+			<playerScore name="Foggle" score=10200 kills=42 deaths=30 time="-00:-58"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="03:57" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=9025 kills=41 deaths=19/>
+			<playerScore name="Foggle" score=9025 kills=41 deaths=19 time="03:57"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="05:36" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=4825 kills=16 deaths=16/>
+			<playerScore name="Foggle" score=4825 kills=16 deaths=16 time="05:36"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="11:25" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=2525 kills=11 deaths=1/>
+			<playerScore name="Foggle" score=2525 kills=11 deaths=1 time="11:25"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="11:25" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=7600 kills=32 deaths=6/>
+			<playerScore name="Foggle" score=7600 kills=32 deaths=6 time="01:39"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="06:49" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=4675 kills=23 deaths=8/>
+			<playerScore name="Foggle" score=4675 kills=23 deaths=8 time="06:49"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-02:-35" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=12600 kills=59 deaths=22/>
+			<playerScore name="Foggle" score=12600 kills=59 deaths=22 time="-02:-35"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="02:16" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=5650 kills=32 deaths=19/>
+			<playerScore name="Foggle" score=5650 kills=32 deaths=19 time="02:16"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-00:-27" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=5275 kills=29 deaths=20/>
+			<playerScore name="Foggle" score=5275 kills=29 deaths=20 time="-00:-27"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-00:-51" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=9325 kills=50 deaths=22/>
+			<playerScore name="Foggle" score=9325 kills=50 deaths=22 time="-00:-51"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="02:04" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=7175 kills=39 deaths=21/>
+			<playerScore name="Foggle" score=7175 kills=39 deaths=21 time="02:04"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="00:25" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=9200 kills=35 deaths=22/>
+			<playerScore name="Foggle" score=9200 kills=35 deaths=22 time="00:25"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-00:-04" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=8300 kills=42 deaths=26/>
+			<playerScore name="Foggle" score=8300 kills=42 deaths=26 time="-00:-04"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="-00:-03" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=7525 kills=40 deaths=28/>
+			<playerScore name="Foggle" score=7525 kills=40 deaths=28 time="-00:-03"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="00:39" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=6300 kills=31 deaths=26/>
+			<playerScore name="Foggle" score=6300 kills=31 deaths=26 time="00:39"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="00:53" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=8325 kills=42 deaths=29/>
+			<playerScore name="Foggle" score=8325 kills=42 deaths=29 time="00:53"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="07:44" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=4175 kills=17 deaths=6/>
+			<playerScore name="Foggle" score=4175 kills=17 deaths=6 time="07:44"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="01:20" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=6025 kills=28 deaths=26/>
+			<playerScore name="Foggle" score=6025 kills=28 deaths=26 time="01:20"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="01:09" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=6550 kills=30 deaths=25/>
+			<playerScore name="Foggle" score=6550 kills=30 deaths=25 time="01:09"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
 		</teamScore>

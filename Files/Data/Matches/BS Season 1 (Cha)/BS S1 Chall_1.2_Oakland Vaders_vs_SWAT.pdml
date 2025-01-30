@@ -1,30 +1,30 @@
-<series team1="Oakland Vaders" team2="SWAT.sri" round=1 index=2>
+<series season="BS S1 Chall" teams=["Oakland Vaders" "SWAT"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="07:22" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="FireBringer" score=4525 kills=22 deaths=13/>
-			<playerScore name="CaZuaL" score=4285 kills=17 deaths=3/>
-			<playerScore name="Pyrtle" score=4125 kills=11 deaths=8/>
-			<playerScore name="BFL-Ice" score=3975 kills=14 deaths=10/>
+			<playerScore name="FireBringer" score=4525 kills=22 deaths=13 time="07:22"/>
+			<playerScore name="CaZuaL" score=4285 kills=17 deaths=3 time="07:22"/>
+			<playerScore name="Pyrtle" score=4125 kills=11 deaths=8 time="07:22"/>
+			<playerScore name="BFL-Ice" score=3975 kills=14 deaths=10 time="07:22"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Vic" score=3325 kills=7 deaths=17/>
-			<playerScore name="Laguiza" score=2325 kills=8 deaths=18/>
-			<playerScore name="Alimpan" score=2200 kills=10 deaths=14/>
-			<playerScore name="Haztof" score=1500 kills=9 deaths=16/>
+			<playerScore name="Vic" score=3325 kills=7 deaths=17 time="07:22"/>
+			<playerScore name="Laguiza" score=2325 kills=8 deaths=18 time="07:22"/>
+			<playerScore name="Alimpan" score=2200 kills=10 deaths=14 time="07:22"/>
+			<playerScore name="Haztof" score=1500 kills=9 deaths=16 time="07:22"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="00:03" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="FireBringer" score=8725 kills=45 deaths=37/>
-			<playerScore name="CaZuaL" score=8880 kills=28 deaths=18/>
-			<playerScore name="Pyrtle" score=7650 kills=17 deaths=31/>
-			<playerScore name="BFL-Ice" score=8400 kills=28 deaths=26/>
+			<playerScore name="FireBringer" score=8725 kills=45 deaths=37 time="00:03"/>
+			<playerScore name="CaZuaL" score=8880 kills=28 deaths=18 time="00:03"/>
+			<playerScore name="Pyrtle" score=7650 kills=17 deaths=31 time="00:03"/>
+			<playerScore name="BFL-Ice" score=8400 kills=28 deaths=26 time="00:03"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=4>
-			<playerScore name="Vic" score=9400 kills=34 deaths=30/>
-			<playerScore name="Laguiza" score=6355 kills=29 deaths=27/>
-			<playerScore name="Alimpan" score=7475 kills=26 deaths=32/>
-			<playerScore name="Haztof" score=5550 kills=22 deaths=30/>
+			<playerScore name="Vic" score=9400 kills=34 deaths=30 time="00:03"/>
+			<playerScore name="Laguiza" score=6355 kills=29 deaths=27 time="00:03"/>
+			<playerScore name="Alimpan" score=7475 kills=26 deaths=32 time="00:03"/>
+			<playerScore name="Haztof" score=5550 kills=22 deaths=30 time="00:03"/>
 		</teamScore>
 	</match>
 </series>

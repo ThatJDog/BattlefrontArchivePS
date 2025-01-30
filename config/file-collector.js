@@ -3,7 +3,7 @@ const path = require("path");
 
 // Root directory to scan
 const rootDirectory = path.join(__dirname, "../Files/Data");
-const outputJson = path.join(__dirname, "../Files/source/pdml_files.json");
+const outputJson = path.join(__dirname, "../Files/source/file-structure.json");
 
 // Recursively scans directories and structures data as nested JSON
 function getPDMLFilesRecursive(dir, relativePath = "") {

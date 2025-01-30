@@ -1,58 +1,58 @@
-<series team1="BRO" team2="Bhocolate Bhip Bookies.sri" round=0 index=10>
+<series season="OPLS1 GS" teams=["BRO" "Bhocolate Bhip Bookies"] round=0 index=10>
 	<match map="Raider Camp" timeLeft="02:19" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Skumszy" score=7575 kills=22 deaths=20/>
-			<playerScore name="Albert Blah" score=6975 kills=26 deaths=14/>
-			<playerScore name="Gpooy" score=5985 kills=20 deaths=7/>
-			<playerScore name="Wookie" score=5350 kills=23 deaths=13/>
+			<playerScore name="Skumszy" score=7575 kills=22 deaths=20 time="02:19"/>
+			<playerScore name="Albert Blah" score=6975 kills=26 deaths=14 time="02:19"/>
+			<playerScore name="Gpooy" score=5985 kills=20 deaths=7 time="02:19"/>
+			<playerScore name="Wookie" score=5350 kills=23 deaths=13 time="02:19"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=2>
-			<playerScore name="Blue" score=4950 kills=12 deaths=26/>
-			<playerScore name="Uliday" score=4550 kills=12 deaths=30/>
-			<playerScore name="Palmy" score=3980 kills=11 deaths=18/>
-			<playerScore name="Falco" score=3725 kills=17 deaths=19/>
+			<playerScore name="Blue" score=4950 kills=12 deaths=26 time="02:19"/>
+			<playerScore name="Uliday" score=4550 kills=12 deaths=30 time="02:19"/>
+			<playerScore name="Palmy" score=3980 kills=11 deaths=18 time="02:19"/>
+			<playerScore name="Falco" score=3725 kills=17 deaths=19 time="02:19"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Albert Blah" score=4310 kills=22 deaths=13/>
-			<playerScore name="Skumszy" score=3925 kills=21 deaths=30/>
-			<playerScore name="Wookie" score=3825 kills=20 deaths=25/>
-			<playerScore name="Gpooy" score=2625 kills=15 deaths=9/>
+			<playerScore name="Albert Blah" score=4310 kills=22 deaths=13 time="00:00"/>
+			<playerScore name="Skumszy" score=3925 kills=21 deaths=30 time="00:00"/>
+			<playerScore name="Wookie" score=3825 kills=20 deaths=25 time="00:00"/>
+			<playerScore name="Gpooy" score=2625 kills=15 deaths=9 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Blue" score=4475 kills=27 deaths=30/>
-			<playerScore name="Falco" score=4275 kills=23 deaths=16/>
-			<playerScore name="Palmy" score=2950 kills=14 deaths=8/>
-			<playerScore name="Uliday" score=2725 kills=9 deaths=25/>
+			<playerScore name="Blue" score=4475 kills=27 deaths=30 time="00:00"/>
+			<playerScore name="Falco" score=4275 kills=23 deaths=16 time="00:00"/>
+			<playerScore name="Palmy" score=2950 kills=14 deaths=8 time="00:00"/>
+			<playerScore name="Uliday" score=2725 kills=9 deaths=25 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="01:08" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=4>
-			<playerScore name="Wookie" score=3450 kills=23 deaths=26/>
-			<playerScore name="Albert Blah" score=3210 kills=16 deaths=18/>
-			<playerScore name="Gpooy" score=2675 kills=14 deaths=5/>
-			<playerScore name="Skumszy" score=2475 kills=12 deaths=24/>
+			<playerScore name="Wookie" score=3450 kills=23 deaths=26 time="01:08"/>
+			<playerScore name="Albert Blah" score=3210 kills=16 deaths=18 time="01:08"/>
+			<playerScore name="Gpooy" score=2675 kills=14 deaths=5 time="01:08"/>
+			<playerScore name="Skumszy" score=2475 kills=12 deaths=24 time="01:08"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=6>
-			<playerScore name="Blue" score=4875 kills=27 deaths=32/>
-			<playerScore name="Falco" score=3425 kills=21 deaths=6/>
-			<playerScore name="Uliday" score=2300 kills=10 deaths=23/>
-			<playerScore name="Palmy" score=1990 kills=13 deaths=6/>
+			<playerScore name="Blue" score=4875 kills=27 deaths=32 time="01:08"/>
+			<playerScore name="Falco" score=3425 kills=21 deaths=6 time="01:08"/>
+			<playerScore name="Uliday" score=2300 kills=10 deaths=23 time="01:08"/>
+			<playerScore name="Palmy" score=1990 kills=13 deaths=6 time="01:08"/>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="00:57" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Skumszy" score=9425 kills=18 deaths=31/>
-			<playerScore name="Albert Blah" score=7700 kills=32 deaths=24/>
-			<playerScore name="Gpooy" score=6650 kills=23 deaths=16/>
-			<playerScore name="Wookie" score=5150 kills=20 deaths=20/>
+			<playerScore name="Skumszy" score=9425 kills=18 deaths=31 time="00:57"/>
+			<playerScore name="Albert Blah" score=7700 kills=32 deaths=24 time="00:57"/>
+			<playerScore name="Gpooy" score=6650 kills=23 deaths=16 time="00:57"/>
+			<playerScore name="Wookie" score=5150 kills=20 deaths=20 time="00:57"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Blue" score=7550 kills=30 deaths=20/>
-			<playerScore name="Falco" score=7195 kills=31 deaths=24/>
-			<playerScore name="Uliday" score=6500 kills=14 deaths=29/>
-			<playerScore name="Palmy" score=3950 kills=13 deaths=21/>
+			<playerScore name="Blue" score=7550 kills=30 deaths=20 time="00:57"/>
+			<playerScore name="Falco" score=7195 kills=31 deaths=24 time="00:57"/>
+			<playerScore name="Uliday" score=6500 kills=14 deaths=29 time="00:57"/>
+			<playerScore name="Palmy" score=3950 kills=13 deaths=21 time="00:57"/>
 		</teamScore>
 	</match>
 </series>

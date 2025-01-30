@@ -1,0 +1,66 @@
+<season shortenedName="S7" seasonIndex=9 tournamentMode="tournament">
+	<team name="Aliens" >
+		<player-entry name="Cricken" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Hashemy" />
+		<player-entry name="Novacane" />
+		<player-entry name="Bacoop" />
+	</team>
+	<team name="Assisted Living Gamers" >
+		<player-entry name="M4nnydm" />
+		<player-entry name="Fitality" />
+		<player-entry name="Baseball" />
+		<player-entry name="Bdozen" />
+		<player-entry name="Amjedjohn" />
+		<player-entry name="Alimpan" />
+	</team>
+	<team name="British Empire" >
+		<player-entry name="Crown" />
+		<player-entry name="Foggle" />
+		<player-entry name="Prometheus" />
+		<player-entry name="Diego" />
+		<player-entry name="Dajdog" />
+		<player-entry name="Mendo" />
+	</team>
+	<team name="Hawg Ridahs" >
+		<player-entry name="Karnage" />
+		<player-entry name="Cassady" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Hobo" />
+		<player-entry name="Magooboo" />
+		<player-entry name="Mavry" />
+	</team>
+	<team name="My Typa Team" >
+		<player-entry name="Transplex" />
+		<player-entry name="Slope" />
+		<player-entry name="Aiikeed" />
+		<player-entry name="Kurko" />
+		<player-entry name="INVICTA" />
+		<player-entry name="DJ-Chimera" />
+	</team>
+	<team name="Navinous Goons" >
+		<player-entry name="TraGyK" />
+		<player-entry name="Envy" />
+		<player-entry name="Nai-Sora" />
+		<player-entry name="Subsided" />
+		<player-entry name="Rayanswag" />
+		<player-entry name="Subsided ZIIR" />
+	</team>
+	<team name="OGYB" >
+		<player-entry name="GoldenSwede" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Goudapest" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Sarrows" />
+		<player-entry name="Poochamos" />
+	</team>
+	<team name="ZHU" >
+		<player-entry name="Padis" />
+		<player-entry name="Blue" />
+		<player-entry name="Veggie" />
+		<player-entry name="Coloses" />
+		<player-entry name="Healthy" />
+		<player-entry name="Sween" />
+		<player-entry name="Keyys" />
+	</team>
+</season>

@@ -1,30 +1,30 @@
-<series team1="Elmos Minions" team2="Deathwatch.sri" round=0 index=19>
+<series season="OPLS1 GS" teams=["Elmos Minions" "Deathwatch"] round=0 index=19>
 	<match map="Jawa Refuge" timeLeft="06:22" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="CaZuaL" score=2960 kills=9 deaths=20/>
-			<playerScore name="Laddas" score=2825 kills=8 deaths=21/>
-			<playerScore name="Subsided" score=2300 kills=12 deaths=18/>
-			<playerScore name="Syriskor" score=2100 kills=9 deaths=15/>
+			<playerScore name="CaZuaL" score=2960 kills=9 deaths=20 time="06:22"/>
+			<playerScore name="Laddas" score=2825 kills=8 deaths=21 time="06:22"/>
+			<playerScore name="Subsided" score=2300 kills=12 deaths=18 time="06:22"/>
+			<playerScore name="Syriskor" score=2100 kills=9 deaths=15 time="06:22"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Spree" score=5675 kills=25 deaths=9/>
-			<playerScore name="Hashemy" score=5570 kills=14 deaths=8/>
-			<playerScore name="Vanarin" score=4775 kills=18 deaths=9/>
-			<playerScore name="Unakkorn" score=4650 kills=16 deaths=13/>
+			<playerScore name="Spree" score=5675 kills=25 deaths=9 time="06:22"/>
+			<playerScore name="Hashemy" score=5570 kills=14 deaths=8 time="06:22"/>
+			<playerScore name="Vanarin" score=4775 kills=18 deaths=9 time="06:22"/>
+			<playerScore name="Unakkorn" score=4650 kills=16 deaths=13 time="06:22"/>
+		</teamScore>
 	</match>
 	<match map="Imperial Hangar" timeLeft="06:26" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="Subsided" score=2975 kills=18 deaths=16/>
-			<playerScore name="Syriskor" score=2750 kills=15 deaths=24/>
-			<playerScore name="Laddas" score=2550 kills=9 deaths=19/>
-			<playerScore name="CaZuaL" score=2330 kills=11 deaths=23/>
+			<playerScore name="Subsided" score=2975 kills=18 deaths=16 time="06:26"/>
+			<playerScore name="Syriskor" score=2750 kills=15 deaths=24 time="06:26"/>
+			<playerScore name="Laddas" score=2550 kills=9 deaths=19 time="06:26"/>
+			<playerScore name="CaZuaL" score=2330 kills=11 deaths=23 time="06:26"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=10>
-			<playerScore name="Unakkorn" score=4450 kills=14 deaths=20/>
-			<playerScore name="Vanarin" score=4400 kills=23 deaths=9/>
-			<playerScore name="Spree" score=4275 kills=28 deaths=13/>
-			<playerScore name="Hashemy" score=3395 kills=17 deaths=12/>
+			<playerScore name="Unakkorn" score=4450 kills=14 deaths=20 time="06:26"/>
+			<playerScore name="Vanarin" score=4400 kills=23 deaths=9 time="06:26"/>
+			<playerScore name="Spree" score=4275 kills=28 deaths=13 time="06:26"/>
+			<playerScore name="Hashemy" score=3395 kills=17 deaths=12 time="06:26"/>
 		</teamScore>
 	</match>
 </series>

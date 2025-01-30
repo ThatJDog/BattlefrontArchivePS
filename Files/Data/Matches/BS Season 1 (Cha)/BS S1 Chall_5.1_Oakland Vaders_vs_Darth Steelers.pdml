@@ -1,4 +1,4 @@
-<series team1="Oakland Vaders" team2="Darth Steelers.sri" round=5 index=1>
+<series season="BS S1 Chall" teams=["Oakland Vaders" "Darth Steelers"] round=5 index=1>
 	<match map="Jawa Refuge" timeLeft="04:22" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="FireBringer" score=7350 kills=29 deaths=24/>
@@ -11,9 +11,9 @@
 			<playerScore name="Uliday" score=4610 kills=15 deaths=18/>
 			<playerScore name="K3sharr" score=3325 kills=9 deaths=23/>
 			<playerScore name="Amjedjohn" score=3225 kills=14 deaths=18/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="00:13" gameMode="US West" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Eky" score=9250 kills=28 deaths=36/>
 			<playerScore name="FireBringer" score=8750 kills=37 deaths=33/>
@@ -25,9 +25,9 @@
 			<playerScore name="Mortal" score=6775 kills=23 deaths=24/>
 			<playerScore name="K3sharr" score=6325 kills=24 deaths=31/>
 			<playerScore name="Amjedjohn" score=5425 kills=31 deaths=28/>
+		</teamScore>
 	</match>
 	<match map="Ice Caves" timeLeft="01:48" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="FireBringer" score=6750 kills=32 deaths=28/>
 			<playerScore name="BFL-Ice" score=5145 kills=13 deaths=15/>

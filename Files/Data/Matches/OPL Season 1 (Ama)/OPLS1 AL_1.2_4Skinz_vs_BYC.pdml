@@ -1,38 +1,38 @@
-<series team1="4Skinz" team2="BYC.sri" round=1 index=2>
+<series season="OPLS1 AL" teams=["4Skinz" "BYC"] round=1 index=2>
 	<match map="Dune Sea" timeLeft="07:01" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Coloses" score=7200 kills=22 deaths=4/>
-			<playerScore name="Sween" score=6875 kills=24 deaths=12/>
-			<playerScore name="Bdozen" score=6525 kills=22 deaths=11/>
+			<playerScore name="Coloses" score=7200 kills=22 deaths=4 time="07:01"/>
+			<playerScore name="Sween" score=6875 kills=24 deaths=12 time="07:01"/>
+			<playerScore name="Bdozen" score=6525 kills=22 deaths=11 time="07:01"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="XLand" score=2925 kills=13 deaths=22/>
-			<playerScore name="KingCaldera" score=2900 kills=6 deaths=26/>
-			<playerScore name="RiP SpR" score=1875 kills=7 deaths=23/>
+			<playerScore name="XLand" score=2925 kills=13 deaths=22 time="07:01"/>
+			<playerScore name="KingCaldera" score=2900 kills=6 deaths=26 time="07:01"/>
+			<playerScore name="RiP SpR" score=1875 kills=7 deaths=23 time="07:01"/>
+		</teamScore>
 	</match>
 	<match map="Imperial Hangar" timeLeft="01:15" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=10>
-			<playerScore name="Coloses" score=7075 kills=18 deaths=13/>
-			<playerScore name="Bdozen" score=6350 kills=42 deaths=18/>
-			<playerScore name="Sween" score=5625 kills=31 deaths=19/>
+			<playerScore name="Coloses" score=7075 kills=18 deaths=13 time="01:15"/>
+			<playerScore name="Bdozen" score=6350 kills=42 deaths=18 time="01:15"/>
+			<playerScore name="Sween" score=5625 kills=31 deaths=19 time="01:15"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="XLand" score=5350 kills=24 deaths=29/>
-			<playerScore name="Firebringer" score=3550 kills=12 deaths=32/>
-			<playerScore name="RiP SpR" score=3875 kills=14 deaths=30/>
+			<playerScore name="XLand" score=5350 kills=24 deaths=29 time="01:15"/>
+			<playerScore name="Firebringer" score=3550 kills=12 deaths=32 time="01:15"/>
+			<playerScore name="RiP SpR" score=3875 kills=14 deaths=30 time="01:15"/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="03:16" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Sween" score=8350 kills=33 deaths=11/>
-			<playerScore name="Coloses" score=6600 kills=14 deaths=16/>
-			<playerScore name="Bdozen" score=4825 kills=17 deaths=13/>
+			<playerScore name="Sween" score=8350 kills=33 deaths=11 time="03:16"/>
+			<playerScore name="Coloses" score=6600 kills=14 deaths=16 time="03:16"/>
+			<playerScore name="Bdozen" score=4825 kills=17 deaths=13 time="03:16"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Firebringer" score=5680 kills=18 deaths=22/>
-			<playerScore name="RiP SpR" score=4275 kills=15 deaths=22/>
-			<playerScore name="XLand" score=3725 kills=7 deaths=25/>
+			<playerScore name="Firebringer" score=5680 kills=18 deaths=22 time="03:16"/>
+			<playerScore name="RiP SpR" score=4275 kills=15 deaths=22 time="03:16"/>
+			<playerScore name="XLand" score=3725 kills=7 deaths=25 time="03:16"/>
 		</teamScore>
 	</match>
 </series>

@@ -1,58 +1,58 @@
-<series team1="Plax Goons" team2="SWAT.sri" round=0 index=4>
+<series season="S9" teams=["Plax Goons" "SWAT"] round=0 index=4>
 	<match map="Imperial Station" timeLeft="00:00" gameMode="Cargo" server="">
 		<teamScore faction="Rebel" score=7>
-			<playerScore name="Unakkorn" score=5675 kills=39 deaths=20/>
-			<playerScore name="Nai-Sora" score=4950 kills=28 deaths=19/>
-			<playerScore name="Gswede" score=3450 kills=13 deaths=25/>
-			<playerScore name="Swaggy" score=2890 kills=13 deaths=12/>
+			<playerScore name="Unakkorn" score=5675 kills=39 deaths=20 time="00:00"/>
+			<playerScore name="Nai-Sora" score=4950 kills=28 deaths=19 time="00:00"/>
+			<playerScore name="Gswede" score=3450 kills=13 deaths=25 time="00:00"/>
+			<playerScore name="Swaggy" score=2890 kills=13 deaths=12 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=3>
-			<playerScore name="Foggle" score=5375 kills=31 deaths=25/>
-			<playerScore name="Karnage" score=3205 kills=18 deaths=28/>
-			<playerScore name="Tryhard" score=3025 kills=16 deaths=25/>
-			<playerScore name="Hobo" score=2530 kills=10 deaths=15/>
+			<playerScore name="Foggle" score=5375 kills=31 deaths=25 time="00:00"/>
+			<playerScore name="Karnage" score=3205 kills=18 deaths=28 time="00:00"/>
+			<playerScore name="Tryhard" score=3025 kills=16 deaths=25 time="00:00"/>
+			<playerScore name="Hobo" score=2530 kills=10 deaths=15 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Raider Camp" timeLeft="00:21" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Unakkorn" score=9900 kills=41 deaths=20/>
-			<playerScore name="Nai-Sora" score=7475 kills=28 deaths=26/>
-			<playerScore name="Swaggy" score=5685 kills=23 deaths=19/>
-			<playerScore name="Gswede" score=4880 kills=16 deaths=20/>
+			<playerScore name="Unakkorn" score=9900 kills=41 deaths=20 time="00:21"/>
+			<playerScore name="Nai-Sora" score=7475 kills=28 deaths=26 time="00:21"/>
+			<playerScore name="Swaggy" score=5685 kills=23 deaths=19 time="00:21"/>
+			<playerScore name="Gswede" score=4880 kills=16 deaths=20 time="00:21"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="Karnage" score=6025 kills=26 deaths=25/>
-			<playerScore name="Foggle" score=5985 kills=24 deaths=33/>
-			<playerScore name="Tryhard" score=5525 kills=13 deaths=28/>
-			<playerScore name="Hobo" score=5080 kills=21 deaths=25/>
+			<playerScore name="Karnage" score=6025 kills=26 deaths=25 time="00:21"/>
+			<playerScore name="Foggle" score=5985 kills=24 deaths=33 time="00:21"/>
+			<playerScore name="Tryhard" score=5525 kills=13 deaths=28 time="00:21"/>
+			<playerScore name="Hobo" score=5080 kills=21 deaths=25 time="00:21"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Unakkorn" score=5125 kills=37 deaths=32/>
-			<playerScore name="Nai-Sora" score=4325 kills=26 deaths=20/>
-			<playerScore name="Swaggy" score=3650 kills=13 deaths=25/>
-			<playerScore name="Gswede" score=3290 kills=12 deaths=29/>
+			<playerScore name="Unakkorn" score=5125 kills=37 deaths=32 time="00:00"/>
+			<playerScore name="Nai-Sora" score=4325 kills=26 deaths=20 time="00:00"/>
+			<playerScore name="Swaggy" score=3650 kills=13 deaths=25 time="00:00"/>
+			<playerScore name="Gswede" score=3290 kills=12 deaths=29 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=7>
-			<playerScore name="Foggle" score=7475 kills=40 deaths=25/>
-			<playerScore name="Karnage" score=4825 kills=30 deaths=22/>
-			<playerScore name="Hobo" score=3590 kills=16 deaths=25/>
-			<playerScore name="Tryhard" score=2940 kills=18 deaths=16/>
+			<playerScore name="Foggle" score=7475 kills=40 deaths=25 time="00:00"/>
+			<playerScore name="Karnage" score=4825 kills=30 deaths=22 time="00:00"/>
+			<playerScore name="Hobo" score=3590 kills=16 deaths=25 time="00:00"/>
+			<playerScore name="Tryhard" score=2940 kills=18 deaths=16 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="03:32" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Nai-Sora" score=6850 kills=23 deaths=37/>
-			<playerScore name="Unakkorn" score=6000 kills=35 deaths=36/>
-			<playerScore name="Swaggy" score=5765 kills=22 deaths=29/>
-			<playerScore name="Gswede" score=4685 kills=17 deaths=30/>
+			<playerScore name="Nai-Sora" score=6850 kills=23 deaths=37 time="03:32"/>
+			<playerScore name="Unakkorn" score=6000 kills=35 deaths=36 time="03:32"/>
+			<playerScore name="Swaggy" score=5765 kills=22 deaths=29 time="03:39"/>
+			<playerScore name="Gswede" score=4685 kills=17 deaths=30 time="03:32"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Karnage" score=8375 kills=47 deaths=30/>
-			<playerScore name="Foggle" score=8065 kills=35 deaths=25/>
-			<playerScore name="Hobo" score=6565 kills=31 deaths=25/>
-			<playerScore name="Tryhard" score=6025 kills=15 deaths=19/>
+			<playerScore name="Karnage" score=8375 kills=47 deaths=30 time="03:32"/>
+			<playerScore name="Foggle" score=8065 kills=35 deaths=25 time="03:32"/>
+			<playerScore name="Hobo" score=6565 kills=31 deaths=25 time="03:32"/>
+			<playerScore name="Tryhard" score=6025 kills=15 deaths=19 time="03:32"/>
 		</teamScore>
 	</match>
 </series>

@@ -1,30 +1,30 @@
-<series team1="Myrmidons" team2="BRO.sri" round=1 index=3>
+<series season="OPLS1 PL" teams=["Myrmidons" "BRO"] round=1 index=3>
 	<match map="Jawa Refuge" timeLeft="-01:-48" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Baseball" score=9795 kills=40 deaths=27/>
-			<playerScore name="Tio" score=9450 kills=21 deaths=30/>
-			<playerScore name="Cassady" score=8700 kills=37 deaths=20/>
-			<playerScore name="Beerus" score=7700 kills=26 deaths=29/>
+			<playerScore name="Baseball" score=9795 kills=40 deaths=27 time="-01:-48"/>
+			<playerScore name="Tio" score=9450 kills=21 deaths=30 time="-01:-48"/>
+			<playerScore name="Cassady" score=8700 kills=37 deaths=20 time="-01:-48"/>
+			<playerScore name="Beerus" score=7700 kills=26 deaths=29 time="-01:-48"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="Skumszy" score=10250 kills=14 deaths=38/>
-			<playerScore name="Albert Blah" score=7925 kills=38 deaths=35/>
-			<playerScore name="Wookie" score=6630 kills=30 deaths=28/>
-			<playerScore name="Gpooy" score=5775 kills=23 deaths=26/>
+			<playerScore name="Skumszy" score=10250 kills=14 deaths=38 time="-01:-48"/>
+			<playerScore name="Albert Blah" score=7925 kills=38 deaths=35 time="-01:-48"/>
+			<playerScore name="Wookie" score=6630 kills=30 deaths=28 time="-01:-48"/>
+			<playerScore name="Gpooy" score=5775 kills=23 deaths=26 time="-01:-48"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="04:32" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=9>
-			<playerScore name="Baseball" score=4175 kills=21 deaths=8/>
-			<playerScore name="Tio" score=3750 kills=18 deaths=14/>
-			<playerScore name="Beerus" score=3825 kills=22 deaths=13/>
-			<playerScore name="Cassady" score=3025 kills=17 deaths=10/>
+			<playerScore name="Baseball" score=4175 kills=21 deaths=8 time="04:32"/>
+			<playerScore name="Tio" score=3750 kills=18 deaths=14 time="04:32"/>
+			<playerScore name="Beerus" score=3825 kills=22 deaths=13 time="04:32"/>
+			<playerScore name="Cassady" score=3025 kills=17 deaths=10 time="04:32"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Gpooy" score=2250 kills=12 deaths=23/>
-			<playerScore name="Albert Blah" score=2225 kills=14 deaths=19/>
-			<playerScore name="Wookie" score=2015 kills=10 deaths=16/>
-			<playerScore name="Skumszy" score=1975 kills=9 deaths=22/>
+			<playerScore name="Gpooy" score=2250 kills=12 deaths=23 time="04:32"/>
+			<playerScore name="Albert Blah" score=2225 kills=14 deaths=19 time="04:32"/>
+			<playerScore name="Wookie" score=2015 kills=10 deaths=16 time="04:32"/>
+			<playerScore name="Skumszy" score=1975 kills=9 deaths=22 time="04:32"/>
 		</teamScore>
 	</match>
 </series>

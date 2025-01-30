@@ -1,0 +1,43 @@
+<season shortenedName="Xmas Cargo" seasonIndex=20>
+	<team name="NMW" >
+		<player-entry name="Prometheus" />
+		<player-entry name="Bazo" />
+		<player-entry name="Karnage" />
+		<player-entry name="Nai-Sora" />
+		<player-entry name="Tio" />
+		<player-entry name="Syriskor" />
+	</team>
+	<team name="Bhocolate Bhip Bookies" >
+		<player-entry name="Diego" />
+		<player-entry name="Sween" />
+		<player-entry name="Padis" />
+		<player-entry name="Figuxe" />
+	</team>
+	<team name="FRA" >
+		<player-entry name="Blue" />
+		<player-entry name="QatarMoney" />
+		<player-entry name="DontSpamEE4" />
+		<player-entry name="Space" />
+	</team>
+	<team name="Deathwatch" >
+		<player-entry name="Austrian Eagle" />
+		<player-entry name="Foggle" />
+		<player-entry name="Spree" />
+		<player-entry name="Vanarin" />
+		<player-entry name="Stook" />
+	</team>
+	<team name="MCF" >
+		<player-entry name="Gpooy" />
+		<player-entry name="XLand" />
+		<player-entry name="DarkSpace" />
+		<player-entry name="Irrelevant" />
+	</team>
+	<team name="DEA" >
+		<player-entry name="Anti-Florida" />
+		<player-entry name="Slayz" />
+		<player-entry name="Kurko" />
+		<player-entry name="Veggie" />
+		<player-entry name="Papl" />
+		<player-entry name="Mendo" />
+	</team>
+</season>

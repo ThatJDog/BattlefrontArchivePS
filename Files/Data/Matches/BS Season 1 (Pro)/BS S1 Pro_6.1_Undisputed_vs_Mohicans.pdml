@@ -1,4 +1,4 @@
-<series team1="Undisputed" team2="Mohicans.sri" round=6 index=1>
+<series season="BS S1 Pro" teams=["Undisputed" "Mohicans"] round=6 index=1>
 	<match map="Jawa Refuge" timeLeft="02:59" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Karnage" score=7550 kills=22 deaths=26/>
@@ -11,9 +11,9 @@
 			<playerScore name="Hashemy" score=6375 kills=30 deaths=24/>
 			<playerScore name="Rage" score=4615 kills=18 deaths=22/>
 			<playerScore name="Unakkorn" score=4000 kills=17 deaths=34/>
+		</teamScore>
 	</match>
 	<match map="Sulfur Fields" timeLeft="03:01" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Karnage" score=6525 kills=28 deaths=21/>
 			<playerScore name="Foggle" score=6105 kills=23 deaths=12/>
@@ -25,9 +25,9 @@
 			<playerScore name="Rage" score=4930 kills=9 deaths=19/>
 			<playerScore name="Hashemy" score=4475 kills=20 deaths=22/>
 			<playerScore name="Unakkorn" score=4525 kills=24 deaths=22/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="04:33" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Karnage" score=7675 kills=24 deaths=23/>
 			<playerScore name="Foggle" score=9060 kills=36 deaths=15/>
@@ -39,9 +39,9 @@
 			<playerScore name="Rage" score=5690 kills=26 deaths=24/>
 			<playerScore name="Hashemy" score=3700 kills=20 deaths=24/>
 			<playerScore name="Unakkorn" score=5925 kills=13 deaths=28/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="06:55" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Karnage" score=5000 kills=16 deaths=11/>
 			<playerScore name="Foggle" score=4170 kills=12 deaths=13/>

@@ -1,38 +1,38 @@
-<series team1="BFL" team2="4Skinz.sri" round=3 index=3>
+<series season="OPLS1 AL" teams=["BFL" "4Skinz"] round=3 index=3>
 	<match map="Dune Sea" timeLeft="-01:-05" gameMode="Drop Zone" server="">
 		<teamScore faction="Rebel" score=2>
-			<playerScore name="Cheers" score=8700 kills=21 deaths=33/>
-			<playerScore name="Magooboo" score=8400 kills=25 deaths=25/>
-			<playerScore name="Papl" score=7900 kills=29 deaths=35/>
+			<playerScore name="Cheers" score=8700 kills=21 deaths=33 time="-01:-05"/>
+			<playerScore name="Magooboo" score=8400 kills=25 deaths=25 time="-01:-05"/>
+			<playerScore name="Papl" score=7900 kills=29 deaths=35 time="-01:-05"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="Healthy" score=12875 kills=36 deaths=29/>
-			<playerScore name="Figuxe" score=8675 kills=28 deaths=26/>
-			<playerScore name="Sween" score=7550 kills=29 deaths=22/>
+			<playerScore name="Healthy" score=12875 kills=36 deaths=29 time="-01:-05"/>
+			<playerScore name="Figuxe" score=8675 kills=28 deaths=26 time="-01:-05"/>
+			<playerScore name="Sween" score=7550 kills=29 deaths=22 time="-01:-05"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="Magooboo" score=5350 kills=24 deaths=22/>
-			<playerScore name="Cheers" score=4625 kills=21 deaths=23/>
-			<playerScore name="Papl" score=4050 kills=15 deaths=22/>
+			<playerScore name="Magooboo" score=5350 kills=24 deaths=22 time="00:00"/>
+			<playerScore name="Cheers" score=4625 kills=21 deaths=23 time="00:00"/>
+			<playerScore name="Papl" score=4050 kills=15 deaths=22 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=6>
-			<playerScore name="Sween" score=5025 kills=23 deaths=22/>
-			<playerScore name="Healthy" score=4850 kills=24 deaths=21/>
-			<playerScore name="Figuxe" score=4350 kills=18 deaths=18/>
+			<playerScore name="Sween" score=5025 kills=23 deaths=22 time="00:00"/>
+			<playerScore name="Healthy" score=4850 kills=24 deaths=21 time="00:00"/>
+			<playerScore name="Figuxe" score=4350 kills=18 deaths=18 time="00:00"/>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="08:35" gameMode="Drop Zone" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Cheers" score=3275 kills=9 deaths=11/>
-			<playerScore name="Magooboo" score=2575 kills=10 deaths=7/>
-			<playerScore name="Papl" score=1500 kills=9 deaths=12/>
+			<playerScore name="Cheers" score=3275 kills=9 deaths=11 time="08:35"/>
+			<playerScore name="Magooboo" score=2575 kills=10 deaths=7 time="08:35"/>
+			<playerScore name="Papl" score=1500 kills=9 deaths=12 time="08:52"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=3>
-			<playerScore name="Figuxe" score=4825 kills=12 deaths=9/>
-			<playerScore name="Sween" score=3750 kills=9 deaths=8/>
-			<playerScore name="Healthy" score=2625 kills=9 deaths=11/>
+			<playerScore name="Figuxe" score=4825 kills=12 deaths=9 time="08:35"/>
+			<playerScore name="Sween" score=3750 kills=9 deaths=8 time="08:35"/>
+			<playerScore name="Healthy" score=2625 kills=9 deaths=11 time="08:35"/>
 		</teamScore>
 	</match>
 </series>

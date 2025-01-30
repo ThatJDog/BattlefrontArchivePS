@@ -1,44 +1,44 @@
-<series team1="Undisputed" team2="Mohicans.sri" round=1 index=1>
+<series season="BS S1 Pro" teams=["Undisputed" "Mohicans"] round=1 index=1>
 	<match map="Jawa Refuge" timeLeft="07:35" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Karnage" score=6050 kills=20 deaths=7/>
-			<playerScore name="Foggle" score=4645 kills=15 deaths=9/>
-			<playerScore name="Kurko" score=4425 kills=20 deaths=10/>
-			<playerScore name="Appolo" score=4250 kills=12 deaths=8/>
+			<playerScore name="Karnage" score=6050 kills=20 deaths=7 time="07:35"/>
+			<playerScore name="Foggle" score=4645 kills=15 deaths=9 time="07:35"/>
+			<playerScore name="Kurko" score=4425 kills=20 deaths=10 time="07:35"/>
+			<playerScore name="Appolo" score=4250 kills=12 deaths=8 time="07:35"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="Unakkorn" score=2875 kills=10 deaths=22/>
-			<playerScore name="Hashemy" score=2400 kills=11 deaths=20/>
-			<playerScore name="Envy" score=1700 kills=8 deaths=12/>
-			<playerScore name="Goudapest" score=1590 kills=5 deaths=13/>
+			<playerScore name="Unakkorn" score=2875 kills=10 deaths=22 time="07:35"/>
+			<playerScore name="Hashemy" score=2400 kills=11 deaths=20 time="07:35"/>
+			<playerScore name="Envy" score=1700 kills=8 deaths=12 time="07:35"/>
+			<playerScore name="Goudapest" score=1590 kills=5 deaths=13 time="07:35"/>
+		</teamScore>
 	</match>
 	<match map="Sulfur fields" timeLeft="01:32" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Foggle" score=6680 kills=28 deaths=18/>
-			<playerScore name="Karnage" score=5225 kills=15 deaths=22/>
-			<playerScore name="Kurko" score=4725 kills=17 deaths=23/>
-			<playerScore name="Appolo" score=4275 kills=15 deaths=20/>
+			<playerScore name="Foggle" score=6680 kills=28 deaths=18 time="01:32"/>
+			<playerScore name="Karnage" score=5225 kills=15 deaths=22 time="01:32"/>
+			<playerScore name="Kurko" score=4725 kills=17 deaths=23 time="01:32"/>
+			<playerScore name="Appolo" score=4275 kills=15 deaths=20 time="01:32"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=3>
-			<playerScore name="Hashemy" score=6300 kills=23 deaths=17/>
-			<playerScore name="Unakkorn" score=5745 kills=25 deaths=24/>
-			<playerScore name="Envy" score=5025 kills=18 deaths=16/>
-			<playerScore name="Goudapest" score=4375 kills=16 deaths=18/>
+			<playerScore name="Hashemy" score=6300 kills=23 deaths=17 time="01:32"/>
+			<playerScore name="Unakkorn" score=5745 kills=25 deaths=24 time="01:32"/>
+			<playerScore name="Envy" score=5025 kills=18 deaths=16 time="01:32"/>
+			<playerScore name="Goudapest" score=4375 kills=16 deaths=18 time="01:32"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="06:04" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Karnage" score=7175 kills=28 deaths=16/>
-			<playerScore name="Foggle" score=6760 kills=30 deaths=13/>
-			<playerScore name="Kurko" score=5350 kills=20 deaths=13/>
-			<playerScore name="Appolo" score=4550 kills=17 deaths=13/>
+			<playerScore name="Karnage" score=7175 kills=28 deaths=16 time="06:04"/>
+			<playerScore name="Foggle" score=6760 kills=30 deaths=13 time="06:04"/>
+			<playerScore name="Kurko" score=5350 kills=20 deaths=13 time="06:04"/>
+			<playerScore name="Appolo" score=4550 kills=17 deaths=13 time="06:04"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Hashemy" score=3350 kills=17 deaths=21/>
-			<playerScore name="Unakkorn" score=3125 kills=12 deaths=32/>
-			<playerScore name="Goudapest" score=3030 kills=11 deaths=23/>
-			<playerScore name="Envy" score=2800 kills=12 deaths=20/>
+			<playerScore name="Hashemy" score=3350 kills=17 deaths=21 time="06:04"/>
+			<playerScore name="Unakkorn" score=3125 kills=12 deaths=32 time="06:04"/>
+			<playerScore name="Goudapest" score=3030 kills=11 deaths=23 time="06:04"/>
+			<playerScore name="Envy" score=2800 kills=12 deaths=20 time="06:04"/>
 		</teamScore>
 	</match>
 </series>

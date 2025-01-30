@@ -1,0 +1,64 @@
+<season shortenedName="OPLS1 AL" seasonIndex=16 seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
+	<team name="FRA" >
+		<player-entry name="Redloz" playerRating=3.1/>
+		<player-entry name="Mileena" playerRating=3.76/>
+		<player-entry name="ShawdenFrost" playerRating=4.15/>
+		<player-entry name="Golden Panda" playerRating=3.72/>
+		<player-entry name="Revxnge" playerRating=4.1/>
+	</team>
+	<team name="BFL" >
+		<player-entry name="Malizia" playerRating=3.08/>
+		<player-entry name="Magooboo" playerRating=5.27/>
+		<player-entry name="Papl" playerRating=6.46/>
+		<player-entry name="Nevrixia" playerRating=5.06/>
+		<player-entry name="Kurziiya" playerRating=4.27/>
+		<player-entry name="Lego Matt" playerRating=5.9/>
+	</team>
+	<team name="4Skinz" >
+		<player-entry name="Cheers" playerRating=5.13/>
+		<player-entry name="Sween" playerRating=6.27/>
+		<player-entry name="Healthy" playerRating=5.62/>
+		<player-entry name="Mendo" playerRating=5.99/>
+		<player-entry name="Coloses" playerRating=6.04/>
+		<player-entry name="Figuxe" playerRating=6.34/>
+	</team>
+	<team name="LFG" >
+		<player-entry name="Bdozen" playerRating=7.02/>
+		<player-entry name="QuiteGoneG" playerRating=5.34/>
+		<player-entry name="K3sharr" playerRating=4.36/>
+		<player-entry name="ThraxOD" playerRating=6.88/>
+		<player-entry name="IcyQueen" playerRating=5.62/>
+		<player-entry name="Cricken" playerRating=6.09/>
+	</team>
+	<team name="BYC" >
+		<player-entry name="ZeroRedical" playerRating=4.62/>
+		<player-entry name="XLand" playerRating=5.27/>
+		<player-entry name="FireBringer" playerRating=5.22/>
+		<player-entry name="OneFlow" playerRating=5.41/>
+		<player-entry name="KingCaldera" playerRating=4.94/>
+		<player-entry name="M4TT3 BL4CK" playerRating=3.05/>
+	</team>
+	<team name="Bhocolate Bhip Bookies" >
+		<player-entry name="RiP SpR" playerRating=4.5/>
+		<player-entry name="Uliday" playerRating=4.57/>
+		<player-entry name="Blue" playerRating=7.07/>
+		<player-entry name="Falco" playerRating=6.88/>
+		<player-entry name="Amjedjohn" playerRating=6.18/>
+		<player-entry name="SymmPhonic" playerRating=6.18/>
+	</team>
+	<team name="Suuslax" >
+		<player-entry name="Palmy" playerRating=5.81/>
+		<player-entry name="Wolf" playerRating=4.17/>
+		<player-entry name="Austrian Eagle" playerRating=3.12/>
+		<player-entry name="Joro" playerRating=3.8/>
+	</team>
+	<team name="Tell That To Kanjiklub" >
+		<player-entry name="Deutscher" playerRating=3.52/>
+		<player-entry name="Haztof" playerRating=5.29/>
+		<player-entry name="Vic" playerRating=6.2/>
+		<player-entry name="Tryhard" playerRating=5.88/>
+		<player-entry name="DarkObitoS" playerRating=5.9/>
+		<player-entry name="Alimpan" playerRating=5.97/>
+		<player-entry name="Dajdog" playerRating=4.5/>
+	</team>
+</season>

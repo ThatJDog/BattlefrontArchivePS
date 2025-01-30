@@ -1,0 +1,73 @@
+<season shortenedName="S12" seasonIndex=21 tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
+	<team name="ZHU" >
+		<player-entry name="Sween" />
+		<player-entry name="Klumszy" />
+		<player-entry name="Figuxe" />
+		<player-entry name="Coloses" />
+		<player-entry name="Blue" />
+		<player-entry name="Palmy" />
+		<player-entry name="Insold" />
+		<player-entry name="Irrelevant" />
+	</team>
+	<team name="Optic Gaming" >
+		<player-entry name="ExtraFiber" />
+		<player-entry name="Swaggy" />
+		<player-entry name="Mortal" />
+		<player-entry name="Magooboo" />
+		<player-entry name="Padis" />
+		<player-entry name="Tio" />
+		<player-entry name="QuiteGoneG" />
+		<player-entry name="Sarrows" />
+	</team>
+	<team name="Toronto Ultra" >
+		<player-entry name="Astromztic" />
+		<player-entry name="Kurko" />
+		<player-entry name="Foggle" />
+		<player-entry name="Karnage" />
+		<player-entry name="Dajdog" />
+		<player-entry name="Veggie" />
+	</team>
+	<team name="Strikers" >
+		<player-entry name="Slope" />
+		<player-entry name="BFL-Ice" />
+		<player-entry name="CaZuaL" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="Hashemy" />
+		<player-entry name="M4TT3 BL4CK" />
+		<player-entry name="Redloz" />
+		<player-entry name="Andrew" />
+	</team>
+	<team name="Atlanta Faze" >
+		<player-entry name="Grizzwald" />
+		<player-entry name="Spree" />
+		<player-entry name="Baseball" />
+		<player-entry name="Uliday" />
+		<player-entry name="XLand" />
+		<player-entry name="Mendo" />
+	</team>
+	<team name="MDF" >
+		<player-entry name="Alimpan" />
+		<player-entry name="Bazo" />
+		<player-entry name="Slayz" />
+		<player-entry name="Appolo" />
+		<player-entry name="Wolf" />
+		<player-entry name="Papl" />
+	</team>
+	<team name="MisFitz" >
+		<player-entry name="Vanarin" />
+		<player-entry name="Cassady" />
+		<player-entry name="Sup" />
+		<player-entry name="Cricken" />
+		<player-entry name="Healthy" />
+		<player-entry name="Gromme" />
+	</team>
+	<team name="SWAT" >
+		<player-entry name="Rage" />
+		<player-entry name="Alimpan" />
+		<player-entry name="Mendo" />
+		<player-entry name="Rubstery" />
+		<player-entry name="Laguiza" />
+		<player-entry name="Nicky" />
+		<player-entry name="Tryhard" />
+	</team>
+</season>

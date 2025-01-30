@@ -1,4 +1,4 @@
-<series team1="Plantation FC" team2="Undisputed.sri" round=3 index=1>
+<series season="BS S1 Pro" teams=["Plantation FC" "Undisputed"] round=3 index=1>
 	<match map="Jawa Refuge" timeLeft="-00:-43" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Spree" score=8850 kills=29 deaths=32/>
@@ -11,9 +11,9 @@
 			<playerScore name="Karnage" score=8725 kills=33 deaths=31/>
 			<playerScore name="Appolo" score=8725 kills=40 deaths=33/>
 			<playerScore name="Papl" score=8050 kills=12 deaths=26/>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="02:45" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Rebel" score=2>
 			<playerScore name="Spree" score=6775 kills=22 deaths=24/>
 			<playerScore name="Blue" score=5600 kills=18 deaths=25/>
@@ -25,9 +25,9 @@
 			<playerScore name="Karnage" score=8325 kills=27 deaths=26/>
 			<playerScore name="Appolo" score=6575 kills=27 deaths=22/>
 			<playerScore name="Papl" score=5275 kills=18 deaths=19/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="03:44" gameMode="Drop Zone" server="Europe">
-		</teamScore>
 		<teamScore faction="Imperial" score=1>
 			<playerScore name="Blue" score=4800 kills=13 deaths=21/>
 			<playerScore name="Spree" score=4640 kills=22 deaths=22/>
@@ -39,9 +39,9 @@
 			<playerScore name="Papl" score=5700 kills=24 deaths=18/>
 			<playerScore name="Foggle" score=5465 kills=16 deaths=16/>
 			<playerScore name="Appolo" score=5200 kills=19 deaths=15/>
+		</teamScore>
 	</match>
 	<match map="Sulfur Fields" timeLeft="03:42" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Rebel" score=1>
 			<playerScore name="Spree" score=4850 kills=17 deaths=24/>
 			<playerScore name="Figuxe" score=4300 kills=19 deaths=16/>

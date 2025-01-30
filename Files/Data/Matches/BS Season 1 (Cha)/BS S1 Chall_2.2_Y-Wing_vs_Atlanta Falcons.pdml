@@ -1,4 +1,4 @@
-<series team1="Y-Wing" team2="Atlanta Falcons.sri" round=2 index=2>
+<series season="BS S1 Chall" teams=["Y-Wing" "Atlanta Falcons"] round=2 index=2>
 	<match map="Jawa Refuge" timeLeft="03:06" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="KingCaldera" score=9105 kills=28 deaths=22/>
@@ -11,9 +11,9 @@
 			<playerScore name="Isolani" score=5150 kills=15 deaths=22/>
 			<playerScore name="Mavry" score=4550 kills=25 deaths=26/>
 			<playerScore name="Szeth" score=3100 kills=8 deaths=26/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="04:49" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="KingCaldera" score=7640 kills=26 deaths=19/>
 			<playerScore name="Sween" score=6350 kills=27 deaths=18/>
@@ -25,9 +25,9 @@
 			<playerScore name="Hobo" score=4170 kills=23 deaths=23/>
 			<playerScore name="Mavry" score=3900 kills=15 deaths=24/>
 			<playerScore name="Szeth" score=3425 kills=13 deaths=21/>
+		</teamScore>
 	</match>
 	<match map="Goazon Badlands" timeLeft="01:30" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Sween" score=8950 kills=50 deaths=21/>
 			<playerScore name="KingCaldera" score=6530 kills=16 deaths=21/>

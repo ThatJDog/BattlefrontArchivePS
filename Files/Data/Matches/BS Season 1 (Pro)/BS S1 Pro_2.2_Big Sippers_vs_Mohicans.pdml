@@ -1,38 +1,38 @@
-<series team1="Big Sippers" team2="Mohicans.sri" round=2 index=2>
+<series season="BS S1 Pro" teams=["Big Sippers" "Mohicans"] round=2 index=2>
 	<match map="Jawa refuge" timeLeft="06:06" gameMode="Drop Zone" server="US West">
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="Baseball" score=4200 kills=23 deaths=15/>
-			<playerScore name="Swaggy" score=3930 kills=17 deaths=14/>
-			<playerScore name="Klumszy" score=3350 kills=10 deaths=16/>
-			<playerScore name="Padis" score=2375 kills=8 deaths=19/>
+			<playerScore name="Baseball" score=4200 kills=23 deaths=15 time="06:06"/>
+			<playerScore name="Swaggy" score=3930 kills=17 deaths=14 time="06:06"/>
+			<playerScore name="Klumszy" score=3350 kills=10 deaths=16 time="07:11"/>
+			<playerScore name="Padis" score=2375 kills=8 deaths=19 time="07:11"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Hashemy" score=6050 kills=19 deaths=18/>
-			<playerScore name="Envy" score=5000 kills=16 deaths=11/>
-			<playerScore name="Unakkorn" score=4550 kills=20 deaths=16/>
-			<playerScore name="Goudapest" score=4235 kills=12 deaths=16/>
+			<playerScore name="Hashemy" score=6050 kills=19 deaths=18 time="06:06"/>
+			<playerScore name="Envy" score=5000 kills=16 deaths=11 time="06:06"/>
+			<playerScore name="Unakkorn" score=4550 kills=20 deaths=16 time="06:06"/>
+			<playerScore name="Goudapest" score=4235 kills=12 deaths=16 time="06:06"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="03:47" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="Baseball" score=5475 kills=22 deaths=23/>
-			<playerScore name="Swaggy" score=4800 kills=23 deaths=26/>
-			<playerScore name="Klumszy" score=4300 kills=13 deaths=33/>
-			<playerScore name="Padis" score=5450 kills=31 deaths=29/>
+			<playerScore name="Baseball" score=5475 kills=22 deaths=23 time="03:47"/>
+			<playerScore name="Swaggy" score=4800 kills=23 deaths=26 time="03:47"/>
+			<playerScore name="Klumszy" score=4300 kills=13 deaths=33 time="03:47"/>
+			<playerScore name="Padis" score=5450 kills=31 deaths=29 time="03:47"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Hashemy" score=6125 kills=28 deaths=24/>
-			<playerScore name="Envy" score=5925 kills=19 deaths=21/>
-			<playerScore name="Unakkorn" score=9475 kills=38 deaths=23/>
-			<playerScore name="Goudapest" score=7545 kills=25 deaths=22/>
+			<playerScore name="Hashemy" score=6125 kills=28 deaths=24 time="03:47"/>
+			<playerScore name="Envy" score=5925 kills=19 deaths=21 time="03:47"/>
+			<playerScore name="Unakkorn" score=9475 kills=38 deaths=23 time="03:47"/>
+			<playerScore name="Goudapest" score=7545 kills=25 deaths=22 time="03:47"/>
+		</teamScore>
 	</match>
 	<match map="Sulfur Fields" timeLeft="05:29" gameMode="Drop Zone" server="US West">
-		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Baseball" score=2375 kills=13 deaths=11/>
-			<playerScore name="Swaggy" score=2990 kills=11 deaths=14/>
-			<playerScore name="Klumszy" score=2600 kills=8 deaths=17/>
-			<playerScore name="Padis" score=5150 kills=19 deaths=19/>
+			<playerScore name="Baseball" score=2375 kills=13 deaths=11 time="06:24"/>
+			<playerScore name="Swaggy" score=2990 kills=11 deaths=14 time="06:24"/>
+			<playerScore name="Klumszy" score=2600 kills=8 deaths=17 time="06:24"/>
+			<playerScore name="Padis" score=5150 kills=19 deaths=19 time="06:24"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Hashemy" score=3600 kills=14 deaths=13/>

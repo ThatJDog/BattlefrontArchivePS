@@ -1,30 +1,30 @@
-<series team1="Elmos Minions" team2="FRA.sri" round=0 index=17>
+<series season="OPLS1 GS" teams=["Elmos Minions" "FRA"] round=0 index=17>
 	<match map="Goazon Badlands" timeLeft="07:31" gameMode="Drop Zone" server="">
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="Subsided" score=5425 kills=14 deaths=8/>
-			<playerScore name="Morrtal" score=4500 kills=22 deaths=8/>
-			<playerScore name="CaZuaL" score=4035 kills=8 deaths=4/>
-			<playerScore name="Laddas" score=2775 kills=9 deaths=9/>
+			<playerScore name="Subsided" score=5425 kills=14 deaths=8 time="07:31"/>
+			<playerScore name="Morrtal" score=4500 kills=22 deaths=8 time="07:31"/>
+			<playerScore name="CaZuaL" score=4035 kills=8 deaths=4 time="07:31"/>
+			<playerScore name="Laddas" score=2775 kills=9 deaths=9 time="07:31"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="Ange Des Neiiges" score=2410 kills=6 deaths=10/>
-			<playerScore name="vRevXngE" score=2275 kills=7 deaths=15/>
-			<playerScore name="Malizia" score=1550 kills=9 deaths=16/>
-			<playerScore name="Mileena" score=1125 kills=6 deaths=16/>
+			<playerScore name="Ange Des Neiiges" score=2410 kills=6 deaths=10 time="07:31"/>
+			<playerScore name="vRevXngE" score=2275 kills=7 deaths=15 time="07:31"/>
+			<playerScore name="Malizia" score=1550 kills=9 deaths=16 time="07:31"/>
+			<playerScore name="Mileena" score=1125 kills=6 deaths=16 time="07:31"/>
+		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="02:20" gameMode="Cargo" server="">
-		</teamScore>
 		<teamScore faction="Rebel" score=10>
-			<playerScore name="Morrtal" score=7300 kills=35 deaths=10/>
-			<playerScore name="Subsided" score=5350 kills=29 deaths=16/>
-			<playerScore name="CaZuaL" score=4320 kills=21 deaths=2/>
-			<playerScore name="Laddas" score=4025 kills=23 deaths=11/>
+			<playerScore name="Morrtal" score=7300 kills=35 deaths=10 time="02:20"/>
+			<playerScore name="Subsided" score=5350 kills=29 deaths=16 time="02:20"/>
+			<playerScore name="CaZuaL" score=4320 kills=21 deaths=2 time="02:20"/>
+			<playerScore name="Laddas" score=4025 kills=23 deaths=11 time="02:20"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="Ange Des Neiiges" score=2605 kills=13 deaths=18/>
-			<playerScore name="vRevXngE" score=2500 kills=12 deaths=22/>
-			<playerScore name="Mileena" score=2175 kills=8 deaths=39/>
-			<playerScore name="Malizia" score=1300 kills=5 deaths=30/>
+			<playerScore name="Ange Des Neiiges" score=2605 kills=13 deaths=18 time="02:20"/>
+			<playerScore name="vRevXngE" score=2500 kills=12 deaths=22 time="02:20"/>
+			<playerScore name="Mileena" score=2175 kills=8 deaths=39 time="02:20"/>
+			<playerScore name="Malizia" score=1300 kills=5 deaths=30 time="02:20"/>
 		</teamScore>
 	</match>
 </series>

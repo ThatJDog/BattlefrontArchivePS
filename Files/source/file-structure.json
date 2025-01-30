@@ -769,24 +769,19 @@
       }
     }
   },
-  "Meta": {},
-  "Season Headers": {},
-  "series.pdml": {
-    "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\series.pdml",
-    "relativePath": "series.pdml",
-    "fileName": "series",
-    "extension": ".pdml"
+  "Meta": {
+    "ChemistryModifier.pdml": {
+      "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Meta\\ChemistryModifier.pdml",
+      "relativePath": "Meta\\ChemistryModifier.pdml",
+      "fileName": "ChemistryModifier",
+      "extension": ".pdml"
+    },
+    "PlayerInfo.pdml": {
+      "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\Meta\\PlayerInfo.pdml",
+      "relativePath": "Meta\\PlayerInfo.pdml",
+      "fileName": "PlayerInfo",
+      "extension": ".pdml"
+    }
   },
-  "SX_10_Super Dude_vs_Whatever's Clever.pdml": {
-    "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\SX_10_Super Dude_vs_Whatever's Clever.pdml",
-    "relativePath": "SX_10_Super Dude_vs_Whatever's Clever.pdml",
-    "fileName": "SX_10_Super Dude_vs_Whatever's Clever",
-    "extension": ".pdml"
-  },
-  "TestNewSeries.pdml": {
-    "fullPath": "C:\\Users\\joell\\Documents\\GitHub\\BattlefrontArchivePS\\Files\\Data\\TestNewSeries.pdml",
-    "relativePath": "TestNewSeries.pdml",
-    "fileName": "TestNewSeries",
-    "extension": ".pdml"
-  }
+  "Season Headers": {}
 }

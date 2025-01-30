@@ -1,0 +1,75 @@
+<season shortenedName="S6" seasonIndex=7 tournamentMode="tournament">
+	<team name="Aliens" >
+		<player-entry name="Cricken" />
+		<player-entry name="TheSup" />
+		<player-entry name="Hashemy" />
+	</team>
+	<team name="KssZ" >
+		<player-entry name="M4nnydm" />
+		<player-entry name="SymmPhonic" />
+		<player-entry name="Keyys" />
+		<player-entry name="Szeth" />
+	</team>
+	<team name="O block" >
+		<player-entry name="Zayne" />
+		<player-entry name="Skumszy" />
+		<player-entry name="Swaggy" />
+		<player-entry name="QuiteGoneG" />
+		<player-entry name="Transplex" />
+		<player-entry name="Sarrows" />
+	</team>
+	<team name="Plax Goons" >
+		<player-entry name="Lobstah" />
+		<player-entry name="Envy" />
+		<player-entry name="Unakkorn" />
+		<player-entry name="OneFlow" />
+		<player-entry name="Rayanswag" />
+		<player-entry name="Nai-Sora" />
+	</team>
+	<team name="Ruthless" >
+		<player-entry name="Overwhelmed" />
+		<player-entry name="Cassady" />
+		<player-entry name="Hobo" />
+		<player-entry name="Coloses" />
+		<player-entry name="GoldenSwede" />
+	</team>
+	<team name="SawC" >
+		<player-entry name="DarkObitoS" />
+		<player-entry name="Spree" />
+		<player-entry name="Shadows" />
+		<player-entry name="Uliday" />
+		<player-entry name="QuiteGoneG" />
+	</team>
+	<team name="SWAT" >
+		<player-entry name="Tedslayer" />
+		<player-entry name="Foggle" />
+		<player-entry name="Karnage" />
+		<player-entry name="Vic" />
+		<player-entry name="Haztof" />
+		<player-entry name="Laguiza" />
+	</team>
+	<team name="The Pretty Good 60's" >
+		<player-entry name="Dajdog" />
+		<player-entry name="Fitality" />
+		<player-entry name="Baseball" />
+		<player-entry name="Alimpan" />
+		<player-entry name="Diego" />
+		<player-entry name="YoShiiRR" />
+	</team>
+	<team name="Vice Tigers" >
+		<player-entry name="Bdozen" />
+		<player-entry name="Stook" />
+		<player-entry name="Goudapest" />
+		<player-entry name="Veggie" />
+		<player-entry name="Puffy" />
+		<player-entry name="Vanarin" />
+	</team>
+	<team name="ZHU" >
+		<player-entry name="Slope" />
+		<player-entry name="Blue" />
+		<player-entry name="Palmy" />
+		<player-entry name="Healthy" />
+		<player-entry name="Sween" />
+		<player-entry name="CaZuaL" />
+	</team>
+</season>

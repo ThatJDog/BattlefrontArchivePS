@@ -19,7 +19,7 @@
 [TeamStarThresholds] = "star2: 70, star3: 80, star4: 85, star5: 90"
 
 #Atlanta Falcons
-//[TeamColors] "Red and Black"
+// [TeamColors] "Red and Black"
 
 Hobo
 [IsCaptain] = "true"

@@ -1,0 +1,63 @@
+<season shortenedName="SX" seasonIndex=13 tournamentMode="tournament">
+	<team name="British Empire" primaryColour=213981 secondaryColour="C2B17B">
+		<player-entry name="Foggle" playerRating=8/>
+		<player-entry name="Diego" playerRating=5.214/>
+		<player-entry name="Prometheus" playerRating=6.785/>
+		<player-entry name="Slayz" playerRating=4.083/>
+	</team>
+	<team name="Los Angeles Lakers" >
+		<player-entry name="Dajdog" playerRating=2 primaryColour=552583 secondaryColour="FDB927"/>
+		<player-entry name="Hashemy" playerRating=7.5/>
+		<player-entry name="Envy" playerRating=6.666/>
+		<player-entry name="Unakkorn" playerRating=8/>
+		<player-entry name="Andrew" playerRating=1/>
+	</team>
+	<team name="Mild Salsa" >
+		<player-entry name="K3sharr" playerRating=1 primaryColour="02AB09" secondaryColour="6F0A01"/>
+		<player-entry name="Hobo" playerRating=4.333/>
+		<player-entry name="Fitality" playerRating=7.5/>
+		<player-entry name="Cassady" playerRating=6.714/>
+		<player-entry name="Cricken" playerRating=4.63/>
+	</team>
+	<team name="Super Dude" >
+		<player-entry name="Voamz" playerRating=2.785 primaryColour="F21B1B" secondaryColour="710C0C"/>
+		<player-entry name="Swaggy" playerRating=6.171/>
+		<player-entry name="Vex" playerRating=8/>
+		<player-entry name="Tio" playerRating=5.5/>
+		<player-entry name="Mortal" playerRating=3/>
+	</team>
+	<team name="IRA" >
+		<player-entry name="Lobstah" playerRating=1.857 primaryColour="F89828" secondaryColour="00A261"/>
+		<player-entry name="Vanarin" playerRating=7/>
+		<player-entry name="Cappa" playerRating=5.286/>
+		<player-entry name="Skumszy" playerRating=5.929/>
+	</team>
+	<team name="Midlothian Marauders" >
+		<player-entry name="Hildingsson" playerRating=5.5 primaryColour="FFFFFF" secondaryColour=000000/>
+		<player-entry name="TheSup" playerRating=6.857/>
+		<player-entry name="Rage" playerRating=6.157/>
+		<player-entry name="Quipsy" playerRating=5.833/>
+	</team>
+	<team name="The Steifens" >
+		<player-entry name="Bdozen" playerRating=5.214 primaryColour="DD0000" secondaryColour="FFFFFF"/>
+		<player-entry name="Karnage" playerRating=7.857/>
+		<player-entry name="Bazo" playerRating=7.643/>
+		<player-entry name="Subsided" playerRating=5/>
+		<player-entry name="Papl" playerRating=2.1/>
+		<player-entry name="Kurko" playerRating=3.167/>
+		<player-entry name="Vic" playerRating=3.667/>
+		<player-entry name="Cookie" playerRating=3.8/>
+		<player-entry name="Appolo" playerRating=2.1/>
+		<player-entry name="Laguiza" playerRating=1/>
+		<player-entry name="Tryhard" playerRating=2.916/>
+	</team>
+	<team name="Whatever's Clever" >
+		<player-entry name="Nai-Sora" playerRating=4.714 primaryColour="F55D6D" secondaryColour=000000/>
+		<player-entry name="Coloses" playerRating=3.643/>
+		<player-entry name="Spree" playerRating=7.5/>
+		<player-entry name="Shadows" playerRating=6.5/>
+		<player-entry name="Sween" playerRating=4.714/>
+		<player-entry name="Wookie" playerRating=4.4/>
+		<player-entry name="Decker" playerRating=1/>
+	</team>
+</season>

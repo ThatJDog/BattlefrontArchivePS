@@ -1,44 +1,44 @@
-<series team1="Darth Steelers" team2="Y-Wing.sri" round=1 index=1>
+<series season="BS S1 Chall" teams=["Darth Steelers" "Y-Wing"] round=1 index=1>
 	<match map="Jawa Refuge" timeLeft="13:10" gameMode="Drop Zone" server="US West">
 		<teamScore faction="Imperial" score=2>
-			<playerScore name="Amjedjohn" score=1550 kills=5 deaths=1/>
-			<playerScore name="Uliday" score=940 kills=3 deaths=2/>
-			<playerScore name="Mortal" score=475 kills=2 deaths=1/>
-			<playerScore name="K3sharr" score=275 kills=1 deaths=1/>
+			<playerScore name="Amjedjohn" score=1550 kills=5 deaths=1 time="13:10"/>
+			<playerScore name="Uliday" score=940 kills=3 deaths=2 time="13:10"/>
+			<playerScore name="Mortal" score=475 kills=2 deaths=1 time="13:10"/>
+			<playerScore name="K3sharr" score=275 kills=1 deaths=1 time="13:10"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="OMB-Xan" score=600 kills=3 deaths=3/>
-			<playerScore name="KingCaldera" score=575 kills=2 deaths=3/>
-			<playerScore name="Sarrows" score=100 kills=0 deaths=3/>
-			<playerScore name="Palmy" score=0 kills=0 deaths=3/>
+			<playerScore name="OMB-Xan" score=600 kills=3 deaths=3 time="13:10"/>
+			<playerScore name="KingCaldera" score=575 kills=2 deaths=3 time="13:10"/>
+			<playerScore name="Sarrows" score=100 kills=0 deaths=3 time="13:10"/>
+			<playerScore name="Palmy" score=0 kills=0 deaths=3 time="13:10"/>
+		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="07:31" gameMode="Drop Zone" server="US East">
-		</teamScore>
 		<teamScore faction="Imperial" score=3>
-			<playerScore name="Amjedjohn" score=3050 kills=9 deaths=15/>
-			<playerScore name="Uliday" score=2835 kills=12 deaths=11/>
-			<playerScore name="Mortal" score=5650 kills=19 deaths=10/>
-			<playerScore name="K3sharr" score=3325 kills=10 deaths=9/>
+			<playerScore name="Amjedjohn" score=3050 kills=9 deaths=15 time="07:31"/>
+			<playerScore name="Uliday" score=2835 kills=12 deaths=11 time="07:31"/>
+			<playerScore name="Mortal" score=5650 kills=19 deaths=10 time="07:31"/>
+			<playerScore name="K3sharr" score=3325 kills=10 deaths=9 time="07:31"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
-			<playerScore name="OMB-Xan" score=4265 kills=20 deaths=12/>
-			<playerScore name="KingCaldera" score=3975 kills=13 deaths=17/>
-			<playerScore name="Sarrows" score=1775 kills=8 deaths=11/>
-			<playerScore name="Palmy" score=2950 kills=4 deaths=13/>
+			<playerScore name="OMB-Xan" score=4265 kills=20 deaths=12 time="07:31"/>
+			<playerScore name="KingCaldera" score=3975 kills=13 deaths=17 time="07:31"/>
+			<playerScore name="Sarrows" score=1775 kills=8 deaths=11 time="07:31"/>
+			<playerScore name="Palmy" score=2950 kills=4 deaths=13 time="07:31"/>
+		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="02:09" gameMode="Drop Zone" server="US West">
-		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="Uliday" score=9075 kills=26 deaths=25/>
-			<playerScore name="Mortal" score=8075 kills=32 deaths=19/>
-			<playerScore name="K3sharr" score=7900 kills=23 deaths=27/>
-			<playerScore name="Amjedjohn" score=6975 kills=31 deaths=26/>
+			<playerScore name="Uliday" score=9075 kills=26 deaths=25 time="02:09"/>
+			<playerScore name="Mortal" score=8075 kills=32 deaths=19 time="02:09"/>
+			<playerScore name="K3sharr" score=7900 kills=23 deaths=27 time="02:09"/>
+			<playerScore name="Amjedjohn" score=6975 kills=31 deaths=26 time="02:09"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="OMB-Xan" score=7425 kills=30 deaths=31/>
-			<playerScore name="Palmy" score=7175 kills=34 deaths=26/>
-			<playerScore name="KingCaldera" score=5825 kills=16 deaths=32/>
-			<playerScore name="Sarrows" score=3500 kills=17 deaths=24/>
+			<playerScore name="OMB-Xan" score=7425 kills=30 deaths=31 time="02:09"/>
+			<playerScore name="Palmy" score=7175 kills=34 deaths=26 time="02:09"/>
+			<playerScore name="KingCaldera" score=5825 kills=16 deaths=32 time="02:09"/>
+			<playerScore name="Sarrows" score=3500 kills=17 deaths=24 time="02:09"/>
 		</teamScore>
 	</match>
 </series>
