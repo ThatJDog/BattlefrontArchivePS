@@ -84,7 +84,7 @@ async function parseData(database) {
             const pdmlContent = fs.readFileSync(fullPath, 'utf8');
             const parsedData = compiler.compile(pdmlContent);
 
-            console.log(`Processing file: ${parsedData.name}`);
+            // console.log(`Processing file: ${parsedData.name}`);
                         
             switch (parsedData.name) {
                 case 'series':

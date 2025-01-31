@@ -20,21 +20,15 @@ async function processSeriesFile(seriesData, db) {
     // Unique SeriesID generator
     const seriesCount = db.numRecords('Series');
     const seriesID = seriesCount > 0 ? db.getLast('Series').SeriesID + 1 : 0;
-    const teamNames = seriesData.getArrayAttribute('teams');
+    const teamNames = seriesData.getAttribute('teams');
 
     // Insert series into the Series table
     db.insert('Series', {
         SeriesID: seriesID,
+        SeasonID: seriesData.getAttribute('season'),
         Index: seriesData.getOrDefaultAttribute('index', 0),
         Round: seriesData.getOrDefaultAttribute('round', 0),
     });
-
-    if (seriesData.hasAttribute('season')){
-        db.insert('SeriesIn', {
-            SeasonID: seriesData.getAttribute('season'),
-            SeriesID: seriesID,
-        });
-    }
 
     // Process matches
     seriesData.children.forEach((matchNode, matchIndex) => {
@@ -44,7 +38,8 @@ async function processSeriesFile(seriesData, db) {
         const matchCount = db.numRecords('Match');
         const matchID = matchCount > 0 ? db.getLast('Match').MatchID + 1  : 0;
 
-        const timeLeft = matchNode.hasAttribute('timeleft') ?
+        const gamemodeTimeLimit = 15; // ASSUMES ALL MATCHES HAVE A MAX TIMER OF 15 MINS
+        const matchDuration = gamemodeTimeLimit - matchNode.hasAttribute('timeleft') ?
             parseTimeToMinutes(matchNode.getAttribute('timeleft')) : 
             0;
 
@@ -56,7 +51,7 @@ async function processSeriesFile(seriesData, db) {
             GameMode: matchNode.getOrDefaultAttribute('gamemode', null),
             Map: matchNode.getOrDefaultAttribute('map', null),
             Server: matchNode.getOrDefaultAttribute('server', null),
-            Duration: timeLeft,
+            Duration: matchDuration,
         });
 
         // Process team scores
@@ -64,7 +59,7 @@ async function processSeriesFile(seriesData, db) {
             if (teamNode.name !== 'teamscore') return;
 
             var teamName;
-            if (teamNames && teamNames.length > teamIndex) teamName = teamNames[teamIndex];
+            if (teamNames && teamNames.length > teamIndex) teamName = teamNames[teamIndex].value;
             else teamName = '';
 
             // Insert team score into the TeamScore table
@@ -81,9 +76,9 @@ async function processSeriesFile(seriesData, db) {
 
                 let playerDuration;
                 if (playerNode.hasAttribute('time'))
-                    playerDuration = parseTimeToMinutes(playerNode.getAttribute('time'));
+                    playerDuration = gamemodeTimeLimit - parseTimeToMinutes(playerNode.getAttribute('time'));
                 else
-                    playerDuration = timeLeft;
+                    playerDuration = matchDuration;
 
                 // Insert player score into the PlayerScore table
                 db.insert('PlayerScore', {

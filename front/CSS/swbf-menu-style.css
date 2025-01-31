@@ -1,0 +1,75 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #F9F9F9;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+}
+header nav {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+header nav a:hover {
+    background-color: #FFD700; /* Yellow background for hover */
+    color: #333; /* Keep text color consistent */
+}
+main {
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menu-item {
+    width: 45%;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.menu-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+    color: #000;
+    font-size: 36px;
+}
+.menu-item p {
+    font-size: 14px;
+    margin: 0 0 10px;
+    color: #555;
+}
+.bonus {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #FF6F00;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #333;
+    color: #FFF;
+}

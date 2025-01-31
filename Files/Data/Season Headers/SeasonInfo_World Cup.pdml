@@ -1,4 +1,4 @@
-<season name="World Cup" seasonID="bcl-wolrd-cup" shortName="WC" seasonIndex=5 tournamentMode="tournament">
+<season name="World Cup" seasonID="bcl-world-cup" shortName="WC" seasonIndex=5 tournamentMode="tournament">
 	<team name="US East" >
 		<player-entry name="Hobo" />
 		<player-entry name="Cassady" />

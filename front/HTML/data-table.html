@@ -1,126 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Database Table Viewer</title>
-        <script type="module" src="/db/database-loader.js" defer></script>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-                /*background: url('/assets/background.jpg') no-repeat center center;*/
-                background-size: cover;
-                text-align: center;
-                flex-direction: column;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Table Viewer</title>
+    <script type="module" src="/db/database-loader.js" defer></script>
+    <style>
 
-            h1 {
-                color: white;
-                margin-bottom: 20px;
-            }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-            table {
-                width: 80%;
-                border-collapse: collapse;
-                background-color: white;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                border-radius: 8px;
-                overflow: hidden;
-            }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+            margin: 0;
+            background-size: cover;
+            text-align: left;
+        }
 
-            th {
-                background-color: red;
-                color: white;
-                padding: 12px;
-                text-align: left;
-            }
+        h1 {
+            color: rgb(0, 0, 0);
+            margin-bottom: 20px;
+        }
 
-            td {
-                padding: 10px;
-                border-bottom: 1px solid #ddd;
-            }
+        #table-container {
+            margin: 0;
+            width: 100%;
+            max-width: 100%;
+            padding: 5px; /* Reduce padding */
+        }
 
-            tr:nth-child(even) {
-                background-color: #f2f2f2;
-            }
+        table {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: auto;
 
-            tr:nth-child(odd) {
-                background-color: #d6d6d6;
-            }
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            table-layout: auto; /* Allows columns to resize based on content */
+            font-family: Consolas, monospace; /* Monospace font */
+            font-size: 14px; /* Smaller font size */
+        }
 
-            #loading-message {
-                font-size: 1.5em;
-                color: white;
-            }
+        th {
+            background-color: red;
+            color: white;
+            padding: 8px;
+            text-align: left;
+            white-space: nowrap; /* Prevents headers from forcing column width */
+            font-size: 14px; /* Matches table font size */
+            font-family: Consolas, monospace; /* Ensures uniform font */
+        }
 
-            .hidden {
-                display: none;
-            }
-        </style>
-        <script type="module">
-            import { Table } from '../../db/database.js'; // Adjust path as needed
+        td {
+            padding: 6px;
+            border-bottom: 1px solid #ddd;
+            white-space: normal; /* Allows content to wrap naturally */
+            font-size: 14px; /* Smaller text for better fit */
+            font-family: Consolas, monospace; /* Keeps text consistent */
+        }
 
-            async function loadTable() {
-                const loadingMessage = document.getElementById("loading-message");
-                const tableContainer = document.getElementById("table-container");
 
-                try {
-                    const table = window.db.getTable('Season');
-                    console.log(table);
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
 
-                    // Create table
-                    createTable(table);
-                    loadingMessage.classList.add("hidden");
-                    tableContainer.classList.remove("hidden");
-                } catch (error) {
-                    console.error("Error loading data:", error);
-                    loadingMessage.textContent = "Failed to load data. Please try again.";
-                }
-            }
+        tr:nth-child(odd) {
+            background-color: #d6d6d6;
+        }
 
-            function createTable(tableInstance) {
-                const table = document.createElement("table");
-                const thead = document.createElement("thead");
-                const tbody = document.createElement("tbody");
+        #loading-message {
+            font-size: 1.5em;
+            color: white;
+        }
+    </style>
+    <script type="module">
+        import { Table } from '../../db/table.js'; // Adjust path as needed
 
-                // Create table header
-                const headerRow = document.createElement("tr");
-                tableInstance.schema.forEach((col) => {
-                    const th = document.createElement("th");
-                    th.textContent = col;
-                    headerRow.appendChild(th);
+        async function loadTable() {
+            const tableContainer = document.getElementById("table-container");
+            const tableHead = document.querySelector("#data-table thead");
+            const tableBody = document.querySelector("#data-table tbody");
+
+            try {
+
+                // I need to query all player data for a season
+                // Lets start with BCL Season 10
+
+                // Step 1: Get Series IDs for the season
+                const playerScoresInMatches =
+                    db.select("Series", row => row.SeasonID === "bcl-s10")
+                    .join(db.select("Match"), "INNER JOIN", (series, match) => series.SeriesID === match.SeriesID)
+                    .join(db.select("PlayerScore"), "INNER JOIN", (match, playerScore) => match.MatchID === playerScore.MatchID);
+
+                console.log(playerScoresInMatches);
+
+                // Step 4: Group PlayerScores by PlayerName and aggregate stats
+                const aggregatedScores = playerScoresInMatches.groupBy(["PlayerName"], {
+                    Score: (values) => values.reduce((sum, value) => sum + value, 0),
+                    Kills: (values) => values.reduce((sum, value) => sum + value, 0),
+                    Deaths: (values) => values.reduce((sum, value) => sum + value, 0),
+                    Duration: (values) => values.reduce((sum, value) => sum + value, 0),
                 });
-                thead.appendChild(headerRow);
 
-                // Create table rows
-                tableInstance.records.forEach((record) => {
-                    const row = document.createElement("tr");
-                    tableInstance.schema.forEach((col) => {
-                        const td = document.createElement("td");
-                        td.textContent = record[col];
-                        row.appendChild(td);
-                    });
-                    tbody.appendChild(row);
+                // Step 5: Get team registration for players in the season
+                const playedForSeason = db.select("PlayedFor", (row) => row.SeasonID === "bs-s1-pro");
+
+                // Step 6: Join aggregated scores with team registration
+                const playerScoresWithTeam = aggregatedScores.join(
+                    playedForSeason,
+                    "LEFT JOIN", // Include players even if they don't have a registered team
+                    (score, team) => score.PlayerName === team.PlayerName
+                );
+
+                let table = playerScoresWithTeam;
+                
+                table = table.keep(['PlayerName', 'TeamName', 'Score', 'Kills', 'Deaths', 'Duration']);
+                table = table.fillIfNull('TeamName', 'Unregistered');
+
+                table = table.addComputedColumn("ObjScore", (record) => {
+                    return (parseFloat(record.Score - (record.Kills * 100)) * 0.95).toFixed(0); // ObjScore - buffer
                 });
+                table = table.addComputedColumn("KDR", (record) => {
+                    return record.Deaths > 0 ? parseFloat((record.Kills / record.Deaths).toFixed(2)) : 0;
+                });
+                table = table.addComputedColumn("KPM", (record) => {
+                    return record.Duration > 0 ? parseFloat((record.Kills / record.Duration).toFixed(2)) : 0;
+                });
+                table = table.addComputedColumn("SPM", (record) => {
+                    return record.Duration > 0 ? parseFloat((record.Score / record.Duration).toFixed(2)) : 0;
+                });
+                table = table.addComputedColumn("OSPM", (record) => {
+                    return record.Duration > 0 ? parseFloat((record.ObjScore / record.Duration).toFixed(2)) : 0;
+                });
+                table = table.reorderColumns(["PlayerName", "TeamName", "Score", "Kills"]);
 
-                table.appendChild(thead);
-                table.appendChild(tbody);
-                document.getElementById("table-container").appendChild(table);
+                // Round duration after adding other columns
+                // table = table.applyToColumn("Duration", (value) => parseFloat(value.toFixed(2)));
+                table = table.drop('Duration');
+                table = table.sortBy(["SPM desc", "PlayerName asc"]);
+            
+                // Populate table
+                populateTable(table, tableHead, tableBody);
+            } catch (error) {
+                console.error("Error loading data:", error);
             }
+        }
 
-            document.addEventListener("DatabaseReady", () => {
-                loadTable();
+        function populateTable(tableInstance, thead, tbody) {
+            thead.innerHTML = "";
+            tbody.innerHTML = "";
+
+            // Create table header
+            const headerRow = document.createElement("tr");
+            tableInstance.schema.forEach((col) => {
+                const th = document.createElement("th");
+                th.textContent = col;
+                headerRow.appendChild(th);
             });
-        </script>
-    </head>
-    <body>
-        <h1>Database Table Viewer</h1>
-        <p id="loading-message">Loading data, please wait...</p>
-        <div id="table-container" class="hidden"></div>
-    </body>
+            thead.appendChild(headerRow);
+
+            // Create table rows
+            tableInstance.records.forEach((record) => {
+                const row = document.createElement("tr");
+                tableInstance.schema.forEach((col) => {
+                    const td = document.createElement("td");
+                    td.textContent = record[col];
+                    row.appendChild(td);
+                });
+                tbody.appendChild(row);
+            });
+        }
+
+        document.addEventListener("DatabaseReady", () => {
+            loadTable();
+        });
+    </script>
+</head>
+<body>
+    <h1>Database Table Viewer</h1>
+    <div id="table-container">
+        <table id="data-table">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
 </html>

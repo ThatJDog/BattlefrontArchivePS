@@ -53,12 +53,12 @@ export class PDMLBody {
 
     getStructAttribute(key) {
         const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLStruct ? attribute.fields : null;
+        return attribute instanceof PDMLStruct ? attribute.value : null;
     }
 
     getArrayAttribute(key) {
         const attribute = this.getAttribute(key);
-        return attribute instanceof PDMLArray ? attribute.elements : null;
+        return attribute instanceof PDMLArray ? attribute.value : null;
     }
 
     hasAttribute(key) {
@@ -104,21 +104,21 @@ export class PDMLValue {
 
 export class PDMLStruct {
     constructor() {
-        this.fields = {};
+        this.value = {};
     }
 
     addField(key, value) {
-        this.fields[key] = value;
+        this.value[key] = value;
     }
 }
 
 export class PDMLArray {
     constructor() {
-        this.elements = [];
+        this.value = [];
     }
 
     addElement(value) {
-        this.elements.push(value);
+        this.value.push(value);
     }
 }
 
