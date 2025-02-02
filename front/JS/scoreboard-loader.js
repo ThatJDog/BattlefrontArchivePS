@@ -6,7 +6,7 @@ var team2Players;
 
 async function loadData(db, matchID) {
     try {
-      matchInfo = db.select("Match", row => row.MatchID === matchID).getRecord(0); // Select The Match
+      matchInfo = db.select("Match", row => row.MatchID == matchID).getRecord(0); // Select The Match
 
       const playerScores = db.select("PlayerScore", row => row.MatchID === matchID).drop('MatchID'); // Select The Match
       const teamScores = db.select("TeamScore", row => row.MatchID === matchID).drop('MatchID'); // Select The Match
@@ -28,6 +28,7 @@ async function loadData(db, matchID) {
 
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
+    console.log(urlParams);
     return urlParams.get(param);
 }
 
@@ -83,7 +84,8 @@ function generateScoreboard(containerId, teamName, homeTeam, data) {
 }
 
 function update() {
-    const matchID = 50; //getQueryParam("matchID");
+    const matchID = parseFloat(getQueryParam("matchID"));
+
     loadData(window.db, matchID);
 
     generateScoreboard("home scoreboard-container", "Team 1", true, team1Players.records);
