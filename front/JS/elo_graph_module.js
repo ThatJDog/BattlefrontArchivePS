@@ -96,24 +96,7 @@ export function loadEloGraph(playerName, db, containerElement) {
                 const y = height - yPadding - ((currentElo - minElo) / (maxElo - minElo)) * (height - yPadding);
                 linePath.push([x, y]);
     
-                const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-                circle.classList.add('elo-point');
-                circle.setAttribute('cx', x);
-                circle.setAttribute('cy', y);
-                circle.setAttribute('r', pointRadius);
-                circle.style.pointerEvents = 'all';
-                circle.addEventListener('mouseover', (e) => {
-                    tooltip.style.left = `${e.pageX}px`;
-                    tooltip.style.top = `${e.pageY - 40}px`;
-                    tooltip.style.display = 'block';
-                    tooltip.textContent = `${point.Elo > 0 ? '+' : ''}${parseFloat(point.Elo).toFixed(0)} ELO`;
-                });
-                circle.addEventListener('mouseout', () => {
-                    tooltip.style.display = 'none';
-                });
-                circle.addEventListener('click', () => {
-                    window.location.href = `/match/${point.MatchID}`;
-                });
+                const circle = createDataPoint(x, y, point, tooltip);
                 dotsGroup.appendChild(circle);
             }
     
@@ -231,6 +214,30 @@ function drawXLabels(svg, width, height, xPadding, yPadding, bins, dataLength){
         svg.appendChild(label);
     }
 }
+
+function createDataPoint(x, y, point, tooltip){
+    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.classList.add('elo-point');
+    circle.setAttribute('cx', x);
+    circle.setAttribute('cy', y);
+    circle.setAttribute('r', pointRadius);
+    circle.style.pointerEvents = 'all';
+    circle.addEventListener('mouseover', (e) => {
+        tooltip.style.left = `${e.pageX}px`;
+        tooltip.style.top = `${e.pageY - 40}px`;
+        tooltip.style.display = 'block';
+        tooltip.textContent = `${point.Elo > 0 ? '+' : ''}${parseFloat(point.Elo).toFixed(0)} ELO`;
+    });
+    circle.addEventListener('mouseout', () => {
+        tooltip.style.display = 'none';
+    });
+    circle.addEventListener('click', () => {
+        window.location.href = `/front/HTML/match-score?matchID=${point.MatchID}`;
+    });
+    return circle;
+}
+
+
 
     // Create Dropdown
     /*const dropdown = document.createElement('select');
