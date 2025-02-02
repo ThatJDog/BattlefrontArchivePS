@@ -88,6 +88,10 @@ function update() {
 
     loadData(window.db, matchID);
 
+
+    const mapContainer = document.getElementById('map-container');
+    document.body.style.backgroundImage = `url('${imageUrl}')`;
+
     generateScoreboard("home scoreboard-container", "Team 1", true, team1Players.records);
     generateScoreboard("away scoreboard-container", "Team 2", false, team2Players.records);
 }
