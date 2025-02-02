@@ -1,6 +1,10 @@
 
 // Process a single series file
 async function processPlayers(parsedData, db) {
+
+    return; // Doesnt work right now
+
+
     if (parsedData.name.toLowerCase() !== 'knownplayers') return;
 
     // Process matches

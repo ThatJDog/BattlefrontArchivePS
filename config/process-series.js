@@ -66,6 +66,7 @@ async function processSeriesFile(seriesData, db) {
             db.insert('TeamScore', {
                 MatchID: matchID,
                 TeamName: teamName,
+                IsHome: teamIndex == 0, // Home Team always first
                 Faction: teamNode.getOrDefaultAttribute('faction', ''),
                 Score: teamNode.getOrDefaultAttribute('score', 0),
             });
@@ -84,6 +85,7 @@ async function processSeriesFile(seriesData, db) {
                 db.insert('PlayerScore', {
                     MatchID: matchID,
                     PlayerName: playerNode.getOrDefaultAttribute('name', ''),
+                    TeamName: teamName,
                     Score: playerNode.getOrDefaultAttribute('score', 0),
                     Kills: playerNode.getOrDefaultAttribute('kills', 0),
                     Deaths: playerNode.getOrDefaultAttribute('deaths', 0),

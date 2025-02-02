@@ -3,6 +3,7 @@
 [Group] "OPLS1"
 [ShortenedName] "OPLS1 GS"
 [SeasonIndex] "15"
+[Ranked] "true"
 [TournamentMode] "groupStage"
 [SeasonColour] "FF155D"
 

@@ -1,4 +1,4 @@
-<season name="Pro League" seasonID="opl-s1-pro" group="OPLS1" shortName="OPLS1 PL" seasonIndex=17 seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
+<season name="Pro League" seasonID="opl-s1-pro" group="OPLS1" shortName="OPLS1 PL" seasonIndex=17 seasonColour="FF155D" ranked=true tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
 	<team name="Deathwatch" >
 		<player-entry name="Hashemy" rating=7.42/>
 		<player-entry name="Unakkorn" rating=7.86/>

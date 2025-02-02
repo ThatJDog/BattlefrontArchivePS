@@ -1,4 +1,4 @@
-<season name="Season 12" seasonID="bcl-s12" shortName="S12" seasonIndex=21 tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
+<season name="Season 12" seasonID="bcl-s12" shortName="S12" seasonIndex=21 tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 ranked=false>
 	<team name="ZHU" >
 		<player-entry name="Sween" />
 		<player-entry name="Klumszy" />

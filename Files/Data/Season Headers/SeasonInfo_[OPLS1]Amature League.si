@@ -3,6 +3,7 @@
 [Group] "OPLS1"
 [ShortenedName] "OPLS1 AL"
 [SeasonIndex] "16"
+[Ranked] "true"
 [SeasonColour] "FF155D"
 [TournamentMode] "roundedTournament"
 [RatingLowerBound] "1"

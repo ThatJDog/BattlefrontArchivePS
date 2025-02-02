@@ -1,4 +1,4 @@
-<season name="Winter Classic" seasonID="bcl-winter-classic" shortName="WintClass" seasonIndex=12 tournamentMode="tournament">
+<season name="Winter Classic" seasonID="bcl-winter-classic" shortName="WintClass" seasonIndex=12 tournamentMode="tournament" ranked=false>
 	<team name="J Silly" >
 		<player-entry name="Vex" />
 		<player-entry name="Swaggy" />

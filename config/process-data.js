@@ -105,7 +105,7 @@ async function parseData(database) {
         console.error(`Error processing PDML files: ${error.message}`);
     }
 
-    console.log(database);
+    // console.log(database);
 }
 
 // Export the function for use in other files

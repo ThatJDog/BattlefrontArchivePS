@@ -4,6 +4,7 @@ const path = require('path');
 
 const { parseData } = require("./process-data.js");
 const { generateEloTable } = require("./generate-elo.js");
+const { updateSeriesAndMatchIDs } = require("./update-series-and-match-ids.js");
 
 async function loadDatabase(schema) {
     const module = await import('../db/database.js'); // ✅ Dynamically import
@@ -28,7 +29,10 @@ async function main() {
         // Step 1: Parse Data directly into database
         await parseData(database);
 
-        // Step 2: Generate Elo Data for the database
+        // Step 2: Re-Index all series and seasons
+        await updateSeriesAndMatchIDs(database);
+
+        // Step 3: Generate Elo Data for the database
         await generateEloTable(database);
 
         // Final Step: Export this Database as a JSON

@@ -3,6 +3,7 @@
 [Group] "BS S1"
 [ShortenedName] "BS S1 Chall"
 [SeasonIndex] "24"
+[Ranked] "false"
 [SeasonColour] "15FFA0"
 [TournamentMode] "roundedTournament"
 [RatingLowerBound] "1"

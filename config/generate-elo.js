@@ -1,7 +1,7 @@
 // === GLOBAL CONSTANTS ===
-const BASE_ELO = 0; // Default Elo for new players
+const BASE_ELO = 400;      // Default Elo for new players (NEEDS TO BE UPDATED ON GRAPH MANUALLY FOR NOW)
 const K_FACTOR = 30;       // Base Elo change for balanced teams
-const ELO_DIVISOR = 1000;   // Standard divisor in Elo formula
+const ELO_DIVISOR = 3000;  // Standard divisor in Elo formula (sensitivity)
 
 // === SCALING FACTORS ===
 const MIN_SCALAR = 0.1;    // Minimum scale (for strong favorites)
@@ -51,15 +51,18 @@ function updateElo(db, winningTeam, losingTeam) {
         if (!(player.PlayerName in playerElo)) {
             playerElo[player.PlayerName] = BASE_ELO; // Initialize missing players
         }
-        return sum + playerElo[player.PlayerName];
+        let elo = playerElo[player.PlayerName];
+        return sum + elo;
     }, 0);
-
+    
     let totalLoseElo = losingTeam.reduce((sum, player) => {
         if (!(player.PlayerName in playerElo)) {
             playerElo[player.PlayerName] = BASE_ELO; // Initialize missing players
         }
-        return sum + playerElo[player.PlayerName];
+        let elo = playerElo[player.PlayerName];
+        return sum + elo;
     }, 0);
+    
 
     // Compute expected win probability
     let expectedWin = getExpectedScore(totalWinElo, totalLoseElo);
@@ -84,6 +87,7 @@ function updateElo(db, winningTeam, losingTeam) {
             Elo: eloGain
         });
     });
+
     losingTeam.forEach(player => {
         playerElo[player.PlayerName] += eloLoss;
         // Log results
@@ -106,58 +110,78 @@ async function generateEloTable(db){
 
     // Step 1: Select all matches in ranked seasons (Assume ordered by time)
     // The output table will be tuples of seriesID and matchID
-    const rankedMatchData = db
-    .select('Season', season => season.Ranked == true)
-    .join(db.select('Series'), "INNER JOIN", (season, series) => season.ID === series.SeasonID)
-    .keep(['SeriesID'])
-    .join(db.select("Match").keep(['MatchID', 'SeriesID']), "INNER JOIN", (series, match) => series.SeriesID === match.SeriesID)
-    .join(db.select("PlayerScore").renameRecord("Score", "PlayerScore"), "INNER JOIN", (match, player) => match.MatchID === player.MatchID)
-    .join(db.select("TeamScore").renameRecord("Score", "TeamScore"), "INNER JOIN", (player, team) => player.MatchID === team.MatchID)
-    .select(record => record);
+    const rankedMatches = db
+    .select("Season", season => season.Ranked === true)
+    .join(db.select("Series"), "INNER JOIN", (season, series) => season.ID === series.SeasonID)
+    .keep(["SeriesID"])
+
+    // Join matches for a list of all ranked matches with the series it belongs to
+    .join(db.select("Match").keep(["MatchID", "SeriesID"]), "INNER JOIN", (series, match) => series.SeriesID === match.SeriesID);
+
+    // Step 2: Join player scores and the team score
+    // Join player scores with the team they signed up on
+    const playerWithTeams = db.select('PlayerScore').renameRecord('Score', 'PlayerScore')
+    .join(db.select("PlayedFor"), "INNER JOIN", (playerScore, playedFor) =>
+        playerScore.PlayerName === playedFor.PlayerName &&
+        getSeasonIDFromMatchID(db, playerScore.MatchID) === playedFor.SeasonID // Ensure season matches
+    )
+    // Join the team score onto the player score (on team name and match id)
+    .join(db.select('TeamScore').renameRecord('Score', 'TeamScore'), "INNER JOIN", (player, team) => player.TeamName === team.TeamName && player.MatchID === team.MatchID)
+    .keep(['TeamName', 'TeamScore', 'PlayerName', 'MatchID', 'PlayerScore', 'Kills', 'Deaths', 'Duration']);
+
+    const rankedMatchData = rankedMatches.join(playerWithTeams, "INNER JOIN", (a, b) => a.MatchID === b.MatchID);
 
     // Group players into winning and losing teams
+    /* Expecting the following Schema:
+        TeamName
+        TeamScore
+        PlayerName
+        MatchID
+        PlayerScore
+        Kills
+        Deaths
+        Duration
+    */
+
+    // Group all records by MatchID
     const groupedMatches = {};
 
     rankedMatchData.records.forEach(record => {
         if (!groupedMatches[record.MatchID]) {
-            groupedMatches[record.MatchID] = { 
-                winningTeam: [], 
-                losingTeam: [], 
-                maxScore: -Infinity, 
-                minScore: Infinity 
-            };
+            groupedMatches[record.MatchID] = [];
         }
-
-        const match = groupedMatches[record.MatchID];
-
-        // Track max and min scores for determining winning and losing teams
-        match.maxScore = Math.max(match.maxScore, record.TeamScore);
-        match.minScore = Math.min(match.minScore, record.TeamScore);
-
-        // Player structure to store in the arrays
-        const playerData = {
-            PlayerName: record.PlayerName,
-            MatchID: record.MatchID,
-            Score: record.PlayerScore,  // Using renamed column
-            Kills: record.Kills,
-            Deaths: record.Deaths,
-            Duration: record.Duration
-        };
-
-        if (record.TeamScore === match.maxScore) {
-            match.winningTeam.push(playerData);
-        } else {
-            match.losingTeam.push(playerData);
-        }
+        groupedMatches[record.MatchID].push(record);
     });
 
     // Call updateElo for each match
-    Object.values(groupedMatches).forEach(({ winningTeam, losingTeam }) => {
+    Object.values(groupedMatches).forEach(matchRecords => {
+        const winningTeam = matchRecords.filter(record => record.TeamScore === Math.max(...matchRecords.map(r => r.TeamScore)));
+        const losingTeam = matchRecords.filter(record => record.TeamScore !== Math.max(...matchRecords.map(r => r.TeamScore)));
         updateElo(db, winningTeam, losingTeam);
     });
+
     console.log(db.getTable('Ranked'));
     console.log(playerElo);
 }
+
+/**
+ * Retrieves the `SeasonID` for a given `MatchID`.
+ * @param {Table} db - The database instance.
+ * @param {string|number} matchID - The `MatchID` to look up.
+ * @returns {string|null} - The `SeasonID` if found, otherwise `null`.
+ */
+function getSeasonIDFromMatchID(db, matchID) {
+    // Get the match record
+    const match = db.select("Match", row => row.MatchID === matchID).getRecord(0);
+    if (!match) return null;  // MatchID not found
+
+    // Get the series record using SeriesID from the match
+    const series = db.select("Series", row => row.SeriesID === match.SeriesID).getRecord(0);
+    if (!series) return null;  // SeriesID not found
+
+    return series.SeasonID; // Return SeasonID from the series
+}
+
 
 // Export the function for use in other files
 module.exports = { generateEloTable };

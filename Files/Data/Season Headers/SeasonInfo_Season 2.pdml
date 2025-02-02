@@ -1,4 +1,4 @@
-<season name="Season 2" seasonID="bcl-s2" shortName="S2" seasonIndex=2 tournamentMode="tournament">
+<season name="Season 2" seasonID="bcl-s2" shortName="S2" seasonIndex=2 tournamentMode="tournament" ranked=false>
 	<team name="Bhocolate Bhip Bookies" >
 		<player-entry name="Uliday" />
 		<player-entry name="Intruce" />

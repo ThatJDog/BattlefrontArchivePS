@@ -1,4 +1,4 @@
-<season name="Amateur League" seasonID="opl-s2-ama" group="OPLS2" shortName="OPLS2 AL" seasonColour="662D91" seasonIndex=18 tournamentMode="roundedTournament" ratingLowerBound=0 ratingUpperBound=100 teamCap=18 cardRatingLowerBound=30 cardRatingUpperBound=99 eliteCardThreshold=90 impactCardThreshold=75 teamCardThreshold=60 systemCardThreshold=40 projectCardThreshold=0>
+<season name="Amateur League" seasonID="opl-s2-ama" group="OPLS2" shortName="OPLS2 AL" seasonColour="662D91" seasonIndex=18 tournamentMode="roundedTournament" ratingLowerBound=0 ratingUpperBound=100 teamCap=18 ranked=true cardRatingLowerBound=30 cardRatingUpperBound=99 eliteCardThreshold=90 impactCardThreshold=75 teamCardThreshold=60 systemCardThreshold=40 projectCardThreshold=0>
 	<team name="Walker" primaryColour="FFFFFF" secondaryColour=000000>
 		<player-entry name="Revxnge" rating=0 isPrimary=true isCaptain=true/>
 		<player-entry name="Nappy" rating=9.09 isPrimary=true/>

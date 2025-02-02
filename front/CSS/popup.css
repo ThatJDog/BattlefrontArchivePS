@@ -1,0 +1,76 @@
+/* Dark overlay background */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75); /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Popup container (80% width & height) */
+.popup-content {
+    position: relative;
+    background: rgba(20, 20, 20, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make all direct children fill available space */
+.popup-content > * {
+    flex: 1;
+    min-height: 0; /* Prevents overflow issues */
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+/* Show popup when active */
+.popup-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Button to open popup */
+.open-popup-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.open-popup-btn:hover {
+    background: darkgoldenrod;
+}

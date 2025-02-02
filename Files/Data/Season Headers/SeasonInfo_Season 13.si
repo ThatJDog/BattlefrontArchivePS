@@ -5,6 +5,7 @@
 [TournamentMode] "roundedTournament"
 [RatingLowerBound] "1"
 [RatingUpperBound] "8"
+[Ranked] "false"
 
 #Strictly Business
 Foggle

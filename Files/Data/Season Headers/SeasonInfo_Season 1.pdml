@@ -1,4 +1,4 @@
-<season name="Season 1" seasonID="bcl-s1" shortName="S1" seasonIndex=1 tournamentMode="tournament">
+<season name="Season 1" seasonID="bcl-s1" shortName="S1" seasonIndex=1 tournamentMode="tournament" ranked=false>
 	<team name="350" >
 		<player-entry name="Bdozen" />
 		<player-entry name="Rage" />

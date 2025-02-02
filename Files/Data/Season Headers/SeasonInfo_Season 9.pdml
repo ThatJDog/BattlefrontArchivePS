@@ -1,4 +1,4 @@
-<season name="Season 9" seasonID="bcl-s9" shortName="S9" seasonIndex=11 tournamentMode="tournament">
+<season name="Season 9" seasonID="bcl-s9" shortName="S9" seasonIndex=11 tournamentMode="tournament" ranked=false>
 	<team name="MeM" >
 		<player-entry name="Skumszy" />
 		<player-entry name="Hildingsson" />

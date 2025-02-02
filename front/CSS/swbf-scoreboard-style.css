@@ -1,28 +1,37 @@
 /* General Styles */
-body, html {
+.map-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    
+    padding: 20px;
+
     margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('../HTML/Mockups/jawa.jpg') no-repeat center center/cover;
+    overflow: hidden;
+}
+
+/*
+margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     color: #fff;
     background: url('../HTML/Mockups/jawa.jpg') no-repeat center center/cover;
     height: 100%;
     overflow: hidden;
-}
+*/
 
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
-}
 
 /* Table Styles */
-.table {
+.scoreboard-table {
     width: 45%;
 }
 
-table {
+.scoreboard-table table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
@@ -31,7 +40,7 @@ table {
     overflow: hidden; /* Clip rows to maintain rounded edges */
 }
 
-thead .team-header {
+.scoreboard-table thead .team-header {
     background: rgba(0, 0, 0, 0.2); /* Same as darker rows */
 
     font-size: 1.5rem;
@@ -42,16 +51,16 @@ thead .team-header {
     border-bottom: none; /* Removes bottom border */
 }
 
-thead .team-header.friendly {
+.scoreboard-table thead .team-header.friendly {
     color: #00aaff; /* Light blue text for friendly */
 }
 
-thead .team-header.enemy {
+.scoreboard-table thead .team-header.enemy {
     color: #ff5555; /* Light red text for enemy */
 }
 
 /* THIS IS FOR THE STAT HEADERS (NAME, SCORE, etc) */
-thead tr:not(.team-header) th {
+.scoreboard-table thead tr:not(.team-header) th {
     background: rgba(0, 0, 0, 0.2); /* Same as darker rows */
     padding: 10px;
     text-transform: uppercase;
@@ -59,36 +68,36 @@ thead tr:not(.team-header) th {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Bottom border for headers only */
 }
 
-thead th:first-child {
+.scoreboard-table thead th:first-child {
     text-align: left; /* Align first column header to the left */
 }
 
-thead th:not(:first-child) {
+.scoreboard-table thead th:not(:first-child) {
     text-align: center; /* Align other headers to the center */
 }
 
-tbody tr:nth-child(even) {
+.scoreboard-table tbody tr:nth-child(even) {
     background: rgba(255, 255, 255, 0.1); /* Slightly lighter rows */
 }
 
-tbody tr:nth-child(odd) {
+.scoreboard-table tbody tr:nth-child(odd) {
     background: rgba(0, 0, 0, 0.2); /* Slightly darker rows */
 }
 
-tbody tr:hover {
+.scoreboard-table tbody tr:hover {
     background: rgb(255, 215, 1); /* Highlight row on hover */
     color: black;
 }
 
-td:first-child {
+.scoreboard-table td:first-child {
     text-align: left; /* Align first column to the left */
 }
 
-td:not(:first-child) {
+.scoreboard-table td:not(:first-child) {
     text-align: center; /* Align all other columns to the right */
 }
 
-th, td {
+.scoreboard-table th, .scoreboard-table td {
     padding: 10px;
 }
 

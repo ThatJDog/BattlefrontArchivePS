@@ -1,0 +1,223 @@
+/* Define CSS Variables for Light and Dark Themes */
+:root {
+    --background-color: #F9F9F9;
+    --text-color: #333;
+    --alt-text-color: #dbdbdb;
+
+    --frame-background: #FFF;
+    --frame-border: #DDD;
+
+    --alt-frame-background: #1a1a1a;
+    --alt-frame-border: #444;
+
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --secondary-text-color: #555;
+    --graph-background: #F0F0F0;
+    --table-header-bg: #EEE;
+    --footer-bg: #333;
+    --footer-text: #FFF;
+
+    --highlight-color: #FFD700;
+}
+
+/* Dark Theme */
+/*[data-theme="dark"]*/ .dark-theme {
+    --background-color: #121212;
+    --text-color: #E0E0E0;
+    --alt-text-color: #333;
+
+    --highlight-color: #ff0073;
+    --frame-border: #444;
+
+    --alt-frame-background: #e1e1e1;
+    --alt-frame-border: #DDD;
+
+    --shadow-color: rgba(255, 255, 255, 0.1);
+    --secondary-text-color: #BBB;
+    --graph-background: #252525;
+    --table-header-bg: #333;
+    --footer-bg: #222;
+    --footer-text: #CCC;
+
+    --frame-background: #1E1E1E;
+}
+
+/* Global Styles */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 40px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Nav Bar Style */
+.navbar {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.navbar a:hover {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+/* Section Styles */
+.section-container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.full-width-section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.fit-height-section > * {
+    flex: 1;  /* Ensures children grow to fit available space */
+    min-height: 0; /* Prevents overflow issues */
+}
+
+/* Base Frame Style */
+.frame {
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--frame-background);
+    border: 1px solid var(--frame-border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    padding: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+/* Generic Graph Container */
+.graph-container {
+
+    align-items: center;
+    flex: 1; /* Takes up remaining space */
+    min-height: 0; /* Prevents overflow issues */
+    width: 100%;
+    height: 100%;
+}
+
+/* Stats Table Frame */
+.stats-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats-table th,
+.stats-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid var(--frame-border);
+}
+
+.stats-table th {
+    background-color: var(--table-header-bg);
+}
+
+/* Large Table Styles */
+.data-table {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    table-layout: auto; /* Allows columns to resize based on content */
+    font-family: Consolas, monospace; /* Monospace font */
+    font-size: 14px; /* Smaller font size */
+}
+
+.data-table th {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Prevents headers from forcing column width */
+    font-size: 14px; /* Matches table font size */
+    font-family: Consolas, monospace; /* Ensures uniform font */
+}
+
+.data-table td {
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+    white-space: normal; /* Allows content to wrap naturally */
+    font-size: 14px; /* Smaller text for better fit */
+    font-family: Consolas, monospace; /* Keeps text consistent */
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table tr:nth-child(odd) {
+    background-color: #d6d6d6;
+}
+
+/* Bonus */
+.bonus {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: var(--bonus-bg);
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+}
+
+/* Theme Toggle Button (optional) */
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: var(--frame-background);
+    color: var(--text-color);
+    border: 1px solid var(--frame-border);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}

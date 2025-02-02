@@ -1,4 +1,4 @@
-<season name="Season 5" seasonID="bcl-s5" shortName="S5" seasonIndex=6 tournamentMode="tournament">
+<season name="Season 5" seasonID="bcl-s5" shortName="S5" seasonIndex=6 tournamentMode="tournament" ranked=false>
 	<team name="Annihilated" >
 		<player-entry name="Cassady" />
 		<player-entry name="Veggie" />

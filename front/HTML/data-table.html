@@ -4,85 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Database Table Viewer</title>
+    <link rel="stylesheet" href="../CSS/global-swbf.css">
+    <script type="module" src="../JS/navbar.js"></script>
+    <script type="module" src="../JS/themes.js"></script>
     <script type="module" src="/db/database-loader.js" defer></script>
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 5px;
-            margin: 0;
-            background-size: cover;
-            text-align: left;
-        }
-
-        h1 {
-            color: rgb(0, 0, 0);
-            margin-bottom: 20px;
-        }
-
-        #table-container {
-            margin: 0;
-            width: 100%;
-            max-width: 100%;
-            padding: 5px; /* Reduce padding */
-        }
-
-        table {
-            width: 100%;
-            max-width: 100%;
-            overflow-x: auto;
-
-            border-collapse: collapse;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
-            overflow: hidden;
-            table-layout: auto; /* Allows columns to resize based on content */
-            font-family: Consolas, monospace; /* Monospace font */
-            font-size: 14px; /* Smaller font size */
-        }
-
-        th {
-            background-color: red;
-            color: white;
-            padding: 8px;
-            text-align: left;
-            white-space: nowrap; /* Prevents headers from forcing column width */
-            font-size: 14px; /* Matches table font size */
-            font-family: Consolas, monospace; /* Ensures uniform font */
-        }
-
-        td {
-            padding: 6px;
-            border-bottom: 1px solid #ddd;
-            white-space: normal; /* Allows content to wrap naturally */
-            font-size: 14px; /* Smaller text for better fit */
-            font-family: Consolas, monospace; /* Keeps text consistent */
-        }
-
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        tr:nth-child(odd) {
-            background-color: #d6d6d6;
-        }
-
-        #loading-message {
-            font-size: 1.5em;
-            color: white;
-        }
-    </style>
     <script type="module">
         import { Table } from '../../db/table.js'; // Adjust path as needed
 
@@ -187,12 +112,14 @@
     </script>
 </head>
 <body>
-    <h1>Database Table Viewer</h1>
-    <div id="table-container">
-        <table id="data-table">
-            <thead></thead>
-            <tbody></tbody>
-        </table>
+    <div class="frame">
+        <h2>Database Table Viewer</h2>
+        <div id="table-container">
+            <table id="data-table" class="data-table">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
     </div>
 </body>
 </html>

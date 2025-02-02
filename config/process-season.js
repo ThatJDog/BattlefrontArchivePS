@@ -17,7 +17,8 @@ async function processSeasonFile(seriesData, db) {
         Name: seriesData.getOrDefaultAttribute('name', ''),
         ShortName: seriesData.getOrDefaultAttribute('shortname', seriesData.name),
         Group: seriesData.getOrDefaultAttribute('group', null),
-        Ranked: true,
+        Index: seriesData.getOrDefaultAttribute('seasonindex', -1),
+        Ranked: seriesData.getOrDefaultAttribute('ranked', false),
         Colour: seriesData.getOrDefaultAttribute('seasoncolour', null), // TODO: ADD DEFAULT COLOUR
         TournamentMode: seriesData.getOrDefaultAttribute('tournamentmode', 'tournament'),
         TeamCap: 0,

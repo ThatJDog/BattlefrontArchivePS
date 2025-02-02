@@ -6,6 +6,7 @@
         "Name",
         "ShortName",
         "Group",
+        "Index",
         "Ranked",
         "Colour",
         "TournamentMode",
@@ -34,6 +35,7 @@
     "PlayerScore": [
         "MatchID",
         "PlayerName",
+        "TeamName",
         "Score",
         "Kills",
         "Deaths",
@@ -42,6 +44,7 @@
     "TeamScore": [
         "MatchID",
         "TeamName",
+        "IsHome",
         "Faction",
         "Score"
     ],

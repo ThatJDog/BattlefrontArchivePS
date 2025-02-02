@@ -4,6 +4,7 @@
 [ShortenedName] "OPLS1 PL"
 [SeasonIndex] "17"
 [SeasonColour] "FF155D"
+[Ranked] "true"
 [TournamentMode] "roundedTournament"
 [RatingLowerBound] "1"
 [RatingUpperBound] "8"

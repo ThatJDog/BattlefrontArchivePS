@@ -1,0 +1,95 @@
+/* Define CSS Variables for Light and Dark Themes */
+:root {
+    --background-color: #F9F9F9;
+    --text-color: #333;
+    --alt-text-color: #dbdbdb;
+
+    --frame-background: #FFF;
+    --frame-border: #DDD;
+
+    --alt-frame-background: #1a1a1a;
+    --alt-frame-border: #444;
+
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --secondary-text-color: #555;
+    --graph-background: #F0F0F0;
+    --table-header-bg: #EEE;
+    --footer-bg: #333;
+    --footer-text: #FFF;
+
+    --highlight-color: #FFD700;
+}
+
+/* Dark Theme */
+/*[data-theme="dark"]*/ .dark-theme {
+    --background-color: #121212;
+    --text-color: #E0E0E0;
+    --alt-text-color: #333;
+
+    --highlight-color: #ff0055;
+    --frame-border: #444;
+
+    --alt-frame-background: #e1e1e1;
+    --alt-frame-border: #DDD;
+
+    --shadow-color: rgba(255, 255, 255, 0.1);
+    --secondary-text-color: #BBB;
+    --graph-background: #252525;
+    --table-header-bg: #333;
+    --footer-bg: #222;
+    --footer-text: #CCC;
+
+    --frame-background: #1E1E1E;
+}
+
+
+.elo-graph {
+    width: 100%;
+    overflow: visible;
+}
+
+.elo-tooltip {
+    position: absolute;
+    background: var(--alt-frame-background);
+    color: var(--alt-text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+    pointer-events: none;
+    font-size: 14px;
+}
+
+.y-axis, .x-axis {
+    stroke: var(--text-color);
+    stroke-width: 1;
+}
+
+.y-label, .x-label {
+    fill: var(--text-color);
+}
+
+.elo-point {
+    fill: var(--highlight-color);
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.elo-line {
+    fill: none;
+    stroke: var(--highlight-color);;
+    stroke-width: 2;
+}
+
+.elo-gradient {
+    fill: url(#lineGradient);
+}
+
+.gradient-start {
+    stop-color: var(--highlight-color);;
+    stop-opacity: 0.8;
+}
+
+.gradient-end {
+    stop-color: var(--highlight-color);;
+    stop-opacity: 0.0;
+}

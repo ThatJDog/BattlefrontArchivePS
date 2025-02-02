@@ -130,4 +130,58 @@ export class Database {
         }
         return this.tables[tableName];
     }
+
+    /**
+     * Replaces the current table's records with a new value while maintaining the schema.
+     * @param {string} tableName - The name of the table (must match this table's name).
+     * @param {Table} newValue - The new table data to replace the current one.
+     */
+    setTable(tableName, newValue) {
+        if (!this.tables[tableName]) {
+            throw new Error(`Table ${tableName} does not exist.`);
+        }
+        this.tables[tableName].set(newValue);
+    }
+
+    /**
+     * Re-indexes a column's values in a table and updates all references in related tables.
+     * @param {string} tableName - The table containing the column to be updated.
+     * @param {string} columnName - The column to be updated.
+     * @param {Function} updateFunction - A function that receives the old value and returns the new value.
+     * @param {Array<[string, string]>} references - An array of [relatedTable, relatedColumn] tuples that reference this column.
+     */
+    reIndex(tableName, columnName, updateFunction, references = []) {
+        // Ensure the table exists
+        const table = this.tables[tableName];
+        if (!table) {
+            throw new Error(`Table "${tableName}" not found in the database.`);
+        }
+
+        // Create a mapping of old values to new values
+        const valueMap = new Map();
+        table.records.forEach(record => {
+            const oldValue = record[columnName];
+            if (oldValue !== undefined) {
+                const newValue = updateFunction(oldValue);
+                valueMap.set(oldValue, newValue);
+                record[columnName] = newValue; // Update the main table
+            }
+        });
+
+        // Update all referenced tables
+        references.forEach(([relatedTable, relatedColumn]) => {
+            const refTable = this.tables[relatedTable];
+            if (!refTable) {
+                throw new Error(`Referenced table "${relatedTable}" not found.`);
+            }
+
+            // Update references in related tables
+            refTable.records.forEach(record => {
+                if (valueMap.has(record[relatedColumn])) {
+                    record[relatedColumn] = valueMap.get(record[relatedColumn]);
+                }
+            });
+        });
+    }
+
 }

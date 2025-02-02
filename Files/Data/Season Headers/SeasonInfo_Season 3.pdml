@@ -1,4 +1,4 @@
-<season name="Season 3" seasonID="bcl-s3" shortName="S3" seasonIndex=3 tournamentMode="tournament">
+<season name="Season 3" seasonID="bcl-s3" shortName="S3" seasonIndex=3 tournamentMode="tournament" ranked=false>
 	<team name="Battle Bug Bombers" >
 		<player-entry name="Beerus" />
 		<player-entry name="Stook" />

@@ -3,6 +3,7 @@
 [Group] "BS S1"
 [ShortenedName] "BS S1 Pro"
 [SeasonIndex] "25"
+[Ranked] "true"
 [SeasonColour] "FF155D"
 [TournamentMode] "roundedTournament"
 [RatingLowerBound] "1"

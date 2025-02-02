@@ -1,4 +1,4 @@
-<season name="Challengers League" seasonID="bs-s1-cha" group="BS S1" shortName="BS S1 Chall" seasonIndex=24 seasonColour="15FFA0" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 cardRatingLowerBound=50 cardRatingUpperBound=94 eliteCardThreshold=90 impactCardThreshold=85 teamCardThreshold=80 systemCardThreshold=70 projectCardThreshold=0 teamStarThresholds="star2: 70, star3: 80, star4: 85, star5: 90">
+<season name="Challengers League" seasonID="bs-s1-cha" group="BS S1" shortName="BS S1 Chall" seasonIndex=24 ranked=false seasonColour="15FFA0" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 cardRatingLowerBound=50 cardRatingUpperBound=94 eliteCardThreshold=90 impactCardThreshold=85 teamCardThreshold=80 systemCardThreshold=70 projectCardThreshold=0 teamStarThresholds="star2: 70, star3: 80, star4: 85, star5: 90">
 	<team name="Atlanta Falcons" >
 		<player-entry name="Hobo" isCaptain=true rating=3.67 isPrimary=true/>
 		<player-entry name="Isolani" isPrimary=true rating=4.8/>
