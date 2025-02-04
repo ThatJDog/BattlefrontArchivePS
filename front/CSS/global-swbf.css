@@ -1,3 +1,33 @@
+@font-face {
+    font-family: "Posterama 1927";
+    src: url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.eot");
+    src: url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.svg#Posterama 1927")format("svg");
+} /* font-family: "Posterama 1927"; */
+
+@font-face {
+    font-family: "Brandon Grotesque Medium";
+    src: url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.eot");
+    src: url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.svg#Brandon Grotesque Web Medium")format("svg");
+} /* font-family: "Brandon Grotesque Medium"; */
+
+@font-face {
+    font-family: "Brandon Grotesque Regular";
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot");
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.svg#Brandon Grotesque Regular")format("svg");
+} /* font-family: "Brandon Grotesque Regular"; */
+
 /* Define CSS Variables for Light and Dark Themes */
 :root {
     --background-color: #F9F9F9;
@@ -18,6 +48,8 @@
     --footer-text: #FFF;
 
     --highlight-color: #FFD700;
+
+    --frame-anim-time: 0.1s;
 }
 
 /* Dark Theme */
@@ -60,64 +92,101 @@ main {
     display: flex;
     justify-content: left;
     margin-bottom: 20px;
+
     text-transform: uppercase;
+    text-align: center;
 }
 
 .navbar a {
-    margin: 0 10px;
     text-decoration: none;
     color: var(--text-color);
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 22px;
+    
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 22px;
+    margin: 0 10px;
+
+    transition: background-color 0.3s ease, font-weight 0.1s ease;
 }
 
 .navbar a:hover {
     background-color: var(--highlight-color);
-    font-weight: bold;
+    font-weight: normal;
     color: var(--text-color);
 }
 
 /* Section Styles */
 .section-container {
     display: flex;
-    width: 100%;
-    height: 80vh;
+    flex-direction: column;
     gap: 20px;
 }
-
 .section {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex: 1;
 }
-
-.full-width-section {
-    width: 100%;
-    margin-top: 20px;
+.section.horizontal {
+    flex-direction: row;
 }
-
-.fit-height-section > * {
-    flex: 1;  /* Ensures children grow to fit available space */
-    min-height: 0; /* Prevents overflow issues */
+.section.vertical {
+    flex-direction: row;
 }
 
 /* Base Frame Style */
 .frame {
-
     display: flex;
     flex-direction: column;
+    flex: 1;
+    overflow: hidden;
 
     background-color: var(--frame-background);
-    border: 1px solid var(--frame-border);
-    border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 4px 6px var(--shadow-color);
-    padding: 20px;
-    /*margin-bottom: 20px;*/
+    
+    border: 1px solid var(--frame-border);
+    outline: 2px solid transparent; /* Invisible outline */
+    transition: outline var(--frame-anim-time) ease-in-out, 
+                border-color var(--frame-anim-time) ease-in-out;
+    border-radius: 8px;
 }
+
+.frame:hover {
+    outline: 4px solid var(--highlight-color); /* Adds hover effect without affecting size */
+    border-color: var(--highlight-color); /* Still colour small border too to remove gap */
+}
+
+/* Header section that controls the title area */
+.frame-header {
+    width: 100%;
+    padding: 15px 20px; /* This controls the padding around the title */
+    background: transparent;
+    transition: background-color var(--frame-anim-time) ease-in-out; /* Smooth transition */
+}
+
+/* Title inside the header */
+.frame-header h2 {
+    color: black;
+    margin: 0;
+    font-size: 32px;
+    font-family: "Brandon Grotesque Medium";
+    text-transform: uppercase;
+}
+
+/* Content section inside the frame */
+.frame-content {
+    padding: 20px; /* Padding applies only to content */
+}
+
+/* Hover effect only affects the header */
+.frame:hover .frame-header {
+    background-color: #121212; /* Changes background on hover */
+}
+
+.frame:hover .frame-header h2 {
+    color: var(--highlight-color);
+}
+
 
 /* Generic Graph Container */
 .graph-container {
@@ -220,4 +289,23 @@ footer {
     padding: 8px 12px;
     border-radius: 6px;
     cursor: pointer;
+}
+
+
+/* Buttons */
+.primary-btn {
+    /*position: fixed;*/
+    padding: 10px 20px;
+    font-size: 16px;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.primary-btn:hover {
+    background: darkgoldenrod;
+    color: white;
 }

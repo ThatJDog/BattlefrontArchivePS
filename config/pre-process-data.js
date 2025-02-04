@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require('path');
 
 const { parseData } = require("./process-data.js");
-const { generateEloTable } = require("./generate-elo.js");
+const { generateEloTable } = require("./generate-elo-rankbased.js");
 const { updateSeriesAndMatchIDs } = require("./update-series-and-match-ids.js");
 
 async function loadDatabase(schema) {

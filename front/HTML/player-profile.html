@@ -61,108 +61,56 @@
     <button onclick="openPopup('./match-score.html', { matchID: 1234 })" class="open-popup-btn">Open Stats</button>
 
     <div class="section-container">
-        <!-- Player Profile Section -->
-        <div class="section" style="width: 35%">
-            <div class="frame profile-header" style="height: 100%">
-                <div class="profile-picture">
-                    <img src="/path/to/profile-picture.jpg" alt="Player Picture" />
+        <div class="section horizontal" style="height: 80vh;">
+            <!-- Player Character Frame -->
+            <div class="frame" style="width: 50%">
+                <div class="frame-header">
+                    <h2>Showcase</h2>
                 </div>
-                <div class="profile-info">
-                    <h1>Player Name</h1>
-                    <p>Age: 23</p>
-                    <p>Nationality: English</p>
-                    <p>Value: $10M</p>
-                    <p>Contract Expiry: 2024</p>
+                <div class="frame-content">
+                    <div class="profile-picture">
+                        <img src="/path/to/profile-picture.jpg" alt="Player Picture" />
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- Right Side Section with ELO Graph & Stats Table -->
-        <div class="section" style="width: 65%">
-            <div class="frame" style="height: 50%">
-                <h2>ELO Graph</h2>
-                <div class="graph-container" id="eloGraphContainer"></div>
-            </div>
-            <div class="frame" style="height: 50%">
-                <h2>Player Stats</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Stat</th>
-                            <th>Value</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Aggression</td>
-                            <td>16</td>
-                        </tr>
-                        <tr>
-                            <td>Stamina</td>
-                            <td>15</td>
-                        </tr>
-                        <tr>
-                            <td>Strength</td>
-                            <td>14</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
     
-    <!-- Additional Full Width Section -->
-    <div class="full-width-section">
-        <div class="frame">
-            <h2>Match History</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Opponent</th>
-                        <th>Result</th>
-                        <th>Performance</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2024-02-01</td>
-                        <td>Team B</td>
-                        <td>Win 3-1</td>
-                        <td>2 Goals, 1 Assist</td>
-                    </tr>
-                    <tr>
-                        <td>2024-01-25</td>
-                        <td>Team C</td>
-                        <td>Loss 0-2</td>
-                        <td>Played Full Match</td>
-                    </tr>
-                    <tr>
-                        <td>2024-02-01</td>
-                        <td>Team B</td>
-                        <td>Win 3-1</td>
-                        <td>2 Goals, 1 Assist</td>
-                    </tr>
-                    <tr>
-                        <td>2024-01-25</td>
-                        <td>Team C</td>
-                        <td>Loss 0-2</td>
-                        <td>Played Full Match</td>
-                    </tr>
-                    <tr>
-                        <td>2024-02-01</td>
-                        <td>Team B</td>
-                        <td>Win 3-1</td>
-                        <td>2 Goals, 1 Assist</td>
-                    </tr>
-                    <tr>
-                        <td>2024-01-25</td>
-                        <td>Team C</td>
-                        <td>Loss 0-2</td>
-                        <td>Played Full Match</td>
-                    </tr>
-                </tbody>
-            </table>
+            <!-- Player Info Section -->
+            <div class="frame" style="width: 50%">
+                <div class="frame-header">
+                    <h2>Player Profile</h2>
+                </div>
+                <div class="frame-content">
+                    <div class="profile-info">
+                        <p>Age: 23</p>
+                        <p>Nationality: English</p>
+                        <p>Value: $10M</p>
+                        <p>Contract Expiry: 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="full-width-section">
+            <div class="frame">
+                <div class="frame-header">
+                    <h2>Elo Graph</h2>
+                </div>
+                <div class="frame-content" style="height: 500px;">
+                    <div class="graph-container" id="eloGraphContainer"></div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Additional Full Width Section -->
+        <div class="full-width-section">
+            <div class="frame">
+                <div class="frame-header">
+                    <h2>Match History</h2>
+                </div>
+                <div class="frame-content">
+                    
+                </div>
+            </div>
         </div>
     </div>
 

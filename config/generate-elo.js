@@ -54,15 +54,17 @@ function updateElo(db, winningTeam, losingTeam) {
         let elo = playerElo[player.PlayerName];
         return sum + elo;
     }, 0);
+    // totalWinElo /= winningTeam.length;
     
     let totalLoseElo = losingTeam.reduce((sum, player) => {
         if (!(player.PlayerName in playerElo)) {
             playerElo[player.PlayerName] = BASE_ELO; // Initialize missing players
         }
         let elo = playerElo[player.PlayerName];
-        return sum + elo;
+        return sum
+         + elo;
     }, 0);
-    
+    // totalLoseElo /= losingTeam.length;
 
     // Compute expected win probability
     let expectedWin = getExpectedScore(totalWinElo, totalLoseElo);
@@ -121,12 +123,10 @@ async function generateEloTable(db){
     // Step 2: Join player scores and the team score
     // Join player scores with the team they signed up on
     const playerWithTeams = db.select('PlayerScore').renameRecord('Score', 'PlayerScore')
-    .join(db.select("PlayedFor"), "INNER JOIN", (playerScore, playedFor) =>
-        playerScore.PlayerName === playedFor.PlayerName &&
-        getSeasonIDFromMatchID(db, playerScore.MatchID) === playedFor.SeasonID // Ensure season matches
-    )
+
     // Join the team score onto the player score (on team name and match id)
-    .join(db.select('TeamScore').renameRecord('Score', 'TeamScore'), "INNER JOIN", (player, team) => player.TeamName === team.TeamName && player.MatchID === team.MatchID)
+    .join(db.select('TeamScore').renameRecord('Score', 'TeamScore'), "INNER JOIN", 
+    /* ON */ (player, team) => player.TeamName === team.TeamName && player.MatchID === team.MatchID)
     .keep(['TeamName', 'TeamScore', 'PlayerName', 'MatchID', 'PlayerScore', 'Kills', 'Deaths', 'Duration']);
 
     const rankedMatchData = rankedMatches.join(playerWithTeams, "INNER JOIN", (a, b) => a.MatchID === b.MatchID);
@@ -185,3 +185,17 @@ function getSeasonIDFromMatchID(db, matchID) {
 
 // Export the function for use in other files
 module.exports = { generateEloTable };
+
+
+/*
+
+const playerWithTeams = db.select('PlayerScore').renameRecord('Score', 'PlayerScore')
+    .join(db.select("PlayedFor"), "INNER JOIN", (playerScore, playedFor) =>
+        playerScore.PlayerName === playedFor.PlayerName &&
+        getSeasonIDFromMatchID(db, playerScore.MatchID) === playedFor.SeasonID // Ensure season matches
+    )
+    // Join the team score onto the player score (on team name and match id)
+    .join(db.select('TeamScore').renameRecord('Score', 'TeamScore'), "INNER JOIN", (player, team) => player.TeamName === team.TeamName && player.MatchID === team.MatchID)
+    .keep(['TeamName', 'TeamScore', 'PlayerName', 'MatchID', 'PlayerScore', 'Kills', 'Deaths', 'Duration']);
+
+*/

@@ -28,6 +28,7 @@ async function processSeriesFile(seriesData, db) {
         SeasonID: seriesData.getAttribute('season'),
         Index: seriesData.getOrDefaultAttribute('index', 0),
         Round: seriesData.getOrDefaultAttribute('round', 0),
+        Teams: seriesData.getOrDefaultAttribute('teams', []),
     });
 
     // Process matches
@@ -39,8 +40,8 @@ async function processSeriesFile(seriesData, db) {
         const matchID = matchCount > 0 ? db.getLast('Match').MatchID + 1  : 0;
 
         const gamemodeTimeLimit = 15; // ASSUMES ALL MATCHES HAVE A MAX TIMER OF 15 MINS
-        const matchDuration = gamemodeTimeLimit - matchNode.hasAttribute('timeleft') ?
-            parseTimeToMinutes(matchNode.getAttribute('timeleft')) : 
+        const matchDuration = matchNode.hasAttribute('timeleft') ?
+            gamemodeTimeLimit - parseTimeToMinutes(matchNode.getAttribute('timeleft')) : 
             0;
 
         // Insert match into the Match table

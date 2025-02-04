@@ -3,7 +3,7 @@ function updateSeriesAndMatchIDs(db) {
     // Step 1: Join Series with Season using renamed 'Index' to 'SeasonIndex', keeping only necessary columns
     const seriesOrdered = db.getTable('Series')
         .join(db.getTable('Season').renameRecord('Index', 'SeasonIndex'), "INNER JOIN", (series, season) => series.SeasonID === season.ID)
-        .keep(['SeasonIndex', 'SeasonID', 'SeriesID', 'Round', 'Index'])
+        .keep(['SeasonIndex', 'SeasonID', 'SeriesID', 'Round', 'Index', 'Teams'])
         .sortBy(["SeasonIndex", "Round", "Index"]).drop('SeasonIndex').alignSchema(db.getTable('Series')); // Align columns
 
     db.setTable('Series', seriesOrdered);
@@ -28,8 +28,8 @@ function updateSeriesAndMatchIDs(db) {
         [['PlayerScore', 'MatchID'], ['TeamScore', 'MatchID']]
     );
 
-    db.setTable('PlayerScore', db.getTable('PlayerScore').sortBy(['MatchID', 'Score desc']))
-    db.setTable('TeamScore', db.getTable('TeamScore').sortBy(['MatchID', 'Score desc']))
+    db.setTable('PlayerScore', db.getTable('PlayerScore').sortBy(['MatchID']))
+    db.setTable('TeamScore', db.getTable('TeamScore').sortBy(['MatchID']))
 }
 
 module.exports = { updateSeriesAndMatchIDs };

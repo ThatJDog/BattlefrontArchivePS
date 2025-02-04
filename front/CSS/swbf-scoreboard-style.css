@@ -1,3 +1,37 @@
+@font-face {
+    font-family: "Aragon Sans Bold";
+    src: url("https://db.onlinewebfonts.com/t/059ac22e74e07ea4f291b6ea480c6563.eot");
+    src: url("https://db.onlinewebfonts.com/t/059ac22e74e07ea4f291b6ea480c6563.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/059ac22e74e07ea4f291b6ea480c6563.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/059ac22e74e07ea4f291b6ea480c6563.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/059ac22e74e07ea4f291b6ea480c6563.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/059ac22e74e07ea4f291b6ea480c6563.svg#Aragon Sans W02SC Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Andis";
+    src: url("https://db.onlinewebfonts.com/t/09bd2fa7d61f32e8bcf0c395ca0cbcb8.eot");
+    src: url("https://db.onlinewebfonts.com/t/09bd2fa7d61f32e8bcf0c395ca0cbcb8.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/09bd2fa7d61f32e8bcf0c395ca0cbcb8.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/09bd2fa7d61f32e8bcf0c395ca0cbcb8.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/09bd2fa7d61f32e8bcf0c395ca0cbcb8.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/09bd2fa7d61f32e8bcf0c395ca0cbcb8.svg#Andis")format("svg");
+}
+
+/* Define CSS Variables for Light and Dark Themes */
+:root {
+    --dark-background-color: rgba(0, 0, 0, 0.3);
+    --light-background-color: rgba(25, 25, 25, 0.3);
+
+    --highlight-color: #ffd701;
+    --home-color: #00aaff;
+    --away-color: #ff5555;
+
+    --row-height: 20px;
+
+    --cell-border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
 html.match {
     height: 100%;
     width: 100%;
@@ -7,6 +41,8 @@ html.match {
 body.match {
     margin: 0;
     padding: 0;
+    background-color: #000;
+
     font-family: Arial, sans-serif;
     color: #fff;
     height: 100%;
@@ -14,33 +50,58 @@ body.match {
     overflow: hidden;
 }
 
-/* General Styles */
-.map-container {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
 
-    justify-content: space-evenly;
-    align-items: center;
-    
+/* Container for the entire layout */
+.layout-container {
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*justify-content: space-between;*/
+    justify-content: center; /* Centers children vertically */
+
+    overflow: hidden;
 
     margin: 0;
     padding: 0;
-    
-    background: url('../HTML/Mockups/jawa.jpg') no-repeat center center/cover;
+
+    /*
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    */
+
+    container-type: inline-size; /* Enables queries based on element's width */
 }
 
-/*
-margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    background: url('../HTML/Mockups/jawa.jpg') no-repeat center center/cover;
+/* Background Image */
+.background-image {
+    position: absolute;
+    width: 100%;
     height: 100%;
-    overflow: hidden;
-*/
+    object-fit: cover; /* Ensures full coverage */
+    z-index: -1; /* Places it behind everything */
+    filter: saturate(1.4) brightness(90%); /* Boosts saturation (1 = normal, 2 = double, adjust as needed) */
+}
+
+/* Middle Section */
+.middle-section {
+    width: 100%;
+
+    align-items: center;
+    justify-content: center; /* Centers children vertically */
+    gap: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    top: 30%;
+}
+
 
 
 /* Table Styles */
@@ -52,75 +113,99 @@ margin: 0;
     width: 100%;
     border-collapse: collapse;
     text-align: center;
-    backdrop-filter: blur(8px); /* Blur only behind the table */
-    border-radius: 8px; /* Maintain rounded corners for the table */
+    backdrop-filter: blur(6px); /* Blur only behind the table */
+    border-radius: 6px;
     overflow: hidden; /* Clip rows to maintain rounded edges */
 }
 
 .scoreboard-table thead .team-header {
-    background: rgba(0, 0, 0, 0.2); /* Same as darker rows */
-
-    font-size: 1.5rem;
+    background: var(--dark-background-color);
+    font-size: 18px;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: normal; /* Removes bold styling */
     border-bottom: none; /* Removes bottom border */
+    font-family: "Brandon Grotesque Regular";
+    display: table-row;
 }
 
 .scoreboard-table thead .team-header.friendly {
-    color: #00aaff; /* Light blue text for friendly */
+    color: var(--home-color);
 }
 
 .scoreboard-table thead .team-header.enemy {
-    color: #ff5555; /* Light red text for enemy */
+    color: var(--away-color); /* Light red text for enemy */
 }
 
 /* THIS IS FOR THE STAT HEADERS (NAME, SCORE, etc) */
 .scoreboard-table thead tr:not(.team-header) th {
-    background: rgba(0, 0, 0, 0.2); /* Same as darker rows */
-    padding: 10px;
+    background: var(--dark-background-color);
     text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Bottom border for headers only */
+    border-bottom: var(--cell-border); /* Bottom border for headers only */
+    font-family: "Brandon Grotesque Medium";
+    font-size: 11px;
+    font-weight: normal;
+    height: var(--row-height);
 }
 
-.scoreboard-table thead th:first-child {
+/* Columns */
+td {
+    min-width: 50px;
+}
+td:not(:last-child) {
+    border-right: var(--cell-border); /* Adds only inside column borders */
+}
+
+.scoreboard-table thead tr:not(.team-header) th:first-child{
     text-align: left; /* Align first column header to the left */
+    padding: 0px 30px 0px 30px;
 }
 
-.scoreboard-table thead th:not(:first-child) {
+.scoreboard-table thead tr:not(.team-header) th:not(:first-child) {
     text-align: center; /* Align other headers to the center */
+    padding: 0px 0x 0px 0px;
+}
+
+.scoreboard-table tbody tr {
+    font-family: "Brandon Grotesque Regular";
+    font-weight: normal;
+    font-size: 12px;
+    height: var(--row-height);
 }
 
 .scoreboard-table tbody tr:nth-child(even) {
-    background: rgba(255, 255, 255, 0.1); /* Slightly lighter rows */
+    background: var(--light-background-color);
 }
 
 .scoreboard-table tbody tr:nth-child(odd) {
-    background: rgba(0, 0, 0, 0.2); /* Slightly darker rows */
+    background: var(--dark-background-color);
 }
 
-.scoreboard-table tbody tr:hover {
-    background: rgb(255, 215, 1); /* Highlight row on hover */
+.scoreboard-table tbody tr:hover:not(.empty){
+    background: var(--highlight-color); /* Highlight row on hover */
     color: black;
 }
 
 .scoreboard-table td:first-child {
     text-align: left; /* Align first column to the left */
+    padding: 0px 50px 0px 30px; /* Line Spacing for player records*/
+
 }
 
 .scoreboard-table td:not(:first-child) {
     text-align: center; /* Align all other columns to the right */
 }
 
-.scoreboard-table th, .scoreboard-table td {
-    padding: 10px;
+.scoreboard-table tr:is(.team-header) th {
+    /* Up Right Bottom Left */
+    padding: 0px 0px 0px 15px; /* Line Spacing for IMPERIAL or REBEL*/
+    height: 45px;
 }
 
-/* Responsive */
+/* Responsive *//*
 @media (max-width: 768px) {
-    .container {
+    .middle-section {
         flex-direction: column;
     }
 
@@ -128,4 +213,283 @@ margin: 0;
         width: 90%;
         margin-bottom: 20px;
     }
+}
+*/
+
+/* Portrait Orientation: Flex column */
+/*
+@media (orientation: portrait) {
+    .middle-section {
+        flex-direction: column;
+    }
+}*/
+
+/* Landscape Orientation: Flex row */
+/*
+@media (orientation: landscape) {
+    .middle-section {
+        flex-direction: row;
+    }
+}
+    */
+
+
+/* DOESN'T WORK */
+/* Change layout based on container's width */
+/*
+@container (min-width: 1000px) {
+    .middle-section {
+        flex-direction: row;
+    }
+}
+
+@container (max-width: 999px) {
+    .middle-section {
+        flex-direction: column;
+    }
+}
+*/
+
+
+
+/* The entire rect for all logos and victory/defeat text */
+.logo-section {
+    width: 100%;
+
+    align-items: center;
+    justify-content: center; /* Centers children vertically */
+    gap: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    top: 10%;
+}
+
+/* Individual section for left or right (1 logo & text) */
+.title-section {
+    width: 45%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* Reverse right side element sorting */
+.title-section.away{
+    flex-direction: row-reverse;
+}
+
+.title-section.home .logo-back{
+    left: 0px;
+}
+
+.title-section.away .logo-back{
+    right: 0px;
+    flex-direction: row;
+}
+
+/* The logo img and logo back container */
+.logo {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-back {
+    position: absolute;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-img {
+    position: absolute;
+    align-self: center;
+    width: 80%;
+    height: 80%;
+}
+
+.win-title{ 
+    font-family: "Brandon Grotesque Medium";
+    font-weight: normal;
+    font-size: 48px;
+    text-transform:uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Top Section */
+.top-section {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* ADDED */
+    width: 200px;
+    aspect-ratio: 245 / 93;
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: row;
+
+    /* Masking to prevent blur showing in transparent areas */
+    -webkit-mask-image: url("../../Files/source/DZ-Top-Back.png");
+    mask-image: url("../../Files/source/DZ-Top-Back.png");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+
+    backdrop-filter: blur(4px); /* Apply blur behind the image */
+    -webkit-backdrop-filter: blur(4px); /* Safari support */
+}
+
+.top-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: -1;
+
+    filter: brightness(0%); /* Darkens image */
+    opacity: .3;
+}
+
+.overlay-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.overlay-container.left {
+    height: 60%;
+    aspect-ratio: 1;
+    left: 3%;
+    top: 22%;
+}
+
+.overlay-container.right {
+    height: 60%;
+    aspect-ratio: 1;
+    right: 5%;
+    top: 22%;
+}
+
+.overlay-container.middle {
+    height: 90%;
+    aspect-ratio: 1;
+    top: 5%;
+}
+
+/*
+.score-background-img.friendly {
+    filter: invert(30%) sepia(100%) saturate(5000%) hue-rotate(190deg) brightness(90%);
+}
+.score-background-img.enemy {
+    filter: sepia(88%) saturate(7481%) hue-rotate(340deg) brightness(87%);
+}*/
+
+.score-img {
+    position: absolute;
+    align-self: center;
+    
+    width: 100%;
+    height: 100%;
+
+    left: 0;
+    right: 0;
+
+    object-fit: cover;
+}
+
+.score-img.background {
+    filter: brightness(80%); /* Darkens image */
+    opacity: 0.3; /* Adjust transparency */
+}
+
+
+@font-face {
+    font-family: "FrutigerNext LT Regular";
+    src: url("https://db.onlinewebfonts.com/t/9e55e753d1cb16561a12638d1c13a8a1.eot");
+    src: url("https://db.onlinewebfonts.com/t/9e55e753d1cb16561a12638d1c13a8a1.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/9e55e753d1cb16561a12638d1c13a8a1.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/9e55e753d1cb16561a12638d1c13a8a1.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/9e55e753d1cb16561a12638d1c13a8a1.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/9e55e753d1cb16561a12638d1c13a8a1.svg#FrutigerNext LT Regular")format("svg");
+}
+
+
+.score-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "FrutigerNext LT Regular";
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+}
+
+.timer-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "FrutigerNext LT Regular";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+}
+
+/* Timer Circle */
+.progress-circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;    
+    height: 100%;    
+    object-fit: cover;
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.progress {
+    /*transition: stroke-dashoffset 0.5s ease-in-out;*/
+    stroke-linecap: round;
+    transform-origin: center; /* Ensures the rotation is centered */
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 2.5%;
+    right: 2.5%;
 }

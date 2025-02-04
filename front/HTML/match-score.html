@@ -10,12 +10,156 @@
   <script type="module" src="../JS/themes.js"></script>
   <script type="module" src="../JS/scoreboard-loader.js"></script>
   <script type="module" src="/db/database-loader.js" defer></script>
+
+  <script>
+    /*const timerDuration = 15 * 60; // 15 minutes in seconds
+    const timerRemaining = timerDuration; // Static for now
+
+    const blueScore = 5; // Blue team's current score
+    const redScore = 3; // Red team's current score
+    const maxScore = 5; // Maximum score
+
+    // Function to calculate and set radial fill
+    function setProgress(selector, value, maxValue) {
+      const circle = document.querySelector(selector);
+      const circumference = 2 * Math.PI * 45; // Circumference of the circle
+      const progress = (value / maxValue) * circumference;
+      circle.style.strokeDashoffset = circumference - progress;
+    }
+
+    // Set radial fill for scores
+    setProgress('.blue-team .progress-ring', blueScore, maxScore);
+    setProgress('.red-team .progress-ring', redScore, maxScore);
+
+    // Set radial fill for timer
+    setProgress('.timer .progress-ring', timerRemaining, timerDuration);*/
+  </script>
 </head>
+
 <body class="match">
-  <div class="map-container">
+  <img id="map-img" src="../HTML/Mockups/jawa.jpg" class="background-image"/>
+
+  <div class="layout-container">   
+
+    <div class="top-section">
+        <img src="..\..\Files\source\DZ-Top-Back.png" class="top-background">
+    
+        <div class="overlay-container left">
+          <img src="..\..\Files\source\DZ-Seg-Blue-5.png" class="score-img background">
+          <img id="left-score-img" src="..\..\Files\source\DZ-Seg-Blue-1.png" class="score-img">
+          <div id="left-score-txt" class="score-text">1</div>
+        </div>
+    
+        <div class="overlay-container middle">
+          <svg
+            width="200"
+            height="200"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+            class="progress-circle"
+        >
+            <!-- Background Circle -->
+            <circle
+                cx="50"
+                cy="50"
+                r="45"
+                stroke="rgb(255, 255, 255, 0.2)"
+                stroke-width="5"
+                fill="none"
+            ></circle>
+
+            <!-- Progress Circle -->
+            <circle
+                cx="50"
+                cy="50"
+                r="45"
+                fill="transparent"
+                stroke="#FFFFFF"
+                stroke-width="5"
+                stroke-dasharray="282.6"
+                stroke-dashoffset="282.6"
+                transform="rotate(-90 0 0)"
+                class="progress"
+            ></circle>
+        </svg>
+          <div id="timer-text" class="timer-text">03:45</div>
+        </div>
+    
+        <div class="overlay-container right">
+          <img src="..\..\Files\source\DZ-Seg-Red-5.png" class="score-img background">
+          <img id="right-score-img" src="..\..\Files\source\DZ-Seg-Red-4.png" class="score-img">
+          <div id="right-score-txt" class="score-text">4</div>
+        </div>    
+      </div>
+    </div>
+
+    <div class="logo-section">
+      <div class="title-section home">
+        <div class="logo">
+          <svg
+          viewBox="0 0 100 100"
+          xmlns="http://www.w3.org/2000/svg"
+          class="logo-back"
+        >
+            <!-- Background Circle -->
+            <circle
+                cx="50"
+                cy="50"
+                r="45"
+                fill="rgb(0,0,0,0.3)"
+            ></circle>
+        </svg>
+        <img src="..\..\Files\source\imperial-logo.png" class="logo-img"/>
+      </div>
+      <div id="left-winloss" class="win-title">Victory</div>
+      </div>
+
+      <div class="title-section away">
+        <div class="logo">
+          <svg
+          viewBox="0 0 100 100"
+          xmlns="http://www.w3.org/2000/svg"
+          class="logo-back"
+        >
+            <!-- Background Circle -->
+            <circle
+                cx="50"
+                cy="50"
+                r="45"
+                fill="rgb(0,0,0,0.3)"
+            ></circle>
+        </svg>
+        <img src="..\..\Files\source\rebel-logo.png" class="logo-img"/>
+      </div>
+      <div id="right-winloss" class="win-title">Defeat</div>
+      </div>
+    </div>
+
+    <div class="middle-section">
       <div id="home scoreboard-container" class="scoreboard-table"></div>
       <div id="away scoreboard-container" class="scoreboard-table"></div>
+    </div>
   </div>
-</body>
 
+
+  <!-- Navigation Buttons -->
+  <div class="button-container">
+    <button onclick="window.history.back()" class="primary-btn">Back</button>
+    <div>
+      <button onclick="viewSeries()" class="primary-btn">View Series</button>
+      <button onclick="viewSeason()" class="primary-btn">View Season</button>
+    </div>
+  </div>
+
+  <script>
+    function viewSeries() {
+      window.location.href = "series.html"; // Adjust URL as needed
+    }
+
+    function viewSeason() {
+      window.location.href = "season.html"; // Adjust URL as needed
+    }
+  </script>
+
+</body>
 </html>

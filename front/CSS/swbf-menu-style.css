@@ -1,5 +1,36 @@
+@font-face {
+    font-family: "Posterama 1927";
+    src: url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.eot");
+    src: url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.svg#Posterama 1927")format("svg");
+} /* font-family: "Posterama 1927"; */
+
+@font-face {
+    font-family: "Brandon Grotesque Medium";
+    src: url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.eot");
+    src: url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.svg#Brandon Grotesque Web Medium")format("svg");
+} /* font-family: "Brandon Grotesque Medium"; */
+
+@font-face {
+    font-family: "Brandon Grotesque Regular";
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot");
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.svg#Brandon Grotesque Regular")format("svg");
+} /* font-family: "Brandon Grotesque Regular"; */
+
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: "Brandon Grotesque Medium";
+    /*font-family: "Helvetica Neue", Arial, sans-serif;*/
     background-color: #F9F9F9;
     color: #333;
     margin: 0;
@@ -18,10 +49,12 @@ header nav a {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 22px;
+    font-family: "Brandon Grotesque Regular";
 }
 header nav a:hover {
     background-color: #FFD700; /* Yellow background for hover */
     color: #333; /* Keep text color consistent */
+    font-family: "Brandon Grotesque Medium";
 }
 main {
     padding: 20px;

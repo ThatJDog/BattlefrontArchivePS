@@ -52,22 +52,29 @@
                 table = table.keep(['PlayerName', 'TeamName', 'Score', 'Kills', 'Deaths', 'Duration']);
                 table = table.fillIfNull('TeamName', 'Unregistered');
 
-                table = table.addComputedColumn("ObjScore", (record) => {
+                playerScores = playerScores.addComputedColumn("ObjScore", (record) => {
                     return (parseFloat(record.Score - (record.Kills * 100)) * 0.95).toFixed(0); // ObjScore - buffer
                 });
-                table = table.addComputedColumn("KDR", (record) => {
-                    return record.Deaths > 0 ? parseFloat((record.Kills / record.Deaths).toFixed(2)) : 0;
+                playerScores = playerScores.addComputedColumn("KDR", (record) => {
+                    return record.Deaths > 0 
+                    ? (record.Kills / record.Deaths).toFixed(2) // Ensure fixed decimal format
+                    : "0.00"; // Keep consistent format for zero deaths
                 });
-                table = table.addComputedColumn("KPM", (record) => {
-                    return record.Duration > 0 ? parseFloat((record.Kills / record.Duration).toFixed(2)) : 0;
+                playerScores = playerScores.addComputedColumn("KPM", (record) => {
+                    return record.Duration > 0 
+                    ? (record.Kills / record.Duration).toFixed(2)
+                    : "0.00";
                 });
-                table = table.addComputedColumn("SPM", (record) => {
-                    return record.Duration > 0 ? parseFloat((record.Score / record.Duration).toFixed(2)) : 0;
+                playerScores = playerScores.addComputedColumn("SPM", (record) => {
+                    return record.Duration > 0 
+                    ? (record.Score / record.Duration).toFixed(2)
+                    : "0.00";
                 });
-                table = table.addComputedColumn("OSPM", (record) => {
-                    return record.Duration > 0 ? parseFloat((record.ObjScore / record.Duration).toFixed(2)) : 0;
+                playerScores = playerScores.addComputedColumn("OSPM", (record) => {
+                    return record.Duration > 0 
+                    ? (record.ObjScore / record.Duration).toFixed(2)
+                    : "0.00";
                 });
-                table = table.reorderColumns(["PlayerName", "TeamName", "Score", "Kills"]);
 
                 // Round duration after adding other columns
                 // table = table.applyToColumn("Duration", (value) => parseFloat(value.toFixed(2)));

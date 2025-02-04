@@ -22,7 +22,7 @@
         "IsPrimary"
     ],
     "Player": ["Name", "Nationality", "AlterEgos"],
-    "Series": ["SeriesID", "SeasonID", "Index", "Round"],
+    "Series": ["SeriesID", "SeasonID", "Index", "Round", "Teams"],
     "Match": [
         "MatchID",
         "SeriesID",

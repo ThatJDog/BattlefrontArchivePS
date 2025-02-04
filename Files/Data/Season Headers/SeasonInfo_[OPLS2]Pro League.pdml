@@ -1,4 +1,4 @@
-<season name="Pro League" seasonID="opl-s2-pro" group="OPLS2" seasonColour="662D91" shortName="OPLS2 PL" seasonIndex=19 tournamentMode="roundedTournament" ratingLowerBound=0 ratingUpperBound=100 teamCap=38 ranked=true cardRatingLowerBound=30 cardRatingUpperBound=99 eliteCardThreshold=90 impactCardThreshold=75 teamCardThreshold=60 systemCardThreshold=40 projectCardThreshold=0>
+<season name="Pro League" seasonID="opl-s2-pro" group="OPLS2" seasonColour="662D91" shortName="OPLS2 PL" seasonIndex=19 tournamentMode="roundedTournament" ratingLowerBound=0 ratingUpperBound=100 teamCap=38 ranked=false cardRatingLowerBound=30 cardRatingUpperBound=99 eliteCardThreshold=90 impactCardThreshold=75 teamCardThreshold=60 systemCardThreshold=40 projectCardThreshold=0>
 	<team name="FIF" >
 		<player-entry name="Spree" rating=100 isPrimary=true isCaptain=true/>
 		<player-entry name="Vex" rating=100 isPrimary=true/>

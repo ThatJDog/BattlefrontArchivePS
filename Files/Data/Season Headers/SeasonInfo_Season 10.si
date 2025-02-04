@@ -3,6 +3,7 @@
 [ShortenedName] "SX"
 [SeasonIndex] "13"
 [TournamentMode] "tournament"
+[Ranked] "true"
 
 #British Empire
 [PrimaryColour] "213981"

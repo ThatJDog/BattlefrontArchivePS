@@ -8,7 +8,7 @@
 [RatingLowerBound] "0"
 [RatingUpperBound] "100"
 [TeamCap] "38"
-[Ranked] "true"
+[Ranked] "false"
 [CardRatingLowerBound] "30"
 [CardRatingUpperBound] "99"
 [EliteCardThreshold] = "90"

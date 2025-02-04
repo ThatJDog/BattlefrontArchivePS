@@ -1,31 +1,39 @@
+function remap(value, inMin, inMax, outMin, outMax) {
+    return ((value - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
+}
 
 // Process a single series file
-async function processSeasonFile(seriesData, db) {
-    if (seriesData.name.toLowerCase() !== 'season') return;
+async function processSeasonFile(seasonData, db) {
+    if (seasonData.name.toLowerCase() !== 'season') return;
 
-    if (!seriesData.getAttribute('seasonid')){
-        console.log("Season doesn't have an ID: " + seriesData);
+    if (!seasonData.getAttribute('seasonid')){
+        console.log("Season doesn't have an ID: " + seasonData);
         return;
     }
 
-    const seasonID = seriesData.getAttribute('seasonid');
+    const seasonID = seasonData.getAttribute('seasonid');
+
+    const minRank = 0;
+    const maxRank = 1000;
+    const minRankBound = seasonData.getOrDefaultAttribute('ratinglowerbound', 0);
+    const maxRankBound = seasonData.getOrDefaultAttribute('ratingupperbound', 1000);
 
     // Insert series into the Series table
     db.insert('Season', {
         ID: seasonID,
-        OrganisationName: seriesData.getOrDefaultAttribute('org', null),
-        Name: seriesData.getOrDefaultAttribute('name', ''),
-        ShortName: seriesData.getOrDefaultAttribute('shortname', seriesData.name),
-        Group: seriesData.getOrDefaultAttribute('group', null),
-        Index: seriesData.getOrDefaultAttribute('seasonindex', -1),
-        Ranked: seriesData.getOrDefaultAttribute('ranked', false),
-        Colour: seriesData.getOrDefaultAttribute('seasoncolour', null), // TODO: ADD DEFAULT COLOUR
-        TournamentMode: seriesData.getOrDefaultAttribute('tournamentmode', 'tournament'),
+        OrganisationName: seasonData.getOrDefaultAttribute('org', null),
+        Name: seasonData.getOrDefaultAttribute('name', ''),
+        ShortName: seasonData.getOrDefaultAttribute('shortname', seasonData.name),
+        Group: seasonData.getOrDefaultAttribute('group', null),
+        Index: seasonData.getOrDefaultAttribute('seasonindex', -1),
+        Ranked: seasonData.getOrDefaultAttribute('ranked', false),
+        Colour: seasonData.getOrDefaultAttribute('seasoncolour', null), // TODO: ADD DEFAULT COLOUR
+        TournamentMode: seasonData.getOrDefaultAttribute('tournamentmode', 'tournament'),
         TeamCap: 0,
     });
 
     // Process matches
-    seriesData.children.forEach((teamNode, matchIndex) => {
+    seasonData.children.forEach((teamNode, matchIndex) => {
         if (teamNode.name.toLowerCase() !== 'team') return;
 
         // Insert match into the Match table
@@ -48,7 +56,7 @@ async function processSeasonFile(seriesData, db) {
                 SeasonID: seasonID,
                 TeamName: teamName,
                 PlayerName: playerNode.getOrDefaultAttribute('name', ''),
-                Rating: playerNode.getOrDefaultAttribute('rating', null),
+                Rating: remap(playerNode.getOrDefaultAttribute('rating', 0), minRankBound, maxRankBound, minRank, maxRank),
                 IsCaptain: playerNode.getOrDefaultAttribute('iscaptain', false),
                 IsPrimary: playerNode.getOrDefaultAttribute('isprimary', false),
             });
