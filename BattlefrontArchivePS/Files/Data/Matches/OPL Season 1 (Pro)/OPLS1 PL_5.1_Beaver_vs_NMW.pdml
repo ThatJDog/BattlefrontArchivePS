@@ -1,0 +1,72 @@
+<series season="opl-s1-pro" teams=["Beaver" "NMW"] round=5 index=1>
+	<match map="Jawa Refuge" timeLeft="-03:-10" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vex" score=11050 kills=44 deaths=30 time="-03:-10"/>
+			<playerScore name="Swaggy" score=10835 kills=39 deaths=29 time="-03:-10"/>
+			<playerScore name="Goudapest" score=9975 kills=30 deaths=37 time="-03:-10"/>
+			<playerScore name="Padis" score=8975 kills=37 deaths=40 time="-03:-10"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Foggle" score=10105 kills=34 deaths=39 time="-03:-10"/>
+			<playerScore name="Prometheus" score=8750 kills=37 deaths=38 time="-03:-10"/>
+			<playerScore name="Bazo" score=8425 kills=45 deaths=37 time="-03:-10"/>
+			<playerScore name="Diego" score=7550 kills=20 deaths=38 time="-03:-10"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Depot" timeLeft="01:09" gameMode="Cargo">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Vex" score=5225 kills=26 deaths=15 time="01:09"/>
+			<playerScore name="Padis" score=4550 kills=21 deaths=35 time="01:09"/>
+			<playerScore name="Swaggy" score=3830 kills=19 deaths=19 time="01:09"/>
+			<playerScore name="Goudapest" score=2875 kills=13 deaths=29 time="01:09"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=10>
+			<playerScore name="Prometheus" score=5675 kills=30 deaths=22 time="01:09"/>
+			<playerScore name="Karnage" score=5060 kills=24 deaths=17 time="01:09"/>
+			<playerScore name="Bazo" score=4800 kills=25 deaths=18 time="01:09"/>
+			<playerScore name="Foggle" score=4775 kills=17 deaths=22 time="01:09"/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="04:40" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Goudapest" score=6900 kills=23 deaths=25 time="4:40"/>
+			<playerScore name="Vex" score=6450 kills=30 deaths=21 time="4:40"/>
+			<playerScore name="Swaggy" score=4620 kills=18 deaths=26 time="4:40"/>
+			<playerScore name="Padis" score=4375 kills=22 deaths=28 time="4:40"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Foggle" score=8595 kills=28 deaths=20 time="4:40"/>
+			<playerScore name="Karnage" score=8475 kills=26 deaths=26 time="4:40"/>
+			<playerScore name="Prometheus" score=6200 kills=29 deaths=19 time="4:40"/>
+			<playerScore name="Bazo" score=5400 kills=16 deaths=28 time="4:40"/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Padis" score=4400 kills=23 deaths=26 time="00:00"/>
+			<playerScore name="Swaggy" score=4355 kills=25 deaths=19 time="00:00"/>
+			<playerScore name="Vex" score=4150 kills=22 deaths=17 time="00:00"/>
+			<playerScore name="Goudapest" score=2975 kills=15 deaths=24 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=6>
+			<playerScore name="Prometheus" score=4900 kills=30 deaths=23 time="00:00"/>
+			<playerScore name="Foggle" score=4500 kills=20 deaths=29 time="00:00"/>
+			<playerScore name="Bazo" score=3900 kills=25 deaths=24 time="00:00"/>
+			<playerScore name="Karnage" score=2220 kills=11 deaths=9 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Sulfur Fields" timeLeft="03:34" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Vex" score=5075 kills=22 deaths=20 time="03:34"/>
+			<playerScore name="Padis" score=4950 kills=24 deaths=22 time="03:34"/>
+			<playerScore name="Goudapest" score=4200 kills=6 deaths=21 time="03:34"/>
+			<playerScore name="Swaggy" score=3695 kills=21 deaths=19 time="03:34"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Bazo" score=6400 kills=23 deaths=22 time="03:34"/>
+			<playerScore name="Karnage" score=6375 kills=18 deaths=21 time="03:34"/>
+			<playerScore name="Prometheus" score=5400 kills=22 deaths=14 time="03:34"/>
+			<playerScore name="Foggle" score=5280 kills=18 deaths=16 time="03:34"/>
+		</teamScore>
+	</match>
+</series>

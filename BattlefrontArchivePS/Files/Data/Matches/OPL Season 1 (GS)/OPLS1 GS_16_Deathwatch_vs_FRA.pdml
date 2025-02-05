@@ -1,0 +1,30 @@
+<series season="opl-s1-gs" teams=["Deathwatch" "FRA"] round=0 index=16>
+	<match map="Dune Sea" timeLeft="05:37" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Hashemy" score=8790 kills=30 deaths=14 time="05:37"/>
+			<playerScore name="Spree" score=8775 kills=44 deaths=8 time="05:37"/>
+			<playerScore name="Vanarin" score=6800 kills=26 deaths=12 time="05:37"/>
+			<playerScore name="SlewedPanic" score=5300 kills=14 deaths=12 time="05:37"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Mileena" score=3975 kills=15 deaths=30 time="05:37"/>
+			<playerScore name="Ange Des Neiiges" score=3565 kills=10 deaths=25 time="05:37"/>
+			<playerScore name="vRevXngE" score=2950 kills=15 deaths=31 time="05:37"/>
+			<playerScore name="Malizia" score=1825 kills=6 deaths=30 time="05:37"/>
+		</teamScore>
+	</match>
+	<match map="Imperial Hangar" timeLeft="08:54" gameMode="Cargo">
+		<teamScore faction="Rebel" score=10>
+			<playerScore name="Spree" score=4200 kills=29 deaths=10 time="08:54"/>
+			<playerScore name="SlewedPanic" score=3525 kills=8 deaths=6 time="08:54"/>
+			<playerScore name="Vanarin" score=3225 kills=14 deaths=7 time="08:54"/>
+			<playerScore name="Hashemy" score=3030 kills=12 deaths=4 time="08:54"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="vRevXngE" score=2125 kills=10 deaths=16 time="08:54"/>
+			<playerScore name="Mileena" score=1700 kills=9 deaths=16 time="08:54"/>
+			<playerScore name="Ange Des Neiiges" score=1575 kills=8 deaths=13 time="08:54"/>
+			<playerScore name="Malizia" score=600 kills=0 deaths=19 time="08:54"/>
+		</teamScore>
+	</match>
+</series>

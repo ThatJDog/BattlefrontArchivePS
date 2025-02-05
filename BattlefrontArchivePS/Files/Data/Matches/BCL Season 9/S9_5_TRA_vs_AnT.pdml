@@ -1,0 +1,16 @@
+<series season="bcl-s9" teams=["TRA" "AnT"] round=0 index=5>
+	<match map="Jawa Refuge" timeLeft="02:24" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Rage" score=6475 kills=20 deaths=23 time="02:24"/>
+			<playerScore name="Fitality" score=6100 kills=19 deaths=23 time="02:24"/>
+			<playerScore name="Lobstah" score=5900 kills=12 deaths=25 time="02:24"/>
+			<playerScore name="Coloses" score=5005 kills=22 deaths=17 time="02:24"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Slayz" score=6745 kills=26 deaths=22 time="02:24"/>
+			<playerScore name="Prometheus" score=6225 kills=21 deaths=22 time="02:24"/>
+			<playerScore name="Vanarin" score=5175 kills=27 deaths=15 time="02:24"/>
+			<playerScore name="Mendo" score=4080 kills=14 deaths=15 time="02:24"/>
+		</teamScore>
+	</match>
+</series>

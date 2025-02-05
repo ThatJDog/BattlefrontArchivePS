@@ -1,0 +1,30 @@
+<series season="bcl-s7" teams=["My Typa Team" "Aliens"] round=1 index=3>
+	<match map="Goazon Badlands" timeLeft="03:27" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Diego" score=5975 kills=14 deaths=27/>
+			<playerScore name="Kurko" score=4350 kills=21 deaths=24/>
+			<playerScore name="Slope" score=4015 kills=18 deaths=22/>
+			<playerScore name="Invicta" score=2625 kills=12 deaths=25/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cricken" score=7975 kills=21 deaths=16/>
+			<playerScore name="Unakkorn" score=7350 kills=22 deaths=16/>
+			<playerScore name="Hashemy" score=7125 kills=32 deaths=17/>
+			<playerScore name="Novacane" score=4645 kills=12 deaths=16/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="00:45" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Diego" score=7275 kills=25 deaths=32/>
+			<playerScore name="Kurko" score=6025 kills=25 deaths=31/>
+			<playerScore name="Slope" score=4925 kills=16 deaths=26/>
+			<playerScore name="Invicta" score=4210 kills=17 deaths=31/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Unakkorn" score=10175 kills=43 deaths=26/>
+			<playerScore name="Hashemy" score=9100 kills=41 deaths=21/>
+			<playerScore name="Cricken" score=7625 kills=18 deaths=23/>
+			<playerScore name="Novacane" score=4370 kills=16 deaths=18/>
+		</teamScore>
+	</match>
+</series>

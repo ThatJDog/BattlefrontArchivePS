@@ -1,0 +1,44 @@
+<series season="opl-s1-ama" teams=["Tell That To Kanjiklub" "Suuslax"] round=1 index=3>
+	<match map="Dune Sea" timeLeft="08:29" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=5800 kills=14 deaths=9 time="08:29"/>
+			<playerScore name="Dajdog" score=3355 kills=14 deaths=6 time="08:29"/>
+			<playerScore name="Alimpan" score=3075 kills=13 deaths=7 time="08:29"/>
+			<playerScore name="DarkObitoS" score=2900 kills=13 deaths=8 time="08:29"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Deutscher" score=2625 kills=12 deaths=15 time="08:29"/>
+			<playerScore name="Joro" score=2250 kills=5 deaths=10 time="08:29"/>
+			<playerScore name="Austrian Eagle" score=2020 kills=5 deaths=14 time="08:29"/>
+			<playerScore name="Wolf" score=1275 kills=7 deaths=14 time="08:46"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=10>
+			<playerScore name="Tryhard" score=4910 kills=24 deaths=15 time="00:00"/>
+			<playerScore name="DarkObitoS" score=5625 kills=26 deaths=30 time="00:00"/>
+			<playerScore name="Alimpan" score=5800 kills=32 deaths=9 time="00:00"/>
+			<playerScore name="Vic" score=5650 kills=25 deaths=24 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Wolf" score=4575 kills=25 deaths=30 time="00:00"/>
+			<playerScore name="Joro" score=4290 kills=16 deaths=27 time="00:00"/>
+			<playerScore name="Austrian Eagle" score=4225 kills=22 deaths=23 time="00:00"/>
+			<playerScore name="Deutscher" score=3525 kills=14 deaths=27 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Sulfur Fields" timeLeft="07:37" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=7175 kills=19 deaths=11 time="07:37"/>
+			<playerScore name="Dajdog" score=4535 kills=16 deaths=9 time="07:37"/>
+			<playerScore name="Alimpan" score=4000 kills=15 deaths=7 time="07:37"/>
+			<playerScore name="DarkObitoS" score=3275 kills=12 deaths=8 time="07:37"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Wolf" score=2650 kills=14 deaths=17 time="07:37"/>
+			<playerScore name="Austrian Eagle" score=1645 kills=10 deaths=13 time="07:37"/>
+			<playerScore name="Deutscher" score=1625 kills=5 deaths=18 time="07:37"/>
+			<playerScore name="Joro" score=1625 kills=6 deaths=15 time="07:37"/>
+		</teamScore>
+	</match>
+</series>

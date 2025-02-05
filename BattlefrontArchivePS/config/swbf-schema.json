@@ -1,0 +1,76 @@
+{
+    "Organisation": ["Name"],
+    "Season": [
+        "ID",
+        "OrganisationName",
+        "Name",
+        "ShortName",
+        "Group",
+        "Index",
+        "Ranked",
+        "Colour",
+        "TournamentMode",
+        "TeamCap"
+    ],
+    "Team": ["SeasonID", "Name", "ShortName", "PrimColour", "SecColour"],
+    "PlayedFor": [
+        "SeasonID",
+        "TeamName",
+        "PlayerName",
+        "Rating",
+        "IsCaptain",
+        "IsPrimary"
+    ],
+    "Player": ["Name", "Nationality", "AlterEgos"],
+    "Series": ["SeriesID", "SeasonID", "Index", "Round", "Teams"],
+    "Match": [
+        "MatchID",
+        "SeriesID",
+        "MatchIndex",
+        "GameMode",
+        "Map",
+        "Server",
+        "Duration"
+    ],
+    "PlayerScore": [
+        "MatchID",
+        "PlayerName",
+        "TeamName",
+        "Score",
+        "Kills",
+        "Deaths",
+        "Duration"
+    ],
+    "TeamScore": [
+        "MatchID",
+        "TeamName",
+        "IsHome",
+        "Faction",
+        "Score",
+        "Won"
+    ],
+    "Award": [
+        "SeasonID",
+        "SeriesIndex",
+        "PlayerName",
+        "AwardType",
+        "CardStats",
+        "RebImage",
+        "ImpImage"
+    ],
+    "CardStats": [
+        "CardStatsID",
+        "CardRating",
+        "Offence",
+        "Defence",
+        "KDR",
+        "Objective",
+        "Positioning",
+        "Intelligence"
+    ],
+    "Ranked": [
+        "PlayerName",
+        "MatchID",
+        "Elo"
+    ]
+}

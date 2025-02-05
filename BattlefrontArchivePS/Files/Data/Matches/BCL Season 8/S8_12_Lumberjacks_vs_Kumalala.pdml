@@ -1,0 +1,44 @@
+<series season="bcl-s8" teams=["Lumberjacks" "Kumalala"] round=0 index=12>
+	<match map="Dune Sea" timeLeft="03:23" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Bdozen" score=5550 kills=23 deaths=27 time="03:23"/>
+			<playerScore name="Rage" score=5175 kills=24 deaths=30 time="03:23"/>
+			<playerScore name="Rayanswag" score=4810 kills=11 deaths=27 time="03:23"/>
+			<playerScore name="Goudapest" score=4675 kills=26 deaths=21 time="03:23"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Baseball" score=7370 kills=25 deaths=26 time="03:23"/>
+			<playerScore name="Diego" score=6925 kills=26 deaths=19 time="03:23"/>
+			<playerScore name="Karnage" score=6875 kills=29 deaths=19 time="03:23"/>
+			<playerScore name="Mendo" score=6725 kills=25 deaths=22 time="03:23"/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="07:29" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Rage" score=3400 kills=16 deaths=14 time="07:29"/>
+			<playerScore name="Goudapest" score=2750 kills=14 deaths=14 time="07:29"/>
+			<playerScore name="Bdozen" score=2475 kills=8 deaths=16 time="07:29"/>
+			<playerScore name="Rayanswag" score=2150 kills=5 deaths=15 time="07:29"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Diego" score=5200 kills=16 deaths=9 time="07:29"/>
+			<playerScore name="Karnage" score=4475 kills=16 deaths=13 time="07:29"/>
+			<playerScore name="Mendo" score=3650 kills=11 deaths=11 time="07:29"/>
+			<playerScore name="Baseball" score=3415 kills=15 deaths=11 time="07:29"/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="03:30" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Bdozen" score=5425 kills=24 deaths=21 time="03:30"/>
+			<playerScore name="Rage" score=5250 kills=19 deaths=18 time="03:30"/>
+			<playerScore name="Goudapest" score=4575 kills=14 deaths=19 time="03:30"/>
+			<playerScore name="Rayanswag" score=2910 kills=8 deaths=22 time="03:30"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Diego" score=5375 kills=17 deaths=17 time="03:30"/>
+			<playerScore name="Baseball" score=5225 kills=18 deaths=16 time="03:30"/>
+			<playerScore name="Mendo" score=4450 kills=22 deaths=17 time="03:30"/>
+			<playerScore name="Karnage" score=4175 kills=23 deaths=15 time="03:30"/>
+		</teamScore>
+	</match>
+</series>

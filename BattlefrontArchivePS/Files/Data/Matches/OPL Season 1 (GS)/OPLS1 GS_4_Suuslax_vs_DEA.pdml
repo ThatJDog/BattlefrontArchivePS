@@ -1,0 +1,28 @@
+<series season="opl-s1-gs" teams=["Suuslax" "DEA"] round=0 index=4>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Joro" score=4040 kills=21 deaths=13 time="00:00"/>
+			<playerScore name="Deutscher" score=3375 kills=12 deaths=20 time="00:00"/>
+			<playerScore name="Wolf" score=3325 kills=18 deaths=25 time="00:00"/>
+			<playerScore name="Austrian Eagle" score=2425 kills=10 deaths=25 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=8>
+			<playerScore name="Nevrixia" score=6075 kills=24 deaths=22 time="00:00"/>
+			<playerScore name="Kurko" score=5350 kills=33 deaths=24 time="00:00"/>
+			<playerScore name="Papl" score=4730 kills=25 deaths=15 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="-01:-00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Joro" score=6345 kills=19 deaths=22 time="-01:-00"/>
+			<playerScore name="Deutscher" score=8775 kills=29 deaths=36 time="-01:-00"/>
+			<playerScore name="Wolf" score=7150 kills=26 deaths=23 time="-01:-00"/>
+			<playerScore name="Austrian Eagle" score=6250 kills=8 deaths=43 time="-01:-00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Nevrixia" score=10360 kills=32 deaths=26 time="-01:-00"/>
+			<playerScore name="Kurko" score=11000 kills=51 deaths=27 time="-01:-00"/>
+			<playerScore name="Papl" score=15350 kills=32 deaths=26 time="-01:-00"/>
+		</teamScore>
+	</match>
+</series>

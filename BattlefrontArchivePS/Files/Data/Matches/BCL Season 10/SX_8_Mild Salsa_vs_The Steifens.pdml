@@ -1,0 +1,20 @@
+<series season="bcl-s10" teams=["Mild Salsa" "The Steifens"] round=0 index=8>
+	<match map="Null" timeLeft="15:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+	<match map="Null" timeLeft="15:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+	<match map="Null" timeLeft="15:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+</series>

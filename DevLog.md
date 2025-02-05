@@ -73,3 +73,17 @@
 - Highlight effects
 - Coded Navbar.js
 - Themes.js
+
+## 05/0-2/25
+### Elo Leaderboard
+- Added query to display player elo info (+ wins and matches etc)
+- Each row is a link to the selected player's profile
+
+### Series lookup
+- Added a series lookup to find any series ever played
+- Links to the `series.html` page
+
+### Series.html
+- Page displaying links to all the matches
+- Displays summary scores of the series
+- Matches are links to the match scoreboard

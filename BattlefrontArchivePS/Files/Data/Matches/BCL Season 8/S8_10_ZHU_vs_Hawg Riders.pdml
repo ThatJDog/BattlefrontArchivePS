@@ -1,0 +1,44 @@
+<series season="bcl-s8" teams=["ZHU" "Hawg Riders"] round=0 index=10>
+	<match map="Dune Sea" timeLeft="00:26" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Healthy" score=10000 kills=32 deaths=21 time="00:26"/>
+			<playerScore name="Palmy" score=9650 kills=43 deaths=26 time="00:26"/>
+			<playerScore name="Coloses" score=6625 kills=25 deaths=30 time="00:26"/>
+			<playerScore name="Sween" score=6075 kills=27 deaths=23 time="00:26"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Hobo" score=7225 kills=23 deaths=32 time="00:26"/>
+			<playerScore name="Cassady" score=6950 kills=31 deaths=32 time="00:26"/>
+			<playerScore name="Keyys" score=6425 kills=28 deaths=35 time="00:26"/>
+			<playerScore name="Uliday" score=5530 kills=18 deaths=31 time="00:26"/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="05:38" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Palmy" score=5475 kills=22 deaths=14 time="05:38"/>
+			<playerScore name="Healthy" score=5100 kills=15 deaths=10 time="05:38"/>
+			<playerScore name="Sween" score=5050 kills=23 deaths=13 time="05:38"/>
+			<playerScore name="Coloses" score=4100 kills=19 deaths=14 time="05:38"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Cassady" score=3725 kills=22 deaths=19 time="05:38"/>
+			<playerScore name="Keyys" score=2675 kills=11 deaths=25 time="05:38"/>
+			<playerScore name="Uliday" score=2620 kills=11 deaths=15 time="05:38"/>
+			<playerScore name="Hobo" score=2550 kills=7 deaths=20 time="05:38"/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="02:10" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Palmy" score=6725 kills=28 deaths=18 time="02:10"/>
+			<playerScore name="Coloses" score=5825 kills=20 deaths=24 time="02:10"/>
+			<playerScore name="Healthy" score=5625 kills=21 deaths=12 time="02:10"/>
+			<playerScore name="Sween" score=4275 kills=18 deaths=21 time="02:10"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Hobo" score=5075 kills=18 deaths=21 time="02:10"/>
+			<playerScore name="Cassady" score=4650 kills=27 deaths=19 time="02:10"/>
+			<playerScore name="Uliday" score=4205 kills=16 deaths=20 time="02:10"/>
+			<playerScore name="Keyys" score=4175 kills=13 deaths=30 time="02:10"/>
+		</teamScore>
+	</match>
+</series>

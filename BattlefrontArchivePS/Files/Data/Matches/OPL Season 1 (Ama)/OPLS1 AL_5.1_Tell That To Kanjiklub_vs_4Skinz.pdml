@@ -1,0 +1,100 @@
+<series season="opl-s1-ama" teams=["Tell That To Kanjiklub" "4Skinz"] round=5 index=1>
+	<match map="Dune Sea" timeLeft="-03:-19" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Vic" score=15650 kills=36 deaths=39 time="-03:-19"/>
+			<playerScore name="Alimpan" score=11175 kills=50 deaths=31 time="-03:-19"/>
+			<playerScore name="Tryhard" score=10775 kills=33 deaths=39 time="-03:-19"/>
+			<playerScore name="Dajdog" score=7780 kills=29 deaths=39 time="-03:-19"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Coloses" score=12225 kills=27 deaths=41 time="-03:-19"/>
+			<playerScore name="Figuxe" score=10675 kills=41 deaths=39 time="-03:-19"/>
+			<playerScore name="Mendo" score=10080 kills=43 deaths=36 time="-03:-19"/>
+			<playerScore name="Sween" score=9525 kills=36 deaths=34 time="-03:-19"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Imperial" score=6>
+			<playerScore name="Vic" score=6050 kills=31 deaths=28 time="00:00"/>
+			<playerScore name="Alimpan" score=5925 kills=36 deaths=14 time="00:00"/>
+			<playerScore name="Tryhard" score=4390 kills=22 deaths=22 time="00:00"/>
+			<playerScore name="DarkObitoS" score=3700 kills=15 deaths=22 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Mendo" score=5360 kills=26 deaths=21 time="00:00"/>
+			<playerScore name="Sween" score=4150 kills=17 deaths=29 time="00:00"/>
+			<playerScore name="Figuxe" score=4075 kills=21 deaths=27 time="00:00"/>
+			<playerScore name="Coloses" score=3400 kills=22 deaths=27 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="-01:-25" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Vic" score=9850 kills=29 deaths=36 time="-01:-25"/>
+			<playerScore name="Tryhard" score=6330 kills=22 deaths=29 time="-01:-25"/>
+			<playerScore name="DarkObitoS" score=5675 kills=19 deaths=29 time="-01:-25"/>
+			<playerScore name="Alimpan" score=5450 kills=27 deaths=23 time="-01:-25"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Sween" score=10250 kills=42 deaths=23 time="-01:-25"/>
+			<playerScore name="Figuxe" score=9175 kills=31 deaths=22 time="-01:-25"/>
+			<playerScore name="Coloses" score=8350 kills=15 deaths=30 time="-01:-25"/>
+			<playerScore name="Mendo" score=7715 kills=25 deaths=22 time="-01:-25"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=7>
+			<playerScore name="Alimpan" score=4475 kills=25 deaths=23 time="00:00"/>
+			<playerScore name="Vic" score=4275 kills=16 deaths=23 time="00:00"/>
+			<playerScore name="DarkObitoS" score=3325 kills=16 deaths=18 time="00:00"/>
+			<playerScore name="Tryhard" score=2790 kills=15 deaths=13 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Figuxe" score=4750 kills=26 deaths=19 time="00:00"/>
+			<playerScore name="Mendo" score=4425 kills=21 deaths=23 time="00:00"/>
+			<playerScore name="Coloses" score=2700 kills=18 deaths=11 time="00:00"/>
+			<playerScore name="Sween" score=2585 kills=11 deaths=19 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="06:33" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vic" score=6125 kills=13 deaths=13 time="06:33"/>
+			<playerScore name="Alimpan" score=5650 kills=24 deaths=6 time="06:33"/>
+			<playerScore name="DarkObitoS" score=4575 kills=14 deaths=17 time="06:33"/>
+			<playerScore name="Tryhard" score=3650 kills=6 deaths=14 time="06:33"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Mendo" score=3115 kills=11 deaths=13 time="06:33"/>
+			<playerScore name="Sween" score=3050 kills=15 deaths=13 time="06:33"/>
+			<playerScore name="Figuxe" score=2600 kills=12 deaths=15 time="06:33"/>
+			<playerScore name="Coloses" score=2400 kills=9 deaths=12 time="06:33"/>
+		</teamScore>
+	</match>
+	<match map="Imperial Station" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="DarkObitoS" score=4425 kills=25 deaths=18 time="00:00"/>
+			<playerScore name="Vic" score=4125 kills=15 deaths=25 time="00:00"/>
+			<playerScore name="Alimpan" score=3900 kills=27 deaths=23 time="00:00"/>
+			<playerScore name="Tryhard" score=2990 kills=12 deaths=15 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Figuxe" score=4800 kills=26 deaths=24 time="00:00"/>
+			<playerScore name="Sween" score=4150 kills=18 deaths=26 time="00:00"/>
+			<playerScore name="Coloses" score=3300 kills=16 deaths=16 time="00:00"/>
+			<playerScore name="Mendo" score=3250 kills=19 deaths=14 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Imperial Station" timeLeft="07:24" gameMode="Cargo">
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Vic" score=2275 kills=12 deaths=9 time="07:24"/>
+			<playerScore name="Alimpan" score=2000 kills=11 deaths=17 time="07:24"/>
+			<playerScore name="DarkObitoS" score=1250 kills=8 deaths=9 time="07:24"/>
+			<playerScore name="Tryhard" score=540 kills=3 deaths=3 time="07:24"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Sween" score=1725 kills=8 deaths=12 time="07:24"/>
+			<playerScore name="Coloses" score=1675 kills=12 deaths=6 time="07:24"/>
+			<playerScore name="Figuxe" score=1625 kills=10 deaths=8 time="07:24"/>
+			<playerScore name="Mendo" score=1370 kills=8 deaths=8 time="07:24"/>
+		</teamScore>
+	</match>
+</series>

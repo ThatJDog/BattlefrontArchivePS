@@ -1,0 +1,86 @@
+<series season="bcl-s9" teams=["SWAT" "OGYB"] round=0 index=2>
+	<match map="Jawa Refuge" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Foggle" score=8525 kills=31 deaths=29 time="00:00"/>
+			<playerScore name="Bazo" score=7250 kills=36 deaths=30 time="00:00"/>
+			<playerScore name="Tryhard" score=5650 kills=13 deaths=31 time="00:00"/>
+			<playerScore name="Vic" score=5300 kills=13 deaths=24 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Swaggy" score=8385 kills=28 deaths=23 time="00:00"/>
+			<playerScore name="Vex" score=8075 kills=39 deaths=19 time="00:00"/>
+			<playerScore name="Falco" score=7225 kills=24 deaths=24 time="00:00"/>
+			<playerScore name="Hobo" score=6600 kills=23 deaths=28 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="04:21" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Bazo" score=4475 kills=21 deaths=17 time="04:21"/>
+			<playerScore name="Foggle" score=3650 kills=15 deaths=26 time="04:21"/>
+			<playerScore name="Vic" score=2945 kills=9 deaths=22 time="04:21"/>
+			<playerScore name="Tryhard" score=2740 kills=8 deaths=21 time="04:21"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vex" score=6850 kills=32 deaths=14 time="04:21"/>
+			<playerScore name="Falco" score=6625 kills=21 deaths=13 time="04:21"/>
+			<playerScore name="Swaggy" score=4730 kills=19 deaths=11 time="04:21"/>
+			<playerScore name="Hobo" score=4350 kills=14 deaths=16 time="04:21"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=8>
+			<playerScore name="Bazo" score=6725 kills=41 deaths=29 time="00:00"/>
+			<playerScore name="Foggle" score=6075 kills=41 deaths=29 time="00:00"/>
+			<playerScore name="Vic" score=4650 kills=16 deaths=24 time="00:00"/>
+			<playerScore name="Tryhard" score=2590 kills=14 deaths=11 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Vex" score=5825 kills=34 deaths=30 time="00:00"/>
+			<playerScore name="Falco" score=4975 kills=21 deaths=24 time="00:00"/>
+			<playerScore name="Hobo" score=3315 kills=16 deaths=34 time="00:00"/>
+			<playerScore name="Swaggy" score=2470 kills=13 deaths=17 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Vic" score=12645 kills=40 deaths=48 time="00:00"/>
+			<playerScore name="Tryhard" score=10665 kills=27 deaths=43 time="00:00"/>
+			<playerScore name="Foggle" score=10525 kills=54 deaths=44 time="00:00"/>
+			<playerScore name="Bazo" score=10450 kills=52 deaths=49 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Vex" score=12200 kills=57 deaths=38 time="00:00"/>
+			<playerScore name="Falco" score=12150 kills=47 deaths=42 time="00:00"/>
+			<playerScore name="Hobo" score=11595 kills=35 deaths=51 time="00:00"/>
+			<playerScore name="Swaggy" score=10120 kills=42 deaths=45 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Imperial Station" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Bazo" score=4925 kills=25 deaths=29 time="00:00"/>
+			<playerScore name="Foggle" score=3250 kills=18 deaths=19 time="00:00"/>
+			<playerScore name="Tryhard" score=3195 kills=18 deaths=21 time="00:00"/>
+			<playerScore name="Vic" score=2375 kills=10 deaths=25 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=6>
+			<playerScore name="Vex" score=6225 kills=36 deaths=21 time="00:00"/>
+			<playerScore name="Swaggy" score=5100 kills=22 deaths=25 time="00:00"/>
+			<playerScore name="Falco" score=4570 kills=22 deaths=18 time="00:00"/>
+			<playerScore name="Hobo" score=2825 kills=12 deaths=12 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Base" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=8>
+			<playerScore name="Bazo" score=7175 kills=40 deaths=21 time="00:00"/>
+			<playerScore name="Foggle" score=6120 kills=28 deaths=28 time="00:00"/>
+			<playerScore name="Tryhard" score=5030 kills=29 deaths=25 time="00:00"/>
+			<playerScore name="Vic" score=4725 kills=23 deaths=22 time="00:26"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Falco" score=5505 kills=28 deaths=25 time="00:00"/>
+			<playerScore name="Vex" score=5000 kills=25 deaths=38 time="00:00"/>
+			<playerScore name="Hobo" score=3805 kills=15 deaths=29 time="00:00"/>
+			<playerScore name="Swaggy" score=4200 kills=24 deaths=28 time="01:26"/>
+		</teamScore>
+	</match>
+</series>

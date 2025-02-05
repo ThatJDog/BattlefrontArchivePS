@@ -1,0 +1,50 @@
+<series season="bs-s1-pro" teams=["Mohicans" "2016 Leicester"] round=5 index=1>
+	<match map="Goazon Badlands" timeLeft="15:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Unakkorn" score=10450 kills=45 deaths=24/>
+			<playerScore name="Goudapest" score=6725 kills=25 deaths=24/>
+			<playerScore name="Rage" score=6575 kills=14 deaths=31/>
+			<playerScore name="CaZuaL" score=5005 kills=21 deaths=14/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Prometheus" score=7950 kills=33 deaths=30/>
+			<playerScore name="Vanarin" score=7095 kills=29 deaths=27/>
+			<playerScore name="Papl" score=6675 kills=10 deaths=25/>
+			<playerScore name="Mendo" score=6100 kills=20 deaths=25/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="01:52" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Rage" score=8225 kills=27 deaths=30/>
+			<playerScore name="Unakkorn" score=8200 kills=29 deaths=39/>
+			<playerScore name="Goudapest" score=7500 kills=31 deaths=28/>
+			<playerScore name="CaZuaL" score=5750 kills=22 deaths=22/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Prometheus" score=8050 kills=31 deaths=28/>
+			<playerScore name="Papl" score=7850 kills=27 deaths=25/>
+			<playerScore name="Vanarin" score=7640 kills=36 deaths=28/>
+			<playerScore name="Mendo" score=5650 kills=24 deaths=30/>
+		</teamScore>
+	</match>
+	<match map="Sulfur Fields" timeLeft="01:28" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Unakkorn" score=6625 kills=24 deaths=30/>
+			<playerScore name="Goudapest" score=6250 kills=24 deaths=21/>
+			<playerScore name="Rage" score=6000 kills=25 deaths=22/>
+			<playerScore name="CaZuaL" score=4295 kills=13 deaths=12/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Mendo" score=5850 kills=24 deaths=16/>
+			<playerScore name="Prometheus" score=5675 kills=22 deaths=22/>
+			<playerScore name="Tio" score=5375 kills=16 deaths=28/>
+			<playerScore name="Vanarin" score=4365 kills=23 deaths=20/>
+		</teamScore>
+	</match>
+</series>

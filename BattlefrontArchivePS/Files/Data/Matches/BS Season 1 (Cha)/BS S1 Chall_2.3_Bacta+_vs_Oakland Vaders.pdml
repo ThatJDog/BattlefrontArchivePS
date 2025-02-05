@@ -1,0 +1,44 @@
+<series season="bs-s1-cha" teams=["Bacta+" "Oakland Vaders"] round=2 index=3>
+	<match map="Goazon Badlands" timeLeft="05:56" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="DarkSmile" score=3375 kills=15 deaths=17 time="05:56"/>
+			<playerScore name="Ugarte" score=3200 kills=16 deaths=9 time="05:56"/>
+			<playerScore name="Redloz" score=2975 kills=8 deaths=19 time="05:56"/>
+			<playerScore name="Betfroont" score=2600 kills=9 deaths=15 time="05:56"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="FireBringer" score=5200 kills=21 deaths=14 time="05:56"/>
+			<playerScore name="BFL-Ice" score=4400 kills=16 deaths=10 time="05:56"/>
+			<playerScore name="Eky" score=3500 kills=9 deaths=15 time="05:56"/>
+			<playerScore name="Kygin" score=2900 kills=10 deaths=11 time="05:56"/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="04:22" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Redloz" score=4995 kills=9 deaths=30 time="04:22"/>
+			<playerScore name="DarkSmile" score=4650 kills=16 deaths=20 time="04:22"/>
+			<playerScore name="Ugarte" score=3450 kills=13 deaths=23 time="04:22"/>
+			<playerScore name="Betfroont" score=3150 kills=10 deaths=26 time="04:22"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="FireBringer" score=8175 kills=41 deaths=12 time="04:22"/>
+			<playerScore name="Eky" score=7625 kills=20 deaths=12 time="04:22"/>
+			<playerScore name="BFL-Ice" score=6600 kills=23 deaths=14 time="04:22"/>
+			<playerScore name="Kygin" score=5330 kills=12 deaths=14 time="04:22"/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="07:04" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Redloz" score=2525 kills=7 deaths=20 time="07:04"/>
+			<playerScore name="Ugarte" score=2500 kills=9 deaths=17 time="07:04"/>
+			<playerScore name="DarkSmile" score=2325 kills=11 deaths=11 time="07:04"/>
+			<playerScore name="Betfroont" score=2175 kills=10 deaths=18 time="07:04"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="FireBringer" score=7475 kills=24 deaths=10 time="07:04"/>
+			<playerScore name="Eky" score=5075 kills=21 deaths=9 time="07:04"/>
+			<playerScore name="BFL-Ice" score=3275 kills=14 deaths=6 time="07:04"/>
+			<playerScore name="Kygin" score=3220 kills=6 deaths=12 time="07:04"/>
+		</teamScore>
+	</match>
+</series>

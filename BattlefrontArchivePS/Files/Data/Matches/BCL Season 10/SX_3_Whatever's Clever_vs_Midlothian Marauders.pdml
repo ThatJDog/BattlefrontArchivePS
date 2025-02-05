@@ -1,0 +1,44 @@
+<series season="bcl-s10" teams=["Whatever's Clever" "Midlothian Marauders"] round=0 index=3>
+	<match map="Jawa Refuge" timeLeft="04:14" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Spree" score=5475 kills=24 deaths=29 time="04:14"/>
+			<playerScore name="Shadows" score=3950 kills=16 deaths=29 time="04:14"/>
+			<playerScore name="Coloses" score=3635 kills=10 deaths=18 time="04:14"/>
+			<playerScore name="Wookie" score=3020 kills=10 deaths=17 time="04:14"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Bdozen" score=7100 kills=23 deaths=16 time="04:14"/>
+			<playerScore name="Quipsy" score=6990 kills=20 deaths=16 time="04:14"/>
+			<playerScore name="TheSup" score=6375 kills=27 deaths=18 time="04:14"/>
+			<playerScore name="Rage" score=6150 kills=22 deaths=11 time="04:14"/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="07:52" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Shadows" score=3200 kills=13 deaths=24 time="07:52"/>
+			<playerScore name="Wookie" score=2995 kills=16 deaths=20 time="07:52"/>
+			<playerScore name="Coloses" score=2860 kills=13 deaths=16 time="07:52"/>
+			<playerScore name="Spree" score=2050 kills=11 deaths=19 time="07:52"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="TheSup" score=6500 kills=20 deaths=15 time="07:52"/>
+			<playerScore name="Bdozen" score=5250 kills=19 deaths=13 time="07:52"/>
+			<playerScore name="Rage" score=4950 kills=18 deaths=10 time="07:52"/>
+			<playerScore name="Quipsy" score=4180 kills=19 deaths=15 time="07:52"/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="04:03" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Spree" score=5850 kills=21 deaths=24 time="04:03"/>
+			<playerScore name="Shadows" score=5700 kills=26 deaths=24 time="04:03"/>
+			<playerScore name="Wookie" score=2655 kills=8 deaths=12 time="04:03"/>
+			<playerScore name="Coloses" score=2555 kills=11 deaths=18 time="04:03"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Quipsy" score=6480 kills=22 deaths=17 time="04:03"/>
+			<playerScore name="TheSup" score=6075 kills=22 deaths=19 time="04:03"/>
+			<playerScore name="Bdozen" score=5075 kills=15 deaths=17 time="04:03"/>
+			<playerScore name="Rage" score=5025 kills=18 deaths=14 time="04:03"/>
+		</teamScore>
+	</match>
+</series>

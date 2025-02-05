@@ -1,0 +1,44 @@
+<series season="bcl-s10" teams=["British Empire" "IRA"] round=0 index=1>
+	<match map="Jawa Refuge" timeLeft="03:19" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Foggle" score=7350 kills=35 deaths=23 time="03:19"/>
+			<playerScore name="Diego" score=7260 kills=21 deaths=16 time="03:19"/>
+			<playerScore name="Slayz" score=5975 kills=14 deaths=12 time="03:19"/>
+			<playerScore name="Prometheus" score=5900 kills=25 deaths=10 time="03:19"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Hildingsson" score=5675 kills=19 deaths=27 time="03:19"/>
+			<playerScore name="Vanarin" score=4675 kills=20 deaths=23 time="03:19"/>
+			<playerScore name="Skumszy" score=4260 kills=11 deaths=25 time="03:19"/>
+			<playerScore name="Kurko" score=2980 kills=11 deaths=23 time="03:19"/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="00:-43" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Diego" score=10745 kills=28 deaths=35 time="00:-43"/>
+			<playerScore name="Foggle" score=9850 kills=40 deaths=40 time="00:-43"/>
+			<playerScore name="Prometheus" score=9775 kills=42 deaths=25 time="00:-43"/>
+			<playerScore name="Slayz" score=9450 kills=37 deaths=37 time="00:-43"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Skumszy" score=10380 kills=45 deaths=39 time="00:-43"/>
+			<playerScore name="Hildingsson" score=9075 kills=29 deaths=36 time="00:-43"/>
+			<playerScore name="Cricken" score=7825 kills=23 deaths=36 time="00:-43"/>
+			<playerScore name="Vanarin" score=7425 kills=40 deaths=38 time="00:-43"/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="03:46" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Slayz" score=8675 kills=32 deaths=12 time="03:46"/>
+			<playerScore name="Foggle" score=8050 kills=23 deaths=17 time="03:46"/>
+			<playerScore name="Diego" score=5660 kills=21 deaths=17 time="03:46"/>
+			<playerScore name="Prometheus" score=5600 kills=23 deaths=9 time="03:46"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Cricken" score=4360 kills=18 deaths=23 time="03:46"/>
+			<playerScore name="Vanarin" score=4050 kills=14 deaths=27 time="03:46"/>
+			<playerScore name="Skumszy" score=3555 kills=11 deaths=27 time="03:46"/>
+			<playerScore name="Hildingsson" score=3450 kills=11 deaths=25 time="03:46"/>
+		</teamScore>
+	</match>
+</series>

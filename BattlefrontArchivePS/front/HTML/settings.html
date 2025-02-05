@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="../CSS/global-swbf.css">
+    <script type="module" src="../JS/navbar.js"></script>
+    <script type="module" src="../JS/themes.js"></script>
+    <script type="module">
+        document.addEventListener("DOMContentLoaded", () => {
+        // Stats frame listener
+        const statsFrame = document.getElementById("theme-settings");
+        if (statsFrame) {
+            statsFrame.addEventListener("click", () => {
+                window.location.href = "./theme-settings";
+            });
+        }
+        });
+    </script>
+</head>
+<body>
+    <div class="section">
+        <div class="frame button" id="theme-settings" style="width: 400px; height: 400px;">
+            <div class="frame-header">
+                <h2>Themes</h2>
+            </div>
+            <div class="frame-content">
+                
+            </div>
+        </div>
+    </div>
+</body>

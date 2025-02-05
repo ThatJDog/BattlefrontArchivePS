@@ -1,0 +1,44 @@
+<series season="bcl-s8" teams=["SawC" "ZHU"] round=0 index=11>
+	<match map="Dune Sea" timeLeft="01:21" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Shadows" score=9950 kills=40 deaths=30 time="01:21"/>
+			<playerScore name="Spree" score=9800 kills=40 deaths=34 time="01:21"/>
+			<playerScore name="Uliday" score=6700 kills=29 deaths=35 time="01:21"/>
+			<playerScore name="Sarrows" score=5150 kills=15 deaths=27 time="01:21"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Blue" score=5775 kills=31 deaths=21 time="04:07"/>
+			<playerScore name="Healthy" score=7725 kills=26 deaths=35 time="01:21"/>
+			<playerScore name="Sween" score=7625 kills=37 deaths=27 time="01:21"/>
+			<playerScore name="Coloses" score=4850 kills=30 deaths=35 time="01:21"/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="02:16" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Spree" score=8975 kills=36 deaths=26 time="02:16"/>
+			<playerScore name="Shadows" score=6375 kills=25 deaths=20 time="02:16"/>
+			<playerScore name="Sarrows" score=5850 kills=15 deaths=18 time="02:16"/>
+			<playerScore name="Uliday" score=4550 kills=14 deaths=21 time="02:16"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Blue" score=6575 kills=26 deaths=25 time="02:16"/>
+			<playerScore name="Sween" score=6300 kills=29 deaths=17 time="02:16"/>
+			<playerScore name="Coloses" score=4425 kills=14 deaths=29 time="02:16"/>
+			<playerScore name="Healthy" score=4065 kills=14 deaths=20 time="02:16"/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="04:26" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Spree" score=8350 kills=31 deaths=18 time="04:26"/>
+			<playerScore name="Uliday" score=5920 kills=22 deaths=16 time="04:26"/>
+			<playerScore name="Shadows" score=5775 kills=22 deaths=23 time="04:26"/>
+			<playerScore name="Sarrows" score=4750 kills=11 deaths=20 time="04:26"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Blue" score=4825 kills=20 deaths=22 time="04:26"/>
+			<playerScore name="Sween" score=4675 kills=24 deaths=18 time="04:26"/>
+			<playerScore name="Coloses" score=4250 kills=19 deaths=24 time="04:26"/>
+			<playerScore name="Healthy" score=3660 kills=13 deaths=23 time="04:26"/>
+		</teamScore>
+	</match>
+</series>

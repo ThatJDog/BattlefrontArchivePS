@@ -1,0 +1,44 @@
+<series season="bcl-s10" teams=["Super Dude" "Mild Salsa"] round=0 index=11>
+	<match map="Sulfur Fields" timeLeft="06:18" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vex" score=5175 kills=21 deaths=10 time="06:18"/>
+			<playerScore name="Swaggy" score=4760 kills=17 deaths=13 time="06:18"/>
+			<playerScore name="Mortal" score=4050 kills=9 deaths=8 time="06:18"/>
+			<playerScore name="Tio" score=3900 kills=18 deaths=13 time="06:18"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Cricken" score=3315 kills=11 deaths=14 time="06:18"/>
+			<playerScore name="Cassady" score=3125 kills=13 deaths=16 time="06:18"/>
+			<playerScore name="Fitality" score=2400 kills=11 deaths=21 time="06:18"/>
+			<playerScore name="Hobo" score=1850 kills=9 deaths=14 time="06:18"/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="04:19" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vex" score=6625 kills=27 deaths=17 time="04:19"/>
+			<playerScore name="Swaggy" score=5995 kills=24 deaths=17 time="04:19"/>
+			<playerScore name="Mortal" score=4625 kills=15 deaths=14 time="04:19"/>
+			<playerScore name="Tio" score=4625 kills=15 deaths=15 time="04:19"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Fitality" score=5350 kills=15 deaths=21 time="04:19"/>
+			<playerScore name="Cricken" score=4240 kills=17 deaths=18 time="04:19"/>
+			<playerScore name="Cassady" score=3900 kills=16 deaths=23 time="04:19"/>
+			<playerScore name="Hobo" score=2890 kills=15 deaths=20 time="04:19"/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="03:09" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vex" score=9025 kills=46 deaths=17 time="03:09"/>
+			<playerScore name="Tio" score=8525 kills=27 deaths=26 time="03:09"/>
+			<playerScore name="Swaggy" score=7975 kills=22 deaths=25 time="03:09"/>
+			<playerScore name="Mortal" score=6050 kills=26 deaths=22 time="03:09"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Cricken" score=6170 kills=21 deaths=31 time="03:09"/>
+			<playerScore name="Fitality" score=5350 kills=22 deaths=34 time="03:09"/>
+			<playerScore name="Hobo" score=5105 kills=20 deaths=29 time="03:09"/>
+			<playerScore name="Cassady" score=5100 kills=25 deaths=27 time="03:09"/>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,28 @@
+<series season="opl-s1-gs" teams=["Myrmidons-DW" "BYC."] round=0 index=9>
+	<match map="Jawa Refuge" timeLeft="09:08" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Baseball" score=4735 kills=19 deaths=4 time="09:08"/>
+			<playerScore name="Beerus" score=4575 kills=19 deaths=4 time="09:08"/>
+			<playerScore name="Cassady" score=4275 kills=14 deaths=5 time="09:08"/>
+			<playerScore name="Tio" score=3225 kills=7 deaths=4 time="09:08"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="XLand" score=2900 kills=8 deaths=16 time="09:08"/>
+			<playerScore name="M4TT3 BL4CK" score=975 kills=3 deaths=15 time="09:08"/>
+			<playerScore name="OneFlow" score=725 kills=4 deaths=14 time="09:08"/>
+			<playerScore name="RiP SpR" score=590 kills=2 deaths=15 time="09:08"/>
+		</teamScore>
+	</match>
+	<match map="Imperial Hangar" timeLeft="11:13" gameMode="Cargo">
+		<teamScore faction="Rebel" score=10>
+			<playerScore name="Tio" score=1975 kills=2 deaths=4 time="11:13"/>
+			<playerScore name="Beerus" score=1575 kills=8 deaths=5 time="11:13"/>
+			<playerScore name="Baseball" score=1350 kills=5 deaths=4 time="11:13"/>
+			<playerScore name="Cassady" score=600 kills=3 deaths=2 time="11:13"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="XLand" score=1450 kills=7 deaths=13 time="11:13"/>
+			<playerScore name="M4TT3 BL4CK" score=625 kills=4 deaths=7 time="11:13"/>
+		</teamScore>
+	</match>
+</series>

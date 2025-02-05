@@ -1,0 +1,50 @@
+<series season="opl-s1-ama" teams=["LFG" "BYC"] round=3 index=2>
+	<match map="Dune Sea" timeLeft="10:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Cricken" score=4500 kills=9 deaths=5 time="10:00"/>
+			<playerScore name="QuiteGoneG" score=3100 kills=10 deaths=5 time="10:00"/>
+			<playerScore name="ThraxOD" score=2850 kills=13 deaths=7 time="10:00"/>
+			<playerScore name="ZeroRedical" score=2475 kills=8 deaths=0 time="10:00"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="OneFlow" score=1945 kills=6 deaths=11 time="10:00"/>
+			<playerScore name="KingCaldera" score=675 kills=4 deaths=13 time="10:00"/>
+			<playerScore name="RiP SpR" score=600 kills=4 deaths=9 time="10:00"/>
+			<playerScore name="XLand" score=1400 kills=1 deaths=6 time="12:33"/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="13:22" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="ThraxOD" score=1775 kills=6 deaths=2 time="13:22"/>
+			<playerScore name="Cricken" score=1125 kills=4 deaths=4 time="13:22"/>
+			<playerScore name="ZeroRedical" score=995 kills=2 deaths=2 time="13:22"/>
+			<playerScore name="QuiteGoneG" score=575 kills=3 deaths=2 time="13:22"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="RiP SpR" score=1150 kills=5 deaths=5 time="12:33"/>
+			<playerScore name="XLand" score=900 kills=3 deaths=4 time="12:33"/>
+			<playerScore name="OneFlow" score=385 kills=1 deaths=3 time="12:33"/>
+			<playerScore name="KingCaldera" score=125 kills=1 deaths=3 time="12:33"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=10>
+			<playerScore name="ZeroRedical" score=7600 kills=37 deaths=23 time="00:00"/>
+			<playerScore name="Cricken" score=6400 kills=18 deaths=16 time="00:00"/>
+			<playerScore name="ThraxOD" score=5975 kills=27 deaths=20 time="00:00"/>
+			<playerScore name="QuiteGoneG" score=5250 kills=29 deaths=31 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="OneFlow" score=5785 kills=29 deaths=34 time="00:00"/>
+			<playerScore name="KingCaldera" score=5100 kills=27 deaths=24 time="00:00"/>
+			<playerScore name="XLand" score=5050 kills=17 deaths=31 time="00:00"/>
+			<playerScore name="RiP SpR" score=3275 kills=17 deaths=25 time="00:32"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Depot" timeLeft="15:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+</series>

@@ -1,0 +1,41 @@
+<series season="bcl-s9" teams=["TRA" "ZHU"] round=0 index=3>
+	<match map="Jawa Refuge" timeLeft="05:08" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Fitality" score=5150 kills=19 deaths=23 time="05:08"/>
+			<playerScore name="Quipsy" score=3835 kills=15 deaths=15 time="05:08"/>
+			<playerScore name="Rage" score=3725 kills=16 deaths=16 time="05:08"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Coloses" score=5115 kills=10 deaths=13 time="05:08"/>
+			<playerScore name="Blue" score=4425 kills=19 deaths=18 time="05:08"/>
+			<playerScore name="SymmPhonic" score=4150 kills=12 deaths=16 time="05:08"/>
+			<playerScore name="Voamz" score=2325 kills=11 deaths=6 time="05:08"/>
+		</teamScore>
+	</match>
+	<match map="Deathstar" timeLeft="00:00" gameMode="Cargo">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Fitality" score=5175 kills=34 deaths=15 time="00:00"/>
+			<playerScore name="Rage" score=3400 kills=23 deaths=26 time="00:00"/>
+			<playerScore name="Quipsy" score=2505 kills=13 deaths=28 time="00:00"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=9>
+			<playerScore name="Coloses" score=4265 kills=27 deaths=23 time="00:00"/>
+			<playerScore name="Blue" score=3400 kills=16 deaths=22 time="00:00"/>
+			<playerScore name="SymmPhonic" score=2400 kills=7 deaths=13 time="00:00"/>
+			<playerScore name="Overwhelmed" score=2200 kills=13 deaths=14 time="00:00"/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="04:53" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Fitality" score=5925 kills=28 deaths=21 time="04:53"/>
+			<playerScore name="Rage" score=3350 kills=12 deaths=17 time="04:53"/>
+			<playerScore name="Quipsy" score=3185 kills=12 deaths=19 time="04:53"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Blue" score=5400 kills=23 deaths=29 time="04:53"/>
+			<playerScore name="Coloses" score=4640 kills=15 deaths=14 time="04:53"/>
+			<playerScore name="Voamz" score=4300 kills=8 deaths=12 time="04:53"/>
+			<playerScore name="SymmPhonic" score=3700 kills=11 deaths=8 time="04:53"/>
+		</teamScore>
+	</match>
+</series>

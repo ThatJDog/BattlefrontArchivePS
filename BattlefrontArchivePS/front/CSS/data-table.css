@@ -1,0 +1,46 @@
+/* data Table Styles */
+.data-table table{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    table-layout:auto; /* Columns adjust to content */
+    font-size: 14px; /* Smaller font for compact display */
+}
+
+.data-table th {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap; /* Prevent headers from forcing column width */
+    font-size: 14px;
+}
+
+.data-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    white-space: normal; /* Allows content wrapping */
+    font-size: 14px;
+}
+
+.data-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+
+.data-table tbody tr {
+    text-transform: none;
+}
+/* Alternating row colors */
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tr:nth-child(odd) {
+    background-color: #eeeeee;
+}

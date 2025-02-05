@@ -1,0 +1,30 @@
+<series season="opl-s1-gs" teams=["DW Beaver" "LFG"] round=0 index=3>
+	<match map="Goazon Badlands" timeLeft="01:57" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vex" score=7600 kills=33 deaths=14 time="01:57"/>
+			<playerScore name="Poochamos" score=6775 kills=14 deaths=14 time="01:57"/>
+			<playerScore name="Padis" score=6125 kills=25 deaths=16 time="01:57"/>
+			<playerScore name="Swaggy" score=4165 kills=14 deaths=16 time="01:57"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Cricken" score=7250 kills=17 deaths=20 time="01:57"/>
+			<playerScore name="ThraxOD" score=4030 kills=15 deaths=18 time="01:57"/>
+			<playerScore name="ZeroRedical" score=3600 kills=14 deaths=22 time="01:57"/>
+			<playerScore name="IcyQueen" score=3425 kills=14 deaths=29 time="01:57"/>
+		</teamScore>
+	</match>
+	<match map="Rebel Depot" timeLeft="00:05" gameMode="Cargo">
+		<teamScore faction="Rebel" score=10>
+			<playerScore name="Vex" score=6925 kills=35 deaths=11 time="00:05"/>
+			<playerScore name="Padis" score=5675 kills=19 deaths=24 time="00:05"/>
+			<playerScore name="Swaggy" score=4900 kills=24 deaths=9 time="00:05"/>
+			<playerScore name="Poochamos" score=4575 kills=24 deaths=12 time="00:05"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="ThraxOD" score=3505 kills=16 deaths=18 time="00:05"/>
+			<playerScore name="ZeroRedical" score=3200 kills=14 deaths=28 time="00:05"/>
+			<playerScore name="Cricken" score=3000 kills=11 deaths=31 time="00:05"/>
+			<playerScore name="IcyQueen" score=2750 kills=15 deaths=25 time="00:05"/>
+		</teamScore>
+	</match>
+</series>

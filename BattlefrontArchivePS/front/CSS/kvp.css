@@ -1,0 +1,27 @@
+.kvp-container {
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kvp-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kvp-item label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.kvp-item input[type="text"],
+.kvp-item select {
+    flex: 2;
+}
+
+.kvp-item input[type="checkbox"] {
+    transform: scale(1.2);
+}

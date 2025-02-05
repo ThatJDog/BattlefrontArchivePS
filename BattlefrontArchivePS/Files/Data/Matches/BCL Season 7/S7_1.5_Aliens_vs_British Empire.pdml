@@ -1,0 +1,30 @@
+<series season="bcl-s7" teams=["Aliens" "British Empire"] round=1 index=5>
+	<match map="Dune Sea" timeLeft="02:05" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Unakkorn" score=8075 kills=31 deaths=32/>
+			<playerScore name="Hashemy" score=6725 kills=28 deaths=31/>
+			<playerScore name="Cricken" score=5525 kills=18 deaths=34/>
+			<playerScore name="Novacane" score=3350 kills=9 deaths=22/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Diego" score=11275 kills=25 deaths=25/>
+			<playerScore name="Foggle" score=8075 kills=43 deaths=20/>
+			<playerScore name="Prometheus" score=7725 kills=37 deaths=20/>
+			<playerScore name="Dajdog" score=4950 kills=12 deaths=22/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="05:44" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Unakkorn" score=4700 kills=13 deaths=23/>
+			<playerScore name="Hashemy" score=3250 kills=15 deaths=22/>
+			<playerScore name="Cricken" score=1525 kills=6 deaths=23/>
+			<playerScore name="Novacane" score=1435 kills=5 deaths=17/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Diego" score=7550 kills=20 deaths=11/>
+			<playerScore name="Foggle" score=6475 kills=28 deaths=6/>
+			<playerScore name="Prometheus" score=6400 kills=35 deaths=13/>
+			<playerScore name="Dajdog" score=3600 kills=4 deaths=10/>
+		</teamScore>
+	</match>
+</series>

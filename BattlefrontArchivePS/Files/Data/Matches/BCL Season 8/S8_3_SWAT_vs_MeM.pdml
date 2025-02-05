@@ -1,0 +1,72 @@
+<series season="bcl-s8" teams=["SWAT" "MeM"] round=0 index=3>
+	<match map="Jawa Refuge" timeLeft="02:32" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Vic" score=4950 kills=17 deaths=29 time="02:32"/>
+			<playerScore name="Foggle" score=4400 kills=24 deaths=22 time="02:32"/>
+			<playerScore name="Subsided" score=4900 kills=21 deaths=25 time="02:32"/>
+			<playerScore name="Laguiza" score=4960 kills=14 deaths=22 time="02:32"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Karnage" score=8550 kills=28 deaths=19 time="02:32"/>
+			<playerScore name="Tryhard" score=7225 kills=20 deaths=21 time="02:32"/>
+			<playerScore name="Bazo" score=7075 kills=28 deaths=21 time="02:32"/>
+			<playerScore name="Uliday" score=4765 kills=16 deaths=20 time="02:32"/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="03:37" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vic" score=6600 kills=21 deaths=12 time="03:37"/>
+			<playerScore name="Foggle" score=6450 kills=28 deaths=21 time="03:37"/>
+			<playerScore name="Subsided" score=3825 kills=16 deaths=21 time="03:37"/>
+			<playerScore name="Laguiza" score=3795 kills=13 deaths=20 time="03:37"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Karnage" score=5175 kills=26 deaths=18 time="03:37"/>
+			<playerScore name="Tryhard" score=4500 kills=12 deaths=19 time="03:37"/>
+			<playerScore name="Bazo" score=4200 kills=19 deaths=21 time="03:37"/>
+			<playerScore name="Uliday" score=3685 kills=15 deaths=20 time="03:37"/>
+		</teamScore>
+	</match>
+	<match map="Swamp Crash Site" timeLeft="03:41" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Vic" score=2925 kills=11 deaths=16 time="03:41"/>
+			<playerScore name="Foggle" score=4625 kills=23 deaths=18 time="03:41"/>
+			<playerScore name="Subsided" score=3350 kills=18 deaths=19 time="03:41"/>
+			<playerScore name="Laguiza" score=3200 kills=8 deaths=14 time="03:41"/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Karnage" score=4675 kills=20 deaths=18 time="03:41"/>
+			<playerScore name="Tryhard" score=5100 kills=10 deaths=13 time="03:41"/>
+			<playerScore name="Skumszy" score=6025 kills=23 deaths=16 time="03:41"/>
+			<playerScore name="Slope" score=3955 kills=14 deaths=12 time="03:41"/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="05:32" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=5975 kills=19 deaths=17 time="05:32"/>
+			<playerScore name="Foggle" score=6025 kills=28 deaths=17 time="05:32"/>
+			<playerScore name="Subsided" score=5150 kills=25 deaths=18 time="05:32"/>
+			<playerScore name="Laguiza" score=3755 kills=11 deaths=23 time="05:32"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Karnage" score=4050 kills=21 deaths=20 time="05:32"/>
+			<playerScore name="Tryhard" score=5500 kills=20 deaths=23 time="05:32"/>
+			<playerScore name="Skumszy" score=3300 kills=13 deaths=28 time="05:32"/>
+			<playerScore name="Slope" score=3080 kills=20 deaths=12 time="05:32"/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="03:22" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=4650 kills=19 deaths=17 time="03:22"/>
+			<playerScore name="Foggle" score=8150 kills=31 deaths=21 time="03:22"/>
+			<playerScore name="Subsided" score=4600 kills=19 deaths=19 time="03:22"/>
+			<playerScore name="Laguiza" score=4385 kills=15 deaths=12 time="03:22"/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Karnage" score=4875 kills=24 deaths=23 time="03:22"/>
+			<playerScore name="Tryhard" score=4675 kills=10 deaths=23 time="03:22"/>
+			<playerScore name="Skumszy" score=5825 kills=16 deaths=23 time="03:22"/>
+			<playerScore name="Slope" score=3625 kills=16 deaths=17 time="03:22"/>
+		</teamScore>
+	</match>
+</series>
