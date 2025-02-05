@@ -1,0 +1,54 @@
+!Jawa Refuge/02:38/Drop Zone
+#Ruthless/R/5
+Coloses/9500/30/16
+Gswede/8675/29/20
+Hobo/7175/18/10
+Cassady/6025/28/10
+
+#KSSZ/I/0
+SymmPhonic/6775/16/30
+Keyys/5300/21/29
+Szeth/3400/10/29
+Zayne/2250/8/20
+
+!Goazon Badlands/00:00/Drop Zone
+#Ruthless/I/4
+Cassady/9000/40/16
+Coloses/8975/22/32
+Hobo/7200/15/18
+Gswede/5175/20/26
+
+#KSSZ/R/4
+SymmPhonic/9075/29/25
+Szeth/7800/26/27
+Keyys/6250/19/24
+Zayne/5900/17/22
+
+
+!Goazon Badlands/06:34/Drop Zone
+#Ruthless/I/1
+Coloses7/3975/9/16
+Voshzen/3250/20/17
+HOBO/1900/5/14
+Gwedez/1525/9/12
+
+#KSSZ/R/5
+Szeth/5725/18/9
+SymmPhonic/5275/14/10
+Keyys/4875/19/12
+Zayne/2925/8/12
+
+
+!Sulfur Fields/03:32/Drop Zone
+#Ruthless/R/5
+Coloses/7250/23/12
+Gswede/6550/21/16
+Hobo/4925/14/8
+Cassady/4675/22/11
+
+#KSSZ/I/1
+SymmPhonic/4250/15/24
+Zayne/2850/8/17
+Keyys/2825/17/18
+Seth/2775/7/21
+

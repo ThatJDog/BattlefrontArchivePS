@@ -1,0 +1,25 @@
+!Jawa Refuge/-01:18/Drop Zone
+#Aliens/R/4
+Hashemy/9375/47/18
+Cricken/7975/22/27
+Manny/6500/17/36
+TheSup/5500/20/29
+
+#60s/I/5
+Fitality/9550/35/31
+Baseball/7875/32/24
+Diego/7575/12/31
+Hobo/5925/26/22
+
+!Goazon Badlands/02:20/Drop Zone
+#Aliens/I/3
+Hashemy/5625/27/12
+TheSup/5000/21/27
+Manny/3475/10/25
+Cricken/2975/10/23
+
+#60s/R/5
+Hobo/7825/27/15
+Fitality/6525/23/17
+Baseball/6225/21/19
+Diego/4825/15/17

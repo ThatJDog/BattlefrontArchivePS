@@ -1,0 +1,30 @@
+!Jawa Refuge/-00:30/Drop Zone
+#SWAT/I/4
+Foggle/9400/48/28
+Vic21102004/8075/21/28
+Haztof59/6750/14/36
+ModageSZN/6495/24/26
+
+#Vice Tigers/R/4
+Goudapest/8600/28/28
+Veggie/8600/34/28
+Stook/8550/27/25
+Puffy/5650/24/27
+
+
+!Jawa Refuge/01:14/Drop Zone
+#SWAT/I/5
+Foggle/10950/47/21
+Haztof59/9425/36/23
+ModageSZN/8540/35/19
+Vic21102004/7075/14/22
+
+#Vice Tigers/R/2
+Veggie/7500/21/31
+Stook/6575/32/30
+Goudapest/6100/11/31
+Puffy/4800/21/31
+
+!Jawa Refuge/15:00/Drop Zone
+#SWAT/I/5
+#Vice Tigers/R/0

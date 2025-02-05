@@ -1,0 +1,27 @@
+!Dune Sea/01:04/Drop Zone
+#SawC/I/5
+Shadows/14950/44/32
+Spree/11850/47/27
+QuitegoneG/9400/24/27
+Uliday/6525/29/31
+
+#60s/R/0
+Diego/9475/16/43
+Fitality/8750/42/39
+Alimpan/8450/30/32
+Baseball/6800/29/32
+
+!Jawa Refuge/02:54/Drop Zone
+#SawC/R/5
+Shadows/9900/26/24
+Spree/8325/28/20
+QuitegoneG/7925/25/15
+Uliday/5050/25/11
+
+#60s/I/1
+Alimpan/6000/21/26
+Fitality/5875/26/27
+Diego/4800/9/26
+Baseball/2950/13/25
+
+

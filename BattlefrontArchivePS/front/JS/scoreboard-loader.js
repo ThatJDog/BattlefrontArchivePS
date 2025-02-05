@@ -144,7 +144,7 @@ function update() {
 
 
     const mapImg = document.getElementById('map-img'); // Select <img> by ID
-    mapImg.src = `/Assets/Maps/${matchInfo.Map}.png`; // Update image source
+    mapImg.src = `../../Assets/Maps/${matchInfo.Map}.png`; // Update image source
 
     generateScoreboard("home scoreboard-container", "Imperial", true, team1Players.records);
     generateScoreboard("away scoreboard-container", "Rebel", false, team2Players.records);

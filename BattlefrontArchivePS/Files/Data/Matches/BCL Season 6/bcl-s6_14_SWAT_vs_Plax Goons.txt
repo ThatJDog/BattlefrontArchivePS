@@ -1,0 +1,52 @@
+!Map/-00:40/Drop Zone/US West
+#SWAT/I/2
+Foggle/10350/45/34
+Vic/8750/20/38
+Karnage/8300/36/27
+Haztof/8225/28/37
+
+#Plax Goons/R/3
+Unakkorn/15000/40/33
+Envy/8475/42/35
+Rails/7975/28/29
+rayanswagg/7900/25/34
+
+!Map/-01:15/Drop Zone/Europe
+#SWAT/R/4
+Foggle/9075/34/33
+Karnage/8300/22/30
+Vic/9325/32/30
+Haztof/7450/29/28
+
+#Plax Goons/I/4
+Unakkorn/9250/37/36
+rayanswagg/8875/21/30
+Rails7675/20/30
+Envy/7175/35/25
+
+!Jawa Refuge/00:00/Drop Zone/Europe
+#SWAT/R/4
+Foggle/9275/44/26
+Karnage/9075/34/18
+Vic/9000/23/24
+Haztof/6950/13/31
+
+#Plax Goons/I/1
+rayanswagg/7575/18/30
+Unakkorn/7425/31/29
+Envy/6950/32/34
+Rails/6800/14/26
+
+!Sulfur Fields/04:06/Drop Zone/US West
+#SWAT/I/5
+Foggle/6700/25/17
+karnage/6275/25/13
+Vic/5450/15/15
+Haztof/5050/12/13
+
+#Plax Goons/R/1
+rayanswagg/4775/9/19
+Envy/4750/27/19
+Unakkorn/3900/15/22
+Rails/2700/7/19
+

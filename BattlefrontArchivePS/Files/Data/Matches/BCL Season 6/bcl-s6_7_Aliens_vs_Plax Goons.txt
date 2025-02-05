@@ -1,0 +1,40 @@
+!Swamp/-01:55/Drop Zone
+#Aliens/R/5
+Hashemy/9625/42/19
+TheSup/8825/28/30
+Cricken/7875/19/23
+Manny/7625/16/26
+
+#Plax Goons/I/3
+Unakkorn/9225/33/31
+Envy/8125/40/27
+rayanswagg/7125/15/28
+Rails/3175/8/23
+
+!Goazon Badlands/02:22/Drop Zone
+#Aliens/R/1
+Hashemy/5150/24/26
+TheSup/5050/16/24
+Cricken/4150/7/19
+Manny/3525/14/25
+
+#Plax Goons/I/5
+Unakkorn/7975/30/21
+rayanswagg/7850/19/14
+Rails/5975/23/11
+Envy/4525/21/16
+
+
+!Raider Camp/01:06/Drop Zone
+#Aliens/R/5
+Cricken/8250/20/25
+Hashemy/7150/35/22
+TheSup/6450/20/22
+Manny/6000/15/27
+
+#Plax Goons/I/3
+Unakkorn/9975/40/21
+Envy/6125/33/28
+Rails/4900/14/19
+rayanswagg/4025/7/27
+

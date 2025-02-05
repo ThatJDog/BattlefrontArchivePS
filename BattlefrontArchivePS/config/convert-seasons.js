@@ -25,5 +25,5 @@ async function processDirectory(dirPath) {
 }
 
 // Start processing from the base directory
-const directoryPath = "./Files/Data"; // Base directory
+const directoryPath = "./BattlefrontArchivePS/Files/Data"; // Base directory
 processDirectory(directoryPath);

@@ -3,7 +3,7 @@
 [ShortenedName] "S6"
 [SeasonIndex] "7"
 [TournamentMode] "tournament"
-[Ranked] "false"
+[Ranked] "true"
 [Organisation] "BCL"
 
 #Aliens
@@ -12,7 +12,7 @@ TheSup
 Hashemy
 M4nnydm
 
-#KssZ
+#KSSZ
 SymmPhonic
 Keyys
 Szeth

@@ -1,0 +1,41 @@
+!Sulfur Fields/01:39/Drop Zone
+#Plax Goons/R/5
+Unakkorn/8500/29/27
+rayanswagg/7850/16/15
+Envy/6450/31/22
+Rails/5600/17/11
+
+#Ruthless/I/1
+Coloses/6450/14/25
+Cassady/5975/28/25
+Gswede/5000/16/24
+Hobo/3375/15/19
+
+!Jawa Refuge/-00:53/Drop Zone
+#Plax Goons/R/4
+Unakkorn/10800/38/30
+rayanswagg/7925/19/24
+Envy/7100/33/32
+Rails/5975/25/30
+
+#Ruthless/I/5
+Coloses/9875/29/35
+Cassady/8750/38/29
+Gwede/8325/25/34
+Hobo/5225/24/18
+
+
+!Raider Camp/03:53/Drop Zone
+#Plax Goons/I/5
+Envy/7950/35/16
+Unakkorn/7550/29/26
+rayanswagg/6050/10/16
+Rails/4875/18/18
+
+#Ruthless/R/0
+Cassady/5650/32/19
+Coloses/4725/14/28
+Gswede/4575/14/28
+Hobo/3750/14/19
+
+

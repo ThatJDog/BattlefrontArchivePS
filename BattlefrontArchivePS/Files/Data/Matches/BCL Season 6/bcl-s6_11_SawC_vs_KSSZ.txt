@@ -1,0 +1,26 @@
+!Goazon Badlands/01:59/Drop Zone
+#SawC/R/5
+Shadows/10650/26/14
+Quitegoneg/6950/20/17
+Spree/6900/37/20
+Uliday/4025/17/14
+
+#KSSZ/I/1
+Coloses/5725/18/29
+Keyys/4575/18/25
+SymmPhonic/4500/16/26
+Szeth/3900/11/21
+
+!Swamp/-00:14/Drop Zone
+#SawC/R/5
+Shadows/10525/30/14
+Quitegoneg/6750/22/21
+Spree/5275/23/18
+Uliday/4400/17/20
+
+#KSSZ/I/3
+SymmPhonic/7000/27/19
+Coloses/6125/14/27
+Keyys/5500/16/22
+Szeth/4775/23/25
+

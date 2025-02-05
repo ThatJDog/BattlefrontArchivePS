@@ -1,0 +1,30 @@
+!Sulfur Fields/15:00/Drop Zone/Europe
+#SWAT/I/0
+#KSSZ/R/5
+
+!Dune Sea/04:07/Drop Zone/Europe
+#SWAT/R/5
+Vic/9900/21/17
+Foggle/8225/38/16
+Haztof/6450/21/13
+Karnage/6200/29/15
+
+#KSSZ/I/0
+SymmPhonic/6925/20/29
+Keyys/3950/22/26
+Szeth/3725/12/32
+Zayne/2150/6/22
+
+!Rebel Depot/-00:45/Drop Zone/US West
+#SWAT/I/3
+Foggle/8775/32/29
+Vic/8625/23/18
+Haztof/7125/17/21
+Karnage/6500/26/19
+
+#KSSZ/R/4
+Szeth/8250/20/31
+Keyys/7300/34/23
+SymmPhonic/6100/17/24
+Zayne/4325/15/20
+

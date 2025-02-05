@@ -1,0 +1,25 @@
+!Jawa Refuge/01:09/Drop Zone
+#60s/R/5
+Alimpan/8625/20/21
+Diego/7100/17/18
+Foggle/7050/29/22
+Baseball/6050/30/19
+
+#Ruthless/I/2
+Coloses/6800/22/34
+Cassady/5950/28/22
+Gswede/4000/9/24
+Hobo/3975/20/17
+
+!Dune/-01:15/Drop Zone
+#60s/I/3
+Diego/12275/25/32
+Alimpan/11250/35/32
+Foggle/9750/50/28
+Baseball/9350/50/28
+
+#Ruthless/R/1
+Coloses/12200/33/45
+Cassady/8500/41/36
+Gswede/8025/29/37
+Hobo/4575/16/39

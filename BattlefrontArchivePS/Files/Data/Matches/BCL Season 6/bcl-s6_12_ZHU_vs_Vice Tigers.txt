@@ -1,0 +1,39 @@
+!Jawa Refuge/00:00/Drop Zone
+#ZHU/R/3
+Healthy/5400/22/21
+Blue/7400/33/29
+Sween/6275/20/29
+Palmy/5400/22/21
+
+#Vice Tigers/I/4
+rayanswagg/8750/25/25
+Goudapest/7675/30/23
+Bdozen/7300/29/23
+Stook/6225/20/29
+
+!Goazon Badlands/06:22/Drop Zone
+#ZHU/R/5
+Healthy/5550/12/9
+Palmy/4850/17/12
+Blue/4575/23/13
+Sween/4525/12/15
+
+#Vice Tigers/I/0
+RyanSwag/3600/12/14
+Moss/3200/10/18
+Bdozer/2850/17/15
+Stook/2125/10/17
+
+!Raider Camp/07:53/Drop Zone
+#ZHU/I/0
+Palmy/2775/7/13
+Sween/2550/9/16
+Blue/1625/9/12
+Healthy/1125/5/15
+
+#Vice Tigers/R/5
+Bdozen/5250/19/3
+Goudapest/4825/13/7
+rayanswagg/3850/12/12
+Stook/3225/11/8
+

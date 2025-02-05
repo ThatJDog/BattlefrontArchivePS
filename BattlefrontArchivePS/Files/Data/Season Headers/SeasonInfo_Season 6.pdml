@@ -1,10 +1,10 @@
-<season name="Season 6" seasonID="bcl-s6" shortName="S6" seasonIndex=7 tournamentMode="tournament" ranked=false organisation="BCL">
+<season name="Season 6" seasonID="bcl-s6" shortName="S6" seasonIndex=7 tournamentMode="tournament" ranked=true organisation="BCL">
 	<team name="Aliens" >
 		<player-entry name="Cricken" />
 		<player-entry name="TheSup" />
 		<player-entry name="Hashemy" />
 	</team>
-	<team name="KssZ" >
+	<team name="KSSZ" >
 		<player-entry name="M4nnydm" />
 		<player-entry name="SymmPhonic" />
 		<player-entry name="Keyys" />

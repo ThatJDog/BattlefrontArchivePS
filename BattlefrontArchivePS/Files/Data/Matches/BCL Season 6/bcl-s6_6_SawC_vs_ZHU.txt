@@ -1,0 +1,26 @@
+!Jawa Refuge/02:38/Drop Zone
+#SawC/R/5
+Spree/9125/26/15
+Quitegoneg/6515/19/14
+Shadows/6300/22/18
+Uliday/4355/20/14
+
+#ZHU/I/1
+Blue/6400/27/20
+Sween/6100/12/21
+Healthy/4520/11/20
+Palmy/2500/9/27
+
+!Ice Caves/05:17/Drop Zone
+#SawC/R/5
+Spree/6375/21/10
+Shadows/6175/21/12
+Uliday/3835/14/12
+Quitegoneg/3200/9/9
+
+#ZHU/I/2
+Sween/7115/21/17
+Blue/2700/8/14
+Healthy/1980/7/17
+Palmy/1800/8/19
+
