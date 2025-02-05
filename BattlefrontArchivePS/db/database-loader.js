@@ -3,7 +3,7 @@ import { Database } from "./database.js"; // Ensure this path is correct
 document.addEventListener("DOMContentLoaded", async () => {
     try {
         if (!window.db) {  // Check if the database is already loaded
-            const jsonUrl = `${window.location.origin}/data.json`;
+            const jsonUrl = `${window.location.origin}/BattlefrontArchivePS/data.json`;
             window.db = await Database.fromFile(jsonUrl); // Load database
             console.log("Loaded database:", window.db);
         } else {
