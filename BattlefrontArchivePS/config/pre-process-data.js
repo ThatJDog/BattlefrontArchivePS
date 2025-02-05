@@ -11,7 +11,7 @@ async function loadDatabase(schema) {
     return new module.Database(schema); // ✅ Correct way to instantiate
 }
 
-function saveObjectToFile(obj, filename = "data.json") {
+function saveObjectToFile(obj, filename) {
     //const jsonStr = JSON.stringify(obj, null, 2); // Pretty format with 2 spaces
     const jsonStr = JSON.stringify(obj);
     fs.writeFileSync(filename, jsonStr, "utf8");
@@ -63,7 +63,8 @@ async function main() {
         await generateEloTable(database);
 
         // Final Step: Export this Database as a JSON
-        saveObjectToFile(database);
+        saveObjectToFile(database, "data.json");
+        saveObjectToFile(database, "BattlefrontArchivePS/data.json");
 
     } catch (error) {
         console.error("Error loading data:", error);
