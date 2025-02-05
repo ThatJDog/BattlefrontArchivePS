@@ -32,7 +32,7 @@
 		</teamScore>
 		<teamScore faction="Rebel" score=1>
 			<playerScore name="BFL-Ice" score=4125 kills=16 deaths=15/>
-			<playerScore name="Emmanuel" score=2850 kills=8 deaths=17/>
+			<playerScore name="EmmanuelValis" score=2850 kills=8 deaths=17/>
 			<playerScore name="Redloz" score=2550 kills=6 deaths=24/>
 			<playerScore name="Kygin" score=2050 kills=10 deaths=18/>
 		</teamScore>
@@ -46,7 +46,7 @@
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="BFL-Ice" score=3200 kills=11 deaths=18/>
-			<playerScore name="Emmanuel" score=2850 kills=13 deaths=18/>
+			<playerScore name="EmmanuelValis" score=2850 kills=13 deaths=18/>
 			<playerScore name="Kygin" score=2225 kills=12 deaths=18/>
 			<playerScore name="Redloz" score=1925 kills=6 deaths=21/>
 		</teamScore>

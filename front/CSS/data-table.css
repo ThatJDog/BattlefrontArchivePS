@@ -1,0 +1,39 @@
+
+/* Large Table Styles */
+.data-table {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    table-layout: auto; /* Allows columns to resize based on content */
+    font-size: 14px; /* Smaller font size */
+}
+
+.data-table th {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Prevents headers from forcing column width */
+    font-size: 14px; /* Matches table font size */
+}
+
+.data-table td {
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+    white-space: normal; /* Allows content to wrap naturally */
+    font-size: 14px; /* Smaller text for better fit */
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table tr:nth-child(odd) {
+    background-color: #d6d6d6;
+}

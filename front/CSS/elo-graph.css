@@ -57,6 +57,7 @@
     display: none;
     pointer-events: none;
     font-size: 14px;
+    white-space: pre-line; /* Allows new lines */
 }
 
 .y-axis, .x-axis {

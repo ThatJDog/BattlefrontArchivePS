@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Lookup</title>
+    <link rel="stylesheet" href="../CSS/global-swbf.css">
+    <script type="module" src="../JS/navbar.js"></script>
+    <script type="module" src="../JS/themes.js"></script>
+    <script type="module" src="/db/database-loader.js" defer></script>
+    <script type="module">
+        import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
+
+        async function loadTable() {
+            const tableContainer = document.getElementById("table-container");
+
+            try {
+
+                // Add filters like for:
+                // - Season
+                // - Team Name
+                // - Player Name
+                // - Game Mode
+                // - Map
+
+                const table = getFilteredMatches(null);
+
+                // Call populateTable as usual
+                populateTable(tableContainer, table);
+
+                // Add click event listener to rows after table is populated
+                const rows = tableContainer.querySelectorAll("tbody tr");
+
+                rows.forEach((row, index) => {
+                    row.addEventListener("click", () => {
+                        const secondColumnKey = table.schema[1]; // Get the column name of the second column
+                        const secondColumnValue = table.records[index][secondColumnKey]; // Get the value from the clicked row
+
+                        // Redirect to new page with the second column value as a URL parameter
+                        window.location.href = `./player-profile?player=${encodeURIComponent(secondColumnValue)}`;
+                    });
+                });
+
+            } catch (error) {
+                console.error("Error loading data:", error);
+            }
+        }
+
+        function getFilteredMatches(seasonID) {
+            // Get all series that occurred in or before the target season
+            const validSeries = db.select('Series', series => seasonID == null || series.SeasonID === seasonID)
+            .join(db.getTable('Season'), 'INNER JOIN', (series, season) => season.ID === series.SeasonID);
+            
+            // Get all valid match IDs from these series
+            const validMatches = db.getTable('Match')
+                .join(validSeries, "INNER JOIN", (match, series) => match.SeriesID === series.SeriesID)
+                .applyToColumn('Duration', mins => mins.toFixed(1))
+                .applyToColumn('Round', round => round != 0 ? round : 'N/A')
+                .addComputedColumn('Season', record => record.OrganisationName + " " + record.Name)
+                .keep(['Season', 'Round', 'GameMode', 'Map', 'Server', 'Duration'])
+            ;
+
+            return validMatches;
+        }
+
+
+        document.addEventListener("DatabaseReady", () => {
+            loadTable();
+        });
+    </script>
+</head>
+<body>
+    <div class="section" style="width: 80%;">
+        <div class="frame">
+            <div class="leaderboard-table" id="table-container"></div>
+        </div>
+    </div>
+</body>
+</html>

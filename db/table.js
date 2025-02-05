@@ -134,6 +134,7 @@ export class Table {
      */
     keep(columns) {
         if (typeof columns === "string") {
+            if (columns === "*") return this.clone();
             columns = [columns]; // Convert single column to an array
         }
 
@@ -225,49 +226,53 @@ export class Table {
      * @returns {Table} - A new table with grouped results.
      */
     groupBy(groupByColumns, aggregateFns) {
-
         if (typeof(groupByColumns) === 'string')
             groupByColumns = [groupByColumns];
-
+    
         // Validate groupByColumns
         groupByColumns.forEach((col) => {
             if (!this.schema.includes(col)) {
                 throw new Error(`Column "${col}" does not exist in table "${this.name}".`);
             }
         });
-
-        const groupedData = {};
-
+    
+        const groupedData = new Map();
+    
         // Group the records
         this.records.forEach((record) => {
-            const key = groupByColumns.map((col) => record[col]).join("|"); // Create a composite key
-            if (!groupedData[key]) {
-                groupedData[key] = [];
+            const key = groupByColumns.map((col) => record[col]); // Store key as an array
+            const keyStr = JSON.stringify(key); // Unique identifier for Map()
+    
+            if (!groupedData.has(keyStr)) {
+                groupedData.set(keyStr, []);
             }
-            groupedData[key].push(record);
+            groupedData.get(keyStr).push(record);
         });
-
+    
         // Create aggregated records
-        const aggregatedRecords = Object.entries(groupedData).map(([key, group]) => {
+        const aggregatedRecords = Array.from(groupedData.entries()).map(([keyStr, group]) => {
+            const key = JSON.parse(keyStr); // Convert back to an array to preserve types
             const aggregatedRecord = {};
+    
             groupByColumns.forEach((col, idx) => {
-                aggregatedRecord[col] = key.split("|")[idx];
+                aggregatedRecord[col] = key[idx]; // Assign the original type value
             });
-
+    
             // Apply each aggregation function to the group
             for (const [column, fn] of Object.entries(aggregateFns)) {
                 aggregatedRecord[column] = fn(group.map((record) => record[column]));
             }
-
+    
             return aggregatedRecord;
         });
-
+    
         // Create a new table with the aggregated data
         const newSchema = [...groupByColumns, ...Object.keys(aggregateFns)];
         const newTable = new Table(`${this.name}_grouped`, newSchema);
         newTable.records = aggregatedRecords;
         return newTable;
     }
+    
 
     /**
      * Sorts the table by one or more columns.
@@ -387,9 +392,9 @@ export class Table {
         const newTable = new Table(`${this.name}_computed`, newSchema);
 
         // Compute the new column values
-        newTable.records = this.records.map((record) => ({
+        newTable.records = this.records.map((record, index) => ({
             ...record,
-            [newColumnName]: computeFn(record),
+            [newColumnName]: computeFn(record, index), // Pass index as an optional parameter
         }));
 
         return newTable;
@@ -409,7 +414,7 @@ export class Table {
      * @param {string} to - The new column name.
      * @returns {Table} - A new table with the renamed column.
      */
-    renameRecord(from, to) {
+    renameColumn(from, to) {
         if (!this.schema.includes(from)) {
             throw new Error(`Column "${from}" does not exist in table "${this.name}".`);
         }
@@ -590,6 +595,16 @@ export class Table {
         }
 
         newTable.records = newRecords;
+        return newTable;
+    }
+
+    // Clone method
+    clone() {
+        const newTable = new Table(this.name, this.schema);
+
+        // Deep copy records to prevent reference issues
+        newTable.records = this.records.map(record => ({ ...record }));
+
         return newTable;
     }
 }

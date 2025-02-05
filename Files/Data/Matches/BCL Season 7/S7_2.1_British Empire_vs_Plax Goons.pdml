@@ -1,0 +1,44 @@
+<series season="bcl-s7" teams=["British Empire" "Plax Goons"] round=2 index=1>
+	<match map="Dune Sea" timeLeft="04:32" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Prometheus" score=7500 kills=38 deaths=16/>
+			<playerScore name="Diego" score=7225 kills=15 deaths=21/>
+			<playerScore name="Foggle" score=6425 kills=33 deaths=14/>
+			<playerScore name="Dajdog" score=5115 kills=15 deaths=18/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Hashemy" score=4950 kills=19 deaths=24/>
+			<playerScore name="Nai-Sora" score=4400 kills=19 deaths=24/>
+			<playerScore name="Subsided" score=3175 kills=16 deaths=28/>
+			<playerScore name="Rayanswag" score=2855 kills=13 deaths=25/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="-00:-36" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Diego" score=10375 kills=24 deaths=29/>
+			<playerScore name="Prometheus" score=8275 kills=43 deaths=16/>
+			<playerScore name="Foggle" score=7250 kills=33 deaths=20/>
+			<playerScore name="Dajdog" score=7080 kills=20 deaths=23/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Nai-Sora" score=7700 kills=23 deaths=34/>
+			<playerScore name="Hashemy" score=7550 kills=32 deaths=33/>
+			<playerScore name="Subsided" score=7400 kills=19 deaths=29/>
+			<playerScore name="Rayanswag" score=2985 kills=9 deaths=26/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="02:20" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Prometheus" score=7400 kills=32 deaths=8/>
+			<playerScore name="Foggle" score=6250 kills=24 deaths=20/>
+			<playerScore name="Diego" score=5575 kills=17 deaths=21/>
+			<playerScore name="Dajdog" score=4785 kills=20 deaths=13/>
+		</teamScore>
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Hashemy" score=5175 kills=24 deaths=24/>
+			<playerScore name="Subsided" score=4975 kills=15 deaths=25/>
+			<playerScore name="Nai-Sora" score=4375 kills=18 deaths=24/>
+			<playerScore name="Rayanswag" score=3590 kills=4 deaths=8/>
+		</teamScore>
+	</match>
+</series>

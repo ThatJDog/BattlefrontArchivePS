@@ -1,3 +1,11 @@
+/* Import other CSS files */
+@import url('frames.css');
+@import url('navbar.css');
+@import url('stat-table.css');
+@import url('data-table.css');
+@import url('leaderboard-table.css');
+
+
 @font-face {
     font-family: "Posterama 1927";
     src: url("https://db.onlinewebfonts.com/t/bf8e6666252f4d6e781c1afacd6fb995.eot");
@@ -76,7 +84,8 @@
 
 /* Global Styles */
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: "Brandon Grotesque Regular", Arial, sans-serif;
+    text-transform: uppercase;
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
@@ -85,106 +94,6 @@ body {
 
 main {
     padding: 20px;
-}
-
-/* Nav Bar Style */
-.navbar {
-    display: flex;
-    justify-content: left;
-    margin-bottom: 20px;
-
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: normal;
-    font-size: 22px;
-    
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 0 10px;
-
-    transition: background-color 0.3s ease, font-weight 0.1s ease;
-}
-
-.navbar a:hover {
-    background-color: var(--highlight-color);
-    font-weight: normal;
-    color: var(--text-color);
-}
-
-/* Section Styles */
-.section-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.section.horizontal {
-    flex-direction: row;
-}
-.section.vertical {
-    flex-direction: row;
-}
-
-/* Base Frame Style */
-.frame {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    overflow: hidden;
-
-    background-color: var(--frame-background);
-    box-shadow: 0 4px 6px var(--shadow-color);
-    
-    border: 1px solid var(--frame-border);
-    outline: 2px solid transparent; /* Invisible outline */
-    transition: outline var(--frame-anim-time) ease-in-out, 
-                border-color var(--frame-anim-time) ease-in-out;
-    border-radius: 8px;
-}
-
-.frame:hover {
-    outline: 4px solid var(--highlight-color); /* Adds hover effect without affecting size */
-    border-color: var(--highlight-color); /* Still colour small border too to remove gap */
-}
-
-/* Header section that controls the title area */
-.frame-header {
-    width: 100%;
-    padding: 15px 20px; /* This controls the padding around the title */
-    background: transparent;
-    transition: background-color var(--frame-anim-time) ease-in-out; /* Smooth transition */
-}
-
-/* Title inside the header */
-.frame-header h2 {
-    color: black;
-    margin: 0;
-    font-size: 32px;
-    font-family: "Brandon Grotesque Medium";
-    text-transform: uppercase;
-}
-
-/* Content section inside the frame */
-.frame-content {
-    padding: 20px; /* Padding applies only to content */
-}
-
-/* Hover effect only affects the header */
-.frame:hover .frame-header {
-    background-color: #121212; /* Changes background on hover */
-}
-
-.frame:hover .frame-header h2 {
-    color: var(--highlight-color);
 }
 
 
@@ -198,85 +107,9 @@ main {
     height: 100%;
 }
 
-/* Stats Table Frame */
-.stats-table table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
-.stats-table th,
-.stats-table td {
-    text-align: left;
-    padding: 10px;
-    border-bottom: 1px solid var(--frame-border);
-}
 
-.stats-table th {
-    background-color: var(--table-header-bg);
-}
 
-/* Large Table Styles */
-.data-table {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
-
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    overflow: hidden;
-    table-layout: auto; /* Allows columns to resize based on content */
-    font-family: Consolas, monospace; /* Monospace font */
-    font-size: 14px; /* Smaller font size */
-}
-
-.data-table th {
-    background-color: red;
-    color: white;
-    padding: 8px;
-    text-align: left;
-    white-space: nowrap; /* Prevents headers from forcing column width */
-    font-size: 14px; /* Matches table font size */
-    font-family: Consolas, monospace; /* Ensures uniform font */
-}
-
-.data-table td {
-    padding: 6px;
-    border-bottom: 1px solid #ddd;
-    white-space: normal; /* Allows content to wrap naturally */
-    font-size: 14px; /* Smaller text for better fit */
-    font-family: Consolas, monospace; /* Keeps text consistent */
-}
-
-.data-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-.data-table tr:nth-child(odd) {
-    background-color: #d6d6d6;
-}
-
-/* Bonus */
-.bonus {
-    display: inline-block;
-    font-size: 14px;
-    font-weight: bold;
-    color: #FFF;
-    background-color: var(--bonus-bg);
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-/* Footer */
-footer {
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 14px;
-    background-color: var(--footer-bg);
-    color: var(--footer-text);
-}
 
 /* Theme Toggle Button (optional) */
 .theme-toggle {

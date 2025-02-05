@@ -1,4 +1,4 @@
-<season name="SWAT Cup" seasonID="swat-cup" seasonIndex=23 ranked=false>
+<season name="SWAT Cup" seasonID="swat-cup" seasonIndex=23 ranked=false organisation="SWAT">
 	<team name="Kurko's Team" >
 		<player-entry name="Kurko" />
 		<player-entry name="Prometheus" />

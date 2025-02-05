@@ -1,4 +1,4 @@
-!Pro League
+!Season 1 Pro
 [SeasonID] "opl-s2-pro"
 [Group] "OPLS2"
 [SeasonColour] "662D91"
@@ -16,6 +16,7 @@
 [TeamCardThreshold] = "60"
 [SystemCardThreshold] = "40"
 [ProjectCardThreshold] = "0"
+[Organisation] "OPL"
 
 #FIF
 Spree

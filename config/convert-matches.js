@@ -16,7 +16,11 @@ async function processDirectory(dirPath) {
                 await processDirectory(fullPath);
             } else if (entry.isFile() && entry.name.endsWith('.sri')) {
                 // Process .sri files
-                convertFile(fullPath);
+                try{
+                    convertFile(fullPath);
+                } catch (err) {
+                    console.error(`Error processing file ${fullPath}: ${err.message}`);
+                }
             }
         }
     } catch (err) {

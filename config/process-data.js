@@ -80,29 +80,39 @@ async function parseData(database) {
                 console.warn(`File not found: ${fullPath}`);
                 continue;
             }
-            
-            const pdmlContent = fs.readFileSync(fullPath, 'utf8');
-            const parsedData = compiler.compile(pdmlContent);
 
-            // console.log(`Processing file: ${parsedData.name}`);
-                        
-            switch (parsedData.name) {
-                case 'series':
-                    processSeriesFile(parsedData, database);
-                    break;
-                case 'season':
-                    processSeasonFile(parsedData, database);
-                    break;
-                case 'knownplayers':
-                    processPlayers(parsedData, database);
-                    break;
-                default:
-                    console.warn(`Unhandled PDML type: ${parsedData.name}`);
-                    break;
+            // console.log(`Processing ${filePath.split('\\').pop()}`);
+            
+            let pdmlContent;
+            let parsedData;
+            try {
+                pdmlContent = fs.readFileSync(fullPath, 'utf8');
+                parsedData = compiler.compile(pdmlContent);
+            } catch (error) {
+                console.error(`Error parsing ${filePath.split('\\').pop()}: ${error.message}`);
             }
+                        
+            try{
+                switch (parsedData.name) {
+                    case 'series':
+                        processSeriesFile(parsedData, database);
+                        break;
+                    case 'season':
+                        processSeasonFile(parsedData, database);
+                        break;
+                    case 'knownplayers':
+                        processPlayers(parsedData, database);
+                        break;
+                    default:
+                        console.warn(`Unhandled PDML type: ${parsedData.name}`);
+                        break;
+                }
+            } catch (error) {
+                console.error(`Error processing ${filePath.split('\\').pop()}: ${error.message}`);
+            }        
         }
     } catch (error) {
-        console.error(`Error processing PDML files: ${error.message}`);
+        console.error(`Error processing data: ${error.message}`);
     }
 
     // console.log(database);

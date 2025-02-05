@@ -8,7 +8,7 @@
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Prometheus" score=4225 kills=12 deaths=21 time="02:02"/>
-			<playerScore name="Iamenedo" score=3670 kills=14 deaths=14 time="02:02"/>
+			<playerScore name="Mendo" score=3670 kills=14 deaths=14 time="02:02"/>
 			<playerScore name="Slayz" score=2275 kills=9 deaths=18 time="02:02"/>
 			<playerScore name="Vanarin" score=2275 kills=11 deaths=18 time="02:02"/>
 		</teamScore>
@@ -24,7 +24,7 @@
 			<playerScore name="Vanarin" score=4975 kills=34 deaths=22 time="02:55"/>
 			<playerScore name="Prometheus" score=4675 kills=15 deaths=28 time="02:55"/>
 			<playerScore name="Slayz" score=3345 kills=17 deaths=25 time="02:55"/>
-			<playerScore name="Iamenedo" score=2400 kills=14 deaths=21 time="02:55"/>
+			<playerScore name="Mendo" score=2400 kills=14 deaths=21 time="02:55"/>
 		</teamScore>
 	</match>
 	<match map="Dune Sea" timeLeft="04:05" gameMode="Drop Zone" server="">
@@ -38,7 +38,7 @@
 			<playerScore name="Prometheus" score=5225 kills=18 deaths=30 time="04:05"/>
 			<playerScore name="Slayz" score=4865 kills=15 deaths=27 time="04:05"/>
 			<playerScore name="Vanarin" score=4325 kills=22 deaths=25 time="04:05"/>
-			<playerScore name="Iamenedo" score=4285 kills=23 deaths=19 time="04:05"/>
+			<playerScore name="Mendo" score=4285 kills=23 deaths=19 time="04:05"/>
 		</teamScore>
 	</match>
 </series>

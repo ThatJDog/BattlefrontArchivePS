@@ -1,4 +1,4 @@
-<season name="Professional League" seasonID="bs-s1-pro" group="BS S1" shortName="BS S1 Pro" seasonIndex=25 ranked=true seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 cardRatingLowerBound=50 cardRatingUpperBound=94 eliteCardThreshold=90 impactCardThreshold=85 teamCardThreshold=80 systemCardThreshold=70 projectCardThreshold=0 teamStarThresholds="star2: 70, star3: 80, star4: 85, star5: 90">
+<season name="Season 1 Pro" seasonID="bs-s1-pro" group="BS S1" shortName="BS S1 Pro" seasonIndex=25 ranked=true seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 organisation="BS" cardRatingLowerBound=50 cardRatingUpperBound=94 eliteCardThreshold=90 impactCardThreshold=85 teamCardThreshold=80 systemCardThreshold=70 projectCardThreshold=0 teamStarThresholds="star2: 70, star3: 80, star4: 85, star5: 90">
 	<team name="Undisputed" >
 		<player-entry name="Foggle" isCaptain=true isPrimary=true rating=8/>
 		<player-entry name="Karnage" isCaptain=true isPrimary=true rating=8/>

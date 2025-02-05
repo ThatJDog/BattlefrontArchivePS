@@ -17,7 +17,7 @@
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Alimpan" score=9525 kills=43 deaths=30/>
 			<playerScore name="Vic" score=9325 kills=32 deaths=19/>
-			<playerScore name="Hazotf" score=7775 kills=27 deaths=23/>
+			<playerScore name="Haztof" score=7775 kills=27 deaths=23/>
 			<playerScore name="Puffy" score=6900 kills=20 deaths=32/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>

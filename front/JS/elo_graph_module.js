@@ -2,7 +2,9 @@ const pointRadius = 5;
 const pointPadding = 10;
 
 
-export function loadEloGraph(playerName, db, containerElement) {
+export function loadEloGraph(playerName, database, containerElement) {
+
+    const db = database;
 
     if (!containerElement) {
         console.error('Invalid container element for ELO graph.');
@@ -223,11 +225,35 @@ function createDataPoint(x, y, point, tooltip){
     circle.setAttribute('r', pointRadius);
     circle.style.pointerEvents = 'all';
     circle.addEventListener('mouseover', (e) => {
+
+        /*
         tooltip.style.left = `${e.pageX}px`;
         tooltip.style.top = `${e.pageY - 40}px`;
         tooltip.style.display = 'block';
-        tooltip.textContent = `${point.Elo > 0 ? '+' : ''}${parseFloat(point.Elo).toFixed(0)} ELO`;
+        tooltip.textContent = makeTooltiplContent(point);
+        */
+
+        tooltip.textContent = makeTooltipContent(point);
+
+        // Get viewport width
+        const viewportWidth = window.innerWidth;
+        const tooltipWidth = tooltip.offsetWidth || 200; // Fallback width estimate
+        const tooltipHeight = tooltip.offsetHeight || 40; // Fallback height estimate
+    
+        // Default position: Right
+        let leftPosition = e.pageX; // Show tooltip slightly to the right
+    
+        // If tooltip would overflow on the right, place it to the left
+        if (e.pageX + tooltipWidth > viewportWidth) {
+            leftPosition = e.pageX - tooltipWidth; // Shift to the left
+        }
+    
+        // Set tooltip position
+        tooltip.style.left = `${leftPosition}px`;
+        tooltip.style.top = `${e.pageY - tooltipHeight}px`;
+        tooltip.style.display = 'block';
     });
+    
     circle.addEventListener('mouseout', () => {
         tooltip.style.display = 'none';
     });
@@ -235,6 +261,16 @@ function createDataPoint(x, y, point, tooltip){
         window.location.href = `/front/HTML/match-score?matchID=${point.MatchID}`;
     });
     return circle;
+}
+
+function makeTooltipContent(dataPoint){
+    let elo = `${dataPoint.Elo > 0 ? '+' : ''}${parseFloat(dataPoint.Elo).toFixed(0)} ELO`;
+
+    let teams = db.select('TeamScore', row => row.MatchID === dataPoint.MatchID).keep('TeamName');
+
+    // Assume always two teams
+    let match = teams.getRecord(0).TeamName + " vs " + teams.getRecord(1).TeamName;
+    return match + "\n" + elo;
 }
 
 

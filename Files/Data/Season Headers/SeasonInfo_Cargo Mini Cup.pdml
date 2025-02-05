@@ -1,4 +1,4 @@
-<season name="Cargo Mini Cup" seasonID="cargo-mini-cup" shortName="CMC" seasonIndex=8 tournamentMode="tournament">
+<season name="Cargo Mini Cup" seasonID="cargo-mini-cup" shortName="CMC" seasonIndex=8 tournamentMode="tournament" organisation="BCL">
 	<team name="SWAT A" >
 		<player-entry name="Envy" />
 		<player-entry name="Hashemy" />

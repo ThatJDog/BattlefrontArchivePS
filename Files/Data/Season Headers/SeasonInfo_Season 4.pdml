@@ -1,4 +1,4 @@
-<season name="Season 4" seasonID="bcl-s4" shortName="S4" seasonIndex=4 tournamentMode="tournament" ranked=false>
+<season name="Season 4" seasonID="bcl-s4" shortName="S4" seasonIndex=4 tournamentMode="tournament" ranked=false organisation="BCL">
 	<team name="All Brain No Aim" >
 		<player-entry name="Aiikeed" />
 		<player-entry name="Prometheus" />

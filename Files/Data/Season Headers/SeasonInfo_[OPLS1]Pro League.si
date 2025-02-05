@@ -1,4 +1,4 @@
-!Pro League
+!Season 1 Pro
 [SeasonID] "opl-s1-pro"
 [Group] "OPLS1"
 [ShortenedName] "OPLS1 PL"
@@ -9,6 +9,7 @@
 [RatingLowerBound] "1"
 [RatingUpperBound] "8"
 //[TeamCap] "18"
+[Organisation] "OPL"
 
 #Deathwatch
 Hashemy

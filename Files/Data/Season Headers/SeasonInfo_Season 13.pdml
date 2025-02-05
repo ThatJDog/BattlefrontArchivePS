@@ -1,4 +1,4 @@
-<season name="Season 13" seasonID="bcl-s13" shortName="S13" seasonIndex=22 tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 ranked=false>
+<season name="Season 13" seasonID="bcl-s13" shortName="S13" seasonIndex=22 tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 ranked=false organisation="BCL">
 	<team name="Strictly Business" >
 		<player-entry name="Foggle" />
 		<player-entry name="Prometheus" />

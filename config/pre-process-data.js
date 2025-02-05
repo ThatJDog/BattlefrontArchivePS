@@ -27,12 +27,39 @@ async function main() {
         const database = await loadDatabase(schema);
 
         // Step 1: Parse Data directly into database
+        console.log('PRE-PROCESSING->PARSING DATA');
         await parseData(database);
 
+        // Step 1.5: Validate Players
+        database.getTable('PlayerScore').groupBy('PlayerName', {MatchID: matchID => matchID}).join(database.getTable('Player'), 'LEFT JOIN', 
+            (playerScores, players) => playerScores.PlayerName === players.Name).forEachRecord(record => {
+                if (record.Name === null) {
+
+                    let playedMatches = database.getTable('Season')
+                    .join(
+                        database.getTable('Series').renameColumn('Index', 'SeriesIndex')
+                            .join(
+                                database.getTable('Match')
+                                    .filter(match => record.MatchID.includes(match.MatchID)), // Fix: Use .includes() correctly
+                                'INNER JOIN', 
+                                (series, match) => match.SeriesID === series.SeriesID
+                            ),
+                        'INNER JOIN', 
+                        (season, matches) => season.ID === matches.SeasonID
+                    ).keep(['SeasonID', 'Round', 'SeriesIndex', 'MatchIndex']);
+
+
+                    console.error('Unkown Player: ', record.PlayerName, ' in: ', playedMatches.records);
+                }
+            });
+
+
         // Step 2: Re-Index all series and seasons
+        console.log('PRE-PROCESSING->RE-INDEXING');
         await updateSeriesAndMatchIDs(database);
 
         // Step 3: Generate Elo Data for the database
+        console.log('PRE-PROCESSING->GENERATING ELO');
         await generateEloTable(database);
 
         // Final Step: Export this Database as a JSON

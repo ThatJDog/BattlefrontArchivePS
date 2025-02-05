@@ -62,6 +62,7 @@
     <player-info Name="DJ-Chimera" Country="##" AlterEgos=[] />
     <player-info Name="DontSpamEE4" Country="##" AlterEgos=[] />
     <player-info Name="Eky" Country="US" AlterEgos=[] />
+    <player-info Name="EmmanuelValis" Country="US" AlterEgos=[] />
     <player-info Name="Emil-Heg" Country="##" AlterEgos=[] />
     <player-info Name="EMPDestroyer" Country="##" AlterEgos=[] />
     <player-info Name="ennowez" Country="IE" AlterEgos=[] />
@@ -102,7 +103,7 @@
     <player-info Name="IcyQueen" Country="US" AlterEgos=[] />
     <player-info Name="Insold" Country="##" AlterEgos=[] />
     <player-info Name="Intruce" Country="##" AlterEgos=[] />
-    <player-info Name="INVICTA" Country="##" AlterEgos=[] />
+    <player-info Name="Invicta" Country="##" AlterEgos=[] />
     <player-info Name="Irrelevant" Country="##" AlterEgos=[] />
     <player-info Name="ISkyFall" Country="##" AlterEgos=[] />
     <player-info Name="Isolani" Country="US" AlterEgos=[] />
@@ -210,7 +211,7 @@
     <player-info Name="Stone" Country="US" AlterEgos=[] />
     <player-info Name="Stook" Country="SE" AlterEgos=[] />
     <player-info Name="Subsided" Country="SE" AlterEgos=[] />
-    <player-info Name="Subsided ZIIR" Country="##" AlterEgos=[] />
+    <player-info Name="Subsided ZIIR" Country="SE" AlterEgos=[] />
     <player-info Name="Sup" Country="##" AlterEgos=[] />
     <player-info Name="Sushi" Country="##" AlterEgos=[] />
     <player-info Name="Swaggy" Country="US" AlterEgos=[] />

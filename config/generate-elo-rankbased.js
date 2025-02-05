@@ -122,10 +122,10 @@ async function generateEloTable(db){
 
     // Step 2: Join player scores and the team score
     // Join player scores with the team they signed up on
-    const playerWithTeams = db.select('PlayerScore').renameRecord('Score', 'PlayerScore')
+    const playerWithTeams = db.select('PlayerScore').renameColumn('Score', 'PlayerScore')
 
     // Join the team score onto the player score (on team name and match id)
-    .join(db.select('TeamScore').renameRecord('Score', 'TeamScore'), "INNER JOIN", 
+    .join(db.select('TeamScore').renameColumn('Score', 'TeamScore'), "INNER JOIN", 
     /* ON */ (player, team) => player.TeamName === team.TeamName && player.MatchID === team.MatchID)
     .keep(['TeamName', 'TeamScore', 'PlayerName', 'MatchID', 'PlayerScore', 'Kills', 'Deaths', 'Duration']);
 
@@ -153,8 +153,8 @@ async function generateEloTable(db){
         updateElo(db, winningTeam, losingTeam);
     });
 
-    console.log(db.getTable('Ranked'));
-    console.log(playerElo);
+    // console.log(db.getTable('Ranked'));
+    // console.log(playerElo);
 }
 
 /**

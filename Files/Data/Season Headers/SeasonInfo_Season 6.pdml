@@ -1,4 +1,4 @@
-<season name="Season 6" seasonID="bcl-s6" shortName="S6" seasonIndex=7 tournamentMode="tournament">
+<season name="Season 6" seasonID="bcl-s6" shortName="S6" seasonIndex=7 tournamentMode="tournament" ranked=false organisation="BCL">
 	<team name="Aliens" >
 		<player-entry name="Cricken" />
 		<player-entry name="TheSup" />

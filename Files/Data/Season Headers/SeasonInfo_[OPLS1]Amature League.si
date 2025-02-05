@@ -1,4 +1,4 @@
-!Amateur League
+!Season 1 Amateur
 [SeasonID] "opl-s1-ama"
 [Group] "OPLS1"
 [ShortenedName] "OPLS1 AL"
@@ -9,6 +9,7 @@
 [RatingLowerBound] "1"
 [RatingUpperBound] "8"
 //[TeamCap] "18"
+[Organisation] "OPL"
 
 #FRA
 Redloz

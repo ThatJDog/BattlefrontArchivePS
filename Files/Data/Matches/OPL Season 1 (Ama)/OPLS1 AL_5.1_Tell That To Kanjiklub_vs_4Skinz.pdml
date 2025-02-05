@@ -9,7 +9,7 @@
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Coloses" score=12225 kills=27 deaths=41 time="-03:-19"/>
 			<playerScore name="Figuxe" score=10675 kills=41 deaths=39 time="-03:-19"/>
-			<playerScore name="Iamenedo" score=10080 kills=43 deaths=36 time="-03:-19"/>
+			<playerScore name="Mendo" score=10080 kills=43 deaths=36 time="-03:-19"/>
 			<playerScore name="Sween" score=9525 kills=36 deaths=34 time="-03:-19"/>
 		</teamScore>
 	</match>
@@ -21,7 +21,7 @@
 			<playerScore name="DarkObitoS" score=3700 kills=15 deaths=22 time="00:00"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=4>
-			<playerScore name="Iamenedo" score=5360 kills=26 deaths=21 time="00:00"/>
+			<playerScore name="Mendo" score=5360 kills=26 deaths=21 time="00:00"/>
 			<playerScore name="Sween" score=4150 kills=17 deaths=29 time="00:00"/>
 			<playerScore name="Figuxe" score=4075 kills=21 deaths=27 time="00:00"/>
 			<playerScore name="Coloses" score=3400 kills=22 deaths=27 time="00:00"/>
@@ -38,7 +38,7 @@
 			<playerScore name="Sween" score=10250 kills=42 deaths=23 time="-01:-25"/>
 			<playerScore name="Figuxe" score=9175 kills=31 deaths=22 time="-01:-25"/>
 			<playerScore name="Coloses" score=8350 kills=15 deaths=30 time="-01:-25"/>
-			<playerScore name="Iamenedo" score=7715 kills=25 deaths=22 time="-01:-25"/>
+			<playerScore name="Mendo" score=7715 kills=25 deaths=22 time="-01:-25"/>
 		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="00:00" gameMode="Cargo" server="">
@@ -50,7 +50,7 @@
 		</teamScore>
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Figuxe" score=4750 kills=26 deaths=19 time="00:00"/>
-			<playerScore name="Iamenedo" score=4425 kills=21 deaths=23 time="00:00"/>
+			<playerScore name="Mendo" score=4425 kills=21 deaths=23 time="00:00"/>
 			<playerScore name="Coloses" score=2700 kills=18 deaths=11 time="00:00"/>
 			<playerScore name="Sween" score=2585 kills=11 deaths=19 time="00:00"/>
 		</teamScore>
@@ -63,7 +63,7 @@
 			<playerScore name="Tryhard" score=3650 kills=6 deaths=14 time="06:33"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Iamenedo" score=3115 kills=11 deaths=13 time="06:33"/>
+			<playerScore name="Mendo" score=3115 kills=11 deaths=13 time="06:33"/>
 			<playerScore name="Sween" score=3050 kills=15 deaths=13 time="06:33"/>
 			<playerScore name="Figuxe" score=2600 kills=12 deaths=15 time="06:33"/>
 			<playerScore name="Coloses" score=2400 kills=9 deaths=12 time="06:33"/>
@@ -80,7 +80,7 @@
 			<playerScore name="Figuxe" score=4800 kills=26 deaths=24 time="00:00"/>
 			<playerScore name="Sween" score=4150 kills=18 deaths=26 time="00:00"/>
 			<playerScore name="Coloses" score=3300 kills=16 deaths=16 time="00:00"/>
-			<playerScore name="Iamenedo" score=3250 kills=19 deaths=14 time="00:00"/>
+			<playerScore name="Mendo" score=3250 kills=19 deaths=14 time="00:00"/>
 		</teamScore>
 	</match>
 	<match map="Imperial Station" timeLeft="07:24" gameMode="Cargo" server="">
@@ -94,7 +94,7 @@
 			<playerScore name="Sween" score=1725 kills=8 deaths=12 time="07:24"/>
 			<playerScore name="Coloses" score=1675 kills=12 deaths=6 time="07:24"/>
 			<playerScore name="Figuxe" score=1625 kills=10 deaths=8 time="07:24"/>
-			<playerScore name="Iamenedo" score=1370 kills=8 deaths=8 time="07:24"/>
+			<playerScore name="Mendo" score=1370 kills=8 deaths=8 time="07:24"/>
 		</teamScore>
 	</match>
 </series>

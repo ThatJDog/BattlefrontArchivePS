@@ -1,4 +1,4 @@
-!Professional League
+!Season 1 Pro
 [SeasonID] "bs-s1-pro"
 [Group] "BS S1"
 [ShortenedName] "BS S1 Pro"
@@ -8,6 +8,7 @@
 [TournamentMode] "roundedTournament"
 [RatingLowerBound] "1"
 [RatingUpperBound] "8"
+[Organisation] "BS"
 
 //[TeamCap] "18"
 //[CardRatingLowerBound] "30"

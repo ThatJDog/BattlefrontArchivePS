@@ -3,7 +3,8 @@
 [ShortenedName] "S7"
 [SeasonIndex] "9"
 [TournamentMode] "tournament"
-[Ranked] "false"
+[Ranked] "true"
+[Organisation] "BCL"
 
 #Aliens
 Cricken
@@ -45,7 +46,7 @@ INVICTA
 DJ-Chimera
 TraGyK
 
-#Navinous Goons
+#Plax Goons
 Envy
 Nai-Sora
 Subsided

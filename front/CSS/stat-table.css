@@ -1,0 +1,16 @@
+/* Stats Table Frame */
+.stats-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats-table th,
+.stats-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid var(--frame-border);
+}
+
+.stats-table th {
+    background-color: var(--table-header-bg);
+}

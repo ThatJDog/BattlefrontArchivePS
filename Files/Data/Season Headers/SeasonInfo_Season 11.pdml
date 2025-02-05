@@ -1,4 +1,4 @@
-<season name="Season 11" seasonID="bcl-s11" shortName="S11" seasonIndex=14 tournamentMode="tournament" ranked=false>
+<season name="Season 11" seasonID="bcl-s11" shortName="S11" seasonIndex=14 tournamentMode="tournament" ranked=false organisation="BCL">
 	<team name="EDL" >
 		<player-entry name="Foggle" rating=8/>
 		<player-entry name="Prometheus" rating=7/>

@@ -1,4 +1,4 @@
-!Amateur League
+!Season 2 Amateur
 [SeasonID] "opl-s2-ama"
 [Group] "OPLS2"
 [ShortenedName] "OPLS2 AL"
@@ -16,6 +16,7 @@
 [TeamCardThreshold] = "60"
 [SystemCardThreshold] = "40"
 [ProjectCardThreshold] = "0"
+[Organisation] "OPL"
 
 #Walker
 [PrimaryColour] "FFFFFF"

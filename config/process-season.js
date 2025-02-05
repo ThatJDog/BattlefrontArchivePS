@@ -21,7 +21,7 @@ async function processSeasonFile(seasonData, db) {
     // Insert series into the Series table
     db.insert('Season', {
         ID: seasonID,
-        OrganisationName: seasonData.getOrDefaultAttribute('org', null),
+        OrganisationName: seasonData.getOrDefaultAttribute('organisation', null),
         Name: seasonData.getOrDefaultAttribute('name', ''),
         ShortName: seasonData.getOrDefaultAttribute('shortname', seasonData.name),
         Group: seasonData.getOrDefaultAttribute('group', null),

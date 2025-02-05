@@ -1,0 +1,29 @@
+<series season="bcl-s7" teams=["Aliens" "ZHU"] round=1 index=9>
+	<match map="Jawa Refuge" timeLeft="06:33" gameMode="Drop Zone" server="">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Unakkorn" score=6000 kills=21 deaths=13/>
+			<playerScore name="Hashemy" score=4475 kills=16 deaths=12/>
+			<playerScore name="Cricken" score=3900 kills=8 deaths=13/>
+			<playerScore name="Novacane" score=3430 kills=10 deaths=8/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Keyys" score=4700 kills=12 deaths=22/>
+			<playerScore name="Blue" score=3450 kills=16 deaths=16/>
+			<playerScore name="Palmy" score=2670 kills=12 deaths=11/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="01:36" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Cricken" score=8200 kills=17 deaths=20/>
+			<playerScore name="Unakkorn" score=6350 kills=27 deaths=24/>
+			<playerScore name="Hashemy" score=5875 kills=26 deaths=14/>
+			<playerScore name="Novacane" score=5640 kills=17 deaths=26/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Foggle" score=6375 kills=25 deaths=20/>
+			<playerScore name="Keyys" score=6125 kills=16 deaths=30/>
+			<playerScore name="Blue" score=4975 kills=21 deaths=21/>
+			<playerScore name="Palmy" score=4885 kills=21 deaths=17/>
+		</teamScore>
+	</match>
+</series>

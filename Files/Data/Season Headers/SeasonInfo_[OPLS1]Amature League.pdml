@@ -1,4 +1,4 @@
-<season name="Amateur League" seasonID="opl-s1-ama" group="OPLS1" shortName="OPLS1 AL" seasonIndex=16 ranked=true seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8>
+<season name="Season 1 Amateur" seasonID="opl-s1-ama" group="OPLS1" shortName="OPLS1 AL" seasonIndex=16 ranked=true seasonColour="FF155D" tournamentMode="roundedTournament" ratingLowerBound=1 ratingUpperBound=8 organisation="OPL">
 	<team name="FRA" >
 		<player-entry name="Redloz" rating=3.1/>
 		<player-entry name="Mileena" rating=3.76/>

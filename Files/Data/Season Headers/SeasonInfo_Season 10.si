@@ -4,6 +4,7 @@
 [SeasonIndex] "13"
 [TournamentMode] "tournament"
 [Ranked] "true"
+[Organisation] "BCL"
 
 #British Empire
 [PrimaryColour] "213981"

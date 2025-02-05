@@ -45,7 +45,7 @@ async function loadData(db, matchID) {
         playerScores = playerScores.drop(['Duration', 'ObjScore', 'SPM', 'OSPM'])
         .reorderColumns(["PlayerName", "Rank", "Score", "Kills"]);
 
-        const playerSplit = playerScores.renameRecord('PlayerName', 'Player').split('TeamName');
+        const playerSplit = playerScores.renameColumn('PlayerName', 'Player').split('TeamName');
         team1Players = playerSplit[0].drop('TeamName'); // Cant always assume order is correct
         team2Players = playerSplit[1].drop('TeamName');
 

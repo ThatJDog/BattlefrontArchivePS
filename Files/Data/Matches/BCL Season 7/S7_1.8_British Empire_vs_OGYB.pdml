@@ -1,0 +1,58 @@
+<series season="bcl-s7" teams=["British Empire" "OGYB"] round=1 index=8>
+	<match map="Jawa Refuge" timeLeft="-02:-03" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Diego" score=11200 kills=26 deaths=31/>
+			<playerScore name="Prometheus" score=9700 kills=36 deaths=28/>
+			<playerScore name="Foggle" score=7125 kills=39 deaths=36/>
+			<playerScore name="Dajdog" score=5045 kills=12 deaths=27/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Goudapest" score=10500 kills=32 deaths=31/>
+			<playerScore name="Swaggy" score=7475 kills=32 deaths=26/>
+			<playerScore name="Skumszy" score=7400 kills=23 deaths=32/>
+			<playerScore name="Amjedjohn" score=6805 kills=33 deaths=25/>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="03:21" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Foggle" score=7975 kills=31 deaths=23/>
+			<playerScore name="Diego" score=7650 kills=24 deaths=24/>
+			<playerScore name="Prometheus" score=5875 kills=21 deaths=18/>
+			<playerScore name="Dajdog" score=4170 kills=13 deaths=17/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Swaggy" score=6050 kills=27 deaths=18/>
+			<playerScore name="Amjedjohn" score=5405 kills=19 deaths=25/>
+			<playerScore name="Skumszy" score=5175 kills=23 deaths=17/>
+			<playerScore name="Goudapest" score=5100 kills=11 deaths=29/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="00:17" gameMode="Drop Zone" server="US West">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Diego" score=10525 kills=21 deaths=40/>
+			<playerScore name="Foggle" score=8950 kills=45 deaths=36/>
+			<playerScore name="Prometheus" score=7275 kills=40 deaths=29/>
+			<playerScore name="Dajdog" score=5135 kills=21 deaths=31/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Goudapest" score=9100 kills=28 deaths=30/>
+			<playerScore name="Skumszy" score=8725 kills=39 deaths=37/>
+			<playerScore name="Amjedjohn" score=8295 kills=32 deaths=33/>
+			<playerScore name="Swaggy" score=7050 kills=33 deaths=29/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="00:35" gameMode="Drop Zone" server="Europe">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Foggle" score=7225 kills=30 deaths=25/>
+			<playerScore name="Diego" score=7025 kills=23 deaths=26/>
+			<playerScore name="Dajdog" score=6095 kills=15 deaths=22/>
+			<playerScore name="Hashemy" score=5350 kills=23 deaths=31/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Skumszy" score=8250 kills=30 deaths=26/>
+			<playerScore name="Swaggy" score=6900 kills=29 deaths=24/>
+			<playerScore name="Amjedjohn" score=6800 kills=23 deaths=27/>
+			<playerScore name="Goudapest" score=6250 kills=22 deaths=17/>
+		</teamScore>
+	</match>
+</series>

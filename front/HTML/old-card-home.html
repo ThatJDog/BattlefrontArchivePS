@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battlefront Card Archive</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Battlefront Card Archive</h1>
+    </header>
+    <section>
+        
+        <div id="seasonsContainer">
+            <!--<button class="season-btn" onclick="loadSeason('BS S1 Professional')">BS Season 1</button>-->
+            <button onclick="loadCardGallery('BS S1', 'Base')">Load Card Gallery</button>
+        </div>
+
+    </section>
+
+    <script>
+        function loadCardGallery(season, cardType) {
+            const url = `public/HTML/card-gallery.html?season=${encodeURIComponent(season)}&cardType=${encodeURIComponent(cardType)}`;
+            window.location.href = url;
+        }
+    </script>
+</body>

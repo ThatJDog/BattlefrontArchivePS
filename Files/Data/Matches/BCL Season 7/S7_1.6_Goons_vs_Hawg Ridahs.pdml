@@ -1,0 +1,22 @@
+<series season="bcl-s7" teams=["Goons" "Hawg Ridahs"] round=1 index=6>
+	<match map="Jawa" timeLeft="15:00" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=5>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="03:46" gameMode="Drop Zone" server="">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Subsided" score=6525 kills=16 deaths=18/>
+			<playerScore name="Envy" score=6075 kills=26 deaths=21/>
+			<playerScore name="Nai-Sora" score=5075 kills=22 deaths=19/>
+			<playerScore name="Rayanswag" score=3740 kills=8 deaths=15/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Cassady" score=6175 kills=31 deaths=22/>
+			<playerScore name="Hobo" score=5125 kills=15 deaths=19/>
+			<playerScore name="Sarrows" score=3715 kills=12 deaths=17/>
+			<playerScore name="Vanarin" score=3525 kills=15 deaths=14/>
+		</teamScore>
+	</match>
+</series>

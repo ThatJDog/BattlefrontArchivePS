@@ -10,7 +10,7 @@
 			<playerScore name="Alimpan" score=8850 kills=31 deaths=22 time="01:35"/>
 			<playerScore name="Prometheus" score=8550 kills=38 deaths=21 time="01:35"/>
 			<playerScore name="Diego" score=8385 kills=30 deaths=33 time="01:35"/>
-			<playerScore name="Iamenedo" score=5925 kills=23 deaths=27 time="01:35"/>
+			<playerScore name="Mendo" score=5925 kills=23 deaths=27 time="01:35"/>
 		</teamScore>
 	</match>
 	<match map="Raider Camp" timeLeft="03:54" gameMode="Drop Zone" server="">
@@ -24,7 +24,7 @@
 			<playerScore name="Alimpan" score=3875 kills=13 deaths=17 time="03:54"/>
 			<playerScore name="Prometheus" score=5000 kills=19 deaths=18 time="04:22"/>
 			<playerScore name="Diego" score=5195 kills=17 deaths=22 time="04:22"/>
-			<playerScore name="Iamenedo" score=4575 kills=21 deaths=20 time="03:54"/>
+			<playerScore name="Mendo" score=4575 kills=21 deaths=20 time="03:54"/>
 		</teamScore>
 	</match>
 	<match map="Jawa Refuge" timeLeft="00:11" gameMode="Drop Zone" server="">
@@ -38,7 +38,7 @@
 			<playerScore name="Alimpan" score=7325 kills=27 deaths=24 time="00:11"/>
 			<playerScore name="Shadows" score=7125 kills=25 deaths=39 time="00:11"/>
 			<playerScore name="Diego" score=7905 kills=31 deaths=36 time="00:11"/>
-			<playerScore name="Iamenedo" score=6175 kills=23 deaths=27 time="00:11"/>
+			<playerScore name="Mendo" score=6175 kills=23 deaths=27 time="00:11"/>
 		</teamScore>
 	</match>
 	<match map="Rebel Depot" timeLeft="02:05" gameMode="Drop Zone" server="">
@@ -52,7 +52,7 @@
 			<playerScore name="Amjedjohn" score=5175 kills=20 deaths=19 time="02:05"/>
 			<playerScore name="Shadows" score=4850 kills=23 deaths=33 time="02:05"/>
 			<playerScore name="Diego" score=5025 kills=17 deaths=24 time="02:05"/>
-			<playerScore name="Iamenedo" score=5600 kills=14 deaths=22 time="02:05"/>
+			<playerScore name="Mendo" score=5600 kills=14 deaths=22 time="02:05"/>
 		</teamScore>
 	</match>
 </series>

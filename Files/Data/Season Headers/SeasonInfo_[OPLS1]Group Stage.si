@@ -1,4 +1,4 @@
-!Group Stage
+!Season 1 Groups
 [SeasonID] "opl-s1-gs"
 [Group] "OPLS1"
 [ShortenedName] "OPLS1 GS"
@@ -6,6 +6,8 @@
 [Ranked] "true"
 [TournamentMode] "groupStage"
 [SeasonColour] "FF155D"
+[Organisation] "OPL"
+
 
 #Deathwatch
 [Group] "3"

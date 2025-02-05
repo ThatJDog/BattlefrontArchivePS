@@ -1,4 +1,4 @@
-<season name="Season 10" seasonID="bcl-s10" shortName="SX" seasonIndex=13 tournamentMode="tournament" ranked=true>
+<season name="Season 10" seasonID="bcl-s10" shortName="SX" seasonIndex=13 tournamentMode="tournament" ranked=true organisation="BCL">
 	<team name="British Empire" primaryColour=213981 secondaryColour="C2B17B">
 		<player-entry name="Foggle" rating=8/>
 		<player-entry name="Diego" rating=5.214/>

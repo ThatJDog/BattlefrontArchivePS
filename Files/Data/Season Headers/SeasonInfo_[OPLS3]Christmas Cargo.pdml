@@ -1,4 +1,4 @@
-<season name="Christmas Cargo" seasonID="xmas-cargo" group="OPLS3" shortName="Xmas Cargo" seasonIndex=20>
+<season name="Christmas Cargo" seasonID="xmas-cargo" group="OPLS3" shortName="Xmas Cargo" seasonIndex=20 organisation="OPL">
 	<team name="NMW" >
 		<player-entry name="Prometheus" />
 		<player-entry name="Bazo" />

@@ -1,4 +1,4 @@
-<season name="Season 8" seasonID="bcl-s8" shortName="S8" seasonIndex=10 tournamentMode="tournament" ranked=false>
+<season name="Season 8" seasonID="bcl-s8" shortName="S8" seasonIndex=10 tournamentMode="tournament" ranked=false organisation="BCL">
 	<team name="SWAT" >
 		<player-entry name="Vic" />
 		<player-entry name="Foggle" />

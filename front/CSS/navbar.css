@@ -1,0 +1,28 @@
+/* Nav Bar Style */
+.navbar {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 22px;
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+
+    transition: background-color 0.3s ease, font-weight 0.1s ease;
+}
+
+.navbar a:hover {
+    background-color: var(--highlight-color);
+    font-weight: 500;
+    color: var(--text-color);
+}

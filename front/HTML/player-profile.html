@@ -60,7 +60,7 @@
     <!-- Example buttons to open different pages in the popup -->
     <button onclick="openPopup('./match-score.html', { matchID: 1234 })" class="open-popup-btn">Open Stats</button>
 
-    <div class="section-container">
+    <div class="section vertical">
         <div class="section horizontal" style="height: 80vh;">
             <!-- Player Character Frame -->
             <div class="frame" style="width: 50%">
@@ -68,9 +68,7 @@
                     <h2>Showcase</h2>
                 </div>
                 <div class="frame-content">
-                    <div class="profile-picture">
-                        <img src="/path/to/profile-picture.jpg" alt="Player Picture" />
-                    </div>
+                    <img src="..\..\Files\source\tmp-stormtrooper.jpg" alt="Player Picture" height="100%"/>
                 </div>
             </div>
     
@@ -81,11 +79,13 @@
                 </div>
                 <div class="frame-content">
                     <div class="profile-info">
-                        <p>Age: 23</p>
+                        <p>Name: Foggle</p>
                         <p>Nationality: English</p>
+                        <p>Rating: 1096</p>
                         <p>Value: $10M</p>
-                        <p>Contract Expiry: 2024</p>
+                        <p>Played Since: BCL Season 5</p>
                     </div>
+                    <div id="table-container"></div>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@
                 <div class="frame-header">
                     <h2>Elo Graph</h2>
                 </div>
-                <div class="frame-content" style="height: 500px;">
+                <div class="frame-content" style="height: 300px;">
                     <div class="graph-container" id="eloGraphContainer"></div>
                 </div>
             </div>
@@ -116,17 +116,95 @@
 
   <script type="module">
     import { loadEloGraph } from '../JS/elo_graph_module.js';
+    import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
 
     document.addEventListener("DatabaseReady", () => {
         const playerName = new URLSearchParams(window.location.search).get('player');
         const container = document.getElementById('eloGraphContainer');
 
-        if (playerName) {
-            loadEloGraph(playerName, window.db, container);
-        } else {
-            loadEloGraph('Foggle', window.db, container);
-        }
+        if (!playerName) return;
+        loadEloGraph(playerName, window.db, container);
+
+        // Load player stats
+        const profileTable = document.getElementById("table-container");
+        populateRecordTable(profileTable, getPlayerStats(window.db, playerName));
     });
+
+    function getPlayerStats(db, playerName){
+        // Step 1: Get Series IDs for the season
+
+        const targetSeason = null; // "bcl-s10";
+
+        const matches = targetSeason 
+        ?   db.select("Series", row => row.SeasonID === targetSeason)
+            .join(db.select("Match"), "INNER JOIN", (series, match) => series.SeriesID === match.SeriesID)
+        :   db.select("Match")
+
+        const playerScoresInMatches = matches
+        .join(db.select("PlayerScore"), "INNER JOIN", (match, playerScore) => match.MatchID === playerScore.MatchID
+            && playerScore.PlayerName === playerName);
+
+        console.log(playerScoresInMatches);
+
+        // Step 4: Group PlayerScores by PlayerName and aggregate stats
+        const aggregatedScores = playerScoresInMatches.groupBy(["PlayerName"], {
+            Score: (values) => values.reduce((sum, value) => sum + value, 0),
+            Kills: (values) => values.reduce((sum, value) => sum + value, 0),
+            Deaths: (values) => values.reduce((sum, value) => sum + value, 0),
+            Duration: (values) => values.reduce((sum, value) => sum + value, 0),
+        });
+
+        // Step 6: Join aggregated scores with team registration
+        const table = (targetSeason
+        ? aggregatedScores.join(
+            // Step 5: Get team registration for players in the season
+            db.select("PlayedFor", (row) => row.SeasonID === targetSeason),
+            // Include players even if they don't have a registered team
+            "LEFT JOIN",
+            (score, team) => score.PlayerName === team.PlayerName
+        )
+        : aggregatedScores)
+        
+        .keep(targetSeason ? ['PlayerName', 'TeamName', 'Score', 'Kills', 'Deaths', 'Duration'] : '*')
+
+        .addComputedColumn("ObjScore", (record) => {
+            return (parseFloat(record.Score - (record.Kills * 100)) * 0.95).toFixed(0); // ObjScore - buffer
+        })
+        .addComputedColumn("KDR", (record) => {
+            return record.Deaths > 0 
+            ? (record.Kills / record.Deaths).toFixed(2) // Ensure fixed decimal format
+            : "0.00"; // Keep consistent format for zero deaths
+        })
+        .addComputedColumn("KPM", (record) => {
+            return record.Duration > 0 
+            ? (record.Kills / record.Duration).toFixed(2)
+            : "0.00";
+        })
+        .addComputedColumn("SPM", (record) => {
+            return record.Duration > 0 
+            ? (record.Score / record.Duration).toFixed(2)
+            : "0.00";
+        })
+        .addComputedColumn("OSPM", (record) => {
+            return record.Duration > 0 
+            ? (record.ObjScore / record.Duration).toFixed(2)
+            : "0.00";
+        })
+
+        // Round duration after adding other columns
+        // table = table.applyToColumn("Duration", (value) => parseFloat(value.toFixed(2)));
+        .drop('Duration')
+        
+        // Join player info
+        .join(db.getTable('Player').keep(['Name', 'Nationality']), 'INNER JOIN', (a, b) => a.PlayerName === b.Name).drop('Name')
+        // .reorderColumns(['Name', 'Nationality', 'Rating', 'Value', 'Played Since', 'Score', 'Kills', 'Deaths', 'KDR', 'Obj Score', 'KPM', 'SPM', 'OSPM']);
+        .reorderColumns(['PlayerName', 'Nationality', 'Score', 'Kills', 'Deaths', 'KDR', 'ObjScore', 'KPM', 'SPM', 'OSPM'])
+        .renameColumn('PlayerName', 'Name').renameColumn('ObjScore', 'Obj Score');
+
+        console.log(table);
+        return table;
+    }
+
 </script>
 
 </body>

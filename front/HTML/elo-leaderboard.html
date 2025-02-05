@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Table Viewer</title>
+    <link rel="stylesheet" href="../CSS/global-swbf.css">
+    <script type="module" src="../JS/navbar.js"></script>
+    <script type="module" src="../JS/themes.js"></script>
+    <script type="module" src="/db/database-loader.js" defer></script>
+    <script type="module">
+        import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
+
+        async function loadTable() {
+            const tableContainer = document.getElementById("table-container");
+
+            try {
+                const table = getLeaderboard(null);
+
+                // Call populateTable as usual
+                populateTable(tableContainer, table);
+
+                // Add click event listener to rows after table is populated
+                const rows = tableContainer.querySelectorAll("tbody tr");
+
+                rows.forEach((row, index) => {
+                    row.addEventListener("click", () => {
+                        const secondColumnKey = table.schema[1]; // Get the column name of the second column
+                        const secondColumnValue = table.records[index][secondColumnKey]; // Get the value from the clicked row
+
+                        // Redirect to new page with the second column value as a URL parameter
+                        window.location.href = `./player-profile?player=${encodeURIComponent(secondColumnValue)}`;
+                    });
+                });
+
+            } catch (error) {
+                console.error("Error loading data:", error);
+            }
+        }
+
+        function getLeaderboard(seasonID) {
+            // Get all series that occurred in or before the target season
+            const validSeries = db.select('Series', series => seasonID == null || series.SeasonID === seasonID);
+            
+            // Get all valid match IDs from these series
+            const validMatches = db.getTable('Match')
+                .join(validSeries, "INNER JOIN", (match, series) => match.SeriesID === series.SeriesID)
+                .keep(["MatchID"]);
+
+            // Filter Ranked table for valid matches
+            const rankedFiltered = db.getTable('Ranked').join(validMatches, "INNER JOIN", (ranked, match) => ranked.MatchID === match.MatchID);
+            console.log("rankedFiltered: ", rankedFiltered);
+
+            // Identify winning teams per match
+            const winningTeams = db.getTable('TeamScore')
+                .groupBy(["MatchID"], { 
+                    Score: scores => Math.max(...scores)
+                 }).renameColumn('Score', 'WinScore')
+                .join(db.getTable('TeamScore'), "INNER JOIN", (win, team) => win.MatchID === team.MatchID && win.WinScore === team.Score)
+                .keep(["MatchID", "TeamName"]).renameColumn('TeamName', 'Winner');
+            console.log("winningTeams: ", winningTeams);
+
+            // Determine wins per player
+            const playerWins = rankedFiltered
+                 // Join the ranked matches with the player scores (to get the team they played for)
+                .join(db.getTable('PlayerScore'), 'LEFT JOIN', 
+                    (ranked, scores) => ranked.PlayerName === scores.PlayerName && ranked.MatchID === scores.MatchID)
+                .join(winningTeams, "INNER JOIN", (ranked, win) => ranked.MatchID === win.MatchID && ranked.TeamName === win.Winner)
+                .groupBy(["PlayerName"], { MatchID: wins =>wins ? wins.length : 0 })
+                .renameColumn('MatchID', 'Wins').renameColumn('PlayerName', 'PlayerName2');;
+            console.log("playerWins: ", playerWins);
+
+            // Aggregate Elo and total matches played
+            const playerStats = rankedFiltered.groupBy(["PlayerName"], { 
+                Elo: elos => elos.reduce((sum, elo) => sum + elo, 400), // 400 is base Elo
+                MatchID: matches => matches.length
+            }).renameColumn('MatchID', 'Matches')
+            console.log("playerStats: ", playerStats);
+            
+            // Merge win counts with player stats
+            const leaderboard = playerStats
+                .join(playerWins, "LEFT JOIN", (stats, wins) => stats.PlayerName === wins.PlayerName2)
+                .drop('PlayerName2')
+                .fillIfNull('Wins', 0)
+                .sortBy(["Elo desc", "Wins desc"])
+                .addComputedColumn("W/L", record => {
+                    let divisor = record.Matches - record.Wins;
+                    if (record.Wins == 0) return "0.00";
+                    let wlr = divisor > 0 ? record.Wins / divisor : record.Wins;
+                    return wlr.toFixed(2);
+                })
+                .addComputedColumn("Position", (record, index) => index + 1)
+                .reorderColumns(['Position', 'PlayerName', 'Elo', 'W/L', 'Matches', 'Wins'])
+
+                .applyToColumn('Elo', elo => Math.round(elo))
+
+                .renameColumn('PlayerName', 'Player')
+                .renameColumn('Position', 'Pos')
+            ;
+
+            console.log("leaderboard: ", leaderboard);
+            return leaderboard;
+        }
+
+
+        document.addEventListener("DatabaseReady", () => {
+            loadTable();
+        });
+    </script>
+</head>
+<body>
+    <div class="section" style="width: 50%;">
+        <div class="frame">
+            <div class="leaderboard-table" id="table-container"></div>
+        </div>
+    </div>
+</body>
+</html>

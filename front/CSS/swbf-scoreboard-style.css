@@ -107,6 +107,8 @@ body.match {
 /* Table Styles */
 .scoreboard-table {
     width: 45%;
+
+    text-transform: none;
 }
 
 .scoreboard-table table {
@@ -150,10 +152,10 @@ body.match {
 }
 
 /* Columns */
-td {
+.scoreboard-table td {
     min-width: 50px;
 }
-td:not(:last-child) {
+.scoreboard-table td:not(:last-child) {
     border-right: var(--cell-border); /* Adds only inside column borders */
 }
 
@@ -185,6 +187,7 @@ td:not(:last-child) {
 .scoreboard-table tbody tr:hover:not(.empty){
     background: var(--highlight-color); /* Highlight row on hover */
     color: black;
+    cursor: pointer; /* Indicates rows are clickable */
 }
 
 .scoreboard-table td:first-child {

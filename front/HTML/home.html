@@ -3,26 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Battlefront Card Archive</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/global-swbf.css">
+    <script type="module" src="../JS/navbar.js"></script>
+    <script type="module" src="../JS/themes.js"></script>
+
+    <script type="module">
+        document.addEventListener("DOMContentLoaded", () => {
+        // Stats frame listener
+        const statsFrame = document.getElementById("stats-frame");
+        if (statsFrame) {
+            statsFrame.addEventListener("click", () => {
+                window.location.href = "./home";
+            });
+        }
+
+        // Leaderboards frame listener
+        const leaderboardsFrame = document.getElementById("leaderboards-frame");
+        if (leaderboardsFrame) {
+            leaderboardsFrame.addEventListener("click", () => {
+                window.location.href = "./leaderboards";
+            });
+        }
+
+        // Record Book frame listener
+        const recordBookFrame = document.getElementById("record-book-frame");
+        if (recordBookFrame) {
+            recordBookFrame.addEventListener("click", () => {
+                window.location.href = "./home";
+            });
+        }
+
+        // Hall of Fame frame listener
+        const hallOfFameFrame = document.getElementById("hall-of-fame-frame");
+        if (hallOfFameFrame) {
+            hallOfFameFrame.addEventListener("click", () => {
+                window.location.href = "./home";
+            });
+        }
+        });
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Battlefront Card Archive</h1>
-    </header>
-    <section>
+    <main>
+        <div class="section vertical">
+            <div class="section horizontal">
+            <div class="section">
+                <div class="frame button" id="stats-frame">
+                <div class="frame-header">
+                    <h2>Stats</h2>
+                </div>
+                <div class="frame-content"></div>
+                </div>
+            </div>
         
-        <div id="seasonsContainer">
-            <!--<button class="season-btn" onclick="loadSeason('BS S1 Professional')">BS Season 1</button>-->
-            <button onclick="loadCardGallery('BS S1', 'Base')">Load Card Gallery</button>
+            <div class="section vertical">
+                <div class="frame button" id="leaderboards-frame">
+                <div class="frame-header">
+                    <h2>Leaderboards</h2>
+                </div>
+                <div class="frame-content"></div>
+                </div>
+                <div class="frame button" id="record-book-frame">
+                <div class="frame-header">
+                    <h2>Record Book</h2>
+                </div>
+                <div class="frame-content"></div>
+                </div>
+            </div>
+            </div>
+        
+            <div class="section horizontal">
+            <div class="frame button" id="hall-of-fame-frame">
+                <div class="frame-header">
+                <h2>Hall of Fame</h2>
+                </div>
+                <div class="frame-content"></div>
+            </div>
+            <div class="frame spacer"></div>
+            </div>
         </div>
-
-    </section>
-
-    <script>
-        function loadCardGallery(season, cardType) {
-            const url = `public/HTML/card-gallery.html?season=${encodeURIComponent(season)}&cardType=${encodeURIComponent(cardType)}`;
-            window.location.href = url;
-        }
-    </script>
+    </main>
 </body>
+</html>

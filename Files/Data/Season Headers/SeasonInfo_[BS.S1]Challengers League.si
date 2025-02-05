@@ -1,4 +1,4 @@
-!Challengers League
+!Season 1 Challengers
 [SeasonID] "bs-s1-cha"
 [Group] "BS S1"
 [ShortenedName] "BS S1 Chall"
@@ -9,6 +9,7 @@
 [RatingLowerBound] "1"
 [RatingUpperBound] "8"
 //[TeamCap] "18"
+[Organisation] "Battlefront Series"
 
 [CardRatingLowerBound] "50"
 [CardRatingUpperBound] "94"

@@ -20,7 +20,7 @@ async function processSeriesFile(seriesData, db) {
     // Unique SeriesID generator
     const seriesCount = db.numRecords('Series');
     const seriesID = seriesCount > 0 ? db.getLast('Series').SeriesID + 1 : 0;
-    const teamNames = seriesData.getAttribute('teams');
+    const teamNames = seriesData.getOrDefaultAttribute('teams', []);
 
     // Insert series into the Series table
     db.insert('Series', {
@@ -28,7 +28,7 @@ async function processSeriesFile(seriesData, db) {
         SeasonID: seriesData.getAttribute('season'),
         Index: seriesData.getOrDefaultAttribute('index', 0),
         Round: seriesData.getOrDefaultAttribute('round', 0),
-        Teams: seriesData.getOrDefaultAttribute('teams', []),
+        Teams: teamNames,
     });
 
     // Process matches
