@@ -1,4 +1,4 @@
-<series season="opl-s1-gs" teams=["DEA" "DWxNMW"] round=0 index=14>
+<series season="opl-s1-gs" teams=["DEA" "NMW"] round=0 index=14>
 	<match map="Goazon Badlands" timeLeft="04:32" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Papl" score=5750 kills=8 deaths=14 time="04:32"/>

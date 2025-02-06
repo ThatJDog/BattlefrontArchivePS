@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["Plax Goons" "Vice Tigers"] round=0 index=23>
+	<match map="Dune Sea" timeLeft="02:17" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Veggie" score=11700 kills=49 deaths=16/>
+			<playerScore name="Goudapest" score=9325 kills=30 deaths=17/>
+			<playerScore name="Bdozen" score=8250 kills=29 deaths=17/>
+			<playerScore name="Puffy" score=6650 kills=22 deaths=25/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="rayanswag" score=7750 kills=21 deaths=32/>
+			<playerScore name="Unakkorn" score=6725 kills=22 deaths=36/>
+			<playerScore name="Envy" score=3650 kills=17 deaths=35/>
+			<playerScore name="Sween" score=3300 kills=14 deaths=28/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="-01:27" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Unakkorn" score=8700 kills=33 deaths=31/>
+			<playerScore name="rayanswag" score=8000 kills=18 deaths=29/>
+			<playerScore name="Envy" score=6350 kills=29 deaths=28/>
+			<playerScore name="Sween" score=6250 kills=26 deaths=27/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Goudapest" score=8050 kills=34 deaths=27/>
+			<playerScore name="Bdozen" score=7875 kills=26 deaths=21/>
+			<playerScore name="Puffy" score=7425 kills=23 deaths=24/>
+			<playerScore name="Veggie" score=7350 kills=32 deaths=35/>
+		</teamScore>
+	</match>
+</series>

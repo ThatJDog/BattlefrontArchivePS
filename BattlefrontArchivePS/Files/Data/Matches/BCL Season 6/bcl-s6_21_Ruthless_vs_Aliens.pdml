@@ -1,0 +1,44 @@
+<series season="bcl-s6" teams=["Ruthless" "Aliens"] round=0 index=21>
+	<match map="Jawa Refuge" timeLeft="06:39" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Cassady" score=2900 kills=13 deaths=17/>
+			<playerScore name="Hobo" score=2025 kills=7 deaths=13/>
+			<playerScore name="Szeth" score=1925 kills=5 deaths=15/>
+			<playerScore name="Keyys" score=1325 kills=9 deaths=17/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cricken" score=6975 kills=20 deaths=6/>
+			<playerScore name="CaZuaL" score=4220 kills=12 deaths=5/>
+			<playerScore name="Manny" score=4050 kills=11 deaths=12/>
+			<playerScore name="Hashemy" score=3925 kills=18 deaths=11/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="03:10" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Szeth" score=6225 kills=18 deaths=18/>
+			<playerScore name="Keyys" score=5900 kills=22 deaths=19/>
+			<playerScore name="Hobo" score=5600 kills=14 deaths=17/>
+			<playerScore name="Cassady" score=4600 kills=18 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Cricken" score=6450 kills=14 deaths=23/>
+			<playerScore name="CaZuaL" score=4945 kills=15 deaths=15/>
+			<playerScore name="Manny" score=4725 kills=15 deaths=18/>
+			<playerScore name="Hashemy" score=4075 kills=24 deaths=16/>
+		</teamScore>
+	</match>
+	<match map="Rebel Depot" timeLeft="01:29" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Keyys" score=6825 kills=24 deaths=25/>
+			<playerScore name="Hobo" score=6675 kills=20 deaths=16/>
+			<playerScore name="Szeth" score=5475 kills=17 deaths=18/>
+			<playerScore name="Cassady" score=4850 kills=19 deaths=21/>
+		</teamScore>
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Cricken" score=6300 kills=9 deaths=25/>
+			<playerScore name="Manny" score=5875 kills=18 deaths=22/>
+			<playerScore name="CaZuaL" score=5485 kills=23 deaths=20/>
+			<playerScore name="Hashemy" score=4575 kills=26 deaths=18/>
+		</teamScore>
+	</match>
+</series>

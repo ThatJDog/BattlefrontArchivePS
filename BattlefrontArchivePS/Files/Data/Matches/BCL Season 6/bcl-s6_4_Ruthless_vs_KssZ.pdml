@@ -1,0 +1,58 @@
+<series season="bcl-s6" teams=["Ruthless" "KssZ"] round=0 index=4>
+	<match map="Jawa Refuge" timeLeft="02:38" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Coloses" score=9500 kills=30 deaths=16/>
+			<playerScore name="Gswede" score=8675 kills=29 deaths=20/>
+			<playerScore name="Hobo" score=7175 kills=18 deaths=10/>
+			<playerScore name="Cassady" score=6025 kills=28 deaths=10/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="SymmPhonic" score=6775 kills=16 deaths=30/>
+			<playerScore name="Keyys" score=5300 kills=21 deaths=29/>
+			<playerScore name="Szeth" score=3400 kills=10 deaths=29/>
+			<playerScore name="Zayne" score=2250 kills=8 deaths=20/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Cassady" score=9000 kills=40 deaths=16/>
+			<playerScore name="Coloses" score=8975 kills=22 deaths=32/>
+			<playerScore name="Hobo" score=7200 kills=15 deaths=18/>
+			<playerScore name="Gswede" score=5175 kills=20 deaths=26/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="SymmPhonic" score=9075 kills=29 deaths=25/>
+			<playerScore name="Szeth" score=7800 kills=26 deaths=27/>
+			<playerScore name="Keyys" score=6250 kills=19 deaths=24/>
+			<playerScore name="Zayne" score=5900 kills=17 deaths=22/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="06:34" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Coloses7" score=3975 kills=9 deaths=16/>
+			<playerScore name="Voshzen" score=3250 kills=20 deaths=17/>
+			<playerScore name="HOBO" score=1900 kills=5 deaths=14/>
+			<playerScore name="Gwedez" score=1525 kills=9 deaths=12/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Szeth" score=5725 kills=18 deaths=9/>
+			<playerScore name="SymmPhonic" score=5275 kills=14 deaths=10/>
+			<playerScore name="Keyys" score=4875 kills=19 deaths=12/>
+			<playerScore name="Zayne" score=2925 kills=8 deaths=12/>
+		</teamScore>
+	</match>
+	<match map="Sulfur Fields" timeLeft="03:32" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Coloses" score=7250 kills=23 deaths=12/>
+			<playerScore name="Gswede" score=6550 kills=21 deaths=16/>
+			<playerScore name="Hobo" score=4925 kills=14 deaths=8/>
+			<playerScore name="Cassady" score=4675 kills=22 deaths=11/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="SymmPhonic" score=4250 kills=15 deaths=24/>
+			<playerScore name="Zayne" score=2850 kills=8 deaths=17/>
+			<playerScore name="Keyys" score=2825 kills=17 deaths=18/>
+			<playerScore name="Seth" score=2775 kills=7 deaths=21/>
+		</teamScore>
+	</match>
+</series>

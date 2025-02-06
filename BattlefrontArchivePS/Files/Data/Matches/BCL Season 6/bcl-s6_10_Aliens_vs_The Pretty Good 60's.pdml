@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["Aliens" "The Pretty Good 60's"] round=0 index=10>
+	<match map="Jawa Refuge" timeLeft="-01:18" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Hashemy" score=9375 kills=47 deaths=18/>
+			<playerScore name="Cricken" score=7975 kills=22 deaths=27/>
+			<playerScore name="Manny" score=6500 kills=17 deaths=36/>
+			<playerScore name="TheSup" score=5500 kills=20 deaths=29/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Fitality" score=9550 kills=35 deaths=31/>
+			<playerScore name="Baseball" score=7875 kills=32 deaths=24/>
+			<playerScore name="Diego" score=7575 kills=12 deaths=31/>
+			<playerScore name="Hobo" score=5925 kills=26 deaths=22/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="02:20" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Hashemy" score=5625 kills=27 deaths=12/>
+			<playerScore name="TheSup" score=5000 kills=21 deaths=27/>
+			<playerScore name="Manny" score=3475 kills=10 deaths=25/>
+			<playerScore name="Cricken" score=2975 kills=10 deaths=23/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Hobo" score=7825 kills=27 deaths=15/>
+			<playerScore name="Fitality" score=6525 kills=23 deaths=17/>
+			<playerScore name="Baseball" score=6225 kills=21 deaths=19/>
+			<playerScore name="Diego" score=4825 kills=15 deaths=17/>
+		</teamScore>
+	</match>
+</series>

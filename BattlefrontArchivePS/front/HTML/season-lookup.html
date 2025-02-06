@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season Lookup</title>
+    <link rel="stylesheet" href="../CSS/global-swbf.css">
+    <script type="module" src="../JS/navbar.js"></script>
+    <script type="module" src="../JS/themes.js"></script>
+    <script type="module" src="../../db/database-loader.js" defer></script>
+    <script type="module">
+        import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
+
+        async function loadTable() {
+            const tableContainer = document.getElementById("table-container");
+
+            try {
+
+                // Add filters like for:
+                // - Season
+                // - Team Name
+                // - Player Name
+
+                const table = getFilteredSeries(null);
+
+                // Call populateTable as usual
+                populateTable(tableContainer, table.drop('SeasonID'));
+
+                // Add click event listener to rows after table is populated
+                const rows = tableContainer.querySelectorAll("tbody tr");
+
+                rows.forEach((row, index) => {
+                    row.addEventListener("click", () => {
+                        // Get the SeriesID from the stored record
+                        const record = table.getRecord(index);
+                        if (record.SeasonID == null) {
+                            console.warn("SeasonID not found for this record:", record);
+                            console.log(table.getRecord(index));
+                            return;
+                        }
+
+                        // Redirect to the series page with the SeriesID as a URL parameter
+                        window.location.href = `./series-lookup?seasonID=${encodeURIComponent(record.SeasonID)}`;
+                    });
+                });
+
+            } catch (error) {
+                console.error("Error loading data:", error);
+            }
+        }
+
+        function getFilteredSeries() {
+            // Get all series that occurred in or before the target season
+            return db.getTable('Season')
+                // .addComputedColumn('Season', record => record.OrganisationName + " " + record.Name)
+                .renameColumn('OrganisationName', 'Organisation')
+                .renameColumn('ID', 'SeasonID')
+                .sortBy('Index')
+                .keep(['Organisation', 'Name', 'SeasonID'])
+            ;
+        }
+
+
+        document.addEventListener("DatabaseReady", () => {
+            loadTable();
+        });
+    </script>
+</head>
+<body>
+    <div class="section" style="width: 50%;">
+        <div class="frame">
+            <div class="leaderboard-table" id="table-container"></div>
+        </div>
+    </div>
+</body>
+</html>

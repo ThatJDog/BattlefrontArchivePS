@@ -1,0 +1,44 @@
+<series season="bcl-s6" teams=["Aliens" "Plax Goons"] round=0 index=7>
+	<match map="Swamp" timeLeft="-01:55" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Hashemy" score=9625 kills=42 deaths=19/>
+			<playerScore name="TheSup" score=8825 kills=28 deaths=30/>
+			<playerScore name="Cricken" score=7875 kills=19 deaths=23/>
+			<playerScore name="Manny" score=7625 kills=16 deaths=26/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Unakkorn" score=9225 kills=33 deaths=31/>
+			<playerScore name="Envy" score=8125 kills=40 deaths=27/>
+			<playerScore name="rayanswagg" score=7125 kills=15 deaths=28/>
+			<playerScore name="Rails" score=3175 kills=8 deaths=23/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="02:22" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Hashemy" score=5150 kills=24 deaths=26/>
+			<playerScore name="TheSup" score=5050 kills=16 deaths=24/>
+			<playerScore name="Cricken" score=4150 kills=7 deaths=19/>
+			<playerScore name="Manny" score=3525 kills=14 deaths=25/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Unakkorn" score=7975 kills=30 deaths=21/>
+			<playerScore name="rayanswagg" score=7850 kills=19 deaths=14/>
+			<playerScore name="Rails" score=5975 kills=23 deaths=11/>
+			<playerScore name="Envy" score=4525 kills=21 deaths=16/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="01:06" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cricken" score=8250 kills=20 deaths=25/>
+			<playerScore name="Hashemy" score=7150 kills=35 deaths=22/>
+			<playerScore name="TheSup" score=6450 kills=20 deaths=22/>
+			<playerScore name="Manny" score=6000 kills=15 deaths=27/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Unakkorn" score=9975 kills=40 deaths=21/>
+			<playerScore name="Envy" score=6125 kills=33 deaths=28/>
+			<playerScore name="Rails" score=4900 kills=14 deaths=19/>
+			<playerScore name="rayanswagg" score=4025 kills=7 deaths=27/>
+		</teamScore>
+	</match>
+</series>

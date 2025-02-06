@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["The Pretty Good 60's" "Vice Tigers"] round=0 index=27>
+	<match map="Jawa Refuge" timeLeft="-00:21" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Fitality" score=9250 kills=35 deaths=22/>
+			<playerScore name="Diego" score=7850 kills=20 deaths=30/>
+			<playerScore name="Baseball" score=6800 kills=29 deaths=25/>
+			<playerScore name="Alimpan" score=5775 kills=22 deaths=24/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Vanarin" score=8625 kills=37 deaths=18/>
+			<playerScore name="Goudapest" score=8150 kills=26 deaths=31/>
+			<playerScore name="Puffy" score=7325 kills=21 deaths=32/>
+			<playerScore name="Gswede" score=3925 kills=16 deaths=26/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="01:42" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Puffy" score=7375 kills=15 deaths=16/>
+			<playerScore name="Vanarin" score=6975 kills=36 deaths=18/>
+			<playerScore name="Gswede" score=6400 kills=24 deaths=18/>
+			<playerScore name="Goudapest" score=4875 kills=13 deaths=17/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Alimpan" score=5825 kills=15 deaths=21/>
+			<playerScore name="Diego" score=5125 kills=9 deaths=23/>
+			<playerScore name="Fitality" score=4900 kills=26 deaths=20/>
+			<playerScore name="Baseball" score=4475 kills=18 deaths=24/>
+		</teamScore>
+	</match>
+</series>

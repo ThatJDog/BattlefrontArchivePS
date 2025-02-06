@@ -1,0 +1,44 @@
+<series season="bcl-s6" teams=["ZHU" "Vice Tigers"] round=0 index=12>
+	<match map="Jawa Refuge" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Healthy" score=5400 kills=22 deaths=21/>
+			<playerScore name="Blue" score=7400 kills=33 deaths=29/>
+			<playerScore name="Sween" score=6275 kills=20 deaths=29/>
+			<playerScore name="Palmy" score=5400 kills=22 deaths=21/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="rayanswagg" score=8750 kills=25 deaths=25/>
+			<playerScore name="Goudapest" score=7675 kills=30 deaths=23/>
+			<playerScore name="Bdozen" score=7300 kills=29 deaths=23/>
+			<playerScore name="Stook" score=6225 kills=20 deaths=29/>
+		</teamScore>
+	</match>
+	<match map="Goazon Badlands" timeLeft="06:22" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Healthy" score=5550 kills=12 deaths=9/>
+			<playerScore name="Palmy" score=4850 kills=17 deaths=12/>
+			<playerScore name="Blue" score=4575 kills=23 deaths=13/>
+			<playerScore name="Sween" score=4525 kills=12 deaths=15/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="RyanSwag" score=3600 kills=12 deaths=14/>
+			<playerScore name="Moss" score=3200 kills=10 deaths=18/>
+			<playerScore name="Bdozer" score=2850 kills=17 deaths=15/>
+			<playerScore name="Stook" score=2125 kills=10 deaths=17/>
+		</teamScore>
+	</match>
+	<match map="Raider Camp" timeLeft="07:53" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Palmy" score=2775 kills=7 deaths=13/>
+			<playerScore name="Sween" score=2550 kills=9 deaths=16/>
+			<playerScore name="Blue" score=1625 kills=9 deaths=12/>
+			<playerScore name="Healthy" score=1125 kills=5 deaths=15/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Bdozen" score=5250 kills=19 deaths=3/>
+			<playerScore name="Goudapest" score=4825 kills=13 deaths=7/>
+			<playerScore name="rayanswagg" score=3850 kills=12 deaths=12/>
+			<playerScore name="Stook" score=3225 kills=11 deaths=8/>
+		</teamScore>
+	</match>
+</series>

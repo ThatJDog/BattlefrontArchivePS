@@ -1,0 +1,44 @@
+<series season="bcl-s6" teams=["O Block" "Ruthless"] round=0 index=19>
+	<match map="Jawa Refuge" timeLeft="-04:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="QuitegoneG" score=11725 kills=28 deaths=37/>
+			<playerScore name="Skumszy" score=11350 kills=45 deaths=46/>
+			<playerScore name="Swaggy" score=9175 kills=33 deaths=33/>
+			<playerScore name="Sarrows" score=5275 kills=21 deaths=27/>
+		</teamScore>
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Coloses" score=13975 kills=32 deaths=35/>
+			<playerScore name="Cassady" score=12250 kills=53 deaths=28/>
+			<playerScore name="Hobo" score=9650 kills=29 deaths=35/>
+			<playerScore name="Szeth" score=6875 kills=27 deaths=30/>
+		</teamScore>
+	</match>
+	<match map="Map" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Skumszy" score=9300 kills=33 deaths=25/>
+			<playerScore name="QuitegoneG" score=6850 kills=15 deaths=24/>
+			<playerScore name="Swaggy" score=5775 kills=26 deaths=26/>
+			<playerScore name="Sarrows" score=3975 kills=11 deaths=16/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Coloses" score=8525 kills=23 deaths=23/>
+			<playerScore name="Cassady" score=6525 kills=37 deaths=22/>
+			<playerScore name="Hobo" score=5125 kills=16 deaths=19/>
+			<playerScore name="Szeth" score=4875 kills=14 deaths=22/>
+		</teamScore>
+	</match>
+	<match map="Map" timeLeft="00:56" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Swaggy" score=7300 kills=36 deaths=19/>
+			<playerScore name="QuitegoneG" score=6475 kills=16 deaths=24/>
+			<playerScore name="Skumszy" score=6250 kills=19 deaths=29/>
+			<playerScore name="Sarrows" score=2525 kills=6 deaths=16/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cassady" score=7800 kills=36 deaths=14/>
+			<playerScore name="Coloses" score=7450 kills=17 deaths=27/>
+			<playerScore name="Hobo" score=5575 kills=16 deaths=24/>
+			<playerScore name="Szeth" score=4425 kills=17 deaths=13/>
+		</teamScore>
+	</match>
+</series>

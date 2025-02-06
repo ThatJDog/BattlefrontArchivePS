@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["SawC" "KssZ"] round=0 index=11>
+	<match map="Goazon Badlands" timeLeft="01:59" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Shadows" score=10650 kills=26 deaths=14/>
+			<playerScore name="Quitegoneg" score=6950 kills=20 deaths=17/>
+			<playerScore name="Spree" score=6900 kills=37 deaths=20/>
+			<playerScore name="Uliday" score=4025 kills=17 deaths=14/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Coloses" score=5725 kills=18 deaths=29/>
+			<playerScore name="Keyys" score=4575 kills=18 deaths=25/>
+			<playerScore name="SymmPhonic" score=4500 kills=16 deaths=26/>
+			<playerScore name="Szeth" score=3900 kills=11 deaths=21/>
+		</teamScore>
+	</match>
+	<match map="Swamp" timeLeft="-00:14" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Shadows" score=10525 kills=30 deaths=14/>
+			<playerScore name="Quitegoneg" score=6750 kills=22 deaths=21/>
+			<playerScore name="Spree" score=5275 kills=23 deaths=18/>
+			<playerScore name="Uliday" score=4400 kills=17 deaths=20/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="SymmPhonic" score=7000 kills=27 deaths=19/>
+			<playerScore name="Coloses" score=6125 kills=14 deaths=27/>
+			<playerScore name="Keyys" score=5500 kills=16 deaths=22/>
+			<playerScore name="Szeth" score=4775 kills=23 deaths=25/>
+		</teamScore>
+	</match>
+</series>

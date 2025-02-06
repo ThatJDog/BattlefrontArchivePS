@@ -1,0 +1,28 @@
+<series season="bcl-s6" teams=["SawC" "Aliens"] round=0 index=15>
+	<match map="Sulfur Fields" timeLeft="15:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="15:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=0>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+		</teamScore>
+	</match>
+	<match map="Jawa Refuge" timeLeft="-01:30" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=4>
+			<playerScore name="Shadows" score=11225 kills=24 deaths=34/>
+			<playerScore name="Uliday" score=8575 kills=25 deaths=28/>
+			<playerScore name="Spree" score=8125 kills=37 deaths=28/>
+			<playerScore name="Quitegoneg" score=4925 kills=25 deaths=31/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Hashemy" score=9425 kills=39 deaths=26/>
+			<playerScore name="Cricken" score=9350 kills=28 deaths=23/>
+			<playerScore name="TheSup" score=8125 kills=35 deaths=33/>
+			<playerScore name="Sween" score=7350 kills=18 deaths=31/>
+		</teamScore>
+	</match>
+</series>

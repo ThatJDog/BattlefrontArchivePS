@@ -1,4 +1,4 @@
-<series season="opl-s1-gs" teams=["Myrmidons-DW" "Bhocolate Bhip Bookies"] round=0 index=8>
+<series season="opl-s1-gs" teams=["Myrmidons" "Bhocolate Bhip Bookies"] round=0 index=8>
 	<match map="Jawa Refuge" timeLeft="07:16" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Beerus" score=5750 kills=25 deaths=10 time="07:16"/>

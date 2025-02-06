@@ -30,7 +30,7 @@
 		<player-entry name="Kurziiya" />
 		<player-entry name="Lego Matt" />
 	</team>
-	<team name="DW Beaver" >
+	<team name="Beaver" >
 		<player-entry name="Cheers" group=2/>
 		<player-entry name="Swaggy" />
 		<player-entry name="Vex" />
@@ -68,7 +68,7 @@
 		<player-entry name="Albert Blah" />
 		<player-entry name="Gpooy" />
 	</team>
-	<team name="Myrmidons-DW" >
+	<team name="Myrmidons" >
 		<player-entry name="Skumszy" group=1/>
 		<player-entry name="Baseball" />
 		<player-entry name="Cassady" />
@@ -116,7 +116,7 @@
 		<player-entry name="Tryhard" />
 		<player-entry name="DarkObitoS" />
 	</team>
-	<team name="DWxNMW" >
+	<team name="NMW" >
 		<player-entry name="Alimpan" group=4/>
 		<player-entry name="Foggle" />
 		<player-entry name="Karnage" />

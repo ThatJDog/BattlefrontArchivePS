@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["ZHU" "Ruthless"] round=0 index=26>
+	<match map="Jawa Refuge" timeLeft="03:00" gameMode="Drop Zone" server="US East">
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Blue" score=4800 kills=21 deaths=20/>
+			<playerScore name="Palmy" score=4325 kills=13 deaths=22/>
+			<playerScore name="Diego" score=4250 kills=15 deaths=21/>
+			<playerScore name="Healthy" score=3825 kills=13 deaths=18/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cassady" score=7375 kills=25 deaths=12/>
+			<playerScore name="Hobo" score=5950 kills=22 deaths=16/>
+			<playerScore name="Gswede" score=5875 kills=18 deaths=20/>
+			<playerScore name="Szeth" score=5025 kills=15 deaths=15/>
+		</teamScore>
+	</match>
+	<match map="Goazon badlands" timeLeft="00:02" gameMode="Drop Zone" server="US East">
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Dieg0" score=5700 kills=10 deaths=26/>
+			<playerScore name="Blue" score=5550 kills=31 deaths=24/>
+			<playerScore name="Palmy" score=4175 kills=21 deaths=30/>
+			<playerScore name="Healthy" score=4175 kills=13 deaths=23/>
+		</teamScore>
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Hobo" score=8825 kills=32 deaths=14/>
+			<playerScore name="Cassady" score=8275 kills=33 deaths=20/>
+			<playerScore name="Gswede" score=7550 kills=27 deaths=22/>
+			<playerScore name="Szeth" score=5800 kills=19 deaths=15/>
+		</teamScore>
+	</match>
+</series>

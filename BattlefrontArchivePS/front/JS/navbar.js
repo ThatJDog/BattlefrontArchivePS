@@ -4,7 +4,7 @@ export function loadNavbar() {
     navbar.innerHTML = `
       <a href="../HTML/home">Home</a>
       <a >Gallery</a>
-      <a href="../HTML/series-lookup">Matches</a>
+      <a href="../HTML/season-lookup">Data</a>
       <a href="../HTML/settings">Settings</a>
     `;
     document.body.prepend(navbar);

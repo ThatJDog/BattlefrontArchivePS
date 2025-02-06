@@ -23,6 +23,43 @@ export class Table {
         this.records.push(record);
     }
 
+    /**
+     * Merges another table's records into this table.
+     * Only includes columns that match this table's schema.
+     * @param {Table} otherTable - The table to merge records from.
+     * @param {string} [position="after"] - Insert position: "before" or "after" existing records.
+     */
+    merge(otherTable, position = "after") {
+        if (!(otherTable instanceof Table)) {
+            throw new Error("Argument must be an instance of Table");
+        }
+
+        if (!["before", "after"].includes(position)) {
+            throw new Error(`Invalid position argument. Expected "before" or "after", got "${position}".`);
+        }
+
+        // Determine matching columns
+        const matchingColumns = this.schema.filter(col => otherTable.schema.includes(col));
+
+        // Filter records to only include matching columns
+        const filteredRecords = otherTable.records.map(record => {
+            const filteredRecord = {};
+            matchingColumns.forEach(col => {
+                filteredRecord[col] = record[col]; // Copy only matching fields
+            });
+            return filteredRecord;
+        });
+
+        // Insert records at the specified position
+        if (position === "before") {
+            this.records = [...filteredRecords, ...this.records];
+        } else {
+            this.records = [...this.records, ...filteredRecords];
+        }
+
+        console.log(`Merged ${otherTable.records.length} records into ${this.name} (${position})`);
+    }
+
     select(filterFn = () => true) {
         // Create a new table with the same schema but only filtered records
         const newTable = new Table(`${this.name}_query`, this.schema);

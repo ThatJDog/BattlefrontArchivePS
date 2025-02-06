@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["ZHU" "KssZ"] round=0 index=22>
+	<match map="Map" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="NM--BLU3" score=9675 kills=39 deaths=13/>
+			<playerScore name="quitegoneG" score=9200 kills=31 deaths=22/>
+			<playerScore name="SweenXXII" score=6525 kills=25 deaths=19/>
+			<playerScore name="NBS-freedom" score=5250 kills=16 deaths=13/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Pegasus" score=5825 kills=16 deaths=30/>
+			<playerScore name="Szeth_Nightblood" score=5725 kills=15 deaths=22/>
+			<playerScore name="Keyys--" score=4725 kills=24 deaths=33/>
+			<playerScore name="Zayne_Carrick21" score=3350 kills=11 deaths=26/>
+		</teamScore>
+	</match>
+	<match map="Map" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="SweenXXII" score=8925 kills=25 deaths=25/>
+			<playerScore name="quitegoneG" score=7550 kills=24 deaths=20/>
+			<playerScore name="NM--BLU3" score=7375 kills=33 deaths=21/>
+			<playerScore name="NBS-freedom" score=5750 kills=18 deaths=19/>
+		</teamScore>
+		<teamScore faction="Imperial" score=4>
+			<playerScore name="Pegasus" score=8400 kills=22 deaths=27/>
+			<playerScore name="Keyys--" score=7600 kills=30 deaths=24/>
+			<playerScore name="Szeth_Nightblood" score=5325 kills=23 deaths=24/>
+			<playerScore name="Zayne_Carrick21" score=4050 kills=9 deaths=25/>
+		</teamScore>
+	</match>
+</series>

@@ -161,8 +161,15 @@
       window.location.href = `./match-lookup?seriesID=${encodeURIComponent(seriesID)}`;
     }
 
-    function viewSeason() {
-      // window.location.href = `./match-score?matchID=${encodeURIComponent(record.MatchID)}`;
+    function viewSeason() { // series-lookup?seasonID=xmas-cargo
+      if (!window.db) return;
+
+      const matchID = urlParams = new URLSearchParams(window.location.search).get('matchID');
+      const seasonID = db.select('Match', match => match.MatchID == parseInt(matchID))
+        .join(db.getTable('Series'), 'INNER JOIN', (match, series) => match.SeriesID === series.SeriesID)
+        .getRecord(0).SeasonID;
+      if (!seasonID) return;
+      window.location.href = `./series-lookup?seasonID=${encodeURIComponent(seasonID)}`;
     }
   </script>
 

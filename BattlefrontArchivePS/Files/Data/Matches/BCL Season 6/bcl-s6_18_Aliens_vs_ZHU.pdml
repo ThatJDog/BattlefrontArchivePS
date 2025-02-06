@@ -1,0 +1,58 @@
+<series season="bcl-s6" teams=["Aliens" "ZHU"] round=0 index=18>
+	<match map="Jawa Refuge" timeLeft="01:12" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cricken" score=9575 kills=19 deaths=23/>
+			<playerScore name="TheSup" score=9000 kills=33 deaths=13/>
+			<playerScore name="Hashemy" score=7325 kills=37 deaths=15/>
+			<playerScore name="Manny" score=5775 kills=18 deaths=19/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Healthy" score=6675 kills=17 deaths=28/>
+			<playerScore name="Palmy" score=4500 kills=17 deaths=29/>
+			<playerScore name="Sween" score=3675 kills=14 deaths=28/>
+			<playerScore name="Blue" score=5325 kills=21 deaths=19/>
+		</teamScore>
+	</match>
+	<match map="Map" timeLeft="02:22" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=1>
+			<playerScore name="Blue" score=6400 kills=25 deaths=21/>
+			<playerScore name="Palmy" score=4375 kills=19 deaths=22/>
+			<playerScore name="Sween" score=4375 kills=14 deaths=29/>
+			<playerScore name="Heathy" score=4125 kills=9 deaths=24/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Cricken" score=10625 kills=26 deaths=14/>
+			<playerScore name="TheSup" score=7225 kills=26 deaths=16/>
+			<playerScore name="Hashemy" score=6175 kills=32 deaths=16/>
+			<playerScore name="Manny" score=5175 kills=12 deaths=21/>
+		</teamScore>
+	</match>
+	<match map="Map" timeLeft="00:00" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=3>
+			<playerScore name="Cricken" score=8150 kills=19 deaths=23/>
+			<playerScore name="TheSup" score=7075 kills=30 deaths=22/>
+			<playerScore name="Hashemy" score=6175 kills=29 deaths=24/>
+			<playerScore name="Manny" score=5275 kills=13 deaths=30/>
+		</teamScore>
+		<teamScore faction="Imperial" score=3>
+			<playerScore name="Blue" score=8375 kills=31 deaths=20/>
+			<playerScore name="Healthy" score=7325 kills=30 deaths=23/>
+			<playerScore name="Palmy" score=5850 kills=21 deaths=25/>
+			<playerScore name="Sween" score=5625 kills=13 deaths=26/>
+		</teamScore>
+	</match>
+	<match map="Map" timeLeft="02:15" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Cricken" score=9325 kills=13 deaths=21/>
+			<playerScore name="TheSup" score=8075 kills=31 deaths=16/>
+			<playerScore name="Hashemy" score=6000 kills=36 deaths=12/>
+			<playerScore name="Manny" score=5550 kills=18 deaths=20/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Sween" score=6900 kills=16 deaths=26/>
+			<playerScore name="Blue" score=5425 kills=23 deaths=22/>
+			<playerScore name="Healthy" score=5125 kills=17 deaths=22/>
+			<playerScore name="Palmy" score=3225 kills=10 deaths=28/>
+		</teamScore>
+	</match>
+</series>

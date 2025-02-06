@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["SWAT" "The Pretty Good 60's"] round=0 index=17>
+	<match map="Jawa Refuge" timeLeft="-07:30" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Vic" score=15250 kills=23 deaths=37/>
+			<playerScore name="Foggle" score=14250 kills=49 deaths=26/>
+			<playerScore name="Karnage" score=12675 kills=66 deaths=30/>
+			<playerScore name="Haztof" score=11300 kills=31 deaths=33/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="IDiegol" score=12875 kills=24 deaths=51/>
+			<playerScore name="Alimpan" score=10075 kills=21 deaths=45/>
+			<playerScore name="Fitality" score=9725 kills=47 deaths=42/>
+			<playerScore name="Blue" score=7500 kills=31 deaths=33/>
+		</teamScore>
+	</match>
+	<match map="Dune Sea" timeLeft="-07:00" gameMode="Drop Zone">
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Vic" score=15650 kills=24 deaths=55/>
+			<playerScore name="Foggle" score=14275 kills=77 deaths=42/>
+			<playerScore name="Karnage" score=9950 kills=49 deaths=43/>
+			<playerScore name="Haztof" score=9725 kills=36 deaths=38/>
+		</teamScore>
+		<teamScore faction="Rebel" score=2>
+			<playerScore name="Diego" score=13175 kills=30 deaths=51/>
+			<playerScore name="Fitality" score=12875 kills=57 deaths=38/>
+			<playerScore name="Alimpan" score=12825 kills=42 deaths=46/>
+			<playerScore name="Blue" score=10075 kills=47 deaths=54/>
+		</teamScore>
+	</match>
+</series>

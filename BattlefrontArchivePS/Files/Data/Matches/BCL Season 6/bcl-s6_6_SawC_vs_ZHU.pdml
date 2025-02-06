@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["SawC" "ZHU"] round=0 index=6>
+	<match map="Jawa Refuge" timeLeft="02:38" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Spree" score=9125 kills=26 deaths=15/>
+			<playerScore name="Quitegoneg" score=6515 kills=19 deaths=14/>
+			<playerScore name="Shadows" score=6300 kills=22 deaths=18/>
+			<playerScore name="Uliday" score=4355 kills=20 deaths=14/>
+		</teamScore>
+		<teamScore faction="Imperial" score=1>
+			<playerScore name="Blue" score=6400 kills=27 deaths=20/>
+			<playerScore name="Sween" score=6100 kills=12 deaths=21/>
+			<playerScore name="Healthy" score=4520 kills=11 deaths=20/>
+			<playerScore name="Palmy" score=2500 kills=9 deaths=27/>
+		</teamScore>
+	</match>
+	<match map="Ice Caves" timeLeft="05:17" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=5>
+			<playerScore name="Spree" score=6375 kills=21 deaths=10/>
+			<playerScore name="Shadows" score=6175 kills=21 deaths=12/>
+			<playerScore name="Uliday" score=3835 kills=14 deaths=12/>
+			<playerScore name="Quitegoneg" score=3200 kills=9 deaths=9/>
+		</teamScore>
+		<teamScore faction="Imperial" score=2>
+			<playerScore name="Sween" score=7115 kills=21 deaths=17/>
+			<playerScore name="Blue" score=2700 kills=8 deaths=14/>
+			<playerScore name="Healthy" score=1980 kills=7 deaths=17/>
+			<playerScore name="Palmy" score=1800 kills=8 deaths=19/>
+		</teamScore>
+	</match>
+</series>

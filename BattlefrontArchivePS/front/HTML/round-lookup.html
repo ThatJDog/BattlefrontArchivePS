@@ -14,7 +14,6 @@
 
         async function loadTable() {
             const tableContainer = document.getElementById("table-container");
-            const signupTable = document.getElementById("signup-container");
 
             try {
 
@@ -50,13 +49,6 @@
                     });
                 });
 
-                const signups = window.db.select('PlayedFor', (record) => record.SeasonID === seasonID)
-                    .drop('SeasonID')
-                    .sortBy(['TeamName', 'IsCaptain desc', 'IsPrimary desc', 'PlayerName'])
-                ;
-
-                populateTable(signupTable, signups);
-
             } catch (error) {
                 console.error("Error loading data:", error);
             }
@@ -80,7 +72,7 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             const menuItems = [
-                { title: "Data", href: "./season-lookup"/*, active: true*/ },
+                { title: "Matches", href: "./series-lookup"/*, active: true*/ },
                 { title: "Season", href: "" }
             ];
 
@@ -91,29 +83,10 @@
 <body>
     <nav id="navbar-container"></nav>
 
-
-    <div class="section horizontal">
-        <div class="section">
-            <div class="frame">
-                <div class="frame-header">
-                    <h2>Series</h2>
-                </div>
-                <div class="frame-content">
-                    <div class="leaderboard-table" id="table-container"></div>
-                </div>
-            </div>
+    <div class="section" style="width: 50%;">
+        <div class="frame">
+            <div class="leaderboard-table" id="table-container"></div>
         </div>
-
-        <div class="section">
-            <div class="frame">
-                <div class="frame-header">
-                    <h2>Sign-ups</h2>
-                </div>
-                <div class="frame-content">
-                    <div class="data-table" id="signup-container"></div>
-                </div>
-            </div>
-        </div>    
-    </div>    
+    </div>
 </body>
 </html>

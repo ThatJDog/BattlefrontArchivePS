@@ -17,6 +17,9 @@
             const t1Container = document.getElementById("t1-container");
             const t2Container = document.getElementById("t2-container");
 
+            const t1TeamContainer = document.getElementById("t1-team-container");
+            const t2TeamContainer = document.getElementById("t2-team-container");
+
             try {
 
                 // Add filters like for:
@@ -49,11 +52,50 @@
                 });
 
 
-                const teamSummaries = getTeamSummary(table).split('TeamName');
+                const teamSummaries = getTeamSummary(table);
+                const teamSummariesSplit = teamSummaries.drop(['Duration', 'ObjScore']).split('TeamName');
 
-                populateTable(t1Container, teamSummaries[0].drop('TeamName').sortBy(['Score desc', 'Kills desc']));
-                populateTable(t2Container, teamSummaries[1].drop('TeamName').sortBy(['Score desc', 'Kills desc']));
-                console.log(teamSummaries);
+                populateTable(t1Container, teamSummariesSplit[0].drop('TeamName').sortBy(['Score desc', 'Kills desc']));
+                populateTable(t2Container, teamSummariesSplit[1].drop('TeamName').sortBy(['Score desc', 'Kills desc']));
+
+                const teamScores = teamSummaries
+                    .groupBy('TeamName', {
+                        Score: (values) => values.reduce((sum, value) => sum + value, 0),
+                        Kills: (values) => values.reduce((sum, value) => sum + value, 0),
+                        Deaths: (values) => values.reduce((sum, value) => sum + value, 0),
+                        ObjScore: (values) => values.reduce((sum, value) => sum + value, 0),
+                        Duration: (values) => Math.max(...values),
+                        //AvgKDR: (values) => values.length > 0 ? values.reduce((sum, value) => sum + parseFloat(value), 0) / values.length : 0,
+                        //AvgKPM: (values) => values.length > 0 ? values.reduce((sum, value) => sum + parseFloat(value), 0) / values.length : 0,
+                    })
+                    .addComputedColumn("KDR", (record) => {
+                        return record.Deaths > 0 
+                        ? (record.Kills / record.Deaths).toFixed(2) // Ensure fixed decimal format
+                        : "0.00"; // Keep consistent format for zero deaths
+                    })
+                    .addComputedColumn("KPM", (record) => {
+                        return record.Duration > 0 
+                        ? (record.Kills / record.Duration).toFixed(2)
+                        : "0.00";
+                    })
+                    .addComputedColumn("SPM", (record) => {
+                        return record.Duration > 0 
+                        ? (record.Score / record.Duration).toFixed(2)
+                        : "0.00";
+                    })
+                    .addComputedColumn("OSPM", (record) => {
+                        return record.Duration > 0 
+                        ? (record.ObjScore / record.Duration).toFixed(2)
+                        : "0.00";
+                    })
+                    .renameColumn('TeamName', 'Name')
+                ;
+                console.log(teamScores);
+
+                const teamScoresSplit = teamScores.drop(['Duration', 'ObjScore']).split('Name');
+
+                populateTable(t1TeamContainer, teamScoresSplit[0].sortBy(['Score desc', 'Kills desc']));
+                populateTable(t2TeamContainer, teamScoresSplit[1].sortBy(['Score desc', 'Kills desc']));
 
             } catch (error) {
                 console.error("Error loading data:", error);
@@ -61,12 +103,20 @@
         }
 
         function getFilteredMatches(seriesID) {
-            // Get all valid match IDs from these series
-            return db.select('Match', match => match.SeriesID === seriesID)
-                .applyToColumn('Duration', mins => mins.toFixed(1))
-                .fillIfNull('Server', 'Unkown')
-                .keep(['MatchID', 'GameMode', 'Map', 'Server', 'Duration'])
+            // Get all valid match IDs from this series
+            return db
+                .select("Match", (match) => match.SeriesID === seriesID)
+                .applyToColumn("Duration", (mins) => mins.toFixed(1)) // Format the duration to 1 decimal place
+                .fillIfNull("Server", "Unknown") // Fill null servers with "Unknown"
+                .join(
+                    db.getTable("TeamScore").filter((team) => team.Won === true), // Join with TeamScore where Won is true
+                    "LEFT JOIN",
+                    (match, team) => match.MatchID === team.MatchID
+                )
+                .addComputedColumn("WinningTeam", (record) => record.TeamName || "No Winner") // Add WinningTeam column
+                .keep(["MatchID", "GameMode", "Map", "Server", "Duration", "WinningTeam"]) // Keep necessary columns
             ;
+
         }
 
         function getTeamSummary(table) {
@@ -90,7 +140,7 @@
                 })
                 .keep(['PlayerName', 'TeamName', 'Score', 'Kills', 'Deaths', 'Duration'])
                 .addComputedColumn("ObjScore", (record) => {
-                    return (parseFloat(record.Score - (record.Kills * 100)) * 0.95).toFixed(0); // ObjScore - buffer
+                    return Math.round((parseFloat(record.Score - (record.Kills * 100)) * 0.95)); // ObjScore - buffer
                 })
                 .addComputedColumn("KDR", (record) => {
                     return record.Deaths > 0 
@@ -112,7 +162,7 @@
                     ? (record.ObjScore / record.Duration).toFixed(2)
                     : "0.00";
                 })
-                .drop(['Duration', 'ObjScore'])
+                .renameColumn('PlayerName', 'Name')
             ;
         }
 
@@ -122,7 +172,8 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             const menuItems = [
-                { title: "Matches", href: "./series-lookup"/*, active: true*/ },
+                { title: "Data", href: "./season-lookup"/*, active: true*/ },
+                { title: "Season", href: "./series-lookup" },
                 { title: "Series", href: "" }
             ];
 
@@ -133,7 +184,18 @@
 <body>
     <nav id="navbar-container"></nav>
 
-    <div class="section vertical" style="width: 80%;">
+    <div class="section vertical" style="width: 100%;">
+        <!--
+        <div class="frame">
+            <div class="frame-header">
+                <h3>Matches</h2>
+            </div>
+            <div class="frame-content">
+                <div class="leaderboard-table" id="table-container"></div>
+            </div>
+        </div>
+        -->
+
         <div class="frame">
             <div class="leaderboard-table" id="table-container"></div>
         </div>
@@ -143,7 +205,10 @@
                 <h3>Team 1 Summary</h2>
             </div>
             <div class="frame-content">
-                <div class="data-table" id="t1-container"></div>
+                <div class="section vertical">
+                    <div class="data-table" id="t1-container"></div>
+                    <div class="data-table" id="t1-team-container"></div>
+                </div>
             </div>
         </div>
 
@@ -152,7 +217,10 @@
                 <h3>Team 2 Summary</h2>
             </div>
             <div class="frame-content">
-                <div class="data-table" id="t2-container"></div>
+                <div class="section vertical">
+                    <div class="data-table" id="t2-container"></div>
+                    <div class="data-table" id="t2-team-container"></div>
+                </div>
             </div>
         </div>
     </div>

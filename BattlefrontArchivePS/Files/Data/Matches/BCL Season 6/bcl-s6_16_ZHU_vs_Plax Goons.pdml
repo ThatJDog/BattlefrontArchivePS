@@ -1,0 +1,30 @@
+<series season="bcl-s6" teams=["ZHU" "Plax Goons"] round=0 index=16>
+	<match map="Jawa Refuge" timeLeft="-00:20" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Blue" score=9050 kills=41 deaths=27/>
+			<playerScore name="Healthy" score=7050 kills=17 deaths=32/>
+			<playerScore name="Sween" score=5075 kills=11 deaths=32/>
+			<playerScore name="Palmy" score=3000 kills=13 deaths=31/>
+		</teamScore>
+		<teamScore faction="Imperial" score=0>
+			<playerScore name="Envy" score=11050 kills=49 deaths=24/>
+			<playerScore name="Unakkorn" score=9950 kills=41 deaths=18/>
+			<playerScore name="Manny" score=7650 kills=18 deaths=24/>
+			<playerScore name="Rails" score=5475 kills=12 deaths=21/>
+		</teamScore>
+	</match>
+	<match map="Sulfur Fields" timeLeft="07:53" gameMode="Drop Zone">
+		<teamScore faction="Rebel" score=0>
+			<playerScore name="Blue" score=1850 kills=13 deaths=13/>
+			<playerScore name="Sween" score=1800 kills=6 deaths=12/>
+			<playerScore name="Palmy" score=1575 kills=9 deaths=15/>
+			<playerScore name="Healthy" score=1125 kills=1 deaths=9/>
+		</teamScore>
+		<teamScore faction="Imperial" score=5>
+			<playerScore name="Unakkorn" score=4475 kills=14 deaths=5/>
+			<playerScore name="Manny" score=4375 kills=10 deaths=5/>
+			<playerScore name="Envy" score=3025 kills=16 deaths=9/>
+			<playerScore name="Rails" score=2650 kills=11 deaths=11/>
+		</teamScore>
+	</match>
+</series>

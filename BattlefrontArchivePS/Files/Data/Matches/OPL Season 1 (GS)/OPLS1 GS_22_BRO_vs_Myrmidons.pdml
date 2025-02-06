@@ -1,4 +1,4 @@
-<series season="opl-s1-gs" teams=["BRO" "Myrmidons-DW"] round=0 index=22>
+<series season="opl-s1-gs" teams=["BRO" "Myrmidons"] round=0 index=22>
 	<match map="Raider Camp" timeLeft="05:27" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="Skumszy" score=4775 kills=6 deaths=21 time="05:27"/>
