@@ -26,3 +26,49 @@
     font-weight: 500;
     color: var(--text-color);
 }
+
+
+
+
+
+
+/* Secondary Navbar Container */
+.secondary-navbar {
+    gap: 10px; /* Spacing between elements */
+    
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+  
+  /* Links Styling */
+  .secondary-navbar a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  
+  /* Active Link */
+  .secondary-navbar a.active {
+    font-weight: bold; /* Bold text for active link */
+  }
+  
+  /* Hover Effect */
+  .secondary-navbar a:hover {
+    color: #000; /* Change color on hover */
+    text-decoration: underline;
+  }
+  
+  /* Slash Separator Styling */
+  .secondary-navbar span {
+    color: #666; /* Lighter color for separators */
+    font-weight: normal;
+  }
+  

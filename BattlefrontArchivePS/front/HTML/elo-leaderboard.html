@@ -10,6 +10,7 @@
     <script type="module" src="../../db/database-loader.js" defer></script>
     <script type="module">
         import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
+        import { loadListNavbar } from '../JS/navbar.js';
 
         async function loadTable() {
             const tableContainer = document.getElementById("table-container");
@@ -106,9 +107,21 @@
         document.addEventListener("DatabaseReady", () => {
             loadTable();
         });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuItems = [
+                { title: "Home", href: "./home" },
+                { title: "Leaderboards", href: "./leaderboards" },
+                { title: "Elo", href: "" }
+            ];
+
+            loadListNavbar("navbar-container", menuItems);
+        });
     </script>
 </head>
 <body>
+    <nav id="navbar-container"></nav>
+
     <div class="section" style="width: 50%;">
         <div class="frame">
             <div class="leaderboard-table" id="table-container"></div>

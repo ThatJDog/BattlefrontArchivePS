@@ -53,6 +53,7 @@ async function main() {
                 }
             });
 
+        // Also validate map names, team names, season names, servers etc
 
         // Step 2: Re-Index all series and seasons
         console.log('PRE-PROCESSING->RE-INDEXING');

@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Leaderboards</title>
     <link rel="stylesheet" href="../CSS/global-swbf.css">
     <script type="module" src="../JS/navbar.js"></script>
     <script type="module" src="../JS/themes.js"></script>
     <script type="module">
-        document.addEventListener("DOMContentLoaded", () => {
-        // Stats frame listener
-        const statsFrame = document.getElementById("elo-frame");
-        if (statsFrame) {
-            statsFrame.addEventListener("click", () => {
-                window.location.href = "./elo-leaderboard";
-            });
-        }
+        import { loadListNavbar } from '../JS/navbar.js';
 
-        // Leaderboards frame listener
-        const leaderboardsFrame = document.getElementById("rating-frame");
-        if (leaderboardsFrame) {
-            leaderboardsFrame.addEventListener("click", () => {
-                window.location.href = "./rating-leaderboard";
-            });
-        }
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const menuItems = [
+                { title: "Home", href: "./home" },
+                { title: "Leaderboards", href: "" },
+            ];
+            loadListNavbar("navbar-container", menuItems);
+
+
+            // Stats frame listener
+            const statsFrame = document.getElementById("elo-frame");
+            if (statsFrame) {
+                statsFrame.addEventListener("click", () => {
+                    window.location.href = "./elo-leaderboard";
+                });
+            }
+
+            // Leaderboards frame listener
+            const leaderboardsFrame = document.getElementById("rating-frame");
+            if (leaderboardsFrame) {
+                leaderboardsFrame.addEventListener("click", () => {
+                    window.location.href = "./rating-leaderboard";
+                });
+            }
         });
     </script>
 </head>
 <body>
+    <nav id="navbar-container"></nav>
+
     <main>
         <div class="section horizontal">
             <div class="section">

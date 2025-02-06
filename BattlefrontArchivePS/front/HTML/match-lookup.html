@@ -10,6 +10,7 @@
     <script type="module" src="../../db/database-loader.js" defer></script>
     <script type="module">
         import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
+        import { loadListNavbar } from '../JS/navbar.js';
 
         async function loadTable() {
             const matchesContainer = document.getElementById("table-container");
@@ -118,16 +119,25 @@
         document.addEventListener("DatabaseReady", () => {
             loadTable();
         });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuItems = [
+                { title: "Matches", href: "./series-lookup"/*, active: true*/ },
+                { title: "Series", href: "" }
+            ];
+
+            loadListNavbar("navbar-container", menuItems);
+        });
     </script>
 </head>
 <body>
-    <div class="section" style="width: 80%;">
+    <nav id="navbar-container"></nav>
+
+    <div class="section vertical" style="width: 80%;">
         <div class="frame">
             <div class="leaderboard-table" id="table-container"></div>
         </div>
-    </div>
 
-    <div class="section vertical" style="width: 80%;">
         <div class="frame">
             <div class="frame-header">
                 <h3>Team 1 Summary</h2>
