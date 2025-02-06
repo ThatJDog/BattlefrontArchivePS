@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["Assisted Living Gamers" "ZHU"] round=1 index=2>
+<series season="bcl-s7" teams=["Assisted Living Gamers" "ZHU"] round=0 index=2>
 	<match map="Jawa Refuge" timeLeft="01:00" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Fitality" score=12025 kills=32 deaths=18/>

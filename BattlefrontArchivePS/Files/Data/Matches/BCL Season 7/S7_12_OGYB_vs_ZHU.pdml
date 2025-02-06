@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["OGYB" "ZHU"] round=2 index=3>
+<series season="bcl-s7" teams=["OGYB" "ZHU"] round=0 index=12>
 	<match map="Dune Sea" timeLeft="-01-:01" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Swaggy" score=10050 kills=46 deaths=33/>

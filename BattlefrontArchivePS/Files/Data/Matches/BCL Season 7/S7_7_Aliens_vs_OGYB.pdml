@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["Aliens" "OGYB"] round=1 index=7>
+<series season="bcl-s7" teams=["Aliens" "OGYB"] round=0 index=7>
 	<match map="Jawa" timeLeft="15:00" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=5>
 		</teamScore>

@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["OGYB" "Assisted Living Gamers"] round=1 index=4>
+<series season="bcl-s7" teams=["OGYB" "Assisted Living Gamers"] round=0 index=4>
 	<match map="Jawa Refuge" timeLeft="-01:-00" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Goudapest" score=8825 kills=20 deaths=20/>

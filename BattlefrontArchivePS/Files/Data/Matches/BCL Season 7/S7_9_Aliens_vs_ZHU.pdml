@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["Aliens" "ZHU"] round=1 index=9>
+<series season="bcl-s7" teams=["Aliens" "ZHU"] round=0 index=9>
 	<match map="Jawa Refuge" timeLeft="06:33" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Unakkorn" score=6000 kills=21 deaths=13/>

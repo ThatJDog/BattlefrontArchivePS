@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["ZHU" "Hawg Ridahs"] round=2 index=2>
+<series season="bcl-s7" teams=["ZHU" "Hawg Ridahs"] round=0 index=11>
 	<match map="Jawa Refuge" timeLeft="15:00" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=5>
 		</teamScore>

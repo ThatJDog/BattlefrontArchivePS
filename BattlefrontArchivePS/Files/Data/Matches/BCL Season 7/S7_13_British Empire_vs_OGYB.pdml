@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["British Empire" "OGYB"] round=2 index=4>
+<series season="bcl-s7" teams=["British Empire" "OGYB"] round=0 index=13>
 	<match map="Jawa Refuge" timeLeft="-00:-56" gameMode="Drop Zone" server="US West">
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Foggle" score=8950 kills=39 deaths=30/>

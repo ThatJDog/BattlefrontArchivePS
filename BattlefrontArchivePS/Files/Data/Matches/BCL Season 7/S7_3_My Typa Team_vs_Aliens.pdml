@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["My Typa Team" "Aliens"] round=1 index=3>
+<series season="bcl-s7" teams=["My Typa Team" "Aliens"] round=0 index=3>
 	<match map="Goazon Badlands" timeLeft="03:27" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="Diego" score=5975 kills=14 deaths=27/>

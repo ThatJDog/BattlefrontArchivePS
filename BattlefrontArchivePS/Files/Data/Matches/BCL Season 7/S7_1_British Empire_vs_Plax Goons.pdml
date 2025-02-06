@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["British Empire" "Plax Goons"] round=1 index=1>
+<series season="bcl-s7" teams=["British Empire" "Plax Goons"] round=0 index=1>
 	<match map="Jawa Refuge" timeLeft="04:44" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Diego" score=9275 kills=24 deaths=13/>

@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["British Empire" "OGYB"] round=1 index=8>
+<series season="bcl-s7" teams=["British Empire" "OGYB"] round=0 index=8>
 	<match map="Jawa Refuge" timeLeft="-02:-03" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Diego" score=11200 kills=26 deaths=31/>

@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["Goons" "Hawg Ridahs"] round=1 index=6>
+<series season="bcl-s7" teams=["Goons" "Hawg Ridahs"] round=0 index=6>
 	<match map="Jawa" timeLeft="15:00" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=5>
 		</teamScore>

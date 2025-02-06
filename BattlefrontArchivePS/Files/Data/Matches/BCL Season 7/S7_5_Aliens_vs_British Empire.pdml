@@ -1,4 +1,4 @@
-<series season="bcl-s7" teams=["Aliens" "British Empire"] round=1 index=5>
+<series season="bcl-s7" teams=["Aliens" "British Empire"] round=0 index=5>
 	<match map="Dune Sea" timeLeft="02:05" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=1>
 			<playerScore name="Unakkorn" score=8075 kills=31 deaths=32/>
