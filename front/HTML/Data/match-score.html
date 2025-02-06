@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scoreboard</title>
-  <link rel="stylesheet" href="../CSS/swbf-scoreboard-style.css">
-  <link rel="stylesheet" href="../CSS/global-swbf.css">
-  <script type="module" src="../JS/themes.js"></script>
-  <script type="module" src="../JS/scoreboard-loader.js"></script>
-  <script type="module" src="../../db/database-loader.js" defer></script>
+  <link rel="stylesheet" href="/front/CSS/swbf-scoreboard-style.css">
+  <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+  <script type="module" src="/front/JS/themes.js"></script>
+  <script type="module" src="/front/JS/scoreboard-loader.js"></script>
+  <script type="module" src="/db/database-loader.js" defer></script>
 
   <script>
     /*const timerDuration = 15 * 60; // 15 minutes in seconds
@@ -42,11 +42,11 @@
   <div class="layout-container">
 
     <div class="top-section">
-        <img src="..\..\Files\source\DZ-Top-Back.png" class="top-background">
+        <img src="\Files\source\DZ-Top-Back.png" class="top-background">
     
         <div class="overlay-container left">
-          <img src="..\..\Files\source\DZ-Seg-Blue-5.png" class="score-img background">
-          <img id="left-score-img" src="..\..\Files\source\DZ-Seg-Blue-1.png" class="score-img">
+          <img src="\Files\source\DZ-Seg-Blue-5.png" class="score-img background">
+          <img id="left-score-img" src="\Files\source\DZ-Seg-Blue-1.png" class="score-img">
           <div id="left-score-txt" class="score-text">1</div>
         </div>
     
@@ -86,8 +86,8 @@
         </div>
     
         <div class="overlay-container right">
-          <img src="..\..\Files\source\DZ-Seg-Red-5.png" class="score-img background">
-          <img id="right-score-img" src="..\..\Files\source\DZ-Seg-Red-4.png" class="score-img">
+          <img src="\Files\source\DZ-Seg-Red-5.png" class="score-img background">
+          <img id="right-score-img" src="\Files\source\DZ-Seg-Red-4.png" class="score-img">
           <div id="right-score-txt" class="score-text">4</div>
         </div>    
       </div>
@@ -109,7 +109,7 @@
                 fill="rgb(0,0,0,0.3)"
             ></circle>
         </svg>
-        <img src="..\..\Files\source\imperial-logo.png" class="logo-img"/>
+        <img src="\Files\source\imperial-logo.png" class="logo-img"/>
       </div>
       <div id="left-winloss" class="win-title">Victory</div>
       </div>
@@ -129,7 +129,7 @@
                 fill="rgb(0,0,0,0.3)"
             ></circle>
         </svg>
-        <img src="..\..\Files\source\rebel-logo.png" class="logo-img"/>
+        <img src="\Files\source\rebel-logo.png" class="logo-img"/>
       </div>
       <div id="right-winloss" class="win-title">Defeat</div>
       </div>
@@ -158,7 +158,7 @@
       const matchID = urlParams = new URLSearchParams(window.location.search).get('matchID');
       const seriesID = db.select('Match', match => match.MatchID == parseInt(matchID)).getRecord(0).SeriesID;
       if (!seriesID) return;
-      window.location.href = `./match-lookup?seriesID=${encodeURIComponent(seriesID)}`;
+      window.location.href = `/front/HTML/Data/match-lookup?seriesID=${encodeURIComponent(seriesID)}`;
     }
 
     function viewSeason() { // series-lookup?seasonID=xmas-cargo
@@ -169,7 +169,7 @@
         .join(db.getTable('Series'), 'INNER JOIN', (match, series) => match.SeriesID === series.SeriesID)
         .getRecord(0).SeasonID;
       if (!seasonID) return;
-      window.location.href = `./series-lookup?seasonID=${encodeURIComponent(seasonID)}`;
+      window.location.href = `/front/HTML/Data/series-lookup?seasonID=${encodeURIComponent(seasonID)}`;
     }
   </script>
 

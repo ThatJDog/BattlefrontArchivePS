@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboards</title>
-    <link rel="stylesheet" href="../CSS/global-swbf.css">
-    <script type="module" src="../JS/navbar.js"></script>
-    <script type="module" src="../JS/themes.js"></script>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
     <script type="module">
-        import { loadListNavbar } from '../JS/navbar.js';
+        import { loadListNavbar } from '/front/JS/navbar.js';
 
         document.addEventListener("DOMContentLoaded", () => {
 
             const menuItems = [
-                { title: "Home", href: "./home" },
+                { title: "Home", href: "/front/HTML/home.html" },
                 { title: "Leaderboards", href: "" },
             ];
             loadListNavbar("navbar-container", menuItems);
@@ -23,7 +23,7 @@
             const statsFrame = document.getElementById("elo-frame");
             if (statsFrame) {
                 statsFrame.addEventListener("click", () => {
-                    window.location.href = "./elo-leaderboard";
+                    window.location.href = "./Leaderboards/elo-leaderboard.html";
                 });
             }
 
@@ -31,7 +31,7 @@
             const leaderboardsFrame = document.getElementById("rating-frame");
             if (leaderboardsFrame) {
                 leaderboardsFrame.addEventListener("click", () => {
-                    window.location.href = "./rating-leaderboard";
+                    window.location.href = "./Leaderboards/rating-leaderboard.html";
                 });
             }
         });

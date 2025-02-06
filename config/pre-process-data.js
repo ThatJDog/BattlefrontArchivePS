@@ -60,6 +60,8 @@ async function main() {
     } catch (error) {
         console.error("Error loading data:", error);
     }
+
+    incrementVersion();
 }
 
 // Run the main function
@@ -194,4 +196,28 @@ function validateSeriesAndTeams(database) {
             );
         }
     });
+}
+
+
+const versionFile = path.join(__dirname, "version.txt");
+
+// Function to increment version
+function incrementVersion() {
+    try {
+        // Read current version from file
+        let currentVersion = fs.existsSync(versionFile)
+            ? fs.readFileSync(versionFile, "utf8").trim()
+            : "1.000"; // Default to version 1.000 if file is missing
+
+        // Convert version to a float and increment by 0.001
+        let newVersion = (parseFloat(currentVersion) + 0.001).toFixed(3);
+
+        // Write updated version back to file
+        fs.writeFileSync(versionFile, newVersion, "utf8");
+        console.log(`Version updated: ${currentVersion} → ${newVersion}`);
+
+        return newVersion;
+    } catch (error) {
+        console.error("Failed to update version:", error);
+    }
 }

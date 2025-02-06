@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings</title>
-    <link rel="stylesheet" href="../CSS/global-swbf.css">
-    <script type="module" src="../JS/navbar.js"></script>
-    <script type="module" src="../JS/themes.js"></script>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
     <script type="module">
         document.addEventListener("DOMContentLoaded", () => {
         // Stats frame listener
         const statsFrame = document.getElementById("theme-settings");
         if (statsFrame) {
             statsFrame.addEventListener("click", () => {
-                window.location.href = "./theme-settings";
+                window.location.href = "./Settings/theme-settings";
             });
         }
         });

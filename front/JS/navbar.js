@@ -2,10 +2,11 @@ export function loadNavbar() {
     const navbar = document.createElement('nav');
     navbar.classList.add('navbar');
     navbar.innerHTML = `
-      <a href="../HTML/home">Home</a>
+      <a href="/front/HTML/home.html">Home</a>
       <a >Gallery</a>
-      <a href="../HTML/season-lookup">Data</a>
-      <a href="../HTML/settings">Settings</a>
+      <a href="/front/HTML/season-lookup.html">Data</a>
+      <a href="/front/HTML/settings.html">Settings</a>
+      <a href="/front/HTML/credits.html">Credits</a>
     `;
     document.body.prepend(navbar);
 }

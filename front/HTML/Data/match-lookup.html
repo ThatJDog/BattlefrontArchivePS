@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Match Lookup</title>
-    <link rel="stylesheet" href="../CSS/global-swbf.css">
-    <script type="module" src="../JS/navbar.js"></script>
-    <script type="module" src="../JS/themes.js"></script>
-    <script type="module" src="../../db/database-loader.js" defer></script>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
+    <script type="module" src="/db/database-loader.js" defer></script>
     <script type="module">
-        import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
-        import { loadListNavbar } from '../JS/navbar.js';
+        import { populateTable, populateRecordTable } from '/front/JS/data-table-loader.js';
+        import { loadListNavbar } from '/front/JS/navbar.js';
 
         async function loadTable() {
             const matchesContainer = document.getElementById("table-container");
@@ -47,7 +47,7 @@
                         }
 
                         // Redirect to the match scoreboard page with the MatchID as a URL parameter
-                        window.location.href = `./match-score?matchID=${encodeURIComponent(record.MatchID)}`;
+                        window.location.href = `/front/HTML/Data/match-score?matchID=${encodeURIComponent(record.MatchID)}`;
                     });
                 });
 
@@ -172,8 +172,8 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             const menuItems = [
-                { title: "Data", href: "./season-lookup"/*, active: true*/ },
-                { title: "Season", href: "./series-lookup" },
+                { title: "Data", href: "/front/HTML/season-lookup"/*, active: true*/ },
+                { title: "Season", href: "/front/HTML/Data/series-lookup" },
                 { title: "Series", href: "" }
             ];
 

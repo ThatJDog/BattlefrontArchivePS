@@ -81,6 +81,17 @@ export class Database {
         }
     }
 
+    static async fromJSON(jsonData) {
+        try {
+            const db = new Database();
+            db.loadFromData(jsonData);
+            return db;
+        } catch (error) {
+            console.error("Error loading database from JSON:", error);
+            throw error;
+        }
+    }
+
     createTable(tableName, schema) {
         if (this.tables[tableName]) {
             throw new Error(`Table ${tableName} already exists.`);
