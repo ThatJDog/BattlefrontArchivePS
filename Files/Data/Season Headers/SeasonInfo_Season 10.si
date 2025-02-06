@@ -5,6 +5,8 @@
 [TournamentMode] "tournament"
 [Ranked] "true"
 [Organisation] "BCL"
+[RatingLowerBound] "1"
+[RatingUpperBound] "8"
 
 #British Empire
 [PrimaryColour] "213981"

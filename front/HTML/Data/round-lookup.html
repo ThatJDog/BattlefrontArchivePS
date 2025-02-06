@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Series Lookup</title>
-    <link rel="stylesheet" href="../CSS/global-swbf.css">
-    <script type="module" src="../JS/navbar.js"></script>
-    <script type="module" src="../JS/themes.js"></script>
-    <script type="module" src="../../db/database-loader.js" defer></script>
+    <title>Round Lookup</title>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
+    <script type="module" src="/db/database-loader.js" defer></script>
     <script type="module">
-        import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
-        import { loadListNavbar } from '../JS/navbar.js';
+        import { populateTable, populateRecordTable } from '/front/JS/data-table-loader.js';
+        import { loadListNavbar } from '/front/JS/navbar.js';
 
         async function loadTable() {
-            const tableContainer = document.getElementById("table-container");
+            const seriesContainer = document.getElementById("table-container");
+            const t1Container = document.getElementById("t1-container");
+            const t2Container = document.getElementById("t2-container");
+
+            const t1TeamContainer = document.getElementById("t1-team-container");
+            const t2TeamContainer = document.getElementById("t2-team-container");
 
             try {
 
@@ -21,42 +26,44 @@
                 // - Season
                 // - Team Name
                 // - Player Name
-
+                // - Game Mode
+                // - Map
                 const seasonID = new URLSearchParams(window.location.search).get('seasonID');
-                console.log(seasonID);
-                const table = getFilteredSeries(seasonID);
+                const round = parseInt(new URLSearchParams(window.location.search).get('round'));
 
-                if (table.records.length == 0) ;//alert('No Matches Recorded for this Season!');
+                console.log('SeasonID: ', seasonID, ' Round: ', round);
 
-                // Call populateTable as usual
-                populateTable(tableContainer, table.drop('SeriesID'));
+                const table = getFilteredSeries(seasonID, round);
+
+                // Populate Match Table
+                populateTable(seriesContainer, table.drop('SeriesID'));
 
                 // Add click event listener to rows after table is populated
-                const rows = tableContainer.querySelectorAll("tbody tr");
+                const rows = seriesContainer.querySelectorAll("tbody tr");
 
                 rows.forEach((row, index) => {
                     row.addEventListener("click", () => {
-                        // Get the SeriesID from the stored record
+                        // Get the MatchID from the stored record
                         const record = table.getRecord(index);
-                        if (record.SeriesID == null) {
-                            console.warn("SeriesID not found for this record:", record);
-                            console.log(table.getRecord(index));
+                        if (record.MatchID == null) {
+                            console.warn("MatchID not found for this record:", record);
                             return;
                         }
 
-                        // Redirect to the series page with the SeriesID as a URL parameter
-                        window.location.href = `./match-lookup?seriesID=${encodeURIComponent(record.SeriesID)}`;
+                        // Redirect to the match scoreboard page with the MatchID as a URL parameter
+                        window.location.href = `./match-score?matchID=${encodeURIComponent(record.MatchID)}`;
                     });
                 });
+            
 
             } catch (error) {
                 console.error("Error loading data:", error);
             }
         }
 
-        function getFilteredSeries(seasonID) {
+        function getFilteredSeries(seasonID, round) { // SAME AS SERIES-LOOKUP WITH ROUND FILTER
             // Get all series that occurred in or before the target season
-            return db.select('Series', series => seasonID == null || series.SeasonID === seasonID)
+            return db.select('Series', series => series.SeasonID === seasonID && series.Round === round)
                 .join(db.getTable('Season'), 'INNER JOIN', (series, season) => season.ID === series.SeasonID)
                 .applyToColumn('Round', round => round != 0 ? round : 'N/A')
                 .addComputedColumn('Season', record => record.OrganisationName + " " + record.Name)
@@ -66,26 +73,50 @@
             ;
         }
 
+        
         document.addEventListener("DatabaseReady", () => {
             loadTable();
-        });
 
-        document.addEventListener("DOMContentLoaded", () => {
             const menuItems = [
-                { title: "Matches", href: "./series-lookup"/*, active: true*/ },
-                { title: "Season", href: "" }
+                { title: "Data", href: "/front/HTML/season-lookup"/*, active: true*/ },
+                { title: "Season", href: getSeasonURL() },
+                { title: "Round", href: "" }
             ];
 
             loadListNavbar("navbar-container", menuItems);
         });
+
+        document.addEventListener("DOMContentLoaded", () => {
+        });
+        
+
+        function getSeasonURL() { // series-lookup?seasonID=xmas-cargo
+            if (!window.db) return;
+
+            const seasonID = new URLSearchParams(window.location.search).get('seasonID');
+            if (!seasonID) return;
+            return `/front/HTML/Data/series-lookup?seasonID=${encodeURIComponent(seasonID)}`;
+        }
     </script>
 </head>
 <body>
     <nav id="navbar-container"></nav>
 
-    <div class="section" style="width: 50%;">
+    <div class="section vertical" style="width: 100%;">
         <div class="frame">
             <div class="leaderboard-table" id="table-container"></div>
+        </div>
+
+        <div class="frame">
+            <div class="frame-header">
+                <h3>Round Summary</h2>
+            </div>
+            <div class="frame-content">
+                <div class="section vertical">
+                    <div class="data-table" id="t1-container"></div>
+                    <div class="data-table" id="t1-team-container"></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

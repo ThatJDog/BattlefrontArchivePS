@@ -3,8 +3,6 @@
 [ShortenedName] "S13"
 [SeasonIndex] "22"
 [TournamentMode] "roundedTournament"
-[RatingLowerBound] "1"
-[RatingUpperBound] "8"
 [Ranked] "false"
 [Organisation] "BCL"
 

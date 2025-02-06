@@ -11,9 +11,11 @@
     <script type="module">
         import { populateTable, populateRecordTable } from '/front/JS/data-table-loader.js';
         import { loadListNavbar } from '/front/JS/navbar.js';
+        import { ratingToString } from '/front/JS/ranking.js';
 
         async function loadTable() {
             const tableContainer = document.getElementById("table-container");
+            const roundsContainer = document.getElementById("rounds-container");
             const signupTable = document.getElementById("signup-container");
 
             try {
@@ -24,7 +26,6 @@
                 // - Player Name
 
                 const seasonID = new URLSearchParams(window.location.search).get('seasonID');
-                console.log(seasonID);
                 const table = getFilteredSeries(seasonID);
 
                 if (table.records.length == 0) ;//alert('No Matches Recorded for this Season!');
@@ -46,16 +47,45 @@
                         }
 
                         // Redirect to the series page with the SeriesID as a URL parameter
-                        window.location.href = `/front/HTML/match-lookup?seriesID=${encodeURIComponent(record.SeriesID)}`;
+                        window.location.href = `./match-lookup?seriesID=${encodeURIComponent(record.SeriesID)}`;
                     });
                 });
 
                 const signups = window.db.select('PlayedFor', (record) => record.SeasonID === seasonID)
-                    .drop('SeasonID')
-                    .sortBy(['TeamName', 'IsCaptain desc', 'IsPrimary desc', 'PlayerName'])
+                    .addComputedColumn('Name', record => record.PlayerName + (record.IsCaptain ? '*' : ''))
+                    .renameColumn('Rating', 'NumRating')
+                    .addComputedColumn('Rating', record => ratingToString(record.NumRating))
+                    .drop(['SeasonID', 'PlayerName', 'NumRating'])
+                    .sortBy(['TeamName', 'IsCaptain desc', 'IsPrimary desc', 'Name'])
+                    .drop(['IsCaptain', 'IsPrimary'])
+                    .reorderColumns(['TeamName', 'Name', 'Rating'])
+                    .renameColumn('TeamName', 'Team')
                 ;
 
                 populateTable(signupTable, signups);
+
+
+                // ROUNDS
+                const roundTable = table.drop('SeriesID').groupBy('Round', {Season: season => season[0]}).reorderColumns(['Season', 'Round']);
+                populateTable(roundsContainer, roundTable);
+
+                // Add click event listener to rows after table is populated
+                const roundRows = roundsContainer.querySelectorAll("tbody tr");
+
+                roundRows.forEach((row, index) => {
+                    row.addEventListener("click", () => {
+                        // Get the SeriesID from the stored record
+                        const record = roundTable.getRecord(index);
+                        if (record.Round == null) {
+                            console.warn("SeriesID not found for this record:", record);
+                            console.log(roundTable.getRecord(index));
+                            return;
+                        }
+
+                        // Redirect to the series page with the SeriesID as a URL parameter
+                        window.location.href = `./round-lookup?seasonID=${seasonID}&round=${encodeURIComponent(record.Round)}`;
+                    });
+                });
 
             } catch (error) {
                 console.error("Error loading data:", error);
@@ -64,7 +94,7 @@
 
         function getFilteredSeries(seasonID) {
             // Get all series that occurred in or before the target season
-            return db.select('Series', series => seasonID == null || series.SeasonID === seasonID)
+            return db.select('Series', series => series.SeasonID === seasonID)
                 .join(db.getTable('Season'), 'INNER JOIN', (series, season) => season.ID === series.SeasonID)
                 .applyToColumn('Round', round => round != 0 ? round : 'N/A')
                 .addComputedColumn('Season', record => record.OrganisationName + " " + record.Name)
@@ -91,9 +121,9 @@
 <body>
     <nav id="navbar-container"></nav>
 
-
-    <div class="section horizontal">
-        <div class="section">
+    <div class="section vertical">
+        <div class="section horizontal">
+            <!-- Table displaying all the Series in the selected Season -->
             <div class="frame">
                 <div class="frame-header">
                     <h2>Series</h2>
@@ -102,8 +132,19 @@
                     <div class="leaderboard-table" id="table-container"></div>
                 </div>
             </div>
+
+            <!-- Table displaying all the Rounds in the selected Season -->
+            <div class="frame">
+                <div class="frame-header">
+                    <h2>Rounds</h2>
+                </div>
+                <div class="frame-content">
+                    <div class="leaderboard-table" id="rounds-container"></div>
+                </div>
+            </div>
         </div>
 
+        <!-- Table displaying all the Sign-ups in the selected Season -->
         <div class="section">
             <div class="frame">
                 <div class="frame-header">
@@ -113,7 +154,9 @@
                     <div class="data-table" id="signup-container"></div>
                 </div>
             </div>
-        </div>    
-    </div>    
+        </div>   
+    </div>
+
+
 </body>
 </html>

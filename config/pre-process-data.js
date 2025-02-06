@@ -55,7 +55,7 @@ async function main() {
 
         // Final Step: Export this Database as a JSON
         saveObjectToFile(database, "data.json");
-        saveObjectToFile(database, "BattlefrontArchivePS/data.json");
+        // saveObjectToFile(database, "BattlefrontArchivePS/data.json");
 
     } catch (error) {
         console.error("Error loading data:", error);
@@ -199,7 +199,7 @@ function validateSeriesAndTeams(database) {
 }
 
 
-const versionFile = path.join(__dirname, "version.txt");
+const versionFile = path.join(process.cwd(), "/version.txt");
 
 // Function to increment version
 function incrementVersion() {

@@ -5,6 +5,8 @@
 [TournamentMode] "tournament"
 [Ranked] "false"
 [Organisation] "BCL"
+[RatingLowerBound] "1"
+[RatingUpperBound] "8"
 
 #EDL
 Foggle

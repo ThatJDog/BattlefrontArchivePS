@@ -47,7 +47,7 @@
                         }
 
                         // Redirect to the match scoreboard page with the MatchID as a URL parameter
-                        window.location.href = `/front/HTML/Data/match-score?matchID=${encodeURIComponent(record.MatchID)}`;
+                        window.location.href = `./match-score?matchID=${encodeURIComponent(record.MatchID)}`;
                     });
                 });
 
@@ -121,8 +121,6 @@
 
         function getTeamSummary(table) {
 
-            console.log(table.keep('MatchID'));
-
             // Get all valid match IDs from these series
             const matchScores = table.keep('MatchID')
                 .join(db.getTable('TeamScore').renameColumn('Score', 'TeamScore'), 'INNER JOIN', 
@@ -168,17 +166,39 @@
 
         document.addEventListener("DatabaseReady", () => {
             loadTable();
-        });
 
-        document.addEventListener("DOMContentLoaded", () => {
             const menuItems = [
                 { title: "Data", href: "/front/HTML/season-lookup"/*, active: true*/ },
-                { title: "Season", href: "/front/HTML/Data/series-lookup" },
+                { title: "Season", href: getSeasonURL() },
                 { title: "Series", href: "" }
             ];
 
             loadListNavbar("navbar-container", menuItems);
         });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            /*
+            const menuItems = [
+                { title: "Data", href: "/front/HTML/season-lookup" },
+                { title: "Season", href: "/front/HTML/Data/series-lookup" },
+                { title: "Series", href: "" }
+            ];
+
+            loadListNavbar("navbar-container", menuItems);
+            */
+        });
+        
+
+        function getSeasonURL() { // series-lookup?seasonID=xmas-cargo
+            if (!window.db) return;
+
+            const seriesID = parseInt(new URLSearchParams(window.location.search).get('seriesID'));
+
+            const seasonID = db.select('Series', series => series.SeriesID == seriesID)
+                .getRecord(0).SeasonID;
+            if (!seasonID) return;
+            return `/front/HTML/Data/series-lookup?seasonID=${encodeURIComponent(seasonID)}`;
+        }
     </script>
 </head>
 <body>
