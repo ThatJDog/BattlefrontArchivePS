@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall of Fame</title>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
+    <script type="module" src="/db/database-loader.js" defer></script>
+
+    <script type="module">
+        import { loadListNavbar } from '/front/JS/navbar.js';
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuItems = [
+                { title: "Home", href: "/front/HTML/home.html" },
+                { title: "Hall of Fame", href: "./" },
+            ];
+
+            loadListNavbar("navbar-container", menuItems);
+        });
+    </script>
+
+    <script>
+        fetch('/hof.json')
+            .then(response => response.json())
+            .then(hofData => {
+                const container = document.getElementById('hof-container');
+                const table = document.createElement('table');
+                table.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody id="classes-table"></tbody>
+                `;
+                container.appendChild(table);
+                
+                const tableBody = document.getElementById('classes-table');
+                
+                hofData.children.forEach(classNode => {
+                    if (classNode.tagName === 'class') {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `<td>Class of ${classNode.attributes.year}</td>`;
+                        row.addEventListener('click', () => {
+                            window.location.href = `./HallOfFame/hof.html?classOf=${classNode.attributes.year}`;
+                        });
+                        tableBody.appendChild(row);
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
+</head>
+<body>
+    <nav id="navbar-container"></nav>
+
+    <div class="section vertical">
+        <div class="leaderboard-table" id="hof-container"></div>
+    </div>
+</body>
+</html>

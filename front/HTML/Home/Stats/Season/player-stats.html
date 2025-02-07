@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- KEEP THIS PAGE AND USE THE URL ATTRIBUTE TO GET THE SEASON NUMBER -->
+    <!-- ADD THE JS INTO THIS FILE MAYBE -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Table Viewer</title>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
+    <script type="module" src="/db/database-loader.js" defer></script>
+    <script type="module">
+        import { populateTable, populateRecordTable } from '/front/JS/data-table-loader.js';
+        import { getPlayerSummary } from '/front/JS/stats-helper.js';
+        import { loadListNavbar } from '/front/JS/navbar.js';
+
+        async function loadTable() {
+            const tableContainer = document.getElementById("table-container");
+
+            try {
+                const seasonID = new URLSearchParams(window.location.search).get('seasonID');
+                let playerStats = getPlayerSummary(window.db, seasonID);
+
+                if (seasonID === null) playerStats = playerStats.drop('Team');
+            
+                // Populate table
+                populateTable(tableContainer, playerStats);
+            } catch (error) {
+                console.error("Error loading data:", error);
+            }
+        }
+
+        document.addEventListener("DatabaseReady", () => {
+            const seasonID = new URLSearchParams(window.location.search).get('seasonID');
+
+            const menuItems = [
+                { title: "Home", href: "/front/HTML/home.html" },
+                { title: "Stats", href: "../../stats.html" },
+                { title: "Season", href: "../stats-season-select.html" },
+                { title: "Index", href: `./season-stats-index${seasonID ? `?seasonID=${seasonID}` : ".html"}` },
+                { title: "Players", href: "" },
+            ];
+            loadListNavbar("navbar-container", menuItems);
+
+            loadTable();
+        });
+    </script>
+</head>
+<body>
+    <nav id="navbar-container"></nav>
+
+    <div class="frame">
+        <div class="leaderboard-table" id="table-container"></div>
+    </div>
+</body>
+</html>

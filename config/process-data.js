@@ -5,6 +5,7 @@ const path = require('path');
 const { processSeriesFile } = require('./process-series');
 const { processSeasonFile } = require('./process-season');
 const { processPlayers } = require('./process-known-players');
+const { processHOFFile } = require('./parse-hallOfFame');
 // const { Database } = require('./database');
 
 async function loadPDMLCompiler() {
@@ -102,6 +103,9 @@ async function parseData(database) {
                         break;
                     case 'knownplayers':
                         processPlayers(parsedData, database);
+                        break;
+                    case 'halloffame':
+                        processHOFFile(parsedData);
                         break;
                     default:
                         console.warn(`Unhandled PDML type: ${parsedData.name}`);

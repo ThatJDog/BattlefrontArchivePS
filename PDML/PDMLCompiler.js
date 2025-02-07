@@ -92,6 +92,28 @@ export class PDMLBody {
     addChild(child) {
         this.children.push(child);
     }
+
+
+    toJSON() {
+        const serializeValue = (value) => {
+            if (value instanceof PDMLStruct) {
+                return Object.fromEntries(Object.entries(value.value).map(([k, v]) => [k, serializeValue(v)]));
+            } else if (value instanceof PDMLArray) {
+                return value.value.map(serializeValue);
+            } else if (value instanceof PDMLValue) {
+                return value.value;
+            }
+            return value;
+        };
+
+        return {
+            tagName: this.name,
+            attributes: Object.fromEntries(
+                Object.entries(this.attributes).map(([key, value]) => [key, serializeValue(value)])
+            ),
+            children: this.children.map(child => child.toJSON())
+        };
+    }
 }
 
 // Value Types

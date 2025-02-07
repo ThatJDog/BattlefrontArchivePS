@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season Stats</title>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
+    <script type="module">
+        import { loadListNavbar } from '/front/JS/navbar.js';
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const menuItems = [
+                { title: "Home", href: "/front/HTML/home.html" },
+                { title: "Stats", href: "../../stats.html" },
+                { title: "Season", href: "../stats-season-select.html" },
+                { title: "Index", href: "" },
+            ];
+            loadListNavbar("navbar-container", menuItems);
+
+            const seasonID = new URLSearchParams(window.location.search).get('seasonID');
+
+            // Stats frame listener
+            const statsFrame = document.getElementById("player-frame");
+            if (statsFrame) {
+                statsFrame.addEventListener("click", () => {
+                    window.location.href = `./player-stats?seasonID=${encodeURIComponent(seasonID)}`;
+                });
+            }
+
+            // Leaderboards frame listener
+            const leaderboardsFrame = document.getElementById("team-frame");
+            if (leaderboardsFrame) {
+                leaderboardsFrame.addEventListener("click", () => {
+                    // window.location.href = `./team-stats?seasonID=${encodeURIComponent(record.SeasonID)}`;
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <nav id="navbar-container"></nav>
+
+    <main>
+        <div class="section horizontal">
+            <div class="section">
+                <div class="frame button" id="player-frame">
+                    <div class="frame-header">
+                        <h2>Player Stats</h2>
+                    </div>
+                    <img src="/Assets/Art/elo-leaderboard.jpg">
+                </div>
+            </div>
+    
+            <div class="frame button">
+                <div class="frame-header" id="team-frame">
+                    <h2>Team Stats</h2>
+                </div>
+                <img src="/Assets/Art/rank-leaderboard.jpg">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
