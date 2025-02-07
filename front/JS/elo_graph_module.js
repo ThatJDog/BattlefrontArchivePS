@@ -258,7 +258,7 @@ function createDataPoint(x, y, point, tooltip){
         tooltip.style.display = 'none';
     });
     circle.addEventListener('click', () => {
-        window.location.href = `/front/HTML/Data/match-score?matchID=${point.MatchID}`;
+        window.location.href = `/BattlefrontArchivePS/front/HTML/Data/match-score?matchID=${point.MatchID}`;
     });
     return circle;
 }

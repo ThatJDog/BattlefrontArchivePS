@@ -1,4 +1,3 @@
-import { Table } from '../../db/table.js'; // Adjust path as needed
 
 export function populateTable(container, dataTable) {
     // Clear the container

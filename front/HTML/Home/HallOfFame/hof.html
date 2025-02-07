@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hall of Fame</title>
-    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
-    <script type="module" src="/front/JS/navbar.js"></script>
-    <script type="module" src="/front/JS/themes.js"></script>
-    <script type="module" src="/db/database-loader.js" defer></script>
+    <link rel="stylesheet" href="/BattlefrontArchivePS/front/CSS/global-swbf.css">
+    <script type="module" src="/BattlefrontArchivePS/front/JS/navbar.js"></script>
+    <script type="module" src="/BattlefrontArchivePS/front/JS/themes.js"></script>
+    <script type="module" src="/BattlefrontArchivePS/db/database-loader.js" defer></script>
     <style>
         .frame-content h1, .frame-content h2, .frame-content h3, .frame-content h4 {
             margin: 0;
@@ -19,11 +19,11 @@
     </style>
 
     <script type="module">
-        import { loadListNavbar } from '/front/JS/navbar.js';
+        import { loadListNavbar } from '/BattlefrontArchivePS/front/JS/navbar.js';
 
         document.addEventListener("DOMContentLoaded", () => {
             const menuItems = [
-                { title: "Home", href: "/front/HTML/home.html" },
+                { title: "Home", href: "../../home.html" },
                 { title: "Hall of Fame", href: "../hof-index.html" },
                 { title: "Class", href: "" }
             ];

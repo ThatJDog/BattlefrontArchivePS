@@ -1,4 +1,4 @@
-import {ratingToString, rankPlayerSeason} from '/front/JS/ranking.js';
+import {ratingToString, rankPlayerSeason} from './ranking.js';
 
 export function getPlayerSummary(db, seasonId){
 

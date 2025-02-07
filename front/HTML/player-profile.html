@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="../CSS/profile-style.css"> -->
-  <link rel="stylesheet" href="../CSS/elo-graph.css">
-  <link rel="stylesheet" href="../CSS/global-swbf.css">
-  <link rel="stylesheet" href="../CSS/popup.css">
-  <script type="module" src="../JS/navbar.js"></script>
-  <script type="module" src="../JS/themes.js"></script>
-  <script type="module" src="../../db/database-loader.js" defer></script>
-  <script src="../JS/popup.js"></script>
+  <link rel="stylesheet" href="/BattlefrontArchivePS/front/CSS/elo-graph.css">
+  <link rel="stylesheet" href="/BattlefrontArchivePS/front/CSS/global-swbf.css">
+  <link rel="stylesheet" href="/BattlefrontArchivePS/front/CSS/popup.css">
+  <script type="module" src="/BattlefrontArchivePS/front/JS/navbar.js"></script>
+  <script type="module" src="/BattlefrontArchivePS/front/JS/themes.js"></script>
+  <script type="module" src="/BattlefrontArchivePS/db/database-loader.js" defer></script>
+  <script src="/BattlefrontArchivePS/front/JS/popup.js"></script>
   <style>
     /* Profile Header Frame */
     /*.profile-header {
@@ -69,7 +69,7 @@
                     <h2>Showcase</h2>
                 </div>
                 <div class="frame-content">
-                    <img src="..\..\Files\source\tmp-stormtrooper.jpg" alt="Player Picture" height="100%"/>
+                    <img src="/BattlefrontArchivePS/Files/source/tmp-stormtrooper.jpg" alt="Player Picture" height="100%"/>
                 </div>
             </div>
     
@@ -118,8 +118,8 @@
     </div>
 
   <script type="module">
-    import { loadEloGraph } from '../JS/elo_graph_module.js';
-    import { populateTable, populateRecordTable } from '../JS/data-table-loader.js';
+    import { loadEloGraph } from '/BattlefrontArchivePS/front/JS/elo_graph_module.js';
+    import { populateTable, populateRecordTable } from '/BattlefrontArchivePS/front/JS/data-table-loader.js';
 
     document.addEventListener("DatabaseReady", () => {
         const playerName = new URLSearchParams(window.location.search).get('player');

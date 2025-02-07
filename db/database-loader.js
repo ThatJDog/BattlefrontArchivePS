@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
         const dbKey = "battlefront_db_cache"; // Local storage key for the database
         const versionKey = "battlefront_db_version"; // Local storage key for versioning
-        const jsonUrl = `${window.location.origin}/data.json`;
-        const versionUrl = `${window.location.origin}/version.txt`;
+        const jsonUrl = `/BattlefrontArchivePS/data.json`;
+        const versionUrl = `/BattlefrontArchivePS/version.txt`;
 
         // Fetch the latest version from version.txt
         const response = await fetch(versionUrl);

@@ -1,4 +1,4 @@
-import {ratingToString, rankPlayerMatch} from '/front/JS/ranking.js';
+import {ratingToString, rankPlayerMatch} from './ranking.js';
 
 var matchInfo;
 var team1Info;
@@ -142,7 +142,7 @@ function update() {
 
 
     const mapImg = document.getElementById('map-img'); // Select <img> by ID
-    mapImg.src = `/Assets/Maps/${matchInfo.Map}.png`; // Update image source
+    mapImg.src = `/BattlefrontArchivePS/Assets/Maps/${matchInfo.Map}.png`; // Update image source
 
     generateScoreboard("home scoreboard-container", "Imperial", true, team1Players.records);
     generateScoreboard("away scoreboard-container", "Rebel", false, team2Players.records);
@@ -156,8 +156,8 @@ function update() {
     document.getElementById("right-score-txt").textContent = team2Info.Score;
 
 
-    document.getElementById("left-score-img").src = "/Files/source/DZ-Seg-Blue-" + Math.min(team1Info.Score, 5) + ".png";
-    document.getElementById("right-score-img").src = "/Files/source/DZ-Seg-Red-" + Math.min(team2Info.Score, 5) + ".png";
+    document.getElementById("left-score-img").src = "/BattlefrontArchivePS/Files/source/DZ-Seg-Blue-" + Math.min(team1Info.Score, 5) + ".png";
+    document.getElementById("right-score-img").src = "/BattlefrontArchivePS/Files/source/DZ-Seg-Red-" + Math.min(team2Info.Score, 5) + ".png";
 
     // I want time left for the timer so assume it is 15 min match
     const matchTimeLimit = 15.0;

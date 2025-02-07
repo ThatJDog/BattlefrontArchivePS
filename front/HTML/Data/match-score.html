@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scoreboard</title>
-  <link rel="stylesheet" href="/front/CSS/swbf-scoreboard-style.css">
-  <link rel="stylesheet" href="/front/CSS/global-swbf.css">
-  <script type="module" src="/front/JS/themes.js"></script>
-  <script type="module" src="/front/JS/scoreboard-loader.js"></script>
-  <script type="module" src="/db/database-loader.js" defer></script>
+  <link rel="stylesheet" href="/BattlefrontArchivePS/front/CSS/swbf-scoreboard-style.css">
+  <link rel="stylesheet" href="/BattlefrontArchivePS/front/CSS/global-swbf.css">
+  <script type="module" src="/BattlefrontArchivePS/front/JS/themes.js"></script>
+  <script type="module" src="/BattlefrontArchivePS/front/JS/scoreboard-loader.js"></script>
+  <script type="module" src="/BattlefrontArchivePS/db/database-loader.js" defer></script>
 </head>
 
 <body class="match">
@@ -134,7 +134,7 @@
       const matchID = urlParams = new URLSearchParams(window.location.search).get('matchID');
       const seriesID = db.select('Match', match => match.MatchID == parseInt(matchID)).getRecord(0).SeriesID;
       if (!seriesID) return;
-      window.location.href = `/front/HTML/Data/match-lookup?seriesID=${encodeURIComponent(seriesID)}`;
+      window.location.href = `/BattlefrontArchivePS/front/HTML/Data/match-lookup?seriesID=${encodeURIComponent(seriesID)}`;
     }
 
     function viewSeason() { // series-lookup?seasonID=xmas-cargo
@@ -145,7 +145,7 @@
         .join(db.getTable('Series'), 'INNER JOIN', (match, series) => match.SeriesID === series.SeriesID)
         .getRecord(0).SeasonID;
       if (!seasonID) return;
-      window.location.href = `/front/HTML/Data/series-lookup?seasonID=${encodeURIComponent(seasonID)}`;
+      window.location.href = `/BattlefrontArchivePS/front/HTML/Data/series-lookup?seasonID=${encodeURIComponent(seasonID)}`;
     }
   </script>
 

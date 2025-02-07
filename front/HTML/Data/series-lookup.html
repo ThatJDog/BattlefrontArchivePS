@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Series Lookup</title>
-    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
-    <script type="module" src="/front/JS/navbar.js"></script>
-    <script type="module" src="/front/JS/themes.js"></script>
-    <script type="module" src="/db/database-loader.js" defer></script>
+    <link rel="stylesheet" href="/BattlefrontArchivePS/front/CSS/global-swbf.css">
+    <script type="module" src="/BattlefrontArchivePS/front/JS/navbar.js"></script>
+    <script type="module" src="/BattlefrontArchivePS/front/JS/themes.js"></script>
+    <script type="module" src="/BattlefrontArchivePS/db/database-loader.js" defer></script>
     <script type="module">
-        import { populateTable, populateRecordTable } from '/front/JS/data-table-loader.js';
-        import { loadListNavbar } from '/front/JS/navbar.js';
-        import { ratingToString } from '/front/JS/ranking.js';
+        import { populateTable, populateRecordTable } from '/BattlefrontArchivePS/front/JS/data-table-loader.js';
+        import { loadListNavbar } from '/BattlefrontArchivePS/front/JS/navbar.js';
+        import { ratingToString } from '/BattlefrontArchivePS/front/JS/ranking.js';
 
         async function loadTable() {
             const tableContainer = document.getElementById("table-container");
@@ -111,7 +111,7 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             const menuItems = [
-                { title: "Data", href: "/front/HTML/season-lookup"/*, active: true*/ },
+                { title: "Data", href: "../season-lookup"/*, active: true*/ },
                 { title: "Season", href: "" }
             ];
 
