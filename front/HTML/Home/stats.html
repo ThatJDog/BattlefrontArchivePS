@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats</title>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
+    <script type="module">
+        import { loadListNavbar } from '/front/JS/navbar.js';
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const menuItems = [
+                { title: "Home", href: "/front/HTML/home.html" },
+                { title: "Stats", href: "" },
+            ];
+            loadListNavbar("navbar-container", menuItems);
+
+
+            // Stats frame listener
+            const seasonFrame = document.getElementById("season-frame");
+            if (seasonFrame) {
+                seasonFrame.addEventListener("click", () => {
+                    window.location.href = "./Leaderboards/elo-leaderboard.html";
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <nav id="navbar-container"></nav>
+
+    <main>
+        <div class="section horizontal">
+            <div class="section">
+                <div class="frame button" id="elo-frame">
+                    <div class="frame-header">
+                        <h2>Season</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

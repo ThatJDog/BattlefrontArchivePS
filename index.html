@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Loading...</title>
         <script>
-            (function() {
-                var resolver = document.createElement('script');
-                resolver.src = "https://thatjdog.github.io/url-resolver.js";
-                resolver.async = false; // Ensures it runs in order
-                document.head.appendChild(resolver);
-            })();
+            const isLocal = window.location.origin.includes("localhost") || window.location.origin.includes("127.0.0.1");
+            const repoName = window.location.pathname.split('/')[1]; // Detect repo name dynamically
+            const baseHref = isLocal ? "/" : `/${repoName}/`;
+    
+            // Dynamically set the base tag
+            document.write(`<base href="${baseHref}">`);
         </script>
         <script type="module" src="/db/database-loader.js" defer></script>
         <style>
