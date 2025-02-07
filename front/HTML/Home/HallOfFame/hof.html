@@ -37,7 +37,7 @@
             return urlParams.get(name);
         }
 
-        fetch('/hof.json')
+        fetch('/BattlefrontArchivePS/hof.json')
             .then(response => response.json())
             .then(hofData => {
                 const container = document.getElementById('hof-container');
@@ -92,8 +92,6 @@
 <body>
     <nav id="navbar-container"></nav>
 
-    <div class="section vertical">
-        <div id="hof-container"></div>
-    </div>
+    <div class="section vertical" id="hof-container"></div>
 </body>
 </html>

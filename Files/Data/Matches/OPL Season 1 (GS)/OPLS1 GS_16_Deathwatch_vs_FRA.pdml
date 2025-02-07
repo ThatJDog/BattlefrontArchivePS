@@ -8,8 +8,8 @@
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
 			<playerScore name="Mileena" score=3975 kills=15 deaths=30 time="05:37"/>
-			<playerScore name="Ange Des Neiiges" score=3565 kills=10 deaths=25 time="05:37"/>
-			<playerScore name="vRevXngE" score=2950 kills=15 deaths=31 time="05:37"/>
+			<playerScore name="ShawdenFrost" score=3565 kills=10 deaths=25 time="05:37"/>
+			<playerScore name="Revxnge" score=2950 kills=15 deaths=31 time="05:37"/>
 			<playerScore name="Malizia" score=1825 kills=6 deaths=30 time="05:37"/>
 		</teamScore>
 	</match>
@@ -21,9 +21,9 @@
 			<playerScore name="Hashemy" score=3030 kills=12 deaths=4 time="08:54"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="vRevXngE" score=2125 kills=10 deaths=16 time="08:54"/>
+			<playerScore name="Revxnge" score=2125 kills=10 deaths=16 time="08:54"/>
 			<playerScore name="Mileena" score=1700 kills=9 deaths=16 time="08:54"/>
-			<playerScore name="Ange Des Neiiges" score=1575 kills=8 deaths=13 time="08:54"/>
+			<playerScore name="ShawdenFrost" score=1575 kills=8 deaths=13 time="08:54"/>
 			<playerScore name="Malizia" score=600 kills=0 deaths=19 time="08:54"/>
 		</teamScore>
 	</match>

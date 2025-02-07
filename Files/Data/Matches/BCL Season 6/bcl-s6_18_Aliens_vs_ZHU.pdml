@@ -18,7 +18,7 @@
 			<playerScore name="Blue" score=6400 kills=25 deaths=21/>
 			<playerScore name="Palmy" score=4375 kills=19 deaths=22/>
 			<playerScore name="Sween" score=4375 kills=14 deaths=29/>
-			<playerScore name="Heathy" score=4125 kills=9 deaths=24/>
+			<playerScore name="Healthy" score=4125 kills=9 deaths=24/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Cricken" score=10625 kills=26 deaths=14/>

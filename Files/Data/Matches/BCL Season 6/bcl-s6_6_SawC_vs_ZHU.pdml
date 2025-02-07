@@ -2,7 +2,7 @@
 	<match map="Jawa Refuge" timeLeft="02:38" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Spree" score=9125 kills=26 deaths=15/>
-			<playerScore name="Quitegoneg" score=6515 kills=19 deaths=14/>
+			<playerScore name="QuiteGoneG" score=6515 kills=19 deaths=14/>
 			<playerScore name="Shadows" score=6300 kills=22 deaths=18/>
 			<playerScore name="Uliday" score=4355 kills=20 deaths=14/>
 		</teamScore>
@@ -18,7 +18,7 @@
 			<playerScore name="Spree" score=6375 kills=21 deaths=10/>
 			<playerScore name="Shadows" score=6175 kills=21 deaths=12/>
 			<playerScore name="Uliday" score=3835 kills=14 deaths=12/>
-			<playerScore name="Quitegoneg" score=3200 kills=9 deaths=9/>
+			<playerScore name="QuiteGoneG" score=3200 kills=9 deaths=9/>
 		</teamScore>
 		<teamScore faction="Imperial" score=2>
 			<playerScore name="Sween" score=7115 kills=21 deaths=17/>

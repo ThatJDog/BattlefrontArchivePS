@@ -15,7 +15,7 @@
 	</match>
 	<match map="Goazon badlands" timeLeft="00:02" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=3>
-			<playerScore name="Dieg0" score=5700 kills=10 deaths=26/>
+			<playerScore name="Diego" score=5700 kills=10 deaths=26/>
 			<playerScore name="Blue" score=5550 kills=31 deaths=24/>
 			<playerScore name="Palmy" score=4175 kills=21 deaths=30/>
 			<playerScore name="Healthy" score=4175 kills=13 deaths=23/>

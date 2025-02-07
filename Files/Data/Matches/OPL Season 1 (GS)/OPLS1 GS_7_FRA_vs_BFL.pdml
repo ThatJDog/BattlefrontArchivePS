@@ -1,7 +1,7 @@
 <series season="opl-s1-gs" teams=["FRA" "BFL"] round=0 index=7>
 	<match map="Jawa Refuge" timeLeft="08:12" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="Ange Des Neiiges" score=3300 kills=5 deaths=15 time="08:12"/>
+			<playerScore name="ShawdenFrost" score=3300 kills=5 deaths=15 time="08:12"/>
 			<playerScore name="Golden Panda" score=1375 kills=10 deaths=15 time="08:12"/>
 			<playerScore name="Redloz" score=250 kills=1 deaths=15 time="08:12"/>
 		</teamScore>
@@ -14,7 +14,7 @@
 	</match>
 	<match map="Rebel Base" timeLeft="04:34" gameMode="Cargo">
 		<teamScore faction="Rebel" score=0>
-			<playerScore name="Ange Des Neiiges" score=2795 kills=16 deaths=20 time="04:34"/>
+			<playerScore name="ShawdenFrost" score=2795 kills=16 deaths=20 time="04:34"/>
 			<playerScore name="Golden Panda" score=1900 kills=10 deaths=22 time="04:34"/>
 			<playerScore name="Redloz" score=1425 kills=8 deaths=18 time="04:34"/>
 		</teamScore>

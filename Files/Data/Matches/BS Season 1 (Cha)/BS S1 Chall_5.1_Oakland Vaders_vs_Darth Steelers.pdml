@@ -1,7 +1,7 @@
 <series season="bs-s1-cha" teams=["Oakland Vaders" "Darth Steelers"] round=5 index=1>
 	<match map="Jawa Refuge" timeLeft="04:22" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="FireBringer" score=7350 kills=29 deaths=24/>
+			<playerScore name="Firebringer" score=7350 kills=29 deaths=24/>
 			<playerScore name="Eky" score=6675 kills=20 deaths=17/>
 			<playerScore name="BFL-Ice" score=4090 kills=15 deaths=13/>
 			<playerScore name="CaZuaL" score=3975 kills=13 deaths=7/>
@@ -16,7 +16,7 @@
 	<match map="Dune Sea" timeLeft="00:13" gameMode="US West">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Eky" score=9250 kills=28 deaths=36/>
-			<playerScore name="FireBringer" score=8750 kills=37 deaths=33/>
+			<playerScore name="Firebringer" score=8750 kills=37 deaths=33/>
 			<playerScore name="BFL-Ice" score=6320 kills=22 deaths=28/>
 			<playerScore name="CaZuaL" score=4850 kills=22 deaths=18/>
 		</teamScore>
@@ -29,7 +29,7 @@
 	</match>
 	<match map="Ice Caves" timeLeft="01:48" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="FireBringer" score=6750 kills=32 deaths=28/>
+			<playerScore name="Firebringer" score=6750 kills=32 deaths=28/>
 			<playerScore name="BFL-Ice" score=5145 kills=13 deaths=15/>
 			<playerScore name="CaZuaL" score=4775 kills=16 deaths=9/>
 			<playerScore name="Eky" score=4575 kills=19 deaths=24/>

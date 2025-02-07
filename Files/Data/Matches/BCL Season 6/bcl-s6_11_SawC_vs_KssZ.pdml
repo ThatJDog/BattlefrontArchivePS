@@ -2,7 +2,7 @@
 	<match map="Goazon Badlands" timeLeft="01:59" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Shadows" score=10650 kills=26 deaths=14/>
-			<playerScore name="Quitegoneg" score=6950 kills=20 deaths=17/>
+			<playerScore name="QuiteGoneG" score=6950 kills=20 deaths=17/>
 			<playerScore name="Spree" score=6900 kills=37 deaths=20/>
 			<playerScore name="Uliday" score=4025 kills=17 deaths=14/>
 		</teamScore>
@@ -16,7 +16,7 @@
 	<match map="Swamp" timeLeft="-00:14" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Shadows" score=10525 kills=30 deaths=14/>
-			<playerScore name="Quitegoneg" score=6750 kills=22 deaths=21/>
+			<playerScore name="QuiteGoneG" score=6750 kills=22 deaths=21/>
 			<playerScore name="Spree" score=5275 kills=23 deaths=18/>
 			<playerScore name="Uliday" score=4400 kills=17 deaths=20/>
 		</teamScore>

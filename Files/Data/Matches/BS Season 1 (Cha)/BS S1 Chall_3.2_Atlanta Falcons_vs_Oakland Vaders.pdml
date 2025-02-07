@@ -7,7 +7,7 @@
 			<playerScore name="Papl" score=6125 kills=15 deaths=30/>
 		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="FireBringer" score=10000 kills=43 deaths=37/>
+			<playerScore name="Firebringer" score=10000 kills=43 deaths=37/>
 			<playerScore name="Eky" score=7125 kills=25 deaths=31/>
 			<playerScore name="CaZuaL" score=6665 kills=25 deaths=20/>
 			<playerScore name="BFL-Ice" score=6175 kills=17 deaths=22/>
@@ -21,7 +21,7 @@
 			<playerScore name="Hobo" score=4115 kills=16 deaths=25/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="FireBringer" score=8550 kills=40 deaths=26/>
+			<playerScore name="Firebringer" score=8550 kills=40 deaths=26/>
 			<playerScore name="CaZuaL" score=5910 kills=17 deaths=16/>
 			<playerScore name="BFL-Ice" score=5725 kills=18 deaths=12/>
 			<playerScore name="Eky" score=5650 kills=20 deaths=28/>
@@ -35,7 +35,7 @@
 			<playerScore name="Hobo" score=2655 kills=12 deaths=19/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="FireBringer" score=6975 kills=28 deaths=24/>
+			<playerScore name="Firebringer" score=6975 kills=28 deaths=24/>
 			<playerScore name="CaZuaL" score=4390 kills=17 deaths=5/>
 			<playerScore name="BFL-Ice" score=4250 kills=12 deaths=13/>
 			<playerScore name="Eky" score=3675 kills=14 deaths=16/>
@@ -49,7 +49,7 @@
 			<playerScore name="Papl" score=4850 kills=18 deaths=19/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>
-			<playerScore name="FireBringer" score=5600 kills=25 deaths=30/>
+			<playerScore name="Firebringer" score=5600 kills=25 deaths=30/>
 			<playerScore name="BFL-Ice" score=4025 kills=14 deaths=19/>
 			<playerScore name="Eky" score=3850 kills=11 deaths=23/>
 			<playerScore name="CaZuaL" score=2920 kills=15 deaths=17/>
@@ -63,7 +63,7 @@
 			<playerScore name="KingCaldera" score=5325 kills=20 deaths=26/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="FireBringer" score=8125 kills=28 deaths=32/>
+			<playerScore name="Firebringer" score=8125 kills=28 deaths=32/>
 			<playerScore name="Eky" score=6475 kills=28 deaths=31/>
 			<playerScore name="BFL-Ice" score=5600 kills=19 deaths=20/>
 			<playerScore name="CaZuaL" score=4825 kills=18 deaths=20/>

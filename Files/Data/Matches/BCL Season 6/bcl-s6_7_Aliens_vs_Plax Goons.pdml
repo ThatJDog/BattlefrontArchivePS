@@ -9,7 +9,7 @@
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Unakkorn" score=9225 kills=33 deaths=31/>
 			<playerScore name="Envy" score=8125 kills=40 deaths=27/>
-			<playerScore name="rayanswagg" score=7125 kills=15 deaths=28/>
+			<playerScore name="Rayanswag" score=7125 kills=15 deaths=28/>
 			<playerScore name="Rails" score=3175 kills=8 deaths=23/>
 		</teamScore>
 	</match>
@@ -22,7 +22,7 @@
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Unakkorn" score=7975 kills=30 deaths=21/>
-			<playerScore name="rayanswagg" score=7850 kills=19 deaths=14/>
+			<playerScore name="Rayanswag" score=7850 kills=19 deaths=14/>
 			<playerScore name="Rails" score=5975 kills=23 deaths=11/>
 			<playerScore name="Envy" score=4525 kills=21 deaths=16/>
 		</teamScore>
@@ -38,7 +38,7 @@
 			<playerScore name="Unakkorn" score=9975 kills=40 deaths=21/>
 			<playerScore name="Envy" score=6125 kills=33 deaths=28/>
 			<playerScore name="Rails" score=4900 kills=14 deaths=19/>
-			<playerScore name="rayanswagg" score=4025 kills=7 deaths=27/>
+			<playerScore name="Rayanswag" score=4025 kills=7 deaths=27/>
 		</teamScore>
 	</match>
 </series>

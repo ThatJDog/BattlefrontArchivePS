@@ -7,7 +7,7 @@
 			<playerScore name="Betfroont" score=2600 kills=9 deaths=15 time="05:56"/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="FireBringer" score=5200 kills=21 deaths=14 time="05:56"/>
+			<playerScore name="Firebringer" score=5200 kills=21 deaths=14 time="05:56"/>
 			<playerScore name="BFL-Ice" score=4400 kills=16 deaths=10 time="05:56"/>
 			<playerScore name="Eky" score=3500 kills=9 deaths=15 time="05:56"/>
 			<playerScore name="Kygin" score=2900 kills=10 deaths=11 time="05:56"/>
@@ -21,7 +21,7 @@
 			<playerScore name="Betfroont" score=3150 kills=10 deaths=26 time="04:22"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="FireBringer" score=8175 kills=41 deaths=12 time="04:22"/>
+			<playerScore name="Firebringer" score=8175 kills=41 deaths=12 time="04:22"/>
 			<playerScore name="Eky" score=7625 kills=20 deaths=12 time="04:22"/>
 			<playerScore name="BFL-Ice" score=6600 kills=23 deaths=14 time="04:22"/>
 			<playerScore name="Kygin" score=5330 kills=12 deaths=14 time="04:22"/>
@@ -35,7 +35,7 @@
 			<playerScore name="Betfroont" score=2175 kills=10 deaths=18 time="07:04"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="FireBringer" score=7475 kills=24 deaths=10 time="07:04"/>
+			<playerScore name="Firebringer" score=7475 kills=24 deaths=10 time="07:04"/>
 			<playerScore name="Eky" score=5075 kills=21 deaths=9 time="07:04"/>
 			<playerScore name="BFL-Ice" score=3275 kills=14 deaths=6 time="07:04"/>
 			<playerScore name="Kygin" score=3220 kills=6 deaths=12 time="07:04"/>

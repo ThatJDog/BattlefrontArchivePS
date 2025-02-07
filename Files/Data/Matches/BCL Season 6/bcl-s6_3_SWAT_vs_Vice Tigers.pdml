@@ -2,9 +2,9 @@
 	<match map="Jawa Refuge" timeLeft="-00:30" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=4>
 			<playerScore name="Foggle" score=9400 kills=48 deaths=28/>
-			<playerScore name="Vic21102004" score=8075 kills=21 deaths=28/>
-			<playerScore name="Haztof59" score=6750 kills=14 deaths=36/>
-			<playerScore name="ModageSZN" score=6495 kills=24 deaths=26/>
+			<playerScore name="Vic" score=8075 kills=21 deaths=28/>
+			<playerScore name="Haztof" score=6750 kills=14 deaths=36/>
+			<playerScore name="Karnage" score=6495 kills=24 deaths=26/>
 		</teamScore>
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Goudapest" score=8600 kills=28 deaths=28/>
@@ -16,9 +16,9 @@
 	<match map="Jawa Refuge" timeLeft="01:14" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Foggle" score=10950 kills=47 deaths=21/>
-			<playerScore name="Haztof59" score=9425 kills=36 deaths=23/>
-			<playerScore name="ModageSZN" score=8540 kills=35 deaths=19/>
-			<playerScore name="Vic21102004" score=7075 kills=14 deaths=22/>
+			<playerScore name="Haztof" score=9425 kills=36 deaths=23/>
+			<playerScore name="Karnage" score=8540 kills=35 deaths=19/>
+			<playerScore name="Vic" score=7075 kills=14 deaths=22/>
 		</teamScore>
 		<teamScore faction="Rebel" score=2>
 			<playerScore name="Veggie" score=7500 kills=21 deaths=31/>

@@ -3,7 +3,7 @@
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Shadows" score=14950 kills=44 deaths=32/>
 			<playerScore name="Spree" score=11850 kills=47 deaths=27/>
-			<playerScore name="QuitegoneG" score=9400 kills=24 deaths=27/>
+			<playerScore name="QuiteGoneG" score=9400 kills=24 deaths=27/>
 			<playerScore name="Uliday" score=6525 kills=29 deaths=31/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>
@@ -17,7 +17,7 @@
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Shadows" score=9900 kills=26 deaths=24/>
 			<playerScore name="Spree" score=8325 kills=28 deaths=20/>
-			<playerScore name="QuitegoneG" score=7925 kills=25 deaths=15/>
+			<playerScore name="QuiteGoneG" score=7925 kills=25 deaths=15/>
 			<playerScore name="Uliday" score=5050 kills=25 deaths=11/>
 		</teamScore>
 		<teamScore faction="Imperial" score=1>

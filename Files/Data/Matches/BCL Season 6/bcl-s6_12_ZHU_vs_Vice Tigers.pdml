@@ -7,7 +7,7 @@
 			<playerScore name="Palmy" score=5400 kills=22 deaths=21/>
 		</teamScore>
 		<teamScore faction="Imperial" score=4>
-			<playerScore name="rayanswagg" score=8750 kills=25 deaths=25/>
+			<playerScore name="Rayanswag" score=8750 kills=25 deaths=25/>
 			<playerScore name="Goudapest" score=7675 kills=30 deaths=23/>
 			<playerScore name="Bdozen" score=7300 kills=29 deaths=23/>
 			<playerScore name="Stook" score=6225 kills=20 deaths=29/>
@@ -21,9 +21,9 @@
 			<playerScore name="Sween" score=4525 kills=12 deaths=15/>
 		</teamScore>
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="RyanSwag" score=3600 kills=12 deaths=14/>
-			<playerScore name="Moss" score=3200 kills=10 deaths=18/>
-			<playerScore name="Bdozer" score=2850 kills=17 deaths=15/>
+			<playerScore name="Rayanswag" score=3600 kills=12 deaths=14/>
+			<playerScore name="Goudapest" score=3200 kills=10 deaths=18/>
+			<playerScore name="Bdozen" score=2850 kills=17 deaths=15/>
 			<playerScore name="Stook" score=2125 kills=10 deaths=17/>
 		</teamScore>
 	</match>
@@ -37,7 +37,7 @@
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Bdozen" score=5250 kills=19 deaths=3/>
 			<playerScore name="Goudapest" score=4825 kills=13 deaths=7/>
-			<playerScore name="rayanswagg" score=3850 kills=12 deaths=12/>
+			<playerScore name="Rayanswag" score=3850 kills=12 deaths=12/>
 			<playerScore name="Stook" score=3225 kills=11 deaths=8/>
 		</teamScore>
 	</match>

@@ -1,7 +1,7 @@
 <series season="bs-s1-cha" teams=["Oakland Vaders" "SWAT"] round=1 index=2>
 	<match map="Jawa Refuge" timeLeft="07:22" gameMode="Drop Zone" server="US East">
 		<teamScore faction="Rebel" score=5>
-			<playerScore name="FireBringer" score=4525 kills=22 deaths=13 time="07:22"/>
+			<playerScore name="Firebringer" score=4525 kills=22 deaths=13 time="07:22"/>
 			<playerScore name="CaZuaL" score=4285 kills=17 deaths=3 time="07:22"/>
 			<playerScore name="Pyrtle" score=4125 kills=11 deaths=8 time="07:22"/>
 			<playerScore name="BFL-Ice" score=3975 kills=14 deaths=10 time="07:22"/>
@@ -15,7 +15,7 @@
 	</match>
 	<match map="Dune Sea" timeLeft="00:03" gameMode="Drop Zone" server="Europe">
 		<teamScore faction="Imperial" score=5>
-			<playerScore name="FireBringer" score=8725 kills=45 deaths=37 time="00:03"/>
+			<playerScore name="Firebringer" score=8725 kills=45 deaths=37 time="00:03"/>
 			<playerScore name="CaZuaL" score=8880 kills=28 deaths=18 time="00:03"/>
 			<playerScore name="Pyrtle" score=7650 kills=17 deaths=31 time="00:03"/>
 			<playerScore name="BFL-Ice" score=8400 kills=28 deaths=26 time="00:03"/>

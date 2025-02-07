@@ -2,7 +2,7 @@
 	<match map="Twilight On Hoth" timeLeft="-00:-12" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Tryhard" score=7550 kills=17 deaths=22 time="-00:-12"/>
-			<playerScore name="ShawdenFrosst" score=6950 kills=18 deaths=26 time="-00:-12"/>
+			<playerScore name="ShawdenFrost" score=6950 kills=18 deaths=26 time="-00:-12"/>
 			<playerScore name="Mendo" score=6250 kills=30 deaths=25 time="-00:-12"/>
 			<playerScore name="Dajdog" score=5730 kills=19 deaths=23 time="-00:-12"/>
 		</teamScore>
@@ -18,7 +18,7 @@
 			<playerScore name="Tryhard" score=3450 kills=7 deaths=13 time="05:56"/>
 			<playerScore name="Mendo" score=2950 kills=14 deaths=19 time="05:56"/>
 			<playerScore name="Dajdog" score=2810 kills=15 deaths=22 time="05:56"/>
-			<playerScore name="ShawdenFrosst" score=1800 kills=5 deaths=22 time="05:56"/>
+			<playerScore name="ShawdenFrost" score=1800 kills=5 deaths=22 time="05:56"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Voamz" score=7075 kills=19 deaths=11 time="05:56"/>
@@ -30,7 +30,7 @@
 	<match map="Dune Sea" timeLeft="-00:-49" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=3>
 			<playerScore name="Mendo" score=8725 kills=45 deaths=27 time="-00:-49"/>
-			<playerScore name="ShawdenFrosst" score=7825 kills=26 deaths=33 time="-00:-49"/>
+			<playerScore name="ShawdenFrost" score=7825 kills=26 deaths=33 time="-00:-49"/>
 			<playerScore name="Dajdog" score=6995 kills=21 deaths=38 time="-00:-49"/>
 			<playerScore name="Tryhard" score=6975 kills=21 deaths=40 time="-00:-49"/>
 		</teamScore>
@@ -46,7 +46,7 @@
 			<playerScore name="Tryhard" score=3300 kills=10 deaths=19 time="05:25"/>
 			<playerScore name="Mendo" score=2825 kills=16 deaths=15 time="05:25"/>
 			<playerScore name="Dajdog" score=1940 kills=6 deaths=17 time="05:25"/>
-			<playerScore name="ShawdenFrosst" score=1700 kills=6 deaths=19 time="05:25"/>
+			<playerScore name="ShawdenFrost" score=1700 kills=6 deaths=19 time="05:25"/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Uliday" score=5745 kills=24 deaths=6 time="05:25"/>

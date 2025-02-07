@@ -2,7 +2,7 @@
 	<match map="Sulfur Fields" timeLeft="01:39" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=5>
 			<playerScore name="Unakkorn" score=8500 kills=29 deaths=27/>
-			<playerScore name="rayanswagg" score=7850 kills=16 deaths=15/>
+			<playerScore name="Rayanswag" score=7850 kills=16 deaths=15/>
 			<playerScore name="Envy" score=6450 kills=31 deaths=22/>
 			<playerScore name="Rails" score=5600 kills=17 deaths=11/>
 		</teamScore>
@@ -16,14 +16,14 @@
 	<match map="Jawa Refuge" timeLeft="-00:53" gameMode="Drop Zone">
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Unakkorn" score=10800 kills=38 deaths=30/>
-			<playerScore name="rayanswagg" score=7925 kills=19 deaths=24/>
+			<playerScore name="Rayanswag" score=7925 kills=19 deaths=24/>
 			<playerScore name="Envy" score=7100 kills=33 deaths=32/>
 			<playerScore name="Rails" score=5975 kills=25 deaths=30/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Coloses" score=9875 kills=29 deaths=35/>
 			<playerScore name="Cassady" score=8750 kills=38 deaths=29/>
-			<playerScore name="Gwede" score=8325 kills=25 deaths=34/>
+			<playerScore name="Gswede" score=8325 kills=25 deaths=34/>
 			<playerScore name="Hobo" score=5225 kills=24 deaths=18/>
 		</teamScore>
 	</match>
@@ -31,7 +31,7 @@
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Envy" score=7950 kills=35 deaths=16/>
 			<playerScore name="Unakkorn" score=7550 kills=29 deaths=26/>
-			<playerScore name="rayanswagg" score=6050 kills=10 deaths=16/>
+			<playerScore name="Rayanswag" score=6050 kills=10 deaths=16/>
 			<playerScore name="Rails" score=4875 kills=18 deaths=18/>
 		</teamScore>
 		<teamScore faction="Rebel" score=0>

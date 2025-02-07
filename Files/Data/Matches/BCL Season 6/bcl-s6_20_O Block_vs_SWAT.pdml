@@ -3,7 +3,7 @@
 		<teamScore faction="Imperial" score=3>
 			<playerScore name="Skumszy" score=7650 kills=32 deaths=25/>
 			<playerScore name="Swaggy" score=4775 kills=18 deaths=23/>
-			<playerScore name="Quitegoneg" score=4225 kills=10 deaths=23/>
+			<playerScore name="QuiteGoneG" score=4225 kills=10 deaths=23/>
 			<playerScore name="Sarrows" score=3425 kills=16 deaths=18/>
 		</teamScore>
 		<teamScore faction="Rebel" score=5>
@@ -15,14 +15,14 @@
 	</match>
 	<match map="Rebel Depot" timeLeft="07:04" gameMode="Drop Zone">
 		<teamScore faction="Imperial" score=0>
-			<playerScore name="Quitegoneg" score=3250 kills=11 deaths=17/>
+			<playerScore name="QuiteGoneG" score=3250 kills=11 deaths=17/>
 			<playerScore name="Swaggy" score=2725 kills=13 deaths=16/>
 			<playerScore name="Sarrows" score=2115 kills=5 deaths=16/>
 			<playerScore name="Skumszy" score=2025 kills=8 deaths=22/>
 		</teamScore>
 		<teamScore faction="Rebel" score=4>
 			<playerScore name="Haztof" score=5475 kills=18 deaths=6/>
-			<playerScore name="VIc" score=5100 kills=18 deaths=10/>
+			<playerScore name="Vic" score=5100 kills=18 deaths=10/>
 			<playerScore name="Foggle" score=4725 kills=17 deaths=12/>
 			<playerScore name="Karnage" score=4075 kills=17 deaths=10/>
 		</teamScore>

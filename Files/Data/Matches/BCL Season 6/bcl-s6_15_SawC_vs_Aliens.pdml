@@ -16,7 +16,7 @@
 			<playerScore name="Shadows" score=11225 kills=24 deaths=34/>
 			<playerScore name="Uliday" score=8575 kills=25 deaths=28/>
 			<playerScore name="Spree" score=8125 kills=37 deaths=28/>
-			<playerScore name="Quitegoneg" score=4925 kills=25 deaths=31/>
+			<playerScore name="QuiteGoneG" score=4925 kills=25 deaths=31/>
 		</teamScore>
 		<teamScore faction="Imperial" score=5>
 			<playerScore name="Hashemy" score=9425 kills=39 deaths=26/>
