@@ -5,13 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Loading...</title>
         <script>
-            const isLocal = window.location.origin.includes("localhost") || window.location.origin.includes("127.0.0.1");
-            const repoName = window.location.pathname.split('/')[1]; // Detect repo name dynamically
-            const baseHref = isLocal ? "/" : `/${repoName}/`;
+            (function() {
+                const isLocal = window.location.origin.includes("localhost") || window.location.origin.includes("127.0.0.1");
+                const repoName = window.location.pathname.split('/')[1]; // Detect repo name dynamically
+                const baseHref = isLocal ? "/" : `/${repoName}/`;
     
-            // Dynamically set the base tag
-            document.write(`<base href="${baseHref}">`);
+                // Dynamically set the base tag before any other scripts execute
+                document.write(`<base href="${baseHref}">`);
+            })();
         </script>
+    
         <script type="module" src="/db/database-loader.js" defer></script>
         <style>
             body {
