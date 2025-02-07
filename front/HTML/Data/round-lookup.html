@@ -14,11 +14,7 @@
 
         async function loadTable() {
             const seriesContainer = document.getElementById("table-container");
-            const t1Container = document.getElementById("t1-container");
-            const t2Container = document.getElementById("t2-container");
-
-            const t1TeamContainer = document.getElementById("t1-team-container");
-            const t2TeamContainer = document.getElementById("t2-team-container");
+            const playerContainer = document.getElementById("player-container");
 
             try {
 
@@ -31,30 +27,30 @@
                 const seasonID = new URLSearchParams(window.location.search).get('seasonID');
                 const round = parseInt(new URLSearchParams(window.location.search).get('round'));
 
-                console.log('SeasonID: ', seasonID, ' Round: ', round);
-
-                const table = getFilteredSeries(seasonID, round);
-
-                // Populate Match Table
-                populateTable(seriesContainer, table.drop('SeriesID'));
+                const seriesTable = getFilteredSeries(seasonID, round);
+                populateTable(seriesContainer, seriesTable.drop('SeriesID'));
 
                 // Add click event listener to rows after table is populated
                 const rows = seriesContainer.querySelectorAll("tbody tr");
 
                 rows.forEach((row, index) => {
                     row.addEventListener("click", () => {
-                        // Get the MatchID from the stored record
-                        const record = table.getRecord(index);
-                        if (record.MatchID == null) {
-                            console.warn("MatchID not found for this record:", record);
+                        // Get the SeriesID from the stored record
+                        const record = seriesTable.getRecord(index);
+                        if (record.SeriesID == null) {
+                            console.warn("SeriesID not found for this record:", record);
+                            console.log(seriesTable.getRecord(index));
                             return;
                         }
 
-                        // Redirect to the match scoreboard page with the MatchID as a URL parameter
-                        window.location.href = `./match-score?matchID=${encodeURIComponent(record.MatchID)}`;
+                        // Redirect to the series page with the SeriesID as a URL parameter
+                        window.location.href = `./match-lookup?seriesID=${encodeURIComponent(record.SeriesID)}`;
                     });
                 });
-            
+
+
+                const playerScores = getRoundSummary(seasonID, round);
+                populateTable(playerContainer, playerScores);
 
             } catch (error) {
                 console.error("Error loading data:", error);
@@ -71,6 +67,54 @@
                 .addComputedColumn('Away', record => record.Teams[1])
                 .keep(['SeriesID', 'Season', 'Round', 'Home', 'Away'])
             ;
+        }
+
+        function getRoundSummary(seasonID, round){
+            // Filter Series (By season and round)
+            const matches = db.select('Series', series => series.SeasonID === seasonID && series.Round === round)
+                // Filter Matches
+                .join(db.getTable('Match'), 'INNER JOIN', (series, match) => match.SeriesID === series.SeriesID)
+            ;
+
+            const playerScores = matches
+                .join(db.getTable('PlayerScore'), 'INNER JOIN', (match, player) => player.MatchID === match.MatchID)
+                .groupBy('PlayerName', {
+                    Score: (values) => values.reduce((sum, value) => sum + value, 0),
+                    Kills: (values) => values.reduce((sum, value) => sum + value, 0),
+                    Deaths: (values) => values.reduce((sum, value) => sum + value, 0),
+                    Duration: (values) => values.reduce((sum, value) => sum + value, 0),
+                    TeamName: (values) => values[0],
+                })
+                .keep(['PlayerName', 'TeamName', 'Score', 'Kills', 'Deaths', 'Duration'])
+                .addComputedColumn("ObjScore", (record) => {
+                    return Math.round((parseFloat(record.Score - (record.Kills * 100)) * 0.95)); // ObjScore - buffer
+                })
+                .addComputedColumn("KDR", (record) => {
+                    return record.Deaths > 0 
+                    ? (record.Kills / record.Deaths).toFixed(2) // Ensure fixed decimal format
+                    : "0.00"; // Keep consistent format for zero deaths
+                })
+                .addComputedColumn("KPM", (record) => {
+                    return record.Duration > 0 
+                    ? (record.Kills / record.Duration).toFixed(2)
+                    : "0.00";
+                })
+                .addComputedColumn("SPM", (record) => {
+                    return record.Duration > 0 
+                    ? (record.Score / record.Duration).toFixed(2)
+                    : "0.00";
+                })
+                .addComputedColumn("OSPM", (record) => {
+                    return record.Duration > 0 
+                    ? (record.ObjScore / record.Duration).toFixed(2)
+                    : "0.00";
+                })
+                .renameColumn('PlayerName', 'Name')
+                .renameColumn('TeamName', 'Team')
+                .drop(['Duration', 'ObjScore'])
+            ;
+
+            return playerScores;
         }
 
         
@@ -102,7 +146,7 @@
 <body>
     <nav id="navbar-container"></nav>
 
-    <div class="section vertical" style="width: 100%;">
+    <div class="section vertical">
         <div class="frame">
             <div class="leaderboard-table" id="table-container"></div>
         </div>
@@ -112,10 +156,7 @@
                 <h3>Round Summary</h2>
             </div>
             <div class="frame-content">
-                <div class="section vertical">
-                    <div class="data-table" id="t1-container"></div>
-                    <div class="data-table" id="t1-team-container"></div>
-                </div>
+                <div class="data-table" id="player-container"></div>
             </div>
         </div>
     </div>
