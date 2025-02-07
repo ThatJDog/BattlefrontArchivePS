@@ -1,3 +1,5 @@
+import {ratingToString, rankPlayerSeason} from '/front/JS/ranking.js';
+
 export function getPlayerSummary(db, seasonId){
 
     return db.select("Series", row => seasonId == null || row.SeasonID === seasonId)
@@ -59,12 +61,13 @@ export function getPlayerSummary(db, seasonId){
             ? Math.round(record.Score / record.Matches)
             : "0.00";
         })
+        .addComputedColumn('Rank', record => ratingToString(rankPlayerSeason(db, record.PlayerName, seasonId)))
         .drop(['Duration', 'ObjScore'])
         .sortBy(["SPM desc", "PlayerName asc"])
         .renameColumn('PlayerName', 'Name')
         .renameColumn('TeamName', 'Team')
-        .reorderColumns(['Name', 'Team', 'Score', 'Kills', 'Deaths', 'KDR', 'KPM', 'SPM', 'OSPM', 'KPG', 'SPG', 'Matches'])
-        .sortBy(['Kills desc', 'Score desc', 'Name'])
+        .reorderColumns(['Name', 'Team', 'Rank', 'Score', 'Kills', 'Deaths', 'KDR', 'KPM', 'SPM', 'OSPM', 'KPG', 'SPG', 'Matches'])
+        .sortBy(['Rank', 'Kills desc', 'Score desc', 'Name'])
     ;
 
 

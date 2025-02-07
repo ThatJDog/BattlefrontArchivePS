@@ -4,25 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Loading...</title>
-        <script>
-            (function() {
-                const isLocal = window.location.origin.includes("localhost") || window.location.origin.includes("127.0.0.1");
-                const repoName = 'BattlefrontArchivePS'; // window.location.pathname.split('/')[1]; // Detect repo name dynamically
-                const baseHref = isLocal ? "/" : `/${repoName}/`;
-
-                console.log('Setting base href: ', baseHref);
-    
-                // Ensure <base> tag exists
-                let baseTag = document.querySelector("base");
-                if (!baseTag) {
-                    baseTag = document.createElement("base");
-                    document.head.prepend(baseTag);
-                }
-                baseTag.href = baseHref;
-            })();
-        </script>
-    
-        <script type="module" src="/db/database-loader.js" defer></script>
+        <script type="module" src="db/database-loader.js" defer></script>
         <style>
             body {
                 font-family: Arial, sans-serif;

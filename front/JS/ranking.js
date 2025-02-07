@@ -2,10 +2,10 @@
 const RANK_LB = 0;
 const RANK_UB = 1000;
 
-const RANK_DIVISOR = 3000;  // Standard divisor in match rank formula (sensitivity)
+const RANK_DIVISOR = 400;  // Standard divisor in match rank formula (sensitivity)
 
 // === SCALING FACTORS ===
-const MIN_SCALAR = 0.8;    // Minimum scale (for strong favorites)
+const MIN_SCALAR = 0.7;    // Minimum scale (for strong favorites)
 const MAX_SCALAR = 1.1;    // Maximum scale (for extreme underdogs)
 const EXPONENT = 1.5;      // Controls non-linearity of scaling
 
@@ -44,15 +44,16 @@ const UQR_W = 0.1;    // Peak performance (minor bonus for high-skill games)
 */
 
 export function ratingToString(rank) {
-    const rankLabels = ["F", "D", "C", "B", "A", "S"]; // Customize as needed
+    const rankLabels = ["F", 'E', "D", "C", "B", "A"];
 
     // Clamp the rank between 0 and 1000
-    rank = Math.max(RANK_LB, Math.min(rank, RANK_UB));
+    const clamped = Math.max(RANK_LB, Math.min(rank, RANK_UB));
 
     const groupSize = Math.ceil((RANK_UB+1) / rankLabels.length); // Determine size of each rank group
-    const index = Math.min(Math.floor(rank / groupSize), rankLabels.length - 1); // Map rank to index
+    const index = Math.min(Math.floor(clamped / groupSize), rankLabels.length - 1); // Map rank to index
 
     return rankLabels[index];
+    // return rankLabels[index] + " (" + Math.round(rank) + ")";
 }
 
 // Features
@@ -61,9 +62,11 @@ export function ratingToString(rank) {
 
 /* Calculate the avg rank over series in a season */
 export function rankPlayerSeason(db, playerName, seasonID){
-    return rankPlayerMatchesLarge(db, playerName, db.select('Series', series => series.seasonID === seasonID)
+
+    return rankPlayerMatchesLarge(db, playerName, db.select('Series', series => series.SeasonID === seasonID)
         .join(db.getTable('Match'), 'INNER JOIN', 
-            (series, match) => series.SeriesID === match.SeriesID)
+            (series, match) => series.SeriesID === match.SeriesID 
+                && db.select('PlayerScore', ps => ps.PlayerName === playerName && ps.MatchID === match.MatchID).numRecords() > 0)
         , seasonID)
     ;
 }
@@ -98,9 +101,13 @@ export function rankPlayerMatches(db, playerName, matches, seasonID = null){
 function rankPlayerMatchesEval(db, playerName, matches, seasonID = null) {
     let ratings = [];
 
+    console.log('Matches: ', matches);
+
     matches.forEachRecord(row => {
         ratings.push(rankPlayerMatch(db, playerName, row.MatchID, seasonID));
     });
+
+    console.log('Ratings: ', ratings);
 
     if (ratings.length === 0) return null; // Handle case with no matches
 
@@ -140,10 +147,12 @@ export function rankPlayerMatch(db, playerName, matchID, seasonID = null) {
         .join(db.getTable('PlayedFor'), 'INNER JOIN',
             (ps, pf) => pf.SeasonID === seasonID && ps.PlayerName === pf.PlayerName);
 
-    console.log('PlayerScores: ', playerScores);
-
     // Get this player's score and team
     const thisScore = playerScores.select(row => row.PlayerName === playerName).getRecord(0);
+    if (thisScore == null) {
+        console.warn('Rating Player on Match they did not play in!');
+        return null;
+    }
     const thisTeam = thisScore.TeamName;
 
     // Get team power which is avg of signup rank
@@ -159,11 +168,11 @@ export function rankPlayerMatch(db, playerName, matchID, seasonID = null) {
 
     // Compute expected win probability
     const expectedWin = getExpectedScore(thisTeamPower, otherTeamPower);
-    console.log("Win P:", expectedWin);
+    console.log(`(${playerName}) ${thisTeamPower} vs ${otherTeamPower} Win P:`, expectedWin);
 
     // Get dynamically adjusted K-factor
     let balancingScalar = remapProbabilityToScale(expectedWin);
-    console.log("KScale (Before Adj):", balancingScalar);
+    console.log("(" + playerName + ") KScale (Before Adj):", balancingScalar);
 
     // Adjust balancingScalar based on ratingDif (if negative, push towards 1)
     if (ratingDif < 0) {
@@ -171,7 +180,7 @@ export function rankPlayerMatch(db, playerName, matchID, seasonID = null) {
         balancingScalar = 1 + (balancingScalar - 1) * (1 - adjustmentFactor);
     }
 
-    console.log("KScale (After Adj):", balancingScalar);
+    console.log("(" + playerName + ") KScale (After Adj):", balancingScalar);
 
     // Calculate rating scaled with balancing k-factor
     const rating = rankPlayer(thisScore.Score, thisScore.Kills, thisScore.Deaths, thisScore.Duration);
@@ -201,7 +210,8 @@ export function rankPlayer(score, kills, deaths, duration){
 }
 
 function mapStat(val, min, max, weight){
-    return remap(val, min, max, RANK_LB, RANK_UB) * weight;
+    const mapping = remap(val, min, max, RANK_LB, RANK_UB);
+    return Math.max(Math.min(RANK_UB, mapping), RANK_LB) * weight;
 }
 
 // === FUNCTION: Compute Expected Win Probability ===

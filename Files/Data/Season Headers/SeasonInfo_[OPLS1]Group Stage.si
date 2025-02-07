@@ -5,6 +5,8 @@
 [SeasonIndex] "15"
 [Ranked] "true"
 [TournamentMode] "groupStage"
+[RatingLowerBound] "1"
+[RatingUpperBound] "8"
 [SeasonColour] "FF155D"
 [Organisation] "OPL"
 
@@ -13,156 +15,333 @@
 [Group] "3"
 
 Hashemy
+[PlayerRating] "7.42"
+
 Unakkorn
+[PlayerRating] "7.86"
+
 Spree
+[PlayerRating] "7.79"
+
 Vanarin
+[PlayerRating] "7.58"
+
 SlewedPanic
+[PlayerRating] "6.11"
 
 #FRA
 [Group] "3"
 
 Redloz
+[PlayerRating] "3.1"
+
 Mileena
+[PlayerRating] "3.76"
+
 ShawdenFrost
+[PlayerRating] "4.15"
+
 Golden Panda
+[PlayerRating] "3.72"
+
 Revxnge
+[PlayerRating] "4.1"
+
 Malizia
+[PlayerRating] "3.08"
+
 MF-Zerev
+[PlayerRating] "3.08"
 
 #Elmos Minions
 [Group] "3"
 
 Mortal
+[PlayerRating] "6.6"
+
 Subsided
+[PlayerRating] "6.53"
+
 Laddas
+[PlayerRating] "5.06"
+
 CaZuaL
+[PlayerRating] "6.18"
+
 Syvatti
+[PlayerRating] "3.45"
+
 Syriskor
+[PlayerRating] "4.99"
 
 #BFL
 [Group] "3"
 
 Magooboo
+[PlayerRating] "5.27"
+
 Bobstaj
+[PlayerRating] "3"
+
 Yolo
+[PlayerRating] "5.27"
+
 Kurziiya
+[PlayerRating] "4.27"
+
 Lego Matt
+[PlayerRating] "5.9"
+
 Cheers
+[PlayerRating] "5.13"
+
 
 #Beaver
 [Group] "2"
 
 Swaggy
+[PlayerRating] "6.86"
+
 Vex
+[PlayerRating] "7.88"
+
 Poochamos
+[PlayerRating] "6.65"
+
 Padis
+[PlayerRating] "7.35"
+
 Goudapest
+[PlayerRating] "6.67"
 
 #Oak Forest High School
 [Group] "2"
 
 TheSup
+[PlayerRating] "7.07"
+
 Rage
+[PlayerRating] "7.18"
+
 Quipsy
+[PlayerRating] "6.79"
+
 Envy
+[PlayerRating] "7.23"
+
 Crown
+[PlayerRating] "6.46"
+
 Cappa
+[PlayerRating] "6.46"
 
 #4Skinz
 [Group] "2"
 
 Sween
+[PlayerRating] "6.27"
+
 Healthy
+[PlayerRating] "5.62"
+
 Mendo
+[PlayerRating] "5.99"
+
 Coloses
+[PlayerRating] "6.04"
+
 Figuxe
+[PlayerRating] "6.34"
+
 Bdozen
+[PlayerRating] "7.02"
 
 #LFG
 [Group] "2"
 
 QuiteGoneG
+[PlayerRating] "5.34"
+
 K3sharr
+[PlayerRating] "4.36"
+
 ThraxOD
+[PlayerRating] "6.88"
+
 IcyQueen
+[PlayerRating] "5.62"
+
 Cricken
+[PlayerRating] "6.09"
+
 ZeroRedical
+[PlayerRating] "4.62"
 
 #BRO
 [Group] "1"
 
 Reviem
+[PlayerRating] "6.6"
+
 Wookie
+[PlayerRating] "6.88"
+
 Albert Blah
+[PlayerRating] "6.93"
+
 Gpooy
+[PlayerRating] "7.07"
+
 Skumszy
+[PlayerRating] "6.88"
 
 #Myrmidons
 [Group] "1"
 
 Baseball
+[PlayerRating] "7.3"
+
 Cassady
+[PlayerRating] "7.35"
+
 Tio
+[PlayerRating] "7.14"
+
 Fitality
+[PlayerRating] "7.16"
+
 Hildingsson
+[PlayerRating] "6.97"
+
 Beerus
+[PlayerRating] "7.09"
 
 #BYC
 [Group] "1"
 
 XLand
+[PlayerRating] "5.27"
+
 FireBringer
+[PlayerRating] "5.22"
+
 OneFlow
+[PlayerRating] "5.41"
+
 KingCaldera
+[PlayerRating] "4.94"
+
 M4TT3 BL4CK
+[PlayerRating] "3.05"
+
 RiP SpR
+[PlayerRating] "4.5"
+
 Andrew
+[PlayerRating] "2.8"
 
 #Bhocolate Bhip Bookies
 [Group] "1"
 
 Uliday
+[PlayerRating] "4.57"
+
 Blue
+[PlayerRating] "7.07"
+
 Falco
+[PlayerRating] "6.88"
+
 DJ-Chimera
+[PlayerRating] "5.81"
+
 Voamz
+[PlayerRating] "5.81"
+
 Amjedjohn
+[PlayerRating] "6.18"
+
 SymmPhonic
+[PlayerRating] "6.18"
+
 Palmy
+[PlayerRating] "5.81"
 
 #Suuslax
 [Group] "4"
 
 Wolf
+[PlayerRating] "4.17"
+
 Austrian Eagle
+[PlayerRating] "3.12"
+
 Joro
+[PlayerRating] "3.8"
+
 Deutscher
+[PlayerRating] "3.52"
 
 #DEA
 [Group] "4"
 
 Slayz
+[PlayerRating] "6.6"
+
 Appolo
+[PlayerRating] "6.5"
+
 Papl
+[PlayerRating] "6.46"
+
 Kurko
+[PlayerRating] "6.46"
+
 Nevrixia
+[PlayerRating] "5.06"
+
 
 #Tell That To Kanjiklub
 [Group] "4"
 
 Laguiza
+[PlayerRating] "5.29"
+
 Haztof
+[PlayerRating] "5.29"
+
 Vic
+[PlayerRating] "6.2"
+
 Tryhard
+[PlayerRating] "5.88"
+
 DarkObitoS
+[PlayerRating] "5.9"
+
 Alimpan
+[PlayerRating] "5.97"
+
+Dajdog
+[PlayerRating] "4.5"
 
 #NMW
 [Group] "4"
 
 Foggle
+[PlayerRating] "7.79"
+
 Karnage
+[PlayerRating] "7.58"
+
 Bazo
+[PlayerRating] "7.98"
+
 Prometheus
+[PlayerRating] "7.86"
+
 Goetzeus
+[PlayerRating] "7.16"
+
 Diego
+[PlayerRating] "7"

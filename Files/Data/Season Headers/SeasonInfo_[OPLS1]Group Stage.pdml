@@ -1,128 +1,129 @@
-<season name="Season 1 Groups" seasonID="opl-s1-gs" group="OPLS1" shortName="OPLS1 GS" seasonIndex=15 ranked=true tournamentMode="groupStage" seasonColour="FF155D" organisation="OPL">
+<season name="Season 1 Groups" seasonID="opl-s1-gs" group="OPLS1" shortName="OPLS1 GS" seasonIndex=15 ranked=true tournamentMode="groupStage" ratingLowerBound=1 ratingUpperBound=8 seasonColour="FF155D" organisation="OPL">
 	<team name="Deathwatch" group=3>
-		<player-entry name="Hashemy" />
-		<player-entry name="Unakkorn" />
-		<player-entry name="Spree" />
-		<player-entry name="Vanarin" />
+		<player-entry name="Hashemy" rating=7.42/>
+		<player-entry name="Unakkorn" rating=7.86/>
+		<player-entry name="Spree" rating=7.79/>
+		<player-entry name="Vanarin" rating=7.58/>
 	</team>
 	<team name="FRA" >
-		<player-entry name="SlewedPanic" group=3/>
-		<player-entry name="Redloz" />
-		<player-entry name="Mileena" />
-		<player-entry name="ShawdenFrost" />
-		<player-entry name="Golden Panda" />
-		<player-entry name="Revxnge" />
-		<player-entry name="Malizia" />
+		<player-entry name="SlewedPanic" rating=6.11 group=3/>
+		<player-entry name="Redloz" rating=3.1/>
+		<player-entry name="Mileena" rating=3.76/>
+		<player-entry name="ShawdenFrost" rating=4.15/>
+		<player-entry name="Golden Panda" rating=3.72/>
+		<player-entry name="Revxnge" rating=4.1/>
+		<player-entry name="Malizia" rating=3.08/>
 	</team>
 	<team name="Elmos Minions" >
-		<player-entry name="MF-Zerev" group=3/>
-		<player-entry name="Mortal" />
-		<player-entry name="Subsided" />
-		<player-entry name="Laddas" />
-		<player-entry name="CaZuaL" />
-		<player-entry name="Syvatti" />
+		<player-entry name="MF-Zerev" rating=3.08 group=3/>
+		<player-entry name="Mortal" rating=6.6/>
+		<player-entry name="Subsided" rating=6.53/>
+		<player-entry name="Laddas" rating=5.06/>
+		<player-entry name="CaZuaL" rating=6.18/>
+		<player-entry name="Syvatti" rating=3.45/>
 	</team>
 	<team name="BFL" >
-		<player-entry name="Syriskor" group=3/>
-		<player-entry name="Magooboo" />
-		<player-entry name="Bobstaj" />
-		<player-entry name="Yolo" />
-		<player-entry name="Kurziiya" />
-		<player-entry name="Lego Matt" />
+		<player-entry name="Syriskor" rating=4.99 group=3/>
+		<player-entry name="Magooboo" rating=5.27/>
+		<player-entry name="Bobstaj" rating=3/>
+		<player-entry name="Yolo" rating=5.27/>
+		<player-entry name="Kurziiya" rating=4.27/>
+		<player-entry name="Lego Matt" rating=5.9/>
 	</team>
 	<team name="Beaver" >
-		<player-entry name="Cheers" group=2/>
-		<player-entry name="Swaggy" />
-		<player-entry name="Vex" />
-		<player-entry name="Poochamos" />
-		<player-entry name="Padis" />
+		<player-entry name="Cheers" rating=5.13 group=2/>
+		<player-entry name="Swaggy" rating=6.86/>
+		<player-entry name="Vex" rating=7.88/>
+		<player-entry name="Poochamos" rating=6.65/>
+		<player-entry name="Padis" rating=7.35/>
 	</team>
 	<team name="Oak Forest High School" >
-		<player-entry name="Goudapest" group=2/>
-		<player-entry name="TheSup" />
-		<player-entry name="Rage" />
-		<player-entry name="Quipsy" />
-		<player-entry name="Envy" />
-		<player-entry name="Crown" />
+		<player-entry name="Goudapest" rating=6.67 group=2/>
+		<player-entry name="TheSup" rating=7.07/>
+		<player-entry name="Rage" rating=7.18/>
+		<player-entry name="Quipsy" rating=6.79/>
+		<player-entry name="Envy" rating=7.23/>
+		<player-entry name="Crown" rating=6.46/>
 	</team>
 	<team name="4Skinz" >
-		<player-entry name="Cappa" group=2/>
-		<player-entry name="Sween" />
-		<player-entry name="Healthy" />
-		<player-entry name="Mendo" />
-		<player-entry name="Coloses" />
-		<player-entry name="Figuxe" />
+		<player-entry name="Cappa" rating=6.46 group=2/>
+		<player-entry name="Sween" rating=6.27/>
+		<player-entry name="Healthy" rating=5.62/>
+		<player-entry name="Mendo" rating=5.99/>
+		<player-entry name="Coloses" rating=6.04/>
+		<player-entry name="Figuxe" rating=6.34/>
 	</team>
 	<team name="LFG" >
-		<player-entry name="Bdozen" group=2/>
-		<player-entry name="QuiteGoneG" />
-		<player-entry name="K3sharr" />
-		<player-entry name="ThraxOD" />
-		<player-entry name="IcyQueen" />
-		<player-entry name="Cricken" />
+		<player-entry name="Bdozen" rating=7.02 group=2/>
+		<player-entry name="QuiteGoneG" rating=5.34/>
+		<player-entry name="K3sharr" rating=4.36/>
+		<player-entry name="ThraxOD" rating=6.88/>
+		<player-entry name="IcyQueen" rating=5.62/>
+		<player-entry name="Cricken" rating=6.09/>
 	</team>
 	<team name="BRO" >
-		<player-entry name="ZeroRedical" group=1/>
-		<player-entry name="Reviem" />
-		<player-entry name="Wookie" />
-		<player-entry name="Albert Blah" />
-		<player-entry name="Gpooy" />
+		<player-entry name="ZeroRedical" rating=4.62 group=1/>
+		<player-entry name="Reviem" rating=6.6/>
+		<player-entry name="Wookie" rating=6.88/>
+		<player-entry name="Albert Blah" rating=6.93/>
+		<player-entry name="Gpooy" rating=7.07/>
 	</team>
 	<team name="Myrmidons" >
-		<player-entry name="Skumszy" group=1/>
-		<player-entry name="Baseball" />
-		<player-entry name="Cassady" />
-		<player-entry name="Tio" />
-		<player-entry name="Fitality" />
-		<player-entry name="Hildingsson" />
+		<player-entry name="Skumszy" rating=6.88 group=1/>
+		<player-entry name="Baseball" rating=7.3/>
+		<player-entry name="Cassady" rating=7.35/>
+		<player-entry name="Tio" rating=7.14/>
+		<player-entry name="Fitality" rating=7.16/>
+		<player-entry name="Hildingsson" rating=6.97/>
 	</team>
 	<team name="BYC" >
-		<player-entry name="Beerus" group=1/>
-		<player-entry name="XLand" />
-		<player-entry name="FireBringer" />
-		<player-entry name="OneFlow" />
-		<player-entry name="KingCaldera" />
-		<player-entry name="M4TT3 BL4CK" />
-		<player-entry name="RiP SpR" />
+		<player-entry name="Beerus" rating=7.09 group=1/>
+		<player-entry name="XLand" rating=5.27/>
+		<player-entry name="FireBringer" rating=5.22/>
+		<player-entry name="OneFlow" rating=5.41/>
+		<player-entry name="KingCaldera" rating=4.94/>
+		<player-entry name="M4TT3 BL4CK" rating=3.05/>
+		<player-entry name="RiP SpR" rating=4.5/>
 	</team>
 	<team name="Bhocolate Bhip Bookies" >
-		<player-entry name="Andrew" group=1/>
-		<player-entry name="Uliday" />
-		<player-entry name="Blue" />
-		<player-entry name="Falco" />
-		<player-entry name="DJ-Chimera" />
-		<player-entry name="Voamz" />
-		<player-entry name="Amjedjohn" />
-		<player-entry name="SymmPhonic" />
+		<player-entry name="Andrew" rating=2.8 group=1/>
+		<player-entry name="Uliday" rating=4.57/>
+		<player-entry name="Blue" rating=7.07/>
+		<player-entry name="Falco" rating=6.88/>
+		<player-entry name="DJ-Chimera" rating=5.81/>
+		<player-entry name="Voamz" rating=5.81/>
+		<player-entry name="Amjedjohn" rating=6.18/>
+		<player-entry name="SymmPhonic" rating=6.18/>
 	</team>
 	<team name="Suuslax" >
-		<player-entry name="Palmy" group=4/>
-		<player-entry name="Wolf" />
-		<player-entry name="Austrian Eagle" />
-		<player-entry name="Joro" />
+		<player-entry name="Palmy" rating=5.81 group=4/>
+		<player-entry name="Wolf" rating=4.17/>
+		<player-entry name="Austrian Eagle" rating=3.12/>
+		<player-entry name="Joro" rating=3.8/>
 	</team>
 	<team name="DEA" >
-		<player-entry name="Deutscher" group=4/>
-		<player-entry name="Slayz" />
-		<player-entry name="Appolo" />
-		<player-entry name="Papl" />
-		<player-entry name="Kurko" />
+		<player-entry name="Deutscher" rating=3.52 group=4/>
+		<player-entry name="Slayz" rating=6.6/>
+		<player-entry name="Appolo" rating=6.5/>
+		<player-entry name="Papl" rating=6.46/>
+		<player-entry name="Kurko" rating=6.46/>
 	</team>
 	<team name="Tell That To Kanjiklub" >
-		<player-entry name="Nevrixia" group=4/>
-		<player-entry name="Laguiza" />
-		<player-entry name="Haztof" />
-		<player-entry name="Vic" />
-		<player-entry name="Tryhard" />
-		<player-entry name="DarkObitoS" />
+		<player-entry name="Nevrixia" rating=5.06 group=4/>
+		<player-entry name="Laguiza" rating=5.29/>
+		<player-entry name="Haztof" rating=5.29/>
+		<player-entry name="Vic" rating=6.2/>
+		<player-entry name="Tryhard" rating=5.88/>
+		<player-entry name="DarkObitoS" rating=5.9/>
+		<player-entry name="Alimpan" rating=5.97/>
 	</team>
 	<team name="NMW" >
-		<player-entry name="Alimpan" group=4/>
-		<player-entry name="Foggle" />
-		<player-entry name="Karnage" />
-		<player-entry name="Bazo" />
-		<player-entry name="Prometheus" />
-		<player-entry name="Goetzeus" />
-		<player-entry name="Diego" />
+		<player-entry name="Dajdog" rating=4.5 group=4/>
+		<player-entry name="Foggle" rating=7.79/>
+		<player-entry name="Karnage" rating=7.58/>
+		<player-entry name="Bazo" rating=7.98/>
+		<player-entry name="Prometheus" rating=7.86/>
+		<player-entry name="Goetzeus" rating=7.16/>
+		<player-entry name="Diego" rating=7/>
 	</team>
 </season>

@@ -49,8 +49,6 @@ async function loadData(db, matchID) {
         const playerSplit = playerScores.renameColumn('PlayerName', 'Player').split('TeamName');
         team1Players = playerSplit[0].drop('TeamName'); // Cant always assume order is correct
         team2Players = playerSplit[1].drop('TeamName');
-
-        console.log(matchInfo);
   
     } catch (error) {
         console.error("Error loading data:", error);
@@ -59,7 +57,6 @@ async function loadData(db, matchID) {
 
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
-    console.log(urlParams);
     return urlParams.get(param);
 }
 

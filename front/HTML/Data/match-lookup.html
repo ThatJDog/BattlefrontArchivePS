@@ -11,14 +11,16 @@
     <script type="module">
         import { populateTable, populateRecordTable } from '/front/JS/data-table-loader.js';
         import { loadListNavbar } from '/front/JS/navbar.js';
+        import {ratingToString, rankPlayerSeries} from '/front/JS/ranking.js';
 
         async function loadTable() {
             const matchesContainer = document.getElementById("table-container");
             const t1Container = document.getElementById("t1-container");
             const t2Container = document.getElementById("t2-container");
 
-            const t1TeamContainer = document.getElementById("t1-team-container");
-            const t2TeamContainer = document.getElementById("t2-team-container");
+            //const t1TeamContainer = document.getElementById("t1-team-container");
+            // const t2TeamContainer = document.getElementById("t2-team-container");
+            const teamsContainer = document.getElementById("teams-container");
 
             try {
 
@@ -52,11 +54,14 @@
                 });
 
 
-                const teamSummaries = getTeamSummary(table);
+                const teamSummaries = getTeamSummary(table, seriesID);
                 const teamSummariesSplit = teamSummaries.drop(['Duration', 'ObjScore']).split('TeamName');
 
-                populateTable(t1Container, teamSummariesSplit[0].drop('TeamName').sortBy(['Score desc', 'Kills desc']));
-                populateTable(t2Container, teamSummariesSplit[1].drop('TeamName').sortBy(['Score desc', 'Kills desc']));
+                populateTable(t1Container, teamSummariesSplit[0].drop('TeamName').sortBy(['Rank', 'Score desc', 'Kills desc']));
+                populateTable(t2Container, teamSummariesSplit[1].drop('TeamName').sortBy(['Rank', 'Score desc', 'Kills desc']));
+
+                document.getElementById("t1-header").textContent = teamSummariesSplit[0].getRecord(0).TeamName;
+                document.getElementById("t2-header").textContent = teamSummariesSplit[1].getRecord(0).TeamName;
 
                 const teamScores = teamSummaries
                     .groupBy('TeamName', {
@@ -92,10 +97,12 @@
                 ;
                 console.log(teamScores);
 
+                /*
                 const teamScoresSplit = teamScores.drop(['Duration', 'ObjScore']).split('Name');
-
                 populateTable(t1TeamContainer, teamScoresSplit[0].sortBy(['Score desc', 'Kills desc']));
                 populateTable(t2TeamContainer, teamScoresSplit[1].sortBy(['Score desc', 'Kills desc']));
+                */
+                populateTable(teamsContainer, teamScores.drop(['Duration', 'ObjScore']));
 
             } catch (error) {
                 console.error("Error loading data:", error);
@@ -113,13 +120,13 @@
                     "LEFT JOIN",
                     (match, team) => match.MatchID === team.MatchID
                 )
-                .addComputedColumn("WinningTeam", (record) => record.TeamName || "No Winner") // Add WinningTeam column
-                .keep(["MatchID", "GameMode", "Map", "Server", "Duration", "WinningTeam"]) // Keep necessary columns
+                .addComputedColumn("Winner", (record) => record.TeamName || "No Winner") // Add WinningTeam column
+                .keep(["MatchID", "GameMode", "Map", "Server", "Duration", "Winner"]) // Keep necessary columns
             ;
 
         }
 
-        function getTeamSummary(table) {
+        function getTeamSummary(table, seriesID) {
 
             // Get all valid match IDs from these series
             const matchScores = table.keep('MatchID')
@@ -159,8 +166,10 @@
                     return record.Duration > 0 
                     ? (record.ObjScore / record.Duration).toFixed(2)
                     : "0.00";
-                })
+                })//db, playerName, seriesID, seasonID = null
+                .addComputedColumn('Rank', record => ratingToString(rankPlayerSeries(db, record.PlayerName, seriesID)))
                 .renameColumn('PlayerName', 'Name')
+                .reorderColumns(['Name', 'Rank', 'Score', 'Kills', 'Deaths', 'KDR', 'KPM', 'SPM', 'OSPM'])
             ;
         }
 
@@ -175,19 +184,6 @@
 
             loadListNavbar("navbar-container", menuItems);
         });
-
-        document.addEventListener("DOMContentLoaded", () => {
-            /*
-            const menuItems = [
-                { title: "Data", href: "/front/HTML/season-lookup" },
-                { title: "Season", href: "/front/HTML/Data/series-lookup" },
-                { title: "Series", href: "" }
-            ];
-
-            loadListNavbar("navbar-container", menuItems);
-            */
-        });
-        
 
         function getSeasonURL() { // series-lookup?seasonID=xmas-cargo
             if (!window.db) return;
@@ -222,24 +218,33 @@
 
         <div class="frame">
             <div class="frame-header">
-                <h3>Team 1 Summary</h2>
+                <h3 id="t1-header">Team 1 Summary</h2>
             </div>
             <div class="frame-content">
                 <div class="section vertical">
                     <div class="data-table" id="t1-container"></div>
-                    <div class="data-table" id="t1-team-container"></div>
                 </div>
             </div>
         </div>
 
         <div class="frame">
             <div class="frame-header">
-                <h3>Team 2 Summary</h2>
+                <h3 id="t2-header">Team 2 Summary</h2>
             </div>
             <div class="frame-content">
                 <div class="section vertical">
                     <div class="data-table" id="t2-container"></div>
-                    <div class="data-table" id="t2-team-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="frame">
+            <div class="frame-header">
+                <h3>Teams Summary</h2>
+            </div>
+            <div class="frame-content">
+                <div class="section vertical">
+                    <div class="data-table" id="teams-container"></div>
                 </div>
             </div>
         </div>
