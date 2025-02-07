@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings</title>
-    <link rel="stylesheet" href="../CSS/global-swbf.css">
-    <script type="module" src="../JS/navbar.js"></script>
-    <script type="module" src="../JS/themes.js"></script>
+    <link rel="stylesheet" href="/front/CSS/global-swbf.css">
+    <script type="module" src="/front/JS/navbar.js"></script>
+    <script type="module" src="/front/JS/themes.js"></script>
     <script type="module">
         document.addEventListener("DOMContentLoaded", () => {
         // Stats frame listener
@@ -17,7 +17,12 @@
 <body>
     <div class="section">
         <div class="frame" style="width: 50%;">
-            <div class="frame-content">                
+            <div class="frame-content">    
+                
+                <label>
+                    <input type="checkbox" id="darkModeToggle"> Dark
+                </label>
+
                 <!--<div class="switch">
                     <input type="checkbox" id="toggle">
                     <label for="toggle"></label>
@@ -25,4 +30,19 @@
             </div>           
         </div>
     </div>
+
+    <script type="module">
+        import {toggleDarkMode, isDarkMode} from '/front/JS/themes.js';
+
+        const toggle = document.getElementById("darkModeToggle");
+        
+        // Check local storage for dark mode preference
+        if (isDarkMode()) {
+            toggle.checked = true;
+        }
+        
+        toggle.addEventListener("change", () => {
+            toggleDarkMode();
+        });
+    </script>
 </body>

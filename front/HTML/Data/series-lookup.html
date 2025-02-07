@@ -66,8 +66,9 @@
 
 
                 // ROUNDS
-                const roundTable = table.drop('SeriesID').groupBy('Round', {Season: season => season[0]}).reorderColumns(['Season', 'Round']);
-                populateTable(roundsContainer, roundTable);
+                const roundTable = table.drop('SeriesID').groupBy('Round', {Season: season => season[0]}).select(row => row.Round != 'N/A').reorderColumns(['Season', 'Round']);
+                if (roundTable.records.length > 0)
+                    populateTable(roundsContainer, roundTable);
 
                 // Add click event listener to rows after table is populated
                 const roundRows = roundsContainer.querySelectorAll("tbody tr");
@@ -139,7 +140,10 @@
                     <h2>Rounds</h2>
                 </div>
                 <div class="frame-content">
-                    <div class="leaderboard-table" id="rounds-container"></div>
+                    <div class="leaderboard-table" id="rounds-container">
+                        <!-- Clears its children when the table loads -->
+                        No round data available for the selected season
+                    </div>
                 </div>
             </div>
         </div>

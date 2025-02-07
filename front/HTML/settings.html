@@ -18,16 +18,40 @@
         }
         });
     </script>
+
+    <style>
+        label {
+            user-select: none;
+        }
+    </style>
 </head>
 <body>
-    <div class="section">
-        <div class="frame button" id="theme-settings" style="width: 400px; height: 400px;">
-            <div class="frame-header">
-                <h2>Themes</h2>
-            </div>
-            <div class="frame-content">
-                
+    <body>
+        <div class="section">
+            <div class="frame" style="width: 100%;">
+                <div class="frame-header">
+                    <h2>Themes</h2>
+                </div>
+                <div class="frame-content">    
+                    <label>
+                        <input type="checkbox" id="darkModeToggle"> Use Dark Mode
+                    </label>
+                </div>           
             </div>
         </div>
-    </div>
+    
+        <script type="module">
+            import {toggleDarkMode, isDarkMode} from '/front/JS/themes.js';
+    
+            const toggle = document.getElementById("darkModeToggle");
+            
+            // Check local storage for dark mode preference
+            if (isDarkMode()) {
+                toggle.checked = true;
+            }
+            
+            toggle.addEventListener("change", () => {
+                toggleDarkMode();
+            });
+        </script>
 </body>

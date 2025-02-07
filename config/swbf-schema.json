@@ -72,5 +72,16 @@
         "PlayerName",
         "MatchID",
         "Elo"
+    ],
+    "PlayerSeasonScores": [
+        "PlayerName",
+        "SeasonID",
+        "Score",
+        "Kills",
+        "Deaths",
+        "Duration",
+        "MatchesPlayed",
+        "Wins"
     ]
+    
 }

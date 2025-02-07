@@ -44,7 +44,7 @@
     
     text-transform: uppercase;
     text-align: center;
-    color: #000000;
+    color: var(--text-color);
 }
   
   /* Links Styling */
@@ -62,13 +62,15 @@
   
   /* Hover Effect */
   .secondary-navbar a:hover {
-    color: #000; /* Change color on hover */
+    color: var(--text-color); /* Change color on hover */
     text-decoration: underline;
   }
   
   /* Slash Separator Styling */
   .secondary-navbar span {
-    color: #666; /* Lighter color for separators */
+    color: var(--text-color); /* Lighter color for separators */
     font-weight: normal;
+
+    cursor: default;
   }
   

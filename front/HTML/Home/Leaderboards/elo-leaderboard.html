@@ -53,11 +53,7 @@
             console.log("rankedFiltered: ", rankedFiltered);
 
             // Identify winning teams per match
-            const winningTeams = db.getTable('TeamScore')
-                .groupBy(["MatchID"], { 
-                    Score: scores => Math.max(...scores)
-                 }).renameColumn('Score', 'WinScore')
-                .join(db.getTable('TeamScore'), "INNER JOIN", (win, team) => win.MatchID === team.MatchID && win.WinScore === team.Score)
+            const winningTeams = db.select('TeamScore', teamScore => teamScore.Won === true)
                 .keep(["MatchID", "TeamName"]).renameColumn('TeamName', 'Winner');
             console.log("winningTeams: ", winningTeams);
 

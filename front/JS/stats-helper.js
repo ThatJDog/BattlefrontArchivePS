@@ -49,11 +49,21 @@ export function getPlayerSummary(db, seasonId){
             ? (record.ObjScore / record.Duration).toFixed(2)
             : "0.00";
         })
+        .addComputedColumn("KPG", (record) => {
+            return record.Matches > 0 
+            ? (record.Kills / record.Matches).toFixed(2)
+            : "0.00";
+        })
+        .addComputedColumn("SPG", (record) => {
+            return record.Matches > 0 
+            ? Math.round(record.Score / record.Matches)
+            : "0.00";
+        })
         .drop(['Duration', 'ObjScore'])
         .sortBy(["SPM desc", "PlayerName asc"])
         .renameColumn('PlayerName', 'Name')
         .renameColumn('TeamName', 'Team')
-        .reorderColumns(['Name', 'Team', 'Score', 'Kills', 'Deaths', 'KDR', 'KPM', 'SPM', 'OSPM', 'Matches'])
+        .reorderColumns(['Name', 'Team', 'Score', 'Kills', 'Deaths', 'KDR', 'KPM', 'SPM', 'OSPM', 'KPG', 'SPG', 'Matches'])
         .sortBy(['Kills desc', 'Score desc', 'Name'])
     ;
 

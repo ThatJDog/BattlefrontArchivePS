@@ -45,8 +45,8 @@
     
     border: 1px solid var(--frame-border);
     outline: 0px solid transparent; /* Invisible outline */
-    transition: outline var(--frame-anim-time) ease-in-out, 
-                border-color var(--frame-anim-time) ease-in-out;
+    transition: outline var(--quick-anim-time) ease-in-out, 
+                border-color var(--quick-anim-time) ease-in-out;
     border-radius: 8px;
 }
 
@@ -69,14 +69,14 @@
     width: 100%;
     padding: 0px; /* This controls the padding around the title */
     background: transparent;
-    transition: background-color var(--frame-anim-time) ease-in-out; /* Smooth transition */
+    transition: background-color var(--quick-anim-time) ease-in-out; /* Smooth transition */
 }
 
 /* Title inside the header */
 .frame-header {
-    color: black;
+    color: var(--text-color);
     margin: 0;
-    font-family: "Brandon Grotesque Medium";
+    font-family: var(--light-heavy);
     text-transform: uppercase;
 }
 

@@ -40,53 +40,77 @@
 
 /* Define CSS Variables for Light and Dark Themes */
 :root {
+
+    /* General */
     --background-color: #F9F9F9;
+    --footer-bg: #333;
+    --highlight-color: #FFD700;
+    --quick-anim-time: 0.1s;
+    --slow-anim-time: 0.2s;
+    
+    /* Text */
     --text-color: #333;
     --alt-text-color: #dbdbdb;
+    --secondary-text-color: #555;
+    --footer-text: #FFF;
 
+    --light-font: "Brandon Grotesque Regular";
+    --heavy-font: "Brandon Grotesque Medium";
+
+    /* Frames */
     --frame-background: #FFF;
     --frame-border: #DDD;
 
     --alt-frame-background: #1a1a1a;
     --alt-frame-border: #444;
-
     --shadow-color: rgba(0, 0, 0, 0.1);
-    --secondary-text-color: #555;
+
+    /* Graphs */
     --graph-background: #F0F0F0;
-    --table-header-bg: #EEE;
-    --footer-bg: #333;
-    --footer-text: #FFF;
 
-    --highlight-color: #FFD700;
-
-    --frame-anim-time: 0.1s;
+    /* Tables */
+    --table-header-text-color: #E0E0E0;
+    --table-header-bg: #333;
+    --table-even-row-bg: #f9f9f9;
+    --table-odd-row-bg: #eeeeee;
+    --table-line-color: #ddd;
 }
 
 /* Dark Theme */
-/*[data-theme="dark"]*/ .dark-theme {
+/*[data-theme="dark"]*/ 
+.dark-theme {
+    /* General */
     --background-color: #121212;
+    --highlight-color: #ff0073;
+    --footer-bg: #222;
+    
+    /* Text */
     --text-color: #E0E0E0;
     --alt-text-color: #333;
-
-    --highlight-color: #ff0073;
+    --secondary-text-color: #BBB;
+    --footer-text: #CCC;
+    
+    /* Frames */
     --frame-border: #444;
-
     --alt-frame-background: #e1e1e1;
     --alt-frame-border: #DDD;
-
     --shadow-color: rgba(255, 255, 255, 0.1);
-    --secondary-text-color: #BBB;
-    --graph-background: #252525;
-    --table-header-bg: #333;
-    --footer-bg: #222;
-    --footer-text: #CCC;
-
     --frame-background: #1E1E1E;
+    
+    /* Graphs */
+    --graph-background: #252525;
+
+    /* Tables */
+    --table-header-text-color: #E0E0E0;
+    --table-header-bg: #0b0b0b;
+    --table-even-row-bg: #1b1b1b;
+    --table-odd-row-bg: #151515;
+    --table-line-color: #272727;
 }
 
 /* Global Styles */
 body {
-    font-family: "Brandon Grotesque Regular", Arial, sans-serif;
+    font-family: var(--light-font), Arial, sans-serif;
     text-transform: uppercase;
     background-color: var(--background-color);
     color: var(--text-color);

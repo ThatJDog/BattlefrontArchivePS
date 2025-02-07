@@ -1,3 +1,5 @@
+import {ratingToString, rankPlayerMatch} from '/front/JS/ranking.js';
+
 var matchInfo;
 var team1Info;
 var team2Info;
@@ -8,42 +10,41 @@ async function loadData(db, matchID) {
     try {
         matchInfo = db.select("Match", row => row.MatchID == matchID).getRecord(0); // Select The Match
 
-        let playerScores = db.select("PlayerScore", row => row.MatchID === matchID).drop('MatchID'); // Select The Match
         const teamScores = db.select("TeamScore", row => row.MatchID === matchID).drop('MatchID'); // Select The Match
-
+        
         // Only handle two teams
         team1Info = teamScores.getRecord(0);
         team2Info = teamScores.getRecord(1);
-
-
-        playerScores = playerScores.addComputedColumn("ObjScore", (record) => {
-            return (parseFloat(record.Score - (record.Kills * 100)) * 0.95).toFixed(0); // ObjScore - buffer
-        });
-        playerScores = playerScores.addComputedColumn("KDR", (record) => {
-            return record.Deaths > 0 
-            ? (record.Kills / record.Deaths).toFixed(2) // Ensure fixed decimal format
-            : "0.00"; // Keep consistent format for zero deaths
-        });
-        playerScores = playerScores.addComputedColumn("KPM", (record) => {
-            return record.Duration > 0 
-            ? (record.Kills / record.Duration).toFixed(2)
-            : "0.00";
-        });
-        playerScores = playerScores.addComputedColumn("SPM", (record) => {
-            return record.Duration > 0 
-            ? (record.Score / record.Duration).toFixed(2)
-            : "0.00";
-        });
-        playerScores = playerScores.addComputedColumn("OSPM", (record) => {
-            return record.Duration > 0 
-            ? (record.ObjScore / record.Duration).toFixed(2)
-            : "0.00";
-        });
-        playerScores = playerScores.addComputedColumn("Rank", (record) => {
-            return 'A';
-        });
-        playerScores = playerScores.drop(['Duration', 'ObjScore', 'SPM', 'OSPM'])
-        .reorderColumns(["PlayerName", "Rank", "Score", "Kills"]);
+        
+        
+        let playerScores = db.select("PlayerScore", row => row.MatchID === matchID)
+            .addComputedColumn("ObjScore", (record) => {
+                return (parseFloat(record.Score - (record.Kills * 100)) * 0.95).toFixed(0); // ObjScore - buffer
+            })
+            .addComputedColumn("KDR", (record) => {
+                return record.Deaths > 0 
+                ? (record.Kills / record.Deaths).toFixed(2) // Ensure fixed decimal format
+                : "0.00"; // Keep consistent format for zero deaths
+            })
+            .addComputedColumn("KPM", (record) => {
+                return record.Duration > 0 
+                ? (record.Kills / record.Duration).toFixed(2)
+                : "0.00";
+            })
+            .addComputedColumn("SPM", (record) => {
+                return record.Duration > 0 
+                ? (record.Score / record.Duration).toFixed(2)
+                : "0.00";
+            })
+            .addComputedColumn("OSPM", (record) => {
+                return record.Duration > 0 
+                ? (record.ObjScore / record.Duration).toFixed(2)
+                : "0.00";
+            })
+            .addComputedColumn("Rank", record => ratingToString(rankPlayerMatch(db, record.PlayerName, record.MatchID, getSeason())))
+            .drop(['MatchID', 'Duration', 'ObjScore', 'SPM', 'OSPM'])
+            .reorderColumns(["PlayerName", "Rank", "Score", "Kills"])
+        ;
 
         const playerSplit = playerScores.renameColumn('PlayerName', 'Player').split('TeamName');
         team1Players = playerSplit[0].drop('TeamName'); // Cant always assume order is correct
@@ -170,6 +171,17 @@ function update() {
     const timerPercent = Math.max(timeLeft / matchTimeLimit, 0);
     setProgress(timerPercent, true);
 }
+
+function getSeason() { // series-lookup?seasonID=xmas-cargo
+    if (!window.db) return;
+
+    const matchID = new URLSearchParams(window.location.search).get('matchID');
+    const seasonID = db.select('Match', match => match.MatchID == parseInt(matchID))
+        .join(db.getTable('Series'), 'INNER JOIN', (match, series) => match.SeriesID === series.SeriesID)
+        .getRecord(0).SeasonID;
+    return seasonID;
+}
+
 
 function formatMinutesToTime(minutes) {
     const totalSeconds = Math.round(minutes * 60); // Convert to total seconds

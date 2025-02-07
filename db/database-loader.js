@@ -50,6 +50,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.log("New database version cached.");
         }
 
+        console.log("Loaded database:", window.db);
+
         // Dispatch event if it hasn't been fired
         document.dispatchEvent(new Event("DatabaseReady"));
     } catch (error) {
