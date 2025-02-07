@@ -69,4 +69,126 @@
             ]
         />
     </class>
+
+    <class year="2023">
+        <player name="Beerus70"
+            title=["The Wonderkid" "Most talented battlefront player of all time"]
+            teams=["322" "APOC (briefly)" "The Artistic Dancers"]
+            yearsActive={from="2015" to="2021"}
+            accomplishments=["Winner of HvV" "Winner of Droid Run" "Winner of DZ4" "Winner of DZ5" "Winner of BCL season 2"]
+            comments=[
+                {author="Hobo" message="The greatest player of all time. Respected by his peers and feared by his rivals. Beerus' impact in the game could never be underestimated. Beerus was a game changer. Brilliant every single time he played."}
+                {author="Cassady" message="Easily the greatest player to ever play. Most sought after player. Could do everything better than anyone, not just dominant at 1 thing, unlike most other all time greats. Would have the best KD, most kills, pods claimed, and defended while playing the best teams. Won in multiple eras without grinding like others. Easily the most talented and best player to ever play. And everyone knew it. Also did it longer than most other OG’s and all timers."}
+                {author="Coloses" message="Easily one of the top 3 players of all time. Amazing gunskill and game IQ. Brother of fellow All-Star Cassady1998."}
+                {author="Wookie" message="One of the best gunskill players I played with/against. The wonderkid."}
+            ]
+        />
+
+        <player name="xTragyk"
+            title=["Best Slayer" "Best Pulse Cannon User" "Greatest Canadian of All Time"]
+            teams=["APOC" "TG"]
+            yearsActive={from="2015" to="2020"}
+            accomplishments=["Winner of DZ3" "Winner of Droid Run" "Winner of Cargo 3" "Winner of Multimode"]
+            comments=[
+                {author="Hobo" message="Tragyk was one of the most dominant slayers of his time. His impact on the battlefront helped take APOC to multiple consecutive championships. In what could be considered one of the most dominant runs in battlefront history. Tragyk, like his peer Beerus, could strike fear into his opponents by simply joining a lobby. Tragyk would go down in history as one of the most dominant slayers of the BFC era."}
+                {author="Cassady" message="One of the best slayers of his time and best competitive pulse cannon user. Would hold teams off with his gunskill and crazy pulse shots. One of the original members of TG and just a true OG who played great, on a great team. And the best Canadian player of all time."}
+                {author="Wookie" message="A founding member of Apoc/TG, he was feared throughout the galaxy. Tragyk was dominant on the map, slaying all who stood in his way. This Native American is a top 5 all-time great that would eventually be a part of 5 championship teams."}
+                {author="Coloses" message="Easily one of the top 5 players to have played this. Supreme gunskill and game IQ. Incredible pulse skills too!"}
+            ]
+        />
+
+        <player name="ChrisEsca99"
+            title=["Top 3 of the BFC era" "Father of Eltio" "Best duo player"]
+            teams=["Ruthless"]
+            yearsActive={from="2015" to="2018"}
+            accomplishments=["Winner of DZ2" "2v2 champion"]
+            comments=[
+                {author="Hobo" message="ChrisEsca is perhaps one of the most underrated players of all time. He gave an outmatched R team a chance in every single tournament that they played. At the time he played he was in the same conversation as Beerus and Tragyk as APOC Ruthless and 322 would go on to be the 3 most dominant teams of the BFC era behind their superstars. He was loyal to his friends and respected by the community. The skill that Chris brought made R a constant contender and much of the success of Ruthless is due to him."}
+                {author="Cassady" message="Best player on one of the top 3 OG teams. Was right up there with Beerus and xTraGyk with his gunskill. Many times he was the only reason Ruthless had any chances in matches. One of the most underrated, forgotten OG’s. His loyalty and dedication to his team and teammates was something to be admired. Truly an all-time great and great competitor."}
+                {author="Wookie" message="Ruthless' top player, you always had to account for him on the map. Top 10 player all time."}
+                {author="Coloses" message="Another of the top 5 greatest players, this guy had no flaws on the front. Whether it's his gunskill or game IQ there was nothing left to be desired."}
+            ]
+        />
+
+        <player name="StoneSwiftStrike"
+            title=["Mr.Spectacular" "The greatest OBJ player of all time"]
+            teams=["MMR" "TG" "322"]
+            yearsActive={from="2015" to="2020"}
+            accomplishments=["Winner of DZ3"]
+            comments=[
+                {author="Hobo" message="Stone, much like Chris, made MMR a contender in every season that he was with them. The things he could do, primarily by himself, were unrivaled by anyone else. Stone was one of the most spectacular and entertaining players to watch of his era. He was smart, skilled, and an incredibly likable person. Stone holds a special place to me. I was amazed by the things he did for MMR and to this day remember how spectacular he was on the battlefront."}
+                {author="Cassady" message="Most dedicated/best objective player the competitive community has ever seen. Was MMR’s best player and it wasn’t even close. He was the reason his team had any chance and even carried them to a finals in DZ4. Also a super loyal player who would always play with teams he knew didn’t have the best chances to win. Definitely deserving of the Hall of Fame and one of the top players of his time."}
+                {author="Wookie" message="The best OBJ player in the prime of the game, Stone suited up for MMR, TG, and 322. Stone's lone title would come with TG, where his knack for always being around the pod was on display."}
+                {author="Coloses" message="The SWBF best all-rounder. He could do it all! Easily a top 10 maybe even top 5. Please refer to deckerinflux's video titled 'Stone Swift STRIKE' for further details."}
+            ]
+        />
+
+        <player name="Reviem"
+            title=["The Godfather" "Complete Player" "Founding Member"]
+            teams=["APOC" "TG"]
+            yearsActive={from="2015" to="2020"}
+            accomplishments=["Winner of DZ3" "Winner of Cargo 3" "Winner of Droid Run" "Winner of Multi Mode" "Founding member of TG/APOC"]
+            comments=[
+                {author="Hobo" message="For many players Reviem is how they discovered competitive, or the first player they looked up to. He was a model player and for many, the face of APOC. Reviem boasted a successful and dominant career. Never being the Slayer as much as Tragyk or the Obj as much as Alpha or Wookie may be. Rev would instead be the perfect and ideal 4th man, that any team would want to have with them. He was the complete package as a player. High IQ, good gunskill, and awareness and OBJ play."}
+                {author="Cassady" message="The Godfather of battlefront himself. He was the central figure of the most successful and notorious team of all time… TG. He, alongside wookie, was a founding member and was considered a true do-it-all player for his team. He could always do whatever his team needed. He was easily one of the smartest players on the front. Had no weaknesses in his game. All time great."}
+                {author="Wookie" message="Another founder of TG/Apoc, the 'Godfather' of gaming himself was a part of 5 Championship teams. This man could do it all, and was a force all over the battlefield. The most complete player in Battlefront history, Reviem can now be found stalking his prey on the Apex highlands. Truly an Apex Predator."}
+                {author="Coloses" message="Easily one of the top 10 players ever. Great gunskill and unmatched game IQ. Wicked and ham might have had the strats but only Rev's won titles."}
+            ]
+        />
+
+        <team name="322"
+            title=["HvV Champions" "DZ4 Champions" "DZ5 Champions"]
+            members=["Cassady" "Beerus" "Cazual Recovery" "Jabman" "Matix" "Cesar" "Bojik" "AlbertBlah" "NMSamuels"]
+            accomplishments=[
+                "One of the most successful and dominant teams of the BFC era"
+                "Only HvV championship team"
+                "Only team to win consecutive Drop Zone titles"
+                "Most successful Drop Zone team of all time"
+                "Produced some of the greatest players in Battlefront history"
+            ]
+            comments=[
+                {author="Hobo" message="322 was one of the most successful and dominant teams of the BFC era. Their success and accomplishment are rival only to TG and the two would form a close and competitive rivalry in the later tournaments of the BFC era. 322 is the only HvV championship team, and the only team to win consecutive Drop Zone titles. They are considered to be the most successful Drop Zone team of all time. And have produced some of the greatest players in battlefront history."}
+            ]
+        />
+
+    </class>
+
+    <class year="2024">
+        <player name="Cassady/Voshenz"
+            title=["The most consistent player of all time" "The Nade King" "The winningest player of all time"]
+            teams=["322" "Reckoning"]
+            yearsActive={from="2015" to="2023"}
+            accomplishments=["Winner of DZ4" "Winner of DZ5" "Winner of HvV" "Winner of BCL Season 3"]
+            comments=[
+                {author="Hobo" message="There's many reasons I consider Cassady to be the Greatest player of all time. As an opponent back in the BFC days when he would dominate the battlefield as the perfect half to the greatest brother duo of all time, bar none. The anchor of 322, steadfast leader. And to our time as teammates in the BCL. Getting to pick Cassady's brain and seeing just how in depth his understanding of the game and his opponents was. He could do it all and he would do whatever his team needed him to do. He's a top 5 gunman all time, a top 5 leader, could've easily been a top 10 Obj player. You rarely find all that in one player. He was the Rev of 322. No player has been more consistently great for longer."}
+                {author="Cricken" message="The only player that can say they were one of the greats from 2016-2023, in every era of Battlefront Cassady was present. Among many achievements, he was one of the best leaders and odds-on favorite for best nade user."}
+                {author="Coloses" message="Much deserved to the man who from the start has stood at the top of the competitive community. Whether it’s his gunskill, his game IQ, or his unstoppable nades, Cassady truly belongs in the Hall of Fame."}
+            ]
+        />
+
+        <player name="Shadows"
+            title=["The Sensitivity King" "Foggle's Dad"]
+            teams=["RHCP" "Wrath"]
+            yearsActive={from="2015" to="2023"}
+            accomplishments=["Winner of DZ3" "Winner of BCL Cargo Mini Cup" "Winner of BCL Winter Classic"]
+            comments=[
+                {author="Spree" message="Axel was truly one of kind. He was an all-around player that could play objective and slay whenever his team truly needed it. He was the only player I’ve ever met playing Battlefront comp that could lead a team and not be the best player on it—that’s just something you can’t teach. But outside of Battlefront, he was one of the best people to talk to. There’s so much stuff I can speak on, but he was my best friend—that’s all."}
+                {author="RHCP Family" message="Rest easy king."}
+                {author="Coloses" message="Axel. We will forever remember the memory of our friend Shadows. He was one of the first friends I made in the competitive community 7 years ago. He remained an integral part of our community for the years to come. May he rest in peace."}
+                {author="Cricken" message="No one was able to utilize different aspects of the game like Shadows did, from using smoke grenades and Bo rifle in competitive settings (and then having them both banned) to finding every spot in every map to get a ratty kill from. There was always something new he was finding that made me smirk. To pair with the intelligent antics, he was a hands-down top 3 objective player."}
+                {author="Hobo" message="As a tournament organizer, Shadows was a pain because he was so smart he'd always find something in the game to exploit, and it would be banned the next day. As a competitor, he was talented, fierce, he talked trash, he was so competitive. What surprised me the most was that outside of matches or our many disagreements on the Discord, we could have a great conversation in a party, laughing and socializing. He was super competitive, but he was able to separate that from his social interactions with the community."}
+            ]
+        />
+
+        <player name="Alpha"
+            title=["The greatest cargo carrier of all time"]
+            teams=["APOC" "TG"]
+            yearsActive={from="2015" to="2020"}
+            accomplishments=["Winner of DZ3" "Winner of Cargo 3" "Winner of Droid Run" "Winner of Multi mode" "Winner of TG Cargo"]
+            comments=[
+                {author="Cricken" message="Alpha was the greatest comedian Battlefront ever saw. I remember my first scrim I ever played; he was making fun of me in my first rotation. Aside from that, he was part of the most dominant team in Battlefront and arguably the greatest cargo carrier."}
+                {author="Hobo" message="Alpha was hilarious and fun to play with, so it was kind of surprising how serious he could be when it came time to dominate as the 4th core member of TG. His specialty was cargo, but in the BFC days, he was a competent DZ player as well."}
+            ]
+        />
+    </class>
 </hallOfFame>

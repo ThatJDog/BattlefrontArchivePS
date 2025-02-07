@@ -8,11 +8,11 @@
     <script type="module" src="/BattlefrontArchivePS/front/JS/navbar.js"></script>
     <script type="module" src="/BattlefrontArchivePS/front/JS/themes.js"></script>
     <script type="module" src="/BattlefrontArchivePS/db/database-loader.js" defer></script>
+    
     <style>
         .frame-content h1, .frame-content h2, .frame-content h3, .frame-content h4 {
             margin: 0;
         }
-
         ul {
             text-transform: none;
         }
@@ -27,10 +27,10 @@
                 { title: "Hall of Fame", href: "../hof-index.html" },
                 { title: "Class", href: "" }
             ];
-
             loadListNavbar("navbar-container", menuItems);
         });
     </script>
+
     <script>
         function getQueryParameter(name) {
             const urlParams = new URLSearchParams(window.location.search);
@@ -42,47 +42,36 @@
             .then(hofData => {
                 const container = document.getElementById('hof-container');
                 const classFilter = getQueryParameter('classOf');
-                
+
                 function generateHTML(node) {
-                    if (node.tagName === 'player' || node.tagName === 'team') {
-                        return `
-                            <div class="frame">
-                                <div class="frame-header">
-                                    <h2>${node.attributes.name}</h2>
-                                </div>
-                                <div class="frame-content">
-                                    <p><strong>Years Active:</strong> ${node.attributes.yearsactive.from} - ${node.attributes.yearsactive.to}</p>
-                                    ${node.attributes.title?.length ? `
-                                    <h4>Titles:</h4>
-                                    <ul>${node.attributes.title.map(member => `<li>${member}</li>`).join('')}</ul>` : ''}
-                                    
-                                    ${node.tagName === 'team' && node.attributes.members?.length ? `
-                                    <h4>Members:</h4>
-                                    <ul>${node.attributes.members.map(member => `<li>${member}</li>`).join('')}</ul>` : ''}
-                                    
-                                    ${node.attributes.accomplishments?.length ? `
-                                    <h4>Accomplishments:</h4>
-                                    <ul>${node.attributes.accomplishments.map(acc => `<li>${acc}</li>`).join('')}</ul>` : ''}
-                                    
-                                    ${node.attributes.comments?.length ? `
-                                    <h4>Comments:</h4>
-                                    <ul>${node.attributes.comments.map(comment => `
-                                        <li><strong>${comment.author}:</strong> <i>"${comment.message}."</i></li>
-                                    `).join('')}</ul>` : ''}
-                                </div>
-                            </div>
-                        `;
-                    } else if (node.children) {
-                        return node.children.map(generateHTML).join('');
+                    if (node.tagName !== 'player' && node.tagName !== 'team') {
+                        return node.children ? node.children.map(generateHTML).join('') : '';
                     }
-                    return '';
+
+                    const { name, yearsactive, title, members, accomplishments, comments } = node.attributes;
+                    const yearsActive = yearsactive?.from && yearsactive?.to ? `${yearsactive.from} - ${yearsactive.to}` : null;
+
+                    return `
+                        <div class="frame">
+                            <div class="frame-header">
+                                <h2>${name}</h2>
+                            </div>
+                            <div class="frame-content">
+                                ${yearsActive ? `<p><strong>Years Active:</strong> ${yearsActive}</p>` : ''}
+                                ${title?.length ? `<h4>Titles:</h4><ul>${title.map(t => `<li>${t}</li>`).join('')}</ul>` : ''}
+                                ${node.tagName === 'team' && members?.length ? `<h4>Members:</h4><ul>${members.map(m => `<li>${m}</li>`).join('')}</ul>` : ''}
+                                ${accomplishments?.length ? `<h4>Accomplishments:</h4><ul>${accomplishments.map(a => `<li>${a}</li>`).join('')}</ul>` : ''}
+                                ${comments?.length ? `<h4>Comments:</h4><ul>${comments.map(c => `<li><strong>${c.author}:</strong> <i>"${c.message}"</i></li>`).join('')}</ul>` : ''}
+                            </div>
+                        </div>
+                    `;
                 }
-                
+
                 let filteredData = hofData;
                 if (classFilter) {
                     filteredData = hofData.children.find(classNode => classNode.tagName === 'class' && classNode.attributes.year === classFilter);
                 }
-                
+
                 container.innerHTML = filteredData ? generateHTML(filteredData) : '<p>No data found for the selected class.</p>';
             })
             .catch(error => console.error('Error loading JSON:', error));
@@ -91,7 +80,6 @@
 
 <body>
     <nav id="navbar-container"></nav>
-
     <div class="section vertical" id="hof-container"></div>
 </body>
 </html>
