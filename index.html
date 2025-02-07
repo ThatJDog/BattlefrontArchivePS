@@ -12,8 +12,13 @@
 
                 console.log('Setting base href: ', baseHref);
     
-                // Dynamically set the base tag before any other scripts execute
-                document.write(`<base href="${baseHref}">`);
+                // Ensure <base> tag exists
+                let baseTag = document.querySelector("base");
+                if (!baseTag) {
+                    baseTag = document.createElement("base");
+                    document.head.prepend(baseTag);
+                }
+                baseTag.href = baseHref;
             })();
         </script>
     
