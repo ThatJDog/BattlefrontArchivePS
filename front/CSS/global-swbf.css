@@ -53,6 +53,7 @@
     --alt-text-color: #dbdbdb;
     --secondary-text-color: #555;
     --footer-text: #FFF;
+    --background-gradient: linear-gradient(160deg, #e8e8e8, #ffffff, #e8e8e8);
 
     --light-font: "Brandon Grotesque Regular";
     --heavy-font: "Brandon Grotesque Medium";
@@ -83,6 +84,7 @@
     --background-color: #121212;
     --highlight-color: #ff0073;
     --footer-bg: #222;
+    --background-gradient: linear-gradient(160deg, #121212, #181818, #121212);
     
     /* Text */
     --text-color: #E0E0E0;
@@ -116,7 +118,20 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 40px;
+
+    /*background: linear-gradient(120deg, #ff7eb3, #75faff, #c66aff, #dbff4a, #ff7eb3);*/
+    background: var(--background-gradient);
+    background-size: max(100%, 100vw) max(100%, 100vh);
+    background-size: cover;
+    background-attachment: fixed;
+    /*animation: gradientMove 2s infinite linear;*/
 }
+
+@keyframes gradientMove {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+}
+
 
 main {
     padding: 20px;
